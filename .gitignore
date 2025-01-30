@@ -1,0 +1,5 @@
+/vendor
+.env
+zebra_brain.sql
+zebra-brain.zip
+zebrabrain-live.zip
