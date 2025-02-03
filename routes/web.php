@@ -109,4 +109,7 @@ Route::match(['get', 'post'],'/compare-results/{id}', [ComparisonController::cla
 
 
 Route::get('/new-dashboard', [MainController::class, 'newDashboard']);
+Route::get('/comparison-page', function () {
+    return view('comparison.compare_results');
+});
 
