@@ -6,6 +6,8 @@ use App\Http\Controllers\MainController;
 use App\Http\Controllers\QuestionsController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ComparisonController;
+use App\Http\Controllers\SkillTestController;
+use App\Http\Controllers\IntrovertExtrovertQuestionController;
 use Illuminate\Http\Request;
 use App\Http\Middleware\AuthCustomer;
 use App\Http\Middleware\checkUserPacakge;
@@ -110,3 +112,11 @@ Route::match(['get', 'post'],'/compare-results/{id}', [ComparisonController::cla
 
 Route::get('/new-dashboard', [MainController::class, 'newDashboard']);
 
+
+
+Route::match(['get', 'post'],'/skill-test/{question}', [SkillTestController::class, 'skill_test'])->middleware('authCustomer');
+Route::match(['get', 'post'],'/save-skill-test-answers', [SkillTestController::class, 'save_skill_test_answers'])->middleware('authCustomer');
+
+
+Route::match(['get', 'post'],'/introvert-extrovert-question/{question}', [IntrovertExtrovertQuestionController::class, 'introvert_extrovert_question'])->middleware('authCustomer');
+Route::match(['get', 'post'],'/save-introvert-extrovert-answers', [IntrovertExtrovertQuestionController::class, 'save_introvert_extrovert_answers'])->middleware('authCustomer');

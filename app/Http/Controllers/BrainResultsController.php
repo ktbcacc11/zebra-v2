@@ -31,7 +31,9 @@ use App\Models\WPUsers;
 use App\Models\DimensionalQuestionAnswerMain;
 use App\Models\DimensionalQuestionAnswers;
 use App\Models\DimensionQuestions;
+use App\Models\IntrovertExtrovertQuestionAnswers;
 use App\Models\UserDimensionalScore;
+use App\Models\IntrovertExtrovertQuestions;
 
 class BrainResultsController extends Controller
 {
@@ -193,7 +195,7 @@ class BrainResultsController extends Controller
 
     }
 
-   public function update_brain_result($brain_score, $answer_main_id)
+public function update_brain_result($brain_score, $answer_main_id)
 {
     if ($brain_score->cerebral_score >= $brain_score->limbic_score + 10) {
         $brain_type = "Cerebral";
@@ -930,17 +932,32 @@ public function add_dimensional_brain_results($d_answer_main_id) {
     $d_score->practical_score = $practical_score;
     $d_score->save();
 }
+public function add_introvert_extrovert_results($ie_answer_main_id)
+{
+    $answers = IntrovertExtrovertQuestionAnswers::where("ie_answer_main_id",$ie_answer_main_id)->get();
+    $score  = 0;
+    foreach($answers as $answers){
+        if(IntrovertExtrovertQuestions::where("id", $answers->question_id)->where("answer_1", $answers->answer)->exists()){
+            $score = $score+1;
+        }
+        else{
+            $score = $score+2;
+        }
+    }
 
-
-
-
-
-
-
-
-
-
-
+    if($score >= 10 && $score <= 15){
+        $introverted_extroverted = 'introverted';
+    }
+    elseif($score >= 16 && $score <= 20){
+        $introverted_extroverted = 'balanced';
+    }
+    else{
+        $introverted_extroverted = 'extroverted';
+    }
+    $user = WPUsers::where('user_id', session('user_id'))->first();
+    $user->introverted_extroverted = $introverted_extroverted;
+    $user->update();
+}
 
 }
 
