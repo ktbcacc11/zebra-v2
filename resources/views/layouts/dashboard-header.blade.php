@@ -24,23 +24,32 @@ $events = Events::where('status', 'active')->get();
     <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.css" rel="stylesheet" />
 
 
+{{-- google font nunito --}}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+{{-- google font poppins --}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
 </head>
 <style>
 
-@font-face {
+/* @font-face {
     font-family: 'Aptos';
     src: 
          url('Fonts/aptos-font/Aptos-Serif.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-}
+} */
 
 body {
-    font-family: 'Aptos', sans-serif !important;
+    font-family: "Poppins", sans-serif;;
 }
 h1, h2, h3, h4, h5, h6, p, span, div, a, li {
-    font-family: 'Aptos', sans-serif !important;
+    font-family: "Poppins", sans-serif;;
 }
 
 .btn-retake {
@@ -50,7 +59,8 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
     border-radius:30px;
     width:140px;
     height:42px;
-    border-color:#ffcc66;
+    border:none;
+    /*border-color:#ffcc66;*/
 }
 
 .header-notification ul {
@@ -200,7 +210,7 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
             </div>
             <div class="col-md-10 vh-100 overflow-auto px-0 dashbordContainer">
                 <div class="row dashboard-top align-items-center hideOnMobile">
-                    <div class="col-md-3 text-start">
+                    <div class="col-md-4 text-start">
                         <div class="input-group search">
                             <input type="text" class="form-control" placeholder="Type what you need to know"
                                 style="background: transparent;">
@@ -221,7 +231,7 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
                     
                     
                     
-                    <div class="col-md-5">
+                    <div class="col-md-3">
 
                     </div>
                     <div class="col-md-1 text-end">
@@ -247,15 +257,15 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
                    
 
                     </div>
-                    <div class="col-md-2 text-start">
+                    <div class="col-md-3 text-start">
                         <div class="row  align-items-center">
-                            <div class="col-6 text-start">
+                            <div class="col-7 text-start">
                                 <h1 class="user-name">{{$customer_name}}</h1>
                                 <a href="{{url('logout')}}">
                                     <h1 class="logout ">Logout </h1>
                                 </a>
                             </div>
-                            <div class="col-6 text-start">
+                            <div class="col-4 text-start">
                                 <img src="{{ asset('assets/images/zebra2.PNG') }}" class="user-image">
                             </div>
                         </div>
