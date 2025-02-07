@@ -3093,7 +3093,7 @@
 
             
 
-            
+            // adfghjk
             
             const scrollContainer1 = document.querySelector('#comparing-div-1 .scrollable-campare');
             const scrollContainer2 = document.querySelector('#comparing-div-2 .scrollable-campare');
