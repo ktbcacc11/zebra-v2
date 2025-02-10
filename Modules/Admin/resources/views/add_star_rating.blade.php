@@ -36,6 +36,7 @@ use App\Models\AdminDetails;
             <div class="col-md-6 mb-3">
                 <label for="defaultFormControlInput" class="form-label">Category</label>
                 <select id="defaultSelect" class="form-select" name="category">
+                    <option value="careers">Careers</option>
                     <option value="internships">Internships</option>
                     <option value="scholarships">Scholarships</option>
                     <option value="university-programs">University Programs</option>

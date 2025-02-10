@@ -397,11 +397,15 @@ public function sign_up(Request $request) {
                 }
             }
             
+            $dob = session('user_dob'); 
+            $age = \Carbon\Carbon::parse($dob)->age;
+
             $wp_user = new WPUsers();
             $wp_user->user_id = session('user_id');
             $wp_user->email = session('user_details')['email'];
             $wp_user->display_name = session('user_details')['display_name'];
             $wp_user->date_of_birth = session('user_details')['date_of_birth'];
+            $wp_user->age = $age;
             $wp_user->save();
 
             if (WPUsers::where('user_id', session('user_id'))->value('brain_profile_id') == null) {
