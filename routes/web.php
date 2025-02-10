@@ -115,8 +115,16 @@ Route::get('/comparison-page', function () {
     return view('comparison.compare_results');
 });
 
-Route::get('/careers-inner-page', function () {
-    return view('careers.inner_page');
+Route::get('/careers-inner-page-1', function () {
+    return view('careers.inner_page_1');
+});
+
+Route::get('/careers-inner-page-2', function () {
+    return view('careers.inner_page_2');
+});
+
+Route::get('/profile-new', function () {
+    return view('profile');
 });
 
 

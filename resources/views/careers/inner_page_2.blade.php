@@ -1,7 +1,7 @@
 @include('layouts.dashboard-header')
 
 <div class="container-fluid">
-    <div class="main-wrapper dashboard-page-content">
+    <div class="main-wrapper">
         <div>
             <h2 class="page-title">Technology Consulting Financial Services - Cyber Security</h2>
             <p class="page-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
@@ -15,9 +15,9 @@
             </div>
         </div>
 
-        <div class="col-9">
+        <div class="col-lg-9 col-md-9 col-12 mt-5">
 
-        
+         
             <div>
                 <h5 class="careers-sub-title">About the Role</h5>
                 <p class="careers-sub-title-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -42,7 +42,7 @@
                     <li>- Must reside in Brazil and possess the required business language skills.</li>
                     <li>- Fluency in Portuguese, English, and Spanish</li>
                     <li>- Bachelor’s degree (BA) or equivalent academic qualifications in Finance, Business Management, Economics, or other related areas.</li>
-                    <li>Understanding of partner programs from technology vendors in the market.</li>
+                    <li>- Understanding of partner programs from technology vendors in the market.</li>
                 </ul>
             </div>
         </div>
