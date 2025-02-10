@@ -145,6 +145,11 @@ li {
     font-weight: 800;
 }
 
+.thinking-img{
+    height: 300px;
+    width: 250px;
+}
+
 .collapsible-btn-content-title {
     font-family: "Poppins", sans-serif;
     font-size: 13px;
@@ -875,4 +880,49 @@ li {
         padding: 5px 15px;
 
     }
+
+
+    .mobile-data-box{
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+    .mobile-data-box p{
+        font-size: 12px;
+    }
+
+    .comparing-head-section .name , .comparing-head-section .email{
+        font-size: 12px;
+    }
+
+    .thinking-img{
+        height: 100px;
+        width: 100px;
+    }
+
+    .accordion-header .collapsible{
+        font-size: 10px;
+    }
+
+    .explaining-title{
+        font-size: 9px;
+    }
+
+    .explaining{
+        font-size: 8px;
+    }
+
+    .description-title{
+        font-size: 10px;
+    }
+
+    .collapsible-content-list{
+        padding-left: 0;
+        
+    }
+    .collapsible-content-list-item{
+        margin-bottom: 15px;
+    }
+
+
+
 }

@@ -113,3 +113,7 @@ Route::get('/comparison-page', function () {
     return view('comparison.compare_results');
 });
 
+Route::get('/careers-inner-page', function () {
+    return view('careers.inner_page');
+});
+

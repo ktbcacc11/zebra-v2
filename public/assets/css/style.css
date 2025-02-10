@@ -178,6 +178,8 @@ li {
 
 
 
+
+
 .data-row th,
 td {
     font-family: "Poppins", serif;
@@ -765,6 +767,23 @@ a {
 .buddySearch button {
     border: none;
     border-radius: 30px;
+}
+
+.page-title{
+font-size: 24px;
+}
+
+
+.page-description{
+
+}
+
+.careers-sub-title-description{
+
+}
+
+.careers-section-list{
+
 }
 
 

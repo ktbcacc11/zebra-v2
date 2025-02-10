@@ -1,8 +1,8 @@
 @include('layouts.dashboard-header')
 <div class="dashboard-page-content">
 
-    <div class="d-flex flex-row ps-5 pt-2 w-100">
-        <div class="col-10 scrollable-column">
+    <div class="d-flex flex-row p-3 ps-lg-5 pt-lg-2 w-100">
+        <div class="col-lg-10 col-xl-10 col-md-10 col-12 scrollable-column">
             <h3 class="section-title text-purple mt-3">
                 Let's Compare
                 <!--{{var_dump(session('user_details'))}}-->
@@ -101,11 +101,11 @@
                                         <div class="col-12 scrollable-campare">
                                             <div class="row mb-5 gx-3 gy-3">
 
-                                                <div class="col-12 col-lg-6 p-2">
+                                                <div class="col-12 col-lg-6 p-2 d-none d-lg-flex d-md-flex d-xl-flex">
                                                     <img src="{{ asset('assets/images/brain-cartoon.png') }}" height="300px">
                                                 </div>
 
-                                                <div class="row data-box-row ps-4 gap-0">
+                                                <div class="row data-box-row ps-4 gap-0 d-none d-lg-flex d-md-flex d-xl-flex">
                                                     <div class="col-lg-4 col-md-4 col-12 p-1">
                                                         <div class="box-data px-4"
                                                             style="background-color: #f6c94c; color: black;">
@@ -129,7 +129,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="row data-box-row ps-4 gap-0">
+                                                <div class="row data-box-row ps-4 gap-0 d-none d-lg-flex d-md-flex d-xl-flex">
                                                     <div class="col-lg-4 col-md-4 col-12 p-1">
                                                         <div class="box-data px-4"
                                                             style="background-color: #9ae4e3;">
@@ -155,6 +155,47 @@
 
                                                 </div>
 
+
+                                                {{-- mobile data boxes --}}
+
+                                                <div class="d-lg-none d-md-none d-xl-none d-block mobile-data-box"
+                                                            style="background-color: #f6c94c; color: black;">
+                                                            <p class="mb-0" style="color: black;">
+                                                                Fastidious
+                                                            </p>
+                                                            <h3 class="mb-0" style="color: black;">
+                                                                86%
+                                                            </h3>
+                                                </div>
+                                                <div class="d-lg-none d-md-none d-xl-none d-block mobile-data-box"
+                                                        style="background-color: #f1935d;">
+                                                        <p class="mb-0" style="color: black;">
+                                                            Maverick
+                                                        </p>
+                                                        <h3 class="mb-0" style="color: black;">
+                                                            72%
+                                                        </h3>
+                                                </div>
+
+                                                <div class="d-lg-none d-md-none d-xl-none d-block mobile-data-box"
+                                                        style="background-color: #9ae4e3;">
+                                                        <p class="mb-0" style="color: black;">
+                                                            Fastidious
+                                                        </p>
+                                                        <h3 class="mb-0" style="color: black;">
+                                                            75%
+                                                        </h3>
+                                                </div>
+
+                                                <div class="d-lg-none d-md-none d-xl-none d-block mobile-data-box"
+                                                        style="background-color: #84d6a5;">
+                                                        <p class="mb-0" style="color: black;">
+                                                            Maverick
+                                                        </p>
+                                                        <h3 class="mb-0" style="color: black;">
+                                                            67%
+                                                        </h3>
+                                                </div>
                                                 <div class="col-12 d-flex justify-content-strech">
 
                                                     <p class="comparison-description pt-4">
@@ -178,8 +219,7 @@
                                                 </div>
 
                                                 <div class="col-12 d-flex justify-content-center">
-                                                    <img src="{{ asset('assets/images/thinking.png') }}" height="300px"
-                                                        width="250px">
+                                                    <img src="{{ asset('assets/images/thinking.png') }}"  class="thinking-img">
                                                 </div>
 
 
@@ -206,7 +246,7 @@
                                                       </h2>
                                                       <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                                         <div class="accordion-body p-0">
-                                                            <div class="d-flex flex-column p-3 justify-content-center">
+                                                            <div class="d-flex flex-column p-0 p-lg-3 p-md-3 p-xl-3 justify-content-center">
                                                                 <div class="col-12">
                                                                     <h5 class="explaining-title">Leadership 30%</h5>
                                                                     <p class="explaining">
@@ -408,12 +448,12 @@
                                         <div class="col-12 scrollable-campare">
                                             <div class="row mb-5 gx-3 gy-3">
 
-                                                <div class="col-12 col-lg-6 p-2">
+                                                <div class="col-12 col-lg-6 p-2 d-none d-lg-flex d-md-flex d-xl-flex">
                                                     <img src="{{ asset('assets/images/brain-cartoon.png') }}" height="300px">
                                                 </div>
 
-                                                <div class="row data-box-row ps-4 gap-0">
-                                                    <div class="col-4 p-1">
+                                                <div class="row data-box-row ps-4 gap-0 d-none d-lg-flex d-md-flex d-xl-flex">
+                                                    <div class="col-lg-4 col-md-4 col-12 p-1">
                                                         <div class="box-data px-4"
                                                             style="background-color: #f6c94c; color: black;">
                                                             <p class="mb-0" style="color: black;">
@@ -424,7 +464,7 @@
                                                             </h3>
                                                         </div>
                                                     </div>
-                                                    <div class="col-4 p-1">
+                                                    <div class="col-lg-4 col-md-4 col-12 p-1">
                                                         <div class="box-data px-4"
                                                             style="background-color: #f1935d;">
                                                             <p class="mb-0" style="color: black;">
@@ -436,8 +476,8 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="row data-box-row ps-4 gap-0">
-                                                    <div class="col-4 p-1">
+                                                <div class="row data-box-row ps-4 gap-0 d-none d-lg-flex d-md-flex d-xl-flex">
+                                                    <div class="col-lg-4 col-md-4 col-12 p-1">
                                                         <div class="box-data px-4"
                                                             style="background-color: #9ae4e3;">
                                                             <p class="mb-0" style="color: black;">
@@ -448,7 +488,7 @@
                                                             </h3>
                                                         </div>
                                                     </div>
-                                                    <div class="col-4 p-1">
+                                                    <div class="col-lg-4 col-md-4 col-12 p-1">
                                                         <div class="box-data px-4"
                                                             style="background-color: #84d6a5;">
                                                             <p class="mb-0" style="color: black;">
@@ -460,6 +500,48 @@
                                                         </div>
                                                     </div>
 
+                                                </div>
+
+
+                                                {{-- mobile data boxes --}}
+
+                                                <div class="d-lg-none d-md-none d-xl-none d-block mobile-data-box"
+                                                            style="background-color: #f6c94c; color: black;">
+                                                            <p class="mb-0" style="color: black;">
+                                                                Fastidious
+                                                            </p>
+                                                            <h3 class="mb-0" style="color: black;">
+                                                                86%
+                                                            </h3>
+                                                </div>
+                                                <div class="d-lg-none d-md-none d-xl-none d-block mobile-data-box"
+                                                        style="background-color: #f1935d;">
+                                                        <p class="mb-0" style="color: black;">
+                                                            Maverick
+                                                        </p>
+                                                        <h3 class="mb-0" style="color: black;">
+                                                            72%
+                                                        </h3>
+                                                </div>
+
+                                                <div class="d-lg-none d-md-none d-xl-none d-block mobile-data-box"
+                                                        style="background-color: #9ae4e3;">
+                                                        <p class="mb-0" style="color: black;">
+                                                            Fastidious
+                                                        </p>
+                                                        <h3 class="mb-0" style="color: black;">
+                                                            75%
+                                                        </h3>
+                                                </div>
+
+                                                <div class="d-lg-none d-md-none d-xl-none d-block mobile-data-box"
+                                                        style="background-color: #84d6a5;">
+                                                        <p class="mb-0" style="color: black;">
+                                                            Maverick
+                                                        </p>
+                                                        <h3 class="mb-0" style="color: black;">
+                                                            67%
+                                                        </h3>
                                                 </div>
 
                                                 <div class="col-12 d-flex justify-content-strech">
@@ -485,8 +567,8 @@
                                                 </div>
 
                                                 <div class="col-12 d-flex justify-content-center">
-                                                    <img src="{{ asset('assets/images/thinking.png') }}" height="300px"
-                                                        width="250px">
+                                                    <img src="{{ asset('assets/images/thinking.png') }}"
+                                                         class="thinking-img">
                                                 </div>
 
 
@@ -510,7 +592,7 @@
                                                       </h2>
                                                       <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                                         <div class="accordion-body p-0">
-                                                            <div class="d-flex flex-column p-3 justify-content-center">
+                                                            <div class="d-flex flex-column p-0 p-lg-3 p-md-3 p-xl-3 justify-content-center">
                                                                 <div class="col-12">
                                                                     <h5 class="explaining-title">Leadership 30%</h5>
                                                                     <p class="explaining">
@@ -891,8 +973,8 @@
                             {{-- compare 1 --}}
                             <div class="row d-flex">
                                 <div class="col-6 comparing-div comparing-div-1" id="comparing-div-3">
-                                    <div class="p-3">
-                                        <div class="comparing-head">
+                                    <div class="p-lg-3 p-xl-3 p-md-3 p-1">
+                                        <div class="comparing-head p-3 py-0">
                                             <div class="comparing-head-section">
                                                 <p class="name">John Doe</p>
                                             </div>
@@ -907,7 +989,7 @@
                                         <div class="col-12 scrollable-campare">
                                             <div class="row mb-5 gx-3 gy-3">
     
-                                                <div class="col-12 mt-5 d-flex justify-content-center p-2">
+                                                <div class="d-none d-lg-flex d-md-flex col-12 mt-5 d-flex justify-content-center p-2">
                                                     <img src="{{ asset('assets/images/patterns.png') }}">
                                                 </div>
     
@@ -1085,8 +1167,8 @@
 
 
                                 <div class="col-6 comparing-div comparing-div-2" id="comparing-div-4">
-                                    <div class="p-3">
-                                        <div class="comparing-head">
+                                    <div class="p-lg-3 p-xl-3 p-md-3 p-1">
+                                        <div class="comparing-head p-1 py-0">
                                             <div class="comparing-head-section">
                                                 <p class="name">John Doe</p>
                                             </div>
@@ -1097,11 +1179,10 @@
     
     
     
-    
                                         <div class="col-12 scrollable-campare">
                                             <div class="row mb-5 gx-3 gy-3">
     
-                                                <div class="col-12 mt-5 d-flex justify-content-center p-2">
+                                                <div class="d-none d-lg-flex d-md-flex col-12 mt-5 d-flex justify-content-center p-2">
                                                     <img src="{{ asset('assets/images/patterns.png') }}">
                                                 </div>
     
@@ -1304,7 +1385,7 @@
                                                     
     
                                                     <div class="col-12">
-                                                        <h5 class="description-title mt-5 mb-3">Sports and other extracurricular activities naturally preferred</h5>
+                                                        <h5 class="description-title mt-lg-5 mb-lg-3 my-1">Sports and other extracurricular activities naturally preferred</h5>
                                                         <p class="comparison-description">
                                                             Lorem ipsum dolor sit amet consectetur. Mi ornare justo lacus
                                                             felis. In tortor ultrices morbi sed proin lectus.
@@ -1336,7 +1417,7 @@
                                                           </h2>
                                                           <div id="collapseTwo-1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                                             <div class="accordion-body p-0">
-                                                                <div class="d-flex flex-column p-3 justify-content-center">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
                                                                     <div class="col-12">
                                                                         <p class="explaining">
                                                                             Given your Analytical Brain and logical, structured approach to problem-solving, you are likely to excel in sports and extracurricular activities that involve strategy, precision, and individual focus. You prefer activities where you can carefully assess situations and make calculated decisions, as well as those that offer clear rules and objectives.
@@ -1344,24 +1425,24 @@
                                                                         <div class="px-2">
                                                                             <h6 class="collapsible-btn-content-title my-4">Recomonded Sports</h6>
                                                                             <ul class="collapsible-content-list">
-                                                                                <li class="collapsible-content-list">
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Tennis: </span>
                                                                                     <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
                                                                                   </li>
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Golf : </span>
                                                                                     <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
                                                                                 </li>
     
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Swimming :</span>
                                                                                     <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
                                                                                 </li>
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Fencing :</span>
                                                                                     <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
                                                                                 </li>
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Archery :</span>
                                                                                     <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
                                                                                 </li>
@@ -1389,7 +1470,7 @@
                                                           </h2>
                                                           <div id="collapseTwo-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                                             <div class="accordion-body p-0">
-                                                                <div class="d-flex flex-column p-3 justify-content-center">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
                                                                     <div class="col-12">
                                                                         <p class="explaining">
                                                                             Given your Analytical Brain and logical, structured approach to problem-solving, you are likely to excel in sports and extracurricular activities that involve strategy, precision, and individual focus. You prefer activities where you can carefully assess situations and make calculated decisions, as well as those that offer clear rules and objectives.
@@ -1397,24 +1478,24 @@
                                                                         <div class="px-2">
                                                                             <h6 class="collapsible-btn-content-title my-4">Recomonded Sports</h6>
                                                                             <ul class="collapsible-content-list">
-                                                                                <li class="collapsible-content-list">
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Tennis: </span>
                                                                                     <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
                                                                                   </li>
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Golf : </span>
                                                                                     <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
                                                                                 </li>
     
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Swimming :</span>
                                                                                     <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
                                                                                 </li>
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Fencing :</span>
                                                                                     <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
                                                                                 </li>
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Archery :</span>
                                                                                     <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
                                                                                 </li>
@@ -1441,7 +1522,7 @@
                                                           </h2>
                                                           <div id="collapseTwo-3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                                             <div class="accordion-body p-0">
-                                                                <div class="d-flex flex-column p-3 justify-content-center">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
                                                                     <div class="col-12">
                                                                         <p class="explaining">
                                                                             Given your Analytical Brain and logical, structured approach to problem-solving, you are likely to excel in sports and extracurricular activities that involve strategy, precision, and individual focus. You prefer activities where you can carefully assess situations and make calculated decisions, as well as those that offer clear rules and objectives.
@@ -1449,24 +1530,24 @@
                                                                         <div class="px-2">
                                                                             <h6 class="collapsible-btn-content-title my-4">Recomonded Sports</h6>
                                                                             <ul class="collapsible-content-list">
-                                                                                <li class="collapsible-content-list">
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Tennis: </span>
                                                                                     <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
                                                                                   </li>
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Golf : </span>
                                                                                     <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
                                                                                 </li>
     
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Swimming :</span>
                                                                                     <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
                                                                                 </li>
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Fencing :</span>
                                                                                     <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
                                                                                 </li>
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Archery :</span>
                                                                                     <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
                                                                                 </li>
@@ -1492,7 +1573,7 @@
                                                           </h2>
                                                           <div id="collapseTwo-4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                                             <div class="accordion-body p-0">
-                                                                <div class="d-flex flex-column p-3 justify-content-center">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
                                                                     <div class="col-12">
                                                                         <p class="explaining">
                                                                             Given your Analytical Brain and logical, structured approach to problem-solving, you are likely to excel in sports and extracurricular activities that involve strategy, precision, and individual focus. You prefer activities where you can carefully assess situations and make calculated decisions, as well as those that offer clear rules and objectives.
@@ -1500,24 +1581,24 @@
                                                                         <div class="px-2">
                                                                             <h6 class="collapsible-btn-content-title my-4">Recomonded Sports</h6>
                                                                             <ul class="collapsible-content-list">
-                                                                                <li class="collapsible-content-list">
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Tennis: </span>
                                                                                     <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
                                                                                   </li>
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Golf : </span>
                                                                                     <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
                                                                                 </li>
     
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Swimming :</span>
                                                                                     <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
                                                                                 </li>
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Fencing :</span>
                                                                                     <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
                                                                                 </li>
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Archery :</span>
                                                                                     <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
                                                                                 </li>
@@ -1561,7 +1642,7 @@
                                                     
     
                                                     <div class="col-12">
-                                                        <h5 class="description-title mt-5 mb-3">Sports and other extracurricular activities naturally preferred</h5>
+                                                        <h5 class="description-title mt-lg-5 mb-lg-3 my-1">Sports and other extracurricular activities naturally preferred</h5>
                                                         <p class="comparison-description">
                                                             Lorem ipsum dolor sit amet consectetur. Mi ornare justo lacus
                                                             felis. In tortor ultrices morbi sed proin lectus.
@@ -1594,7 +1675,7 @@
                                                           </h2>
                                                           <div id="collapseTwo-1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                                             <div class="accordion-body p-0">
-                                                                <div class="d-flex flex-column p-3 justify-content-center">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
                                                                     <div class="col-12">
                                                                         <p class="explaining">
                                                                             Given your Analytical Brain and logical, structured approach to problem-solving, you are likely to excel in sports and extracurricular activities that involve strategy, precision, and individual focus. You prefer activities where you can carefully assess situations and make calculated decisions, as well as those that offer clear rules and objectives.
@@ -1602,24 +1683,24 @@
                                                                         <div class="px-2">
                                                                             <h6 class="collapsible-btn-content-title my-4">Recomonded Sports</h6>
                                                                             <ul class="collapsible-content-list">
-                                                                                <li class="collapsible-content-list">
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Tennis: </span>
                                                                                     <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
                                                                                   </li>
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Golf : </span>
                                                                                     <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
                                                                                 </li>
     
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Swimming :</span>
                                                                                     <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
                                                                                 </li>
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Fencing :</span>
                                                                                     <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
                                                                                 </li>
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Archery :</span>
                                                                                     <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
                                                                                 </li>
@@ -1647,7 +1728,7 @@
                                                           </h2>
                                                           <div id="collapseTwo-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                                             <div class="accordion-body p-0">
-                                                                <div class="d-flex flex-column p-3 justify-content-center">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
                                                                     <div class="col-12">
                                                                         <p class="explaining">
                                                                             Given your Analytical Brain and logical, structured approach to problem-solving, you are likely to excel in sports and extracurricular activities that involve strategy, precision, and individual focus. You prefer activities where you can carefully assess situations and make calculated decisions, as well as those that offer clear rules and objectives.
@@ -1655,24 +1736,24 @@
                                                                         <div class="px-2">
                                                                             <h6 class="collapsible-btn-content-title my-4">Recomonded Sports</h6>
                                                                             <ul class="collapsible-content-list">
-                                                                                <li class="collapsible-content-list">
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Tennis: </span>
                                                                                     <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
                                                                                   </li>
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Golf : </span>
                                                                                     <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
                                                                                 </li>
     
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Swimming :</span>
                                                                                     <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
                                                                                 </li>
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Fencing :</span>
                                                                                     <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
                                                                                 </li>
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Archery :</span>
                                                                                     <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
                                                                                 </li>
@@ -1697,7 +1778,7 @@
                                                           </h2>
                                                           <div id="collapseTwo-3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                                             <div class="accordion-body p-0">
-                                                                <div class="d-flex flex-column p-3 justify-content-center">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
                                                                     <div class="col-12">
                                                                         <p class="explaining">
                                                                             Given your Analytical Brain and logical, structured approach to problem-solving, you are likely to excel in sports and extracurricular activities that involve strategy, precision, and individual focus. You prefer activities where you can carefully assess situations and make calculated decisions, as well as those that offer clear rules and objectives.
@@ -1705,24 +1786,24 @@
                                                                         <div class="px-2">
                                                                             <h6 class="collapsible-btn-content-title my-4">Recomonded Sports</h6>
                                                                             <ul class="collapsible-content-list">
-                                                                                <li class="collapsible-content-list">
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Tennis: </span>
                                                                                     <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
                                                                                   </li>
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Golf : </span>
                                                                                     <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
                                                                                 </li>
     
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Swimming :</span>
                                                                                     <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
                                                                                 </li>
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Fencing :</span>
                                                                                     <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
                                                                                 </li>
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Archery :</span>
                                                                                     <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
                                                                                 </li>
@@ -1748,7 +1829,7 @@
                                                           </h2>
                                                           <div id="collapseTwo-4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                                             <div class="accordion-body p-0">
-                                                                <div class="d-flex flex-column p-3 justify-content-center">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
                                                                     <div class="col-12">
                                                                         <p class="explaining">
                                                                             Given your Analytical Brain and logical, structured approach to problem-solving, you are likely to excel in sports and extracurricular activities that involve strategy, precision, and individual focus. You prefer activities where you can carefully assess situations and make calculated decisions, as well as those that offer clear rules and objectives.
@@ -1756,24 +1837,24 @@
                                                                         <div class="px-2">
                                                                             <h6 class="collapsible-btn-content-title my-4">Recomonded Sports</h6>
                                                                             <ul class="collapsible-content-list">
-                                                                                <li class="collapsible-content-list">
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Tennis: </span>
                                                                                     <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
                                                                                   </li>
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Golf : </span>
                                                                                     <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
                                                                                 </li>
     
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Swimming :</span>
                                                                                     <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
                                                                                 </li>
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Fencing :</span>
                                                                                     <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
                                                                                 </li>
-                                                                                <li>
+                                                                                <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Archery :</span>
                                                                                     <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
                                                                                 </li>
@@ -1870,24 +1951,24 @@
                                                                     <div class="px-2">
                                                                         <h6 class="collapsible-btn-content-title my-4">Recomonded Sports</h6>
                                                                         <ul class="collapsible-content-list">
-                                                                            <li class="collapsible-content-list">
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Tennis: </span>
                                                                                 <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
                                                                               </li>
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Golf : </span>
                                                                                 <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
                                                                             </li>
 
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Swimming :</span>
                                                                                 <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
                                                                             </li>
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Fencing :</span>
                                                                                 <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
                                                                             </li>
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Archery :</span>
                                                                                 <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
                                                                             </li>
@@ -1929,24 +2010,24 @@
                                                                     <div class="px-2">
                                                                         <h6 class="collapsible-btn-content-title my-4">Recomonded Sports</h6>
                                                                         <ul class="collapsible-content-list">
-                                                                            <li class="collapsible-content-list">
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Tennis: </span>
                                                                                 <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
                                                                               </li>
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Golf : </span>
                                                                                 <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
                                                                             </li>
 
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Swimming :</span>
                                                                                 <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
                                                                             </li>
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Fencing :</span>
                                                                                 <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
                                                                             </li>
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Archery :</span>
                                                                                 <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
                                                                             </li>
@@ -1986,24 +2067,24 @@
                                                                     <div class="px-2">
                                                                         <h6 class="collapsible-btn-content-title my-4">Recomonded Sports</h6>
                                                                         <ul class="collapsible-content-list">
-                                                                            <li class="collapsible-content-list">
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Tennis: </span>
                                                                                 <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
                                                                               </li>
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Golf : </span>
                                                                                 <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
                                                                             </li>
 
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Swimming :</span>
                                                                                 <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
                                                                             </li>
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Fencing :</span>
                                                                                 <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
                                                                             </li>
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Archery :</span>
                                                                                 <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
                                                                             </li>
@@ -2043,24 +2124,24 @@
                                                                     <div class="px-2">
                                                                         <h6 class="collapsible-btn-content-title">Recomonded Sports</h6>
                                                                         <ul class="collapsible-content-list">
-                                                                            <li class="collapsible-content-list">
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Tennis: </span>
                                                                                 <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
                                                                               </li>
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Golf : </span>
                                                                                 <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
                                                                             </li>
 
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Swimming :</span>
                                                                                 <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
                                                                             </li>
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Fencing :</span>
                                                                                 <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
                                                                             </li>
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Archery :</span>
                                                                                 <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
                                                                             </li>
@@ -2152,24 +2233,24 @@
                                                                     <div class="px-2">
                                                                         <h6 class="collapsible-btn-content-title">Recomonded Sports</h6>
                                                                         <ul class="collapsible-content-list">
-                                                                            <li class="collapsible-content-list">
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Tennis: </span>
                                                                                 <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
                                                                               </li>
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Golf : </span>
                                                                                 <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
                                                                             </li>
 
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Swimming :</span>
                                                                                 <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
                                                                             </li>
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Fencing :</span>
                                                                                 <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
                                                                             </li>
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Archery :</span>
                                                                                 <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
                                                                             </li>
@@ -2211,24 +2292,24 @@
                                                                     <div class="px-2">
                                                                         <h6 class="collapsible-btn-content-title">Recomonded Sports</h6>
                                                                         <ul class="collapsible-content-list">
-                                                                            <li class="collapsible-content-list">
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Tennis: </span>
                                                                                 <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
                                                                               </li>
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Golf : </span>
                                                                                 <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
                                                                             </li>
 
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Swimming :</span>
                                                                                 <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
                                                                             </li>
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Fencing :</span>
                                                                                 <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
                                                                             </li>
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Archery :</span>
                                                                                 <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
                                                                             </li>
@@ -2268,24 +2349,24 @@
                                                                     <div class="px-2">
                                                                         <h6 class="collapsible-btn-content-title">Recomonded Sports</h6>
                                                                         <ul class="collapsible-content-list">
-                                                                            <li class="collapsible-content-list">
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Tennis: </span>
                                                                                 <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
                                                                               </li>
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Golf : </span>
                                                                                 <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
                                                                             </li>
 
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Swimming :</span>
                                                                                 <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
                                                                             </li>
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Fencing :</span>
                                                                                 <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
                                                                             </li>
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Archery :</span>
                                                                                 <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
                                                                             </li>
@@ -2325,24 +2406,24 @@
                                                                     <div class="px-2">
                                                                         <h6 class="collapsible-btn-content-title">Recomonded Sports</h6>
                                                                         <ul class="collapsible-content-list">
-                                                                            <li class="collapsible-content-list">
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Tennis: </span>
                                                                                 <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
                                                                               </li>
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Golf : </span>
                                                                                 <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
                                                                             </li>
 
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Swimming :</span>
                                                                                 <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
                                                                             </li>
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Fencing :</span>
                                                                                 <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
                                                                             </li>
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Archery :</span>
                                                                                 <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
                                                                             </li>
@@ -2438,24 +2519,24 @@
                                                                     <div class="px-2">
                                                                         <h6 class="collapsible-btn-content-title">Recomonded Sports</h6>
                                                                         <ul class="collapsible-content-list">
-                                                                            <li class="collapsible-content-list">
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Tennis: </span>
                                                                                 <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
                                                                               </li>
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Golf : </span>
                                                                                 <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
                                                                             </li>
 
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Swimming :</span>
                                                                                 <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
                                                                             </li>
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Fencing :</span>
                                                                                 <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
                                                                             </li>
-                                                                            <li>
+                                                                            <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Archery :</span>
                                                                                 <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
                                                                             </li>
@@ -2497,27 +2578,27 @@
                                                                     <div class="px-2">
                                                                         <h6 class="collapsible-btn-content-title">Recomonded Sports</h6>
                                                                         <ul class="collapsible-content-list">
-                                                                            <li class="collapsible-content-list">
-                                                                                <span class="list-title">Tennis: </span>
-                                                                                <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
-                                                                              </li>
-                                                                            <li>
-                                                                                <span class="list-title">Golf : </span>
-                                                                                <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
-                                                                            </li>
-
-                                                                            <li>
-                                                                                <span class="list-title">Swimming :</span>
-                                                                                <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
-                                                                            </li>
-                                                                            <li>
-                                                                                <span class="list-title">Fencing :</span>
-                                                                                <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
-                                                                            </li>
-                                                                            <li>
-                                                                                <span class="list-title">Archery :</span>
-                                                                                <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
-                                                                            </li>
+                                                                            <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Tennis: </span>
+                                                                                    <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
+                                                                                  </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Golf : </span>
+                                                                                    <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
+                                                                                </li>
+    
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Swimming :</span>
+                                                                                    <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
+                                                                                </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Fencing :</span>
+                                                                                    <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
+                                                                                </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Archery :</span>
+                                                                                    <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
+                                                                                </li>
                                                                         </ul>
                                                                     </div>
                                                                     
@@ -2554,27 +2635,27 @@
                                                                     <div class="px-2">
                                                                         <h6 class="collapsible-btn-content-title">Recomonded Sports</h6>
                                                                         <ul class="collapsible-content-list">
-                                                                            <li class="collapsible-content-list">
-                                                                                <span class="list-title">Tennis: </span>
-                                                                                <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
-                                                                              </li>
-                                                                            <li>
-                                                                                <span class="list-title">Golf : </span>
-                                                                                <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
-                                                                            </li>
-
-                                                                            <li>
-                                                                                <span class="list-title">Swimming :</span>
-                                                                                <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
-                                                                            </li>
-                                                                            <li>
-                                                                                <span class="list-title">Fencing :</span>
-                                                                                <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
-                                                                            </li>
-                                                                            <li>
-                                                                                <span class="list-title">Archery :</span>
-                                                                                <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
-                                                                            </li>
+                                                                            <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Tennis: </span>
+                                                                                    <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
+                                                                                  </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Golf : </span>
+                                                                                    <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
+                                                                                </li>
+    
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Swimming :</span>
+                                                                                    <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
+                                                                                </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Fencing :</span>
+                                                                                    <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
+                                                                                </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Archery :</span>
+                                                                                    <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
+                                                                                </li>
                                                                         </ul>
                                                                     </div>
                                                                     
@@ -2611,27 +2692,27 @@
                                                                     <div class="px-2">
                                                                         <h6 class="collapsible-btn-content-title">Recomonded Sports</h6>
                                                                         <ul class="collapsible-content-list">
-                                                                            <li class="collapsible-content-list">
-                                                                                <span class="list-title">Tennis: </span>
-                                                                                <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
-                                                                              </li>
-                                                                            <li>
-                                                                                <span class="list-title">Golf : </span>
-                                                                                <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
-                                                                            </li>
-
-                                                                            <li>
-                                                                                <span class="list-title">Swimming :</span>
-                                                                                <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
-                                                                            </li>
-                                                                            <li>
-                                                                                <span class="list-title">Fencing :</span>
-                                                                                <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
-                                                                            </li>
-                                                                            <li>
-                                                                                <span class="list-title">Archery :</span>
-                                                                                <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
-                                                                            </li>
+                                                                            <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Tennis: </span>
+                                                                                    <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
+                                                                                  </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Golf : </span>
+                                                                                    <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
+                                                                                </li>
+    
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Swimming :</span>
+                                                                                    <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
+                                                                                </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Fencing :</span>
+                                                                                    <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
+                                                                                </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Archery :</span>
+                                                                                    <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
+                                                                                </li>
                                                                         </ul>
                                                                     </div>
                                                                     
@@ -2720,27 +2801,27 @@
                                                                     <div class="px-2">
                                                                         <h6 class="collapsible-btn-content-title">Recomonded Sports</h6>
                                                                         <ul class="collapsible-content-list">
-                                                                            <li class="collapsible-content-list">
-                                                                                <span class="list-title">Tennis: </span>
-                                                                                <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
-                                                                              </li>
-                                                                            <li>
-                                                                                <span class="list-title">Golf : </span>
-                                                                                <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
-                                                                            </li>
-
-                                                                            <li>
-                                                                                <span class="list-title">Swimming :</span>
-                                                                                <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
-                                                                            </li>
-                                                                            <li>
-                                                                                <span class="list-title">Fencing :</span>
-                                                                                <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
-                                                                            </li>
-                                                                            <li>
-                                                                                <span class="list-title">Archery :</span>
-                                                                                <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
-                                                                            </li>
+                                                                            <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Tennis: </span>
+                                                                                    <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
+                                                                                  </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Golf : </span>
+                                                                                    <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
+                                                                                </li>
+    
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Swimming :</span>
+                                                                                    <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
+                                                                                </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Fencing :</span>
+                                                                                    <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
+                                                                                </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Archery :</span>
+                                                                                    <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
+                                                                                </li>
                                                                         </ul>
                                                                     </div>
                                                                     
@@ -2779,27 +2860,27 @@
                                                                     <div class="px-2">
                                                                         <h6 class="collapsible-btn-content-title">Recomonded Sports</h6>
                                                                         <ul class="collapsible-content-list">
-                                                                            <li class="collapsible-content-list">
-                                                                                <span class="list-title">Tennis: </span>
-                                                                                <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
-                                                                              </li>
-                                                                            <li>
-                                                                                <span class="list-title">Golf : </span>
-                                                                                <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
-                                                                            </li>
-
-                                                                            <li>
-                                                                                <span class="list-title">Swimming :</span>
-                                                                                <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
-                                                                            </li>
-                                                                            <li>
-                                                                                <span class="list-title">Fencing :</span>
-                                                                                <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
-                                                                            </li>
-                                                                            <li>
-                                                                                <span class="list-title">Archery :</span>
-                                                                                <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
-                                                                            </li>
+                                                                            <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Tennis: </span>
+                                                                                    <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
+                                                                                  </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Golf : </span>
+                                                                                    <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
+                                                                                </li>
+    
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Swimming :</span>
+                                                                                    <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
+                                                                                </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Fencing :</span>
+                                                                                    <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
+                                                                                </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Archery :</span>
+                                                                                    <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
+                                                                                </li>
                                                                         </ul>
                                                                     </div>
                                                                     
@@ -2885,27 +2966,27 @@
                                                                     <div class="px-2">
                                                                         <h6 class="collapsible-btn-content-title">Recomonded Sports</h6>
                                                                         <ul class="collapsible-content-list">
-                                                                            <li class="collapsible-content-list">
-                                                                                <span class="list-title">Tennis: </span>
-                                                                                <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
-                                                                              </li>
-                                                                            <li>
-                                                                                <span class="list-title">Golf : </span>
-                                                                                <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
-                                                                            </li>
-
-                                                                            <li>
-                                                                                <span class="list-title">Swimming :</span>
-                                                                                <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
-                                                                            </li>
-                                                                            <li>
-                                                                                <span class="list-title">Fencing :</span>
-                                                                                <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
-                                                                            </li>
-                                                                            <li>
-                                                                                <span class="list-title">Archery :</span>
-                                                                                <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
-                                                                            </li>
+                                                                            <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Tennis: </span>
+                                                                                    <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
+                                                                                  </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Golf : </span>
+                                                                                    <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
+                                                                                </li>
+    
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Swimming :</span>
+                                                                                    <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
+                                                                                </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Fencing :</span>
+                                                                                    <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
+                                                                                </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Archery :</span>
+                                                                                    <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
+                                                                                </li>
                                                                         </ul>
                                                                     </div>
                                                                     
@@ -2942,27 +3023,27 @@
                                                                     <div class="px-2">
                                                                         <h6 class="collapsible-btn-content-title">Recomonded Sports</h6>
                                                                         <ul class="collapsible-content-list">
-                                                                            <li class="collapsible-content-list">
-                                                                                <span class="list-title">Tennis: </span>
-                                                                                <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
-                                                                              </li>
-                                                                            <li>
-                                                                                <span class="list-title">Golf : </span>
-                                                                                <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
-                                                                            </li>
-
-                                                                            <li>
-                                                                                <span class="list-title">Swimming :</span>
-                                                                                <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
-                                                                            </li>
-                                                                            <li>
-                                                                                <span class="list-title">Fencing :</span>
-                                                                                <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
-                                                                            </li>
-                                                                            <li>
-                                                                                <span class="list-title">Archery :</span>
-                                                                                <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
-                                                                            </li>
+                                                                            <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Tennis: </span>
+                                                                                    <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
+                                                                                  </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Golf : </span>
+                                                                                    <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
+                                                                                </li>
+    
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Swimming :</span>
+                                                                                    <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
+                                                                                </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Fencing :</span>
+                                                                                    <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
+                                                                                </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Archery :</span>
+                                                                                    <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
+                                                                                </li>
                                                                         </ul>
                                                                     </div>
                                                                     
