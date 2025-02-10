@@ -1,8 +1,16 @@
 <?php
 use App\Models\CustomerDetails;
 use App\Models\Events;
+use App\Models\WPUsers;
 $customer_name = session('user_details')['display_name'];
 $events = Events::where('status', 'active')->get();
+
+$dob = session('user_dob'); 
+$age = \Carbon\Carbon::parse($dob)->age; 
+
+$user_current_age = WPUsers::where('user_id', session('user_id'))->value('age') ?? 0;
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -239,6 +247,13 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
                             <?php foreach($events as $event){ ?> 
                             <li>New Event - {{$event->name}}<br>On - {{$event->date}}<br>From {{$event->start_time}} To {{$event->end_time}}</li>
                             <?php } ?>
+                            <?php
+                            if ($user_current_age != $age) {
+
+                                if (($user_current_age <= 14 && $age >= 15) || ($user_current_age <= 18 && $age > 18)) { ?>
+                                     <li>Retake the test as you now belong to a new age group  <a href="{{url('retake')}}"><button type="submit" class="btn-retake  retake-btn">Retake</button></a></li>
+                                <?php }}
+                            ?>
                         </ul>
                         </li>
                     </ul>
@@ -298,10 +313,8 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
                                 <h2 class="drawerTitle text-center mt-3 mb-4">Menu</h2>
                                 <ul class="nav flex-column text-center mobileDrawerMenu">
                                     <li>
-                                    <form action="https://projects.genaitech.dev/zebra-brain-wp/retake" method="POST">
-                                        @csrf
-                                        <button type="submit" class="btn-retake  retake-btn">Retake</button>
-                                    </form>
+                                        <a href="{{url('retake')}}"><button type="submit" class="btn-retake  retake-btn">Retake</button></a>
+
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link " aria-current="page" href="{{url('/')}}">Home</a>
