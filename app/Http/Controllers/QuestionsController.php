@@ -69,6 +69,17 @@ class QuestionsController extends Controller
     
 }
 
+public function start_dimentational_questions() {
+
+    return view('questions/start_dimentational');
+}
+
+public function thankyou() {
+
+    return view('questions/thank_you');
+}
+
+
     
     public function question($question) {
     
