@@ -127,7 +127,7 @@ p {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 820px) {
 
 
     .tab3 {

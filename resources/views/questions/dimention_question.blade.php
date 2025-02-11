@@ -164,6 +164,13 @@
     transition: all 0.3s ease-in-out;
 }
 
+
+p {
+    font-size: 16px;
+    color: #9BA1A6;
+    font-weight: 400;
+}
+
 .question-nav-back:hover {
     background-color: green;
     color: white;
