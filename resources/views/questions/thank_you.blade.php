@@ -174,7 +174,7 @@ margin-right: 10px;
 
                            
 
-                            <a href="{{url('/dashboard')}}"><button class="question-nav-next text-purple">Dashboard</button></a>
+                            <a href="{{url('dashboard')}}"><button class="question-nav-next text-purple">Dashboard</button></a>
                 
                 
             </div>

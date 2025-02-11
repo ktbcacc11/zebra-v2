@@ -628,7 +628,7 @@ public function thankyou() {
                                 $BrainResultsController->add_brain_results(session('answer_main_id'));
                                 $request->session()->forget(['answer_main_id']);
                             }
-                                    return redirect('questions/d1');
+                                    return redirect('start-dimentaional-questions');
                             }
                                 else{
                                     $next_page = $question_no +1;
@@ -694,7 +694,7 @@ public function thankyou() {
                                 $QuestionAnswerMain = QuestionAnswerMain::where('id',session('answer_main_id'))->first();
                                 $QuestionAnswerMain->status = "complete";
                                 $QuestionAnswerMain->update();
-                                return redirect('questions/d1');
+                                return redirect('start-dimentaional-questions');
                             }
                             else{
                                 $next_page = $question_no +1;
@@ -1081,7 +1081,7 @@ public function save_dimensional_answers(Request $request) {
                 $BrainResultsController->add_dimensional_brain_results(session('d_answer_main_id'));
                 $request->session()->forget(['d_answer_main_id']);
 
-                return redirect('packages');
+                return redirect('questions-completed');
             } else {
                 $next_page = $question_no + 1;
                 return redirect('questions/d' . $next_page);
@@ -1157,7 +1157,7 @@ public function save_dimensional_answers(Request $request) {
                 $DimensionalQuestionAnswerMain->status = "complete";
                 $DimensionalQuestionAnswerMain->update();
 
-                return redirect('sign-in');
+                return redirect('questions-completed');
             } else {
                 $next_page = $question_no + 1;
                 return redirect('questions/d' . $next_page);
