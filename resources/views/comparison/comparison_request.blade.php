@@ -8,7 +8,7 @@
                     <!--{{var_dump(session('user_details'))}}-->
             </h3>
             <p class="comparison-sub-title">
-              
+              Send a request to their email.
             </p>
             @if(Session::has('fail')) <p style="color:red;font-size:14px;"><?php echo Session::get('fail') ?></p>@endif
         @if(Session::has('success')) <p style="color:green;font-size:14px;"><?php echo Session::get('success') ?></p>@endif
@@ -36,8 +36,8 @@
                       @csrf
                           
                       <div class=" col-md-5 mb-3 recipient-email-input">
-                          <label for="exampleFormControlInput1" class="form-label ">Recipient Email Address</label>
-                          <input type="email" class="form-control" id="exampleFormControlInput1" name="email" value="">
+                          <label for="exampleFormControlInput1" class="form-label ">Recipient's Email Address</label>
+                          <input type="email" class="form-control" id="exampleFormControlInput1" name="email" value="" placeholder="Enter Email Address">
                           @if($errors->has("email")) <p style="color:red;font-size:14px;">{{ $errors->first('email') }}
                           </p>
                           @endif

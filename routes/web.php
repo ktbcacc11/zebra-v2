@@ -129,6 +129,11 @@ Route::get('/profile-new', function () {
     return view('profile');
 });
 
+Route::get('/pricing', function () {
+    return view('pricing');
+});
+
+
 
 
 Route::match(['get', 'post'],'/skill-test/{question}', [SkillTestController::class, 'skill_test'])->middleware('authCustomer');

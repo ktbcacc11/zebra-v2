@@ -54,10 +54,10 @@ $user_current_age = WPUsers::where('user_id', session('user_id'))->value('age') 
 } */
 
 body {
-    font-family: "Poppins", sans-serif;;
+    font-family: 'Aptos', sans-serif !important;;;
 }
 h1, h2, h3, h4, h5, h6, p, span, div, a, li {
-    font-family: "Poppins", sans-serif;;
+    font-family: 'Aptos', sans-serif !important;;;
 }
 
 .btn-retake {

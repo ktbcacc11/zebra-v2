@@ -9,7 +9,7 @@
     --font-title-style-4: 16px;
     --font-paragraph: 16px;
 }
-/* 
+
 @font-face {
     font-family: 'Aptos';
     src:
@@ -34,7 +34,7 @@ div,
 a,
 li {
     font-family: 'Aptos', sans-serif !important;
-} */
+}
 
 .card-title-style1-purple {
     font-size: var(--font-title-style-3);
@@ -105,7 +105,7 @@ li {
 }
 
 .comparing-head-section .name {
-    font-family: "Nunito Sans", serif !important;
+    font-family: 'Aptos', sans-serif !important;
     font-size: 20px;
     font-weight: 700;
     color: #000000;
@@ -113,7 +113,7 @@ li {
 }
 
 .comparing-head-section .email {
-    font-family: "Nunito Sans", serif !important;
+    font-family: 'Aptos', sans-serif !important;
     font-size: 16px;
     font-weight: 500;
     color: #F1935D;
@@ -126,16 +126,20 @@ li {
 
 }
 
+
 .data-box-row .box-data {
     border: 2px solid #6c6859;
     border-radius: 15%;
     padding-top: 40px;
-    padding-bottom: 40px
+    padding-bottom: 40px;
+    height: 140px;
+    width: 140px;
+    
 }
 
 .box-data p {
     color: var(--color-yellow);
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
 }
 
@@ -145,25 +149,25 @@ li {
     font-weight: 800;
 }
 
-.thinking-img{
+.thinking-img {
     height: 300px;
     width: 250px;
 }
 
 .collapsible-btn-content-title {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Aptos', sans-serif !important;
     font-size: 13px;
     font-weight: 400;
     color: #000000;
 }
 
-.collapsible-content-list{
+.collapsible-content-list {
     text-align: justify;
 }
 
 .list-description,
 .list-title {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Aptos', sans-serif !important;
     font-size: 12px;
     color: #6B6B6B;
     line-height: 15px;
@@ -171,11 +175,11 @@ li {
 }
 
 .list-title {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .list-description {
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .comparing-head {
@@ -196,14 +200,14 @@ li {
 }
 
 .description-title {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Aptos', sans-serif !important;
     font-size: 16px;
     font-weight: 600;
     color: #000000;
 }
 
 .comparison-description {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Aptos', sans-serif !important;
     font-size: 12px;
     font-weight: 400;
     color: #6B6B6B;
@@ -231,17 +235,18 @@ li {
     font-weight: 600;
 }
 
-.accordion-button{
+.accordion-button {
     border-radius: 8px !important;
 }
+
 .accordion-button::after {
-    
+
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24' width='24' viewBox='0 0 512 512'%3E%3Cpath fill='%23f6c94d' d='M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM377 271c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-87-87-87 87c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 167c9.4-9.4 24.6-9.4 33.9 0L377 271z'/%3E%3C/svg%3E");
     transform: rotate(180deg);
 }
-    
+
 .accordion-button:not(.collapsed)::after {
-    
+
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24' width='24' viewBox='0 0 512 512'%3E%3Cpath fill='%23f1935d' d='M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM377 271c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-87-87-87 87c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 167c9.4-9.4 24.6-9.4 33.9 0L377 271z'/%3E%3C/svg%3E");
 
 
@@ -253,15 +258,20 @@ li {
 
     transform: rotate(0deg);
 }
+
+.brain-img{
+    height: 300px;
+}
+
 .collapsible-div .collapsible {
     border: 2px solid #F6C94D;
 }
 
-.accordion-button:focus{
+.accordion-button:focus {
     box-shadow: none;
 }
 
-.collapsible-div{
+.collapsible-div {
     border: none;
 }
 
@@ -289,10 +299,10 @@ li {
 .collapsible-content-list li::marker {
     color: #6B6B6B !important;
     font-size: 12px;
-  }
+}
 
 .explaining-title {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Aptos', sans-serif !important;
     font-size: 14px;
     font-weight: 500;
     padding: 15px 0 10px 0;
@@ -300,7 +310,7 @@ li {
 }
 
 .explaining {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Aptos', sans-serif !important;
     font-size: 12px;
     font-weight: 400;
     color: #6B6B6B;
@@ -336,6 +346,11 @@ li {
     font-size: 22px;
     font-weight: 700;
     color: var(--color-yellow);
+}
+
+.patterns-img{
+    height: 230px;
+    width: 210px;
 }
 
 
@@ -882,47 +897,119 @@ li {
     }
 
 
-    .mobile-data-box{
+    .mobile-data-box {
         padding: 10px 20px;
         border-radius: 20px;
     }
-    .mobile-data-box p{
+
+    .mobile-data-box p {
         font-size: 12px;
     }
 
-    .comparing-head-section .name , .comparing-head-section .email{
+    .comparing-head-section .name,
+    .comparing-head-section .email {
         font-size: 12px;
     }
 
-    .thinking-img{
+    .thinking-img {
         height: 100px;
         width: 100px;
     }
 
-    .accordion-header .collapsible{
+    .accordion-header .collapsible {
         font-size: 10px;
     }
 
-    .explaining-title{
+    .explaining-title {
         font-size: 9px;
     }
 
-    .explaining{
+    .explaining {
         font-size: 8px;
     }
 
-    .description-title{
+    .description-title {
         font-size: 10px;
     }
 
-    .collapsible-content-list{
+    .collapsible-content-list {
         padding-left: 0;
-        
+
     }
-    .collapsible-content-list-item{
+
+    .collapsible-content-list-item {
         margin-bottom: 15px;
     }
 
+    .brain-img{
+        height: 100px;
+    }
+
+    .patterns-img{
+        height: 200px;
+        width: 150px;
+    }
 
 
+
+}
+
+@media screen and (max-width: 900px) {
+    .data-box-row {
+        display: none !important;
+    }
+
+    .mobile-data-box {
+        display: flex !important;
+        padding: 20px;
+        border-radius: 25px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 600;
+
+    }
+
+    .brain-img{
+        height: 100px;
+    }
+
+    .patterns-img{
+        height: 200px;
+        width: 150px;
+    }
+
+    /* .scrollable-column{
+        width: 75vw;
+    } */
+
+    .list-description{
+        display: flex;
+    }
+}
+
+
+@media screen and (max-width: 1200px) and (min-width:900px) {
+    .data-box-row {
+        display: none !important;
+    }
+
+    .mobile-data-box {
+        display: flex !important;
+        padding: 20px;
+        border-radius: 25px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 600;
+
+    }
+
+    .brain-img{
+        height: 200px;
+    }
+
+    /* .scrollable-column{
+        width: 75vw;
+    } */
 }

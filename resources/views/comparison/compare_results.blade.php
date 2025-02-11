@@ -2,7 +2,7 @@
 <div class="dashboard-page-content">
 
     <div class="d-flex flex-row p-3 ps-lg-5 pt-lg-2 w-100">
-        <div class="col-lg-10 col-xl-10 col-md-10 col-12 scrollable-column">
+        <div class="col-lg-12 col-xl-10 col-md-12 col-12 scrollable-column">
             <h3 class="section-title text-purple mt-3">
                 Let's Compare
                 <!--{{var_dump(session('user_details'))}}-->
@@ -101,11 +101,57 @@
                                         <div class="col-12 scrollable-campare">
                                             <div class="row mb-5 gx-3 gy-3">
 
-                                                <div class="col-12 col-lg-6 p-2 d-none d-lg-flex d-md-flex d-xl-flex">
-                                                    <img src="{{ asset('assets/images/brain-cartoon.png') }}" height="300px">
+                                                <div class="col-12 col-lg-6 p-2 d-lg-flex d-md-flex d-xl-flex">
+                                                    <img src="{{ asset('assets/images/brain-cartoon.png') }}"  class="brain-img">
                                                 </div>
 
-                                                <div class="row data-box-row ps-4 gap-0 d-none d-lg-flex d-md-flex d-xl-flex">
+                                                <div class="d-lg-flex d-none data-box-row gap-3">
+                                                    <div class="box-data px-4"
+                                                            style="background-color: #f6c94c; color: black;">
+                                                            <p class="mb-0" style="color: black;">
+                                                                Fastidious
+                                                            </p>
+                                                            <h3 class="mb-0" style="color: black;">
+                                                                86%
+                                                            </h3>
+                                                    </div>
+
+                                                    <div class="box-data px-4"
+                                                            style="background-color: #f1935d;">
+                                                            <p class="mb-0" style="color: black;">
+                                                                Maverick
+                                                            </p>
+                                                            <h3 class="mb-0" style="color: black;">
+                                                                72%
+                                                            </h3>
+                                                    </div>
+                                                </div>
+
+                                                <div class="d-lg-flex d-none data-box-row gap-3">
+                                                    <div class="box-data px-4"
+                                                            style="background-color: #9ae4e3;">
+                                                            <p class="mb-0" style="color: black;">
+                                                                Fastidious
+                                                            </p>
+                                                            <h3 class="mb-0" style="color: black;">
+                                                                75%
+                                                            </h3>
+                                                    </div>
+
+                                                    <div class="col-lg-4 col-md-4 col-12">
+                                                        <div class="box-data px-4"
+                                                            style="background-color: #84d6a5;">
+                                                            <p class="mb-0" style="color: black;">
+                                                                Maverick
+                                                            </p>
+                                                            <h3 class="mb-0" style="color: black;">
+                                                                67%
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                {{-- <div class="row data-box-row ps-4 gap-0 d-none d-lg-flex d-md-flex d-xl-flex">
                                                     <div class="col-lg-4 col-md-4 col-12 p-1">
                                                         <div class="box-data px-4"
                                                             style="background-color: #f6c94c; color: black;">
@@ -153,7 +199,7 @@
                                                         </div>
                                                     </div>
 
-                                                </div>
+                                                </div> --}}
 
 
                                                 {{-- mobile data boxes --}}
@@ -448,13 +494,12 @@
                                         <div class="col-12 scrollable-campare">
                                             <div class="row mb-5 gx-3 gy-3">
 
-                                                <div class="col-12 col-lg-6 p-2 d-none d-lg-flex d-md-flex d-xl-flex">
-                                                    <img src="{{ asset('assets/images/brain-cartoon.png') }}" height="300px">
+                                                <div class="col-12 col-lg-6 p-2  d-lg-flex d-md-flex d-xl-flex">
+                                                    <img src="{{ asset('assets/images/brain-cartoon.png') }}"  class="brain-img">
                                                 </div>
 
-                                                <div class="row data-box-row ps-4 gap-0 d-none d-lg-flex d-md-flex d-xl-flex">
-                                                    <div class="col-lg-4 col-md-4 col-12 p-1">
-                                                        <div class="box-data px-4"
+                                                <div class="d-lg-flex d-none data-box-row gap-3">
+                                                    <div class="box-data px-4"
                                                             style="background-color: #f6c94c; color: black;">
                                                             <p class="mb-0" style="color: black;">
                                                                 Fastidious
@@ -462,10 +507,9 @@
                                                             <h3 class="mb-0" style="color: black;">
                                                                 86%
                                                             </h3>
-                                                        </div>
                                                     </div>
-                                                    <div class="col-lg-4 col-md-4 col-12 p-1">
-                                                        <div class="box-data px-4"
+
+                                                    <div class="box-data px-4"
                                                             style="background-color: #f1935d;">
                                                             <p class="mb-0" style="color: black;">
                                                                 Maverick
@@ -473,12 +517,11 @@
                                                             <h3 class="mb-0" style="color: black;">
                                                                 72%
                                                             </h3>
-                                                        </div>
                                                     </div>
                                                 </div>
-                                                <div class="row data-box-row ps-4 gap-0 d-none d-lg-flex d-md-flex d-xl-flex">
-                                                    <div class="col-lg-4 col-md-4 col-12 p-1">
-                                                        <div class="box-data px-4"
+
+                                                <div class="d-lg-flex d-none data-box-row gap-3">
+                                                    <div class="box-data px-4"
                                                             style="background-color: #9ae4e3;">
                                                             <p class="mb-0" style="color: black;">
                                                                 Fastidious
@@ -486,9 +529,9 @@
                                                             <h3 class="mb-0" style="color: black;">
                                                                 75%
                                                             </h3>
-                                                        </div>
                                                     </div>
-                                                    <div class="col-lg-4 col-md-4 col-12 p-1">
+
+                                                    <div class="col-lg-4 col-md-4 col-12">
                                                         <div class="box-data px-4"
                                                             style="background-color: #84d6a5;">
                                                             <p class="mb-0" style="color: black;">
@@ -499,7 +542,6 @@
                                                             </h3>
                                                         </div>
                                                     </div>
-
                                                 </div>
 
 
@@ -989,11 +1031,11 @@
                                         <div class="col-12 scrollable-campare">
                                             <div class="row mb-5 gx-3 gy-3">
     
-                                                <div class="d-none d-lg-flex d-md-flex col-12 mt-5 d-flex justify-content-center p-2">
-                                                    <img src="{{ asset('assets/images/patterns.png') }}">
+                                                <div class="col-12 mt-5 d-flex justify-content-center p-2">
+                                                    <img src="{{ asset('assets/images/patterns.png') }}" class="patterns-img">
                                                 </div>
     
-                                                <div class="row data-box-row ps-4 pe-0 gap-0">
+                                                <div class="row ps-4 pe-0 gap-0">
     
     
                                                     <div class="col-12 pe-0">
@@ -1182,11 +1224,11 @@
                                         <div class="col-12 scrollable-campare">
                                             <div class="row mb-5 gx-3 gy-3">
     
-                                                <div class="d-none d-lg-flex d-md-flex col-12 mt-5 d-flex justify-content-center p-2">
-                                                    <img src="{{ asset('assets/images/patterns.png') }}">
+                                                <div class="col-12 mt-5 d-flex justify-content-center p-2">
+                                                    <img src="{{ asset('assets/images/patterns.png') }}" class="patterns-img">
                                                 </div>
     
-                                                <div class="row data-box-row ps-4 gap-0">
+                                                <div class="row ps-4 gap-0">
     
     
                                                     <div class="col-12 px-0">
@@ -1385,7 +1427,7 @@
                                                     
     
                                                     <div class="col-12">
-                                                        <h5 class="description-title mt-lg-5 mb-lg-3 my-1">Sports and other extracurricular activities naturally preferred</h5>
+                                                        <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Sports and other extracurricular activities naturally preferred</h5>
                                                         <p class="comparison-description">
                                                             Lorem ipsum dolor sit amet consectetur. Mi ornare justo lacus
                                                             felis. In tortor ultrices morbi sed proin lectus.
@@ -1642,7 +1684,7 @@
                                                     
     
                                                     <div class="col-12">
-                                                        <h5 class="description-title mt-lg-5 mb-lg-3 my-1">Sports and other extracurricular activities naturally preferred</h5>
+                                                        <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Sports and other extracurricular activities naturally preferred</h5>
                                                         <p class="comparison-description">
                                                             Lorem ipsum dolor sit amet consectetur. Mi ornare justo lacus
                                                             felis. In tortor ultrices morbi sed proin lectus.
