@@ -28,7 +28,9 @@ Route::match(['get', 'post'],'/', [MainController::class, 'index']);
 Route::match(['get', 'post'],'/intro', [QuestionsController::class, 'intro']);
 Route::match(['get', 'post'],'/questions/{question}', [QuestionsController::class, 'question']);
 Route::match(['get', 'post'],'/childquestions/{question}', [QuestionsController::class, 'childquestions']);
+Route::match(['get', 'post'],'/before-dashboard', [QuestionsController::class, 'thankyou']);
 
+Route::match(['get', 'post'],'/start-dimentaional-questions', [QuestionsController::class, 'start_dimentational_questions']);
 
 Route::match(['get', 'post'],'/save-answers', [QuestionsController::class, 'save_answers']);
 Route::match(['get', 'post'],'/save-child-answers', [QuestionsController::class, 'save_child_answers']);
