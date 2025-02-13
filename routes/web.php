@@ -108,5 +108,13 @@ Route::match(['get', 'post'],'/reject-comparison-request/{id}', [ComparisonContr
 Route::match(['get', 'post'],'/compare-results/{id}', [ComparisonController::class, 'compare_results'])->middleware('authCustomer');
 
 
-Route::get('/new-dashboard', [MainController::class, 'newDashboard']);
+
+
+Route::get('/content', function () {
+    return view('new_pages.content');
+});
+
+Route::get('/sign-up', function () {
+    return view('new_pages.sign_up');
+});
 
