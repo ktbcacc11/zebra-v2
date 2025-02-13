@@ -112,15 +112,34 @@ Route::match(['get', 'post'],'/reject-comparison-request/{id}', [ComparisonContr
 Route::match(['get', 'post'],'/compare-results/{id}', [ComparisonController::class, 'compare_results'])->middleware('authCustomer');
 
 
-
-
-Route::get('/content', function () {
-    return view('new_pages.content');
+Route::get('/new-dashboard', [MainController::class, 'newDashboard']);
+Route::get('/comparison-page', function () {
+    return view('comparison.compare_results');
 });
 
-// Route::get('/sign-up', function () {
-//     return view('new_pages.sign_up');
-// });
+Route::get('/careers-inner-page-1', function () {
+    return view('careers.inner_page_1');
+});
+
+Route::get('/careers-inner-page-2', function () {
+    return view('careers.inner_page_2');
+});
+
+Route::get('/profile-new', function () {
+    return view('profile');
+});
+
+Route::get('/pricing', function () {
+    return view('pricing');
+});
+
+Route::get('/events-new', function () {
+    return view('events_new');
+});
+
+Route::get('/contact-form', function () {
+    return view('contact_form');
+});
 
 
 
