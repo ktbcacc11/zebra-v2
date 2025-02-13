@@ -26,7 +26,7 @@ $router->aliasMiddleware('checkUserPacakge', checkUserPacakge::class);
 
 Route::match(['get', 'post'],'/', [MainController::class, 'index']);
 Route::match(['get', 'post'],'/intro', [QuestionsController::class, 'intro']);
-Route::match(['get', 'post'],'/questions/{question}', [QuestionsController::class, 'question']);
+Route::match(['get', 'post'],'/questions/{question}', [QuestionsController::class, 'question'])->middleware('authCustomer');
 Route::match(['get', 'post'],'/childquestions/{question}', [QuestionsController::class, 'childquestions']);
 Route::match(['get', 'post'],'/questions-completed', [QuestionsController::class, 'thankyou']);
 
