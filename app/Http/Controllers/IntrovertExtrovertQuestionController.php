@@ -65,7 +65,7 @@ class IntrovertExtrovertQuestionController extends Controller
         $question = IntrovertExtrovertQuestions::where('id', 5)->first();
         return view('introvert-extrovert-question/question', ['question' => $question, 'question_no' => 5]);
     }
-    if($question == "q16") {
+    if($question == "q6") {
         $question = IntrovertExtrovertQuestions::where('id', 6)->first();
         return view('introvert-extrovert-question/question', ['question' => $question, 'question_no' => 6]);
     }

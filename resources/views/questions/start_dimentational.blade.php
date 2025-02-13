@@ -120,7 +120,7 @@ margin-right: 10px;
 </style>
 <section class="section-margin-bottom section-margin-top">
     <div class="container questions-container">
-    <h5 class="step-txt">Step 01/02</h5>
+    <h5 class="step-txt">Step 02/02</h5>
         <h3 class="section-title text-purple">Thank you for completeing this exam </h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.</p>
 
@@ -168,7 +168,7 @@ margin-right: 10px;
             <div class="col-12 text-end">
            
 
-                            <button class="question-nav-next text-purple" >Start now</button>
+            <a href="{{url('questions/d1')}}"><button class="question-nav-next text-purple" >Start now</button> </a>
                 
                 
             </div>

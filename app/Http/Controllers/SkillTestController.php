@@ -42,54 +42,141 @@ class SkillTestController extends Controller
     
     public function skill_test($question) {
     
+    $dob = session('user_dob'); 
+    $age = \Carbon\Carbon::parse($dob)->age;
+
+    $category_from_age = ($age < 18) ? 'child' : 'adult';
+       
     if($question == "q1") {
-        $question = SkillTestQuestions::where('id', 1)->first();
-        return view('skill-test/question', ['question' => $question, 'question_no' => 1]);
+        if ($category_from_age == 'adult') {
+            $question = SkillTestQuestions::where('id', 1)->first();
+            return view('skill-test/question', ['question' => $question, 'question_no' => 1]);
+        }
+        else{
+            $question = SkillTestQuestions::where('id', 13)->first();
+            return view('skill-test/question', ['question' => $question, 'question_no' => 1]);
+        }
     }
     
     if($question == "q2") {
-        $question = SkillTestQuestions::where('id', 2)->first();
-        return view('skill-test/question', ['question' => $question, 'question_no' => 2]);
+        if ($category_from_age == 'adult') {
+            $question = SkillTestQuestions::where('id', 2)->first();
+            return view('skill-test/question', ['question' => $question, 'question_no' => 2]);
+        }
+        else{
+            $question = SkillTestQuestions::where('id', 14)->first();
+            return view('skill-test/question', ['question' => $question, 'question_no' => 2]);
+        }
+       
     }
     if($question == "q3") {
-        $question = SkillTestQuestions::where('id', 3)->first();
-        return view('skill-test/question', ['question' => $question, 'question_no' => 3]);
+        
+        if ($category_from_age == 'adult') {
+            $question = SkillTestQuestions::where('id', 3)->first();
+            return view('skill-test/question', ['question' => $question, 'question_no' => 3]);
+        }
+        else{
+            $question = SkillTestQuestions::where('id', 15)->first();
+            return view('skill-test/question', ['question' => $question, 'question_no' => 3]);
+        }
     }
     if($question == "q4") {
-        $question = SkillTestQuestions::where('id', 4)->first();
-        return view('skill-test/question', ['question' => $question, 'question_no' => 4]);
+        if ($category_from_age == 'adult') {
+            $question = SkillTestQuestions::where('id', 4)->first();
+            return view('skill-test/question', ['question' => $question, 'question_no' => 4]);
+        }
+        else{
+            $question = SkillTestQuestions::where('id', 16)->first();
+            return view('skill-test/question', ['question' => $question, 'question_no' => 4]);
+        }
     }
     if($question == "q5") {
-        $question = SkillTestQuestions::where('id', 5)->first();
-        return view('skill-test/question', ['question' => $question, 'question_no' => 5]);
+        if ($category_from_age == 'adult') {
+            $question = SkillTestQuestions::where('id', 5)->first();
+            return view('skill-test/question', ['question' => $question, 'question_no' => 5]);
+        }
+        else{
+            $question = SkillTestQuestions::where('id', 17)->first();
+            return view('skill-test/question', ['question' => $question, 'question_no' => 5]);
+        }
+       
     }
-    if($question == "q16") {
-        $question = SkillTestQuestions::where('id', 6)->first();
-        return view('skill-test/question', ['question' => $question, 'question_no' => 6]);
+    if($question == "q6") {
+        if ($category_from_age == 'adult') {
+            $question = SkillTestQuestions::where('id', 6)->first();
+            return view('skill-test/question', ['question' => $question, 'question_no' => 6]);
+        }
+        else{
+            $question = SkillTestQuestions::where('id', 18)->first();
+            return view('skill-test/question', ['question' => $question, 'question_no' => 6]);
+        }
+       
     }
     if($question == "q7") {
-        $question = SkillTestQuestions::where('id', 7)->first();
-        return view('skill-test/question', ['question' => $question, 'question_no' => 7]);
+        if ($category_from_age == 'adult') {
+            $question = SkillTestQuestions::where('id', 7)->first();
+            return view('skill-test/question', ['question' => $question, 'question_no' => 7]);
+        }
+        else{
+            $question = SkillTestQuestions::where('id', 19)->first();
+            return view('skill-test/question', ['question' => $question, 'question_no' => 7]);
+        }
+        
     }
     if($question == "q8") {
-        $question = SkillTestQuestions::where('id', 8)->first();
-        return view('skill-test/question', ['question' => $question, 'question_no' => 8]);
+        if ($category_from_age == 'adult') {
+            $question = SkillTestQuestions::where('id', 8)->first();
+            return view('skill-test/question', ['question' => $question, 'question_no' => 8]);
+        }
+        else{
+            $question = SkillTestQuestions::where('id', 20)->first();
+            return view('skill-test/question', ['question' => $question, 'question_no' => 8]);
+        }
+        
     }
     if($question == "q9") {
-        $question = SkillTestQuestions::where('id', 9)->first();
-        return view('skill-test/question', ['question' => $question, 'question_no' => 9]);
+        if ($category_from_age == 'adult') {
+            $question = SkillTestQuestions::where('id', 9)->first();
+            return view('skill-test/question', ['question' => $question, 'question_no' => 9]);
+        }
+        else{
+            $question = SkillTestQuestions::where('id', 21)->first();
+            return view('skill-test/question', ['question' => $question, 'question_no' => 9]);
+        }
+        
     }
     if($question == "q10") {
-        $question = SkillTestQuestions::where('id', 10)->first();
-        return view('skill-test/question', ['question' => $question, 'question_no' => 10]);
+        if ($category_from_age == 'adult') {
+            $question = SkillTestQuestions::where('id', 10)->first();
+            return view('skill-test/question', ['question' => $question, 'question_no' => 10]);
+        }
+        else{
+            $question = SkillTestQuestions::where('id', 22)->first();
+            return view('skill-test/question', ['question' => $question, 'question_no' => 10]);
+        }
+        
     }
     if($question == "q11") {
-        $question = SkillTestQuestions::where('id', 11)->first();
-        return view('skill-test/question', ['question' => $question, 'question_no' => 11]);
+        if ($category_from_age == 'adult') {
+            $question = SkillTestQuestions::where('id', 11)->first();
+            return view('skill-test/question', ['question' => $question, 'question_no' => 11]);
+        }
+        else{
+            $question = SkillTestQuestions::where('id', 23)->first();
+            return view('skill-test/question', ['question' => $question, 'question_no' => 11]);
+        }
+       
     }
     if($question == "q12") {
-        $question = SkillTestQuestions::where('id', 12)->first();
-        return view('skill-test/question', ['question' => $question, 'question_no' => 12]);
+        if ($category_from_age == 'adult') {
+            $question = SkillTestQuestions::where('id', 12)->first();
+            return view('skill-test/question', ['question' => $question, 'question_no' => 12]);
+        }
+        else{
+            $question = SkillTestQuestions::where('id', 24)->first();
+            return view('skill-test/question', ['question' => $question, 'question_no' => 12]);
+        }
+        
     }
 
 }
@@ -115,7 +202,7 @@ class SkillTestController extends Controller
                         }
                         else{
                             $QuestionAnswers = new SkillTestQuestionAnswers();
-                            $QuestionAnswers->answer_main_id = session('skill_test_answer_main_id');
+                            $QuestionAnswers->skill_test_answer_main_id = session('skill_test_answer_main_id');
                             $QuestionAnswers->question_no = $request->question_no;
                             $QuestionAnswers->question_id = $request->question_id;
                             $QuestionAnswers->first_answer = $request->first_answer;
@@ -143,7 +230,7 @@ class SkillTestController extends Controller
                     $QuestionAnswerMain->save();
         
                     $QuestionAnswers = new SkillTestQuestionAnswers();
-                    $QuestionAnswers->answer_main_id = $QuestionAnswerMain->id;
+                    $QuestionAnswers->skill_test_answer_main_id = $QuestionAnswerMain->id;
                     $QuestionAnswers->question_no = $request->question_no;
                     $QuestionAnswers->question_id = $request->question_id;
                     $QuestionAnswers->first_answer = $request->first_answer;

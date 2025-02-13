@@ -13,48 +13,173 @@
     padding-top: 3px;
     margin-right: 10px;
 }
+
+.step-txt {
+    color: #f5c84c;
+    background-color:#fffaed; /* Light yellow */
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    display: inline-block; /* Makes it look like a button */
+}
+
+.question-count {
+    color: #85d6a5;
+    background-color:#f2faf5; /* Light yellow */
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    display: inline-block; /* Makes it look like a button */
+}
+
+.tab3 {
+    border: 2px solid #F0F0F0; /* Blue border, change color as needed */
+    border-radius: 30px; /* Rounded corners */
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px; /* Optional: Adds some spacing inside the border */
+}
+
+.question-nav-back {
+    border: 2px solid #89d6a7;
+    color: #89d6a7;
+    background-color: white;
+    border-radius: 30px;
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.question-nav-back:hover {
+    background-color: green;
+    color: white;
+}
+
+.question-nav-next {
+    border: 2px solid #f5c84c;
+    color: white;
+    background-color: #f5c84c;
+    border-radius: 30px;
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.question-nav-next:hover {
+    background-color: darkgoldenrod;
+    border-color: darkgoldenrod;
+}
+
+.number {
+    font-size: 16px;
+    color: #000814;
+    font-weight: 600;
+    background-color: #9ae3e2;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding-top: 3px;
+    margin-right: 10px;
+}
+
+.section-title {
+    color: #F1935D;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 16px;
+    color: #9BA1A6;
+    font-weight: 400;
+}
+
+.questions-container .question-answer {
+    font-size: 16px;
+    color: #000814;
+    font-weight: 400;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 2px solid #000814;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.section-margin-bottom {
+    margin-bottom: 100px;
+}
+.section-margin-top {
+    margin-top: 30px;
+}
+
+.questions-container .clicked {
+    background-color: #000000 !important;
+    color: #FFFFFF !important;
+}
+
+
+@media only screen and (max-width: 820px) {
+
+
+    .tab3 {
+    border: 2px solid #F0F0F0;
+    border-radius: 30px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}
+
+
 </style>
 <section class="section-margin-bottom section-margin-top">
     <div class="container questions-container">
-        <h3 class="section-title text-purple">Skill Test</h3>
+    <!-- <h5 class="step-txt">Step 01/02</h5> -->
+        <h3 class="section-title text-purple">Skill Assessment</h3>
+        <p>Label your choices from 1 to 4, with 1 being your best choice, followed by 2, 3, and 4.</p>
 
-        <div class="row mt-5">
-            <div class="col-md-2"></div>
+        <div class="tab3 row mt-5">
+            
             <div class="col-md-8">
-                <h1 class="question text-center">
-                    Question {{$question_no}}
-                </h1>
-                <h1 class="question-count text-center">
-                    {{$question_no}} out of 12
-                </h1>
+            <p>Choose the most appropriate answer that feels right to you.</p>
+               
                 @if (session('message'))
-                <p style="color:red;font-size:14px;text-align:center;">{{ session('message') }}</p>
+                <p style="color:red;font-size:14px;">{{ session('message') }}</p>
                 @endif
-                <h1 class="question-title text-center mt-4">
-                    {{$question->question}}
+                <h1 class="question-title  mt-4">
+                {{$question_no}}.  {{$question->question}}
                 </h1>
                 <div class="answers-container">
                     <div class="d-flex align-items-center">
                         <span class="number" id="number_1"></span>
-                        <h1 class="question-answer text-center" id="answer_1" onclick="pickAnswer(this, `{{html_entity_decode($question->answer_1)}}`, 'number_1')">
+                        <h1 class="question-answer " id="answer_1" onclick="pickAnswer(this, `{{html_entity_decode($question->answer_1)}}`, 'number_1')">
                             {{$question->answer_1}}
                         </h1>
                     </div>
                     <div class="d-flex align-items-center">
                         <span class="number" id="number_2"></span>
-                        <h1 class="question-answer text-center" id="answer_2" onclick="pickAnswer(this, `{{html_entity_decode($question->answer_2)}}`, 'number_2')">
+                        <h1 class="question-answer " id="answer_2" onclick="pickAnswer(this, `{{html_entity_decode($question->answer_2)}}`, 'number_2')">
                             {{$question->answer_2}}
                         </h1>
                     </div>
                     <div class="d-flex align-items-center">
                         <span class="number" id="number_3"></span>
-                        <h1 class="question-answer text-center" id="answer_3" onclick="pickAnswer(this, `{{html_entity_decode($question->answer_3)}}`, 'number_3')">
+                        <h1 class="question-answer " id="answer_3" onclick="pickAnswer(this, `{{html_entity_decode($question->answer_3)}}`, 'number_3')">
                             {{$question->answer_3}}
                         </h1>
                     </div>
                     <div class="d-flex align-items-center">
                         <span class="number" id="number_4"></span>
-                        <h1 class="question-answer text-center" id="answer_4" onclick="pickAnswer(this, `{{html_entity_decode($question->answer_4)}}`, 'number_4')">
+                        <h1 class="question-answer " id="answer_4" onclick="pickAnswer(this, `{{html_entity_decode($question->answer_4)}}`, 'number_4')">
                             {{$question->answer_4}}
                         </h1>
                     </div>
@@ -63,13 +188,7 @@
                     </h1>
                     <div id="answer_error" class="mt-2" style="color:red;font-weight:bold;text-align:left;"></div>
                     <div class="row mt-5">
-                        <div class="col-6 text-start">
-                            <?php if($question_no != 1){
-                            $previous_page = $question_no - 1;
-                            ?>
-                            <a href="{{url('skill-test/q'.$previous_page.'')}}"><button class="question-nav text-purple"><i class="fa-solid fa-chevron-left px-1"></i> Previous</button></a>
-                            <?php } ?>
-                        </div>
+                        
 
                         <div class="col-6 text-end">
                             <form id="myForm" action="{{url('save-skill-test-answers')}}" method="post">
@@ -82,17 +201,57 @@
                                 <input type="hidden" name="forth_answer" id="forth_answer" value="">
                                 <input type="hidden" name="question_no" value="{{$question_no}}">
 
-                                <button class="question-nav text-purple" type="button" onclick="validateAndSubmit()">Next<i class="fa-solid fa-chevron-right px-1"></i></button>
+                                
                             </form>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+    <img src="{{ asset('assets/images/img773.PNG') }}" alt="Question Image" class="img-fluid mt-4">
+</div>
         </div>
     </div>
 </section>
-@include('layouts.footer')
+
+<section class="footer-nav  border-top bg-light">
+
+<!-- Progress Bar -->
+<div class="progress " style="height: 2px; background-color: #e0e0e0; width: 100%;">
+            <div class="progress-bar" role="progressbar" 
+                style="width: <?php echo ($question_no / 12) * 100; ?>%; background-color:rgb(19, 19, 19);"
+                aria-valuenow="<?php echo $question_no; ?>" aria-valuemin="1" aria-valuemax="25">
+            </div>
+        </div>
+   <br>
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Left Side: Question Number -->
+            <div class="col-6 text-start">
+            <h5 class="question-count text-center">
+                   Questions {{$question_no}} out of 12
+                </h5>
+            </div>
+            <!-- Right Side: Navigation Buttons -->
+            <div class="col-6 text-end">
+            <?php if($question_no != 1){
+                            $previous_page = $question_no - 1;
+                            ?>
+                            <a href="{{url('skill-test/q'.$previous_page.'')}}"><button class="question-nav-back text-purple"> Prev</button></a>
+                            <?php } ?>
+
+
+                            
+
+                            <button class="question-nav-next text-purple" type="button" onclick="validateAndSubmit()">Next</button>
+                
+                
+            </div>
+                            
+        </div>
+    </div>
+</section>
+
 <script>
    let currentOrder = 1;
 let pickedAnswers = {};
@@ -177,3 +336,4 @@ function validateAndSubmit() {
 }
 
 </script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

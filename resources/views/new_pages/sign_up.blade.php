@@ -1,4 +1,5 @@
-@include('layouts.header')
+@include('new_layouts.header')
+
 <style>
 body {
     font-family: 'Arial', sans-serif;
@@ -94,56 +95,41 @@ body {
 
         <div class="col-md-6 right-panel">
             <h2 class="pt-3 pb-5" style="color: #F1935D;">Your future starts here - Sign up</h2>
-            @if(Session::has('fail')) <p style="color:red;font-size:14px;"><?php echo Session::get('fail') ?></p>@endif
-            <form style="padding-left: 10px;"  action=""  method="post" enctype="multipart/form-data">
-            @csrf
+            <form style="padding-left: 10px;">
                 <div class="row">
                     <div class="col-md-6">
                         <label for="first-name" class="pb-2 form-label-signup">First name</label>
                         <input type="text" class="form-control signup-form-placeholder" id="first-name"
                             placeholder="First name" required
-                            style="border-radius:10px; border-color:rgb(233, 232, 232);"  name="first_name">
-                            @if($errors->has("first_name")) <p style="color:red;font-size:14px;">{{ $errors->first('first_name') }}</p>@endif
+                            style="border-radius:10px; border-color:rgb(233, 232, 232);">
                     </div>
                     <div class="col-md-6">
                         <label for="last-name" class="pb-2 form-label-signup">Last name</label>
                         <input type="text" class="form-control signup-form-placeholder" id="last-name"
                             placeholder="Last name" required
-                            style="border-radius:10px; border-color:rgb(233, 232, 232);" name="last_name">
-                            @if($errors->has("last_name")) <p style="color:red;font-size:14px;">{{ $errors->first('last_name') }}</p>@endif
+                            style="border-radius:10px; border-color:rgb(233, 232, 232);">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <label for="email" class="pb-2 form-label-signup">User Name</label>
-                        <input type="text" class="form-control signup-form-placeholder" id="email"
-                            placeholder="Email address" required
-                            style="border-radius:10px; border-color:rgb(233, 232, 232);" name="user_name">
-                            @if($errors->has("user_name")) <p style="color:red;font-size:14px;">{{ $errors->first('user_name') }}</p>@endif
-                    </div>
-                    <div class="col-md-6">
                         <label for="email" class="pb-2 form-label-signup">Email address</label>
                         <input type="email" class="form-control signup-form-placeholder" id="email"
                             placeholder="Email address" required
-                            style="border-radius:10px; border-color:rgb(233, 232, 232);"  name="email">
-                            @if($errors->has("email")) <p style="color:red;font-size:14px;">{{ $errors->first('email') }}</p>@endif
+                            style="border-radius:10px; border-color:rgb(233, 232, 232);">
                     </div>
                     <div class="col-md-6">
-                        <label for="age" class="pb-2 form-label-signup">Date of Birth</label>
-                        <input type="date" class="form-control signup-form-placeholder" id="age" 
-                            required style="border-radius:10px; border-color:rgb(233, 232, 232);" name="dob">
-                            @if($errors->has("dob")) <p style="color:red;font-size:14px;">{{ $errors->first('dob') }}</p>@endif
+                        <label for="age" class="pb-2 form-label-signup">Age</label>
+                        <input type="number" class="form-control signup-form-placeholder" id="age" placeholder="Age"
+                            required style="border-radius:10px; border-color:rgb(233, 232, 232);">
                     </div>
                 </div>
                 <label for="password" class="pb-2 form-label-signup">Password</label>
                 <input type="password" class="form-control signup-form-placeholder" id="password" placeholder="Password"
-                    required style="border-radius:10px; border-color:rgb(233, 232, 232);" name="password">
-                    @if($errors->has("password")) <p style="color:red;font-size:14px;">{{ $errors->first('password') }}</p>@endif
+                    required style="border-radius:10px; border-color:rgb(233, 232, 232);">
                 <label for="confirm-password" class="pb-2 form-label-signup">Confirm Password</label>
                 <input type="password" class="form-control signup-form-placeholder" id="confirm-password"
                     placeholder="Confirm Password" required
-                    style="border-radius:10px; border-color:rgb(233, 232, 232);" name="password_confirmation">
-                    @if($errors->has("password_confirmation")) <p style="color:red;font-size:14px;">{{ $errors->first('password_confirmation') }}</p>@endif
+                    style="border-radius:10px; border-color:rgb(233, 232, 232);">
                 <div class="form-check mb-3">
                     <input type="checkbox" class="form-check-input" id="terms">
                     <label class="form-check-label" for="terms">
@@ -152,10 +138,10 @@ body {
                             Conditions</a>
                     </label>
                 </div>
-                <h3 class="small-link text-purple text-start mt-3 mb-2">Already have a account ? <a href="{{url('sign-in')}}" style="color:#F1935D;">Sign In</a></h3>
                 <button type="submit" class="btn btn-custom" style="border-radius: 20px;">Create account</button>
             </form>
         </div>
     </div>
 </div>
-@include('layouts.footer')
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

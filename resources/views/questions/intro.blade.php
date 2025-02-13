@@ -120,7 +120,7 @@
                 </div>
             </div>
 
-            <div class="row align-items-center text-md-start text-center">
+            <div class="row align-items-center text-md-start mt-3 text-center">
                 <div class="col-md-3 mb-3 mb-md-0">
                     <img src="{{ asset('assets/images/img224.PNG') }}" alt="Example Image" class="img-fluid">
                 </div>
