@@ -69,7 +69,7 @@ body {
 
     .left-panel,
     .right-panel {
-        padding: 20px;
+        padding: 20px; 
     }
 }
 </style>

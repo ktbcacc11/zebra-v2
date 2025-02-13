@@ -1,4 +1,4 @@
-<div class="d-flex flex-column flex-lg-row footerSec py-3 px-0 hideOnMobile">
+<!-- <div class="d-flex flex-column flex-lg-row footerSec py-3 px-0 hideOnMobile">
     <div class="col-12 col-lg-6 d-flex flex-column flex-lg-row">
         <div class="col-12 col-lg-6 d-flex justify-content-center">
             <i class="bi bi-envelope px-2"></i>
@@ -15,11 +15,11 @@
         <i class="bi bi-google px-2"></i>
         <i class="bi bi-instagram px-2"></i>
     </div>
-</div>
+</div> -->
 
-<div class="d-flex displayOnMobile footerMobileSection text-center align-items-center justify-content-center py-2 px-2">
+<!-- <div class="d-flex displayOnMobile footerMobileSection text-center align-items-center justify-content-center py-2 px-2">
     <p class="mb-0">Check your brain's potential, it's FREE!</p>
-</div>
+</div> -->
 
 </div>
 </div>

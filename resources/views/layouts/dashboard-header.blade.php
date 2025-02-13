@@ -3,6 +3,7 @@ use App\Models\CustomerDetails;
 use App\Models\Events;
 use App\Models\WPUsers;
 $customer_name = session('user_details')['display_name'];
+$customer_email = session('user_details')['email'];
 $events = Events::where('status', 'active')->get();
 
 $dob = session('user_dob'); 
@@ -152,17 +153,44 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
         <div class="row px-0 ">
             <div class="col-md-2 dashboard-nav vh-100 hideOnMobile flex-column">
                 <div class="logo">
-                    <img src="{{ asset('assets/images/Main_logo.png') }}" alt="Logo" Style="width: 130px; height: auto">
+                    <img src="{{ asset('assets/images/zebranewlogo.png') }}" alt="Logo" Style="width: 200px; height: auto">
                 </div>
 
                 <ul class="nav flex-column">
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link " aria-current="page" href="{{url('/')}}">Home</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('dashboard') ? 'active' : '' }}" aria-current="page" href="{{url('dashboard')}}">Dashboard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="{{url('dashboard')}}">Dashboard</a>
+                        <a class="nav-link {{ request()->is('careers') ? 'active' : '' }}" aria-current="page" href="{{url('careers')}}">Careers</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link {{ request()->is('profile') ? 'active' : '' }}" aria-current="page" href="{{url('profile')}}">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('skill-assestment') ? 'active' : '' }}" aria-current="page" href="{{url('skill-assestment')}}">Skill Assestment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('introvert-or-extrovert') ? 'active' : '' }}" aria-current="page" href="{{url('introvert-or-extrovert')}}">Introvert or Extrovert</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('events') ? 'active' : '' }}" aria-current="page" href="{{url('events')}}" >Our Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('billing') ? 'active' : '' }}" aria-current="page" href="{{url('billing')}}" >Billing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('parent-community') ? 'active' : '' }}" aria-current="page" href="{{url('parent-community')}}">Parent Community</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('brain-performance') ? 'active' : '' }}" aria-current="page" href="{{url('brain-performance')}}">Brain Performance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('test-attempt') ? 'active' : '' }}" aria-current="page" href="{{url('test-attempt')}}">My Test Attempts</a>
+                    </li>
+                    <!-- <li class="nav-item">
                         <a class="nav-link " aria-current="page" href="{{url('tips')}}" style="height:64px;">Your Flow & Grow Tips</a>
                     </li>
                     <li class="nav-item">
@@ -182,12 +210,8 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
                     <li class="nav-item">
                         <a class="nav-link " aria-current="page" href="{{url('test-attempt')}}">My Test Attempts</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="{{url('profile')}}">Profile</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="{{url('events')}}" style="height:40px;">Our Events</a>
-                    </li>
+                   
+                   
                     <li class="nav-item">
                         <a class="nav-link " aria-current="page" href="{{url('packages')}}">Pricing Packages</a>
                     </li>
@@ -200,36 +224,36 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " aria-current="page" href="{{url('comparison-request')}}">Comparison Request</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item logout">
-                        <a class="nav-link " aria-current="page" href="{{url('logout')}}">Logout</a>
+                        <a class="nav-link logout " aria-current="page" href="{{url('logout')}}"><i class="fas fa-sign-out mx-2"></i>Logout </a>
                     </li>
                 </ul>
             </div>
             <div class="col-md-10 vh-100 overflow-auto px-0 dashbordContainer">
                 <div class="row dashboard-top align-items-center hideOnMobile">
-                    <div class="col-md-3 text-start">
+                    <div class="col-md-6 text-start">
                         <div class="input-group search">
                             <input type="text" class="form-control" placeholder="Type what you need to know"
                                 style="background: transparent;">
-                            <div class="input-group-append">
+                            <!-- <div class="input-group-append">
                                 <button class="btn btn-outline-secondary" type="button"><i
                                         class="fas fa-search"></i></button>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     
-                    <div class="col-md-1 text-start">
+                    <!-- <div class="col-md-1 text-start">
     <form action="https://projects.genaitech.dev/zebra-brain-wp/retake" method="POST">
         @csrf
         <button type="submit" class="btn-retake  retake-btn">Retake</button>
     </form>
-</div>
+</div> -->
 
                     
                     
                     
-                    <div class="col-md-5">
+                    <div class="col-md-3">
 
                     </div>
                     <div class="col-md-1 text-end">
@@ -264,14 +288,12 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
                     </div>
                     <div class="col-md-2 text-start">
                         <div class="row  align-items-center">
-                            <div class="col-6 text-start">
+                            <div class="col-8 text-start">
                                 <h1 class="user-name">{{$customer_name}}</h1>
-                                <a href="{{url('logout')}}">
-                                    <h1 class="logout ">Logout </h1>
-                                </a>
+                                    <h1 class="logout ">{{$customer_email}}</h1>
                             </div>
-                            <div class="col-6 text-start">
-                                <img src="{{ asset('assets/images/zebra2.PNG') }}" class="user-image">
+                            <div class="col-4 text-start">
+                            <a href="{{url('logout')}}"><i class="fas fa-sign-out mx-2" style="color: #f52c3f;"></i></a>
                             </div>
                         </div>
                     </div>
@@ -312,11 +334,11 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
                                 </div>
                                 <h2 class="drawerTitle text-center mt-3 mb-4">Menu</h2>
                                 <ul class="nav flex-column text-center mobileDrawerMenu">
-                                    <li>
+                                    <!-- <li>
                                         <a href="{{url('retake')}}"><button type="submit" class="btn-retake  retake-btn">Retake</button></a>
 
-                                    </li>
-                                    <li class="nav-item">
+                                    </li> -->
+                                    <!-- <li class="nav-item">
                                         <a class="nav-link " aria-current="page" href="{{url('/')}}">Home</a>
                                     </li>
                                     <li class="nav-item">
@@ -364,7 +386,40 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
                                     <br>
                                     <li class="nav-item logout">
                                         <a class="nav-link " aria-current="page" href="{{url('logout')}}">Logout</a>
-                                    </li>
+                                    </li> -->
+                                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('dashboard') ? 'active' : '' }}" aria-current="page" href="{{url('dashboard')}}">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('careers') ? 'active' : '' }}" aria-current="page" href="{{url('careers')}}">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('profile') ? 'active' : '' }}" aria-current="page" href="{{url('profile')}}">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('skill-assestment') ? 'active' : '' }}" aria-current="page" href="{{url('skill-assestment')}}">Skill Assestment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('introvert-or-extrovert') ? 'active' : '' }}" aria-current="page" href="{{url('introvert-or-extrovert')}}">Introvert or Extrovert</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('events') ? 'active' : '' }}" aria-current="page" href="{{url('events')}}" >Our Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('billing') ? 'active' : '' }}" aria-current="page" href="{{url('billing')}}" >Billing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('parent-community') ? 'active' : '' }}" aria-current="page" href="{{url('parent-community')}}">Parent Community</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('brain-performance') ? 'active' : '' }}" aria-current="page" href="{{url('brain-performance')}}">Brain Performance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('test-attempt') ? 'active' : '' }}" aria-current="page" href="{{url('test-attempt')}}">My Test Attempts</a>
+                    </li>
+                    <li class="nav-item logout">
+                        <a class="nav-link logout " aria-current="page" href="{{url('logout')}}"><i class="fas fa-sign-out mx-2"></i>Logout </a>
+                    </li>
                                 </ul>
                                 {{-- <button type="button" class="btn-close float-end" aria-label="Close"
                                     id="closeDrawerBtn"></button> --}}

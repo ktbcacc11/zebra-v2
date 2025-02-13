@@ -118,9 +118,9 @@ Route::get('/content', function () {
     return view('new_pages.content');
 });
 
-Route::get('/sign-up', function () {
-    return view('new_pages.sign_up');
-});
+// Route::get('/sign-up', function () {
+//     return view('new_pages.sign_up');
+// });
 
 
 

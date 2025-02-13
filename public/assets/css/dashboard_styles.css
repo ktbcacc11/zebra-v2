@@ -435,9 +435,10 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
     top: -120%;
     left: 0;
     width: 100%;
-    background-color: #E19065;
+    /* background-color: #E19065; */
     transition: top 0.1s ease-in;
     z-index: 9999;
+    background-color: #fff;
 }
 
 .drawer.open {
@@ -445,11 +446,13 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
 }
 
 .navbarMobile {
-    background-color: #FFCC66;
+    /* background-color: #FFCC66; */
+    background-color: #fff;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 9999;
+    border-bottom: 1px solid rgb(0 0 0 / 32%) !important;
 }
 
 .navbar-toggler i {
@@ -545,23 +548,33 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
     .backLinkDrawer {
         font-size: 14px;
         line-height: 14px;
-        color: #FFCC66;
+        /* color: #FFCC66; */
+        color: #000;
     }
 
     .drawerTitle {
         font-size: 28px;
         line-height: 28px;
-        color: #FFCC66;
+        /* color: #FFCC66; */
+        color: #000;
     }
 
     .mobileDrawerMenu li a{
         font-size: 16px;
-        color: #000000;
-        line-height: 16px;
-        margin-bottom: 0px;
-        font-weight: 500;
+        color: rgb(0 0 0 / 32%);
+        font-weight: 600;
+        border-radius: 10px;
     }
-
+    .mobileDrawerMenu li a.active{
+        background: #FFCC66;
+        color: #000000;
+        border-radius: 10px;
+    }
+    .mobileDrawerMenu li a.logout{
+        background: #f8d7da;
+        color: #f52c3f;
+        text-align: center;
+    }
     .footerMobileSection{
         background-color: #FFCC66;
         position: fixed;
