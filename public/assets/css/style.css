@@ -11,7 +11,7 @@
 
 body {
     font-family: 'Aptos', sans-serif !important;
-   /* font-family: 'Aptos', sans-serif !important; */
+    /* font-family: 'Aptos', sans-serif !important; */
 }
 
 h1,
@@ -26,7 +26,7 @@ div,
 a,
 li {
     font-family: 'Aptos', sans-serif !important;
-   /* font-family: 'Aptos', sans-serif !important; */
+    /* font-family: 'Aptos', sans-serif !important; */
 }
 
 .bg-light {
@@ -134,7 +134,8 @@ li {
 }
 
 .comparison-sub-title {
-    font-family: 'Aptos', sans-serif !important;;
+    font-family: 'Aptos', sans-serif !important;
+    ;
     font-size: 15px;
     font-weight: 500;
     color: #9F9F9F;
@@ -150,13 +151,14 @@ li {
 } */
 
 .recipient-email-input .form-label {
-    font-family: 'Aptos', sans-serif !important;;
+    font-family: 'Aptos', sans-serif !important;
+    ;
     font-size: 13px;
     font-weight: 700;
 }
 
 #exampleFormControlInput1::placeholder {
-    
+
     font-weight: 400;
     font-size: 11px;
 }
@@ -264,7 +266,8 @@ td {
     border-radius: 0;
     height: 60px;
     padding-inline: 35px;
-    font-family: 'Aptos', sans-serif !important;;
+    font-family: 'Aptos', sans-serif !important;
+    ;
     font-size: 16px;
     font-weight: 700;
     border-right: 1px solid #72727242;
@@ -912,26 +915,60 @@ a {
 
 
 /* pricing page */
+.pricing-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
 
-.pricing-new .pricing-card{
+.pricing-card {
+    flex: 1 1 calc(33.333% - 40px);
+    max-width: calc(33.333% - 40px);
+    box-sizing: border-box;
+}
+
+@media (max-width: 992px) {
+    .pricing-card {
+        flex: 1 1 calc(50% - 40px);
+        max-width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 768px) {
+    .pricing-card {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
+
+.pricing-new .pricing-card {
     border-radius: 16px;
     padding-bottom: 0;
-    
+    transition: box-shadow 0.3s ease;
+
 }
-.pricing-new .pricing-title{
+
+.pricing-new .pricing-card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+
+}
+
+.pricing-new .pricing-title {
     font-size: 25px;
     color: #F1935D;
     font-weight: 600;
 }
 
 
-.pricing-new .pricing-title-description{
+.pricing-new .pricing-title-description {
     font-size: 16px;
     font-weight: 500;
 }
 
 
-.pricing-new .price-plan{
+.pricing-new .price-plan {
     font-size: 60px;
     color: #F1935D;
     font-weight: 700;
@@ -939,12 +976,12 @@ a {
     margin-bottom: 30px;
 }
 
-.pricing-new .pricing-text{
+.pricing-new .pricing-text {
     font-size: 16px;
     font-weight: 500;
 }
 
-.pricing-new .plan-select-button{
+.pricing-new .plan-select-button {
     background-color: #000814;
     color: #FFFFFF;
     font-weight: 500;
@@ -954,6 +991,35 @@ a {
     border: none;
     height: 50px;
 }
+
+/* events new page */
+
+
+/* brain connect popup */
+.modal-backdrop {
+
+    background: rgba(0, 0, 0, 0.83) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(19.6px) !important;
+    -webkit-backdrop-filter: blur(19.6px) !important;
+}
+
+/* Centering the modal */
+.modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Styling for the modal */
+.modal-content {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 
 @media screen and (max-width: 500px) {
 
@@ -970,6 +1036,8 @@ a {
     .main-wrapper {
         padding: 0;
         padding-top: 100px;
+        flex: 1;
+        overflow-y: auto;
     }
 
     .careers-section-list {
@@ -1006,6 +1074,45 @@ a {
 
 }
 
+
+
+
+/* contact form */
+
+.contact-form-card {
+    border-radius: 16px;
+    border: 0.5px solid #C6C8CA;
+    padding: 15px;
+}
+
+.contact-form-card .form-control {
+    border-radius: 8px;
+    border: 0.5px solid #C6C8CA;
+    padding: 10px;
+
+}
+
+.contact-form-card .form-label {
+    font-size: 16px;
+    color: #000814;
+
+}
+
+.contact-form-card .form-control::placeholder {
+    font-size: 16px;
+    color: #C6C8CA;
+}
+
+.contact-form-card .yellow-send-message-btn {
+    background-color: #F6C94D;
+    /* width: fit-content !important; */
+    padding: 10px 15px !important;
+    font-size: 18px;
+    border-radius: 32px;
+    border: 1px solid #F6C94D;
+    color: #fff;
+
+}
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .pricing-card {

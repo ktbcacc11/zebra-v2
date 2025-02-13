@@ -133,6 +133,13 @@ Route::get('/pricing', function () {
     return view('pricing');
 });
 
+Route::get('/events-new', function () {
+    return view('events_new');
+});
+
+Route::get('/contact-form', function () {
+    return view('contact_form');
+});
 
 
 
