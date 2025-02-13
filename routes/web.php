@@ -142,7 +142,9 @@ Route::get('/contact-form', function () {
 });
 
 
-
+Route::get('/content', function () {
+    return view('new_pages.content');
+});
 Route::match(['get', 'post'],'/skill-test/{question}', [SkillTestController::class, 'skill_test'])->middleware('authCustomer');
 Route::match(['get', 'post'],'/save-skill-test-answers', [SkillTestController::class, 'save_skill_test_answers'])->middleware('authCustomer');
 
