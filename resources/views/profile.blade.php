@@ -26,7 +26,7 @@
                         <div class="col-12 col-lg-6">
                             <div class="d-flex flex-column flex-lg-row justify-content-lg-end gap-2 button-row">
                                 <button class="rounded-phill-button outlined">Share my Profile</button>
-                                <button class="rounded-phill-button background">Profile Setting</button>
+                                <a href="{{url('profile-settings')}}"><button class="rounded-phill-button background">Profile Setting</button></a>
                             </div>
                         </div>
                     </div>

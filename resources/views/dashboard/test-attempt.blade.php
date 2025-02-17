@@ -255,7 +255,7 @@ $brain_score = BrainScores::where("answer_main_id", $attempt->id)->first();
         
         <div class="centered-container">
         <h3>Your brain stripes & Your test results</h3>
-       
+        <h3>Your brain result code : {{$brain_score->result_code}}</h3>
         <!--<button class="custom-button">Download Report</button>-->
         <img src="{{ asset('assets/images/brainnew2.png') }}" alt="Brain Image">
         </div>
@@ -263,13 +263,13 @@ $brain_score = BrainScores::where("answer_main_id", $attempt->id)->first();
         <div class="row" style="justify-content: center;">
           <div class="col-5 col-lg-3">
             <div class="box-data p-4 bg-yellow" style="border:2px solid black;">
-              <p class="mb-0" style="color:#000000 !important;">Limitless Focus</p>
+              <p class="mb-0" style="color:#000000 !important;"> Candid ( Analytical Brain) </p>
               <h3 class="mb-0" style="color:#000000 !important;">{{$brain_score->l1_score}}%</h3>
             </div>
           </div>
           <div class="col-5 col-lg-3">
             <div class="box-data p-4 bg-orange" style="border:2px solid black;">
-              <p class="mb-0" style="color:#000000 !important;">Limitless Vision</p>
+              <p class="mb-0" style="color:#000000 !important;">Fastidious ( Practical Brain)</p>
               <h3 class="mb-0" style="color:#000000 !important;">{{$brain_score->l2_score}}%</h3>
             </div>
           </div>
@@ -277,13 +277,13 @@ $brain_score = BrainScores::where("answer_main_id", $attempt->id)->first();
         <div class="row mt-3" style="justify-content: center;">
           <div class="col-5 col-lg-3">
             <div class="box-data p-4 bg-blue" style="border:2px solid black;">
-              <p class="mb-0" style="color:#000000 !important;">Limitless Harmony</p>
+              <p class="mb-0" style="color:#000000 !important;">Maverick ( Innovative Brain )</p>
               <h3 class="mb-0" style="color:#000000 !important;">{{$brain_score->r1_score}}%</h3>
             </div>
           </div>
           <div class="col-5 col-lg-3">
             <div class="box-data p-4 bg-green" style="border:2px solid black;">
-              <p class="mb-0" style="color:#000000 !important;">Limitless Balance</p>
+              <p class="mb-0" style="color:#000000 !important;">Affable ( Relational Brain)</p>
               <h3 class="mb-0" style="color:#000000 !important;">{{$brain_score->r2_score}}%</h3>
             </div>
           </div>

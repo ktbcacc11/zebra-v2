@@ -180,10 +180,10 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
                         <a class="nav-link {{ request()->is('profile') ? 'active' : '' }}" aria-current="page" href="{{url('profile')}}">Profile</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ request()->is('skill-assestment') ? 'active' : '' }}" aria-current="page" href="{{url('skill-assestment')}}">Skill Assestment</a>
+                        <a class="nav-link {{ request()->is('skill-assestment') ? 'active' : '' }}" aria-current="page" href="{{url('skill-test/q1')}}">Skill Assestment</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ request()->is('introvert-or-extrovert') ? 'active' : '' }}" aria-current="page" href="{{url('introvert-or-extrovert')}}">Introvert or Extrovert</a>
+                        <a class="nav-link {{ request()->is('introvert-or-extrovert') ? 'active' : '' }}" aria-current="page" href="{{url('introvert-extrovert-question/q1')}}">Introvert or Extrovert</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {{ request()->is('events') ? 'active' : '' }}" aria-current="page" href="{{url('events')}}" >Our Events</a>
@@ -296,7 +296,7 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
                    
 
                     </div>
-                    <div class="col-md-3 text-start">
+                    <div class="col-md-2 text-start">
                         <div class="row  align-items-center">
                             <div class="col-8 text-start">
                                 <h1 class="user-name">{{$customer_name}}</h1>
@@ -407,10 +407,10 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
                         <a class="nav-link {{ request()->is('profile') ? 'active' : '' }}" aria-current="page" href="{{url('profile')}}">Profile</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ request()->is('skill-assestment') ? 'active' : '' }}" aria-current="page" href="{{url('skill-assestment')}}">Skill Assestment</a>
+                        <a class="nav-link {{ request()->is('skill-assestment') ? 'active' : '' }}" aria-current="page" href="{{url('skill-test/q1')}}">Skill Assestment</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ request()->is('introvert-or-extrovert') ? 'active' : '' }}" aria-current="page" href="{{url('introvert-or-extrovert')}}">Introvert or Extrovert</a>
+                        <a class="nav-link {{ request()->is('introvert-or-extrovert') ? 'active' : '' }}" aria-current="page" href="{{url('introvert-extrovert-question/q1')}}">Introvert or Extrovert</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {{ request()->is('events') ? 'active' : '' }}" aria-current="page" href="{{url('events')}}" >Our Events</a>

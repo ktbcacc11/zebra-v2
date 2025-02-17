@@ -13,7 +13,8 @@ $d_score = UserDimensionalScore::where('user_id',session('user_id'))->first();
 </style>
 <div class="dashboard-page-content">
     <div class="p-3 w-100">
-
+    @if(Session::has('fail')) <p style="color:red;font-size:14px;"><?php echo Session::get('fail') ?></p>@endif
+    @if(Session::has('success')) <p style="color:green;font-size:14px;"><?php echo Session::get('success') ?></p>@endif
         <h3 class="section-title-big  hideOnMobile">Hi ! Good Evening</h3>
         <h3 class="section-title text-purple mt-3 hideOnMobile">Let's check your future opportunities</h3>
         <!--<?php echo session('user_dob') ?? 'no dob'; ?>-->

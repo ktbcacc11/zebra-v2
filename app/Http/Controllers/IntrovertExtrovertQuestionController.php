@@ -35,6 +35,7 @@ use App\Models\SkillTestQuestions;
 use App\Models\IntrovertExtrovertQuestions;
 use App\Models\IntrovertExtrovertAnswerMain;
 use App\Models\IntrovertExtrovertQuestionAnswers;
+use App\Models\WPUsers;
 use App\Http\Controllers\BrainResultsController;
 
 class IntrovertExtrovertQuestionController extends Controller
@@ -43,49 +44,53 @@ class IntrovertExtrovertQuestionController extends Controller
 
     
     public function introvert_extrovert_question($question) {
+        if (WPUsers::where('user_id', session('user_id'))->value('introverted_extroverted') == null || WPUsers::where('user_id', session('user_id'))->value('introverted_extroverted') == '') {
+            if($question == "q1") {
+                $question = IntrovertExtrovertQuestions::where('id', 1)->first();
+                return view('introvert-extrovert-question/question', ['question' => $question, 'question_no' => 1]);
+            }
+            
+            if($question == "q2") {
+                $question = IntrovertExtrovertQuestions::where('id', 2)->first();
+                return view('introvert-extrovert-question/question', ['question' => $question, 'question_no' => 2]);
+            }
+            if($question == "q3") {
+                $question = IntrovertExtrovertQuestions::where('id', 3)->first();
+                return view('introvert-extrovert-question/question', ['question' => $question, 'question_no' => 3]);
+            }
+            if($question == "q4") {
+                $question = IntrovertExtrovertQuestions::where('id', 4)->first();
+                return view('introvert-extrovert-question/question', ['question' => $question, 'question_no' => 4]);
+            }
+            if($question == "q5") {
+                $question = IntrovertExtrovertQuestions::where('id', 5)->first();
+                return view('introvert-extrovert-question/question', ['question' => $question, 'question_no' => 5]);
+            }
+            if($question == "q6") {
+                $question = IntrovertExtrovertQuestions::where('id', 6)->first();
+                return view('introvert-extrovert-question/question', ['question' => $question, 'question_no' => 6]);
+            }
+            if($question == "q7") {
+                $question = IntrovertExtrovertQuestions::where('id', 7)->first();
+                return view('introvert-extrovert-question/question', ['question' => $question, 'question_no' => 7]);
+            }
+            if($question == "q8") {
+                $question = IntrovertExtrovertQuestions::where('id', 8)->first();
+                return view('introvert-extrovert-question/question', ['question' => $question, 'question_no' => 8]);
+            }
+            if($question == "q9") {
+                $question = IntrovertExtrovertQuestions::where('id', 9)->first();
+                return view('introvert-extrovert-question/question', ['question' => $question, 'question_no' => 9]);
+            }
+            if($question == "q10") {
+                $question = IntrovertExtrovertQuestions::where('id', 10)->first();
+                return view('introvert-extrovert-question/question', ['question' => $question, 'question_no' => 10]);
+            }
+           
+        } else {
+            return redirect('dashboard')->with('fail', 'Can not take this test agin');
+        }
     
-    if($question == "q1") {
-        $question = IntrovertExtrovertQuestions::where('id', 1)->first();
-        return view('introvert-extrovert-question/question', ['question' => $question, 'question_no' => 1]);
-    }
-    
-    if($question == "q2") {
-        $question = IntrovertExtrovertQuestions::where('id', 2)->first();
-        return view('introvert-extrovert-question/question', ['question' => $question, 'question_no' => 2]);
-    }
-    if($question == "q3") {
-        $question = IntrovertExtrovertQuestions::where('id', 3)->first();
-        return view('introvert-extrovert-question/question', ['question' => $question, 'question_no' => 3]);
-    }
-    if($question == "q4") {
-        $question = IntrovertExtrovertQuestions::where('id', 4)->first();
-        return view('introvert-extrovert-question/question', ['question' => $question, 'question_no' => 4]);
-    }
-    if($question == "q5") {
-        $question = IntrovertExtrovertQuestions::where('id', 5)->first();
-        return view('introvert-extrovert-question/question', ['question' => $question, 'question_no' => 5]);
-    }
-    if($question == "q6") {
-        $question = IntrovertExtrovertQuestions::where('id', 6)->first();
-        return view('introvert-extrovert-question/question', ['question' => $question, 'question_no' => 6]);
-    }
-    if($question == "q7") {
-        $question = IntrovertExtrovertQuestions::where('id', 7)->first();
-        return view('introvert-extrovert-question/question', ['question' => $question, 'question_no' => 7]);
-    }
-    if($question == "q8") {
-        $question = IntrovertExtrovertQuestions::where('id', 8)->first();
-        return view('introvert-extrovert-question/question', ['question' => $question, 'question_no' => 8]);
-    }
-    if($question == "q9") {
-        $question = IntrovertExtrovertQuestions::where('id', 9)->first();
-        return view('introvert-extrovert-question/question', ['question' => $question, 'question_no' => 9]);
-    }
-    if($question == "q10") {
-        $question = IntrovertExtrovertQuestions::where('id', 10)->first();
-        return view('introvert-extrovert-question/question', ['question' => $question, 'question_no' => 10]);
-    }
-   
 }
 
 public function save_introvert_extrovert_answers(Request $request) {
