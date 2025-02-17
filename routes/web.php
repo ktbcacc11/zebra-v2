@@ -85,6 +85,9 @@ Route::match(['get', 'post'],'/sweta-adatia', [MainController::class, 'swetaadat
 Route::match(['get', 'post'],'/hussain-ghadiyali', [MainController::class, 'hussain']);
 Route::match(['get', 'post'],'/partnered-consultant', [MainController::class, 'partneredconsultant']);
 
+Route::match(['get', 'post'],'/multi-tasking', [MainController::class, 'multitasking']);
+Route::match(['get', 'post'],'/multi-task-inner', [MainController::class, 'multitaskinginner']);
+
 
 Route::match(['get', 'post'],'/basic-report-template', [MainController::class, 'basic_report_template'])->middleware('authCustomer');
 

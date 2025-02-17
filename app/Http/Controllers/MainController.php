@@ -88,6 +88,16 @@ class MainController extends Controller
 
         return view('dashboard/consultation-booking');
     }
+
+    public function multitasking(){
+        return view('dashboard/multi-tasking');
+        
+    }
+
+    public function multitaskinginner(){
+        return view('dashboard/multi-task-inner');
+        
+    }
     public function internships(){
          $brain_profile_id = WPUsers::where('user_id', session('user_details')['id'])->value('brain_profile_id');
         $star_ratings = StarRatings::where('brain_profile_id', $brain_profile_id)->where('category', 'internships')->get();
