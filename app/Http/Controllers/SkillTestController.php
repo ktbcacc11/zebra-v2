@@ -222,6 +222,12 @@ class SkillTestController extends Controller
                                     $QuestionAnswerMain = SkillTestAnswersMain::where('id',session('skill_test_answer_main_id'))->first();
                                     $QuestionAnswerMain->status = "complete";
                                     $QuestionAnswerMain->update();
+
+                                    $BrainResultsController = new BrainResultsController();
+                                    $BrainResultsController->add_skill_brain_results(session('skill_test_answer_main_id'));
+
+                                    $request->session()->forget(['skill_test_answer_main_id']);
+
                                     return redirect('dashboard');
                                 }
                                 else{
