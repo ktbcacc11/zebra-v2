@@ -3,6 +3,7 @@ use App\Models\CustomerDetails;
 use App\Models\Events;
 use App\Models\WPUsers;
 $customer_name = session('user_details')['display_name'];
+$customer_email = session('user_details')['email'];
 $events = Events::where('status', 'active')->get();
 
 $dob = session('user_dob'); 
@@ -32,23 +33,32 @@ $user_current_age = WPUsers::where('user_id', session('user_id'))->value('age') 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.css" rel="stylesheet" />
 
 
+{{-- google font nunito --}}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+{{-- google font poppins --}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
 </head>
 <style>
 
-@font-face {
+/* @font-face {
     font-family: 'Aptos';
     src: 
          url('Fonts/aptos-font/Aptos-Serif.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-}
+} */
 
 body {
-    font-family: 'Aptos', sans-serif !important;
+    font-family: 'Aptos', sans-serif !important;;;
 }
 h1, h2, h3, h4, h5, h6, p, span, div, a, li {
-    font-family: 'Aptos', sans-serif !important;
+    font-family: 'Aptos', sans-serif !important;;;
 }
 
 .btn-retake {
@@ -58,7 +68,8 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
     border-radius:30px;
     width:140px;
     height:42px;
-    border-color:#ffcc66;
+    border:none;
+    /*border-color:#ffcc66;*/
 }
 
 .header-notification ul {
@@ -152,17 +163,44 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
         <div class="row px-0 ">
             <div class="col-md-2 dashboard-nav vh-100 hideOnMobile flex-column">
                 <div class="logo">
-                    <img src="{{ asset('assets/images/Main_logo.png') }}" alt="Logo" Style="width: 130px; height: auto">
+                    <img src="{{ asset('assets/images/zebranewlogo.png') }}" alt="Logo" Style="width: 200px; height: auto">
                 </div>
 
                 <ul class="nav flex-column">
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link " aria-current="page" href="{{url('/')}}">Home</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('dashboard') ? 'active' : '' }}" aria-current="page" href="{{url('dashboard')}}">Dashboard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="{{url('dashboard')}}">Dashboard</a>
+                        <a class="nav-link {{ request()->is('careers') ? 'active' : '' }}" aria-current="page" href="{{url('careers')}}">Careers</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link {{ request()->is('profile') ? 'active' : '' }}" aria-current="page" href="{{url('profile')}}">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('skill-assestment') ? 'active' : '' }}" aria-current="page" href="{{url('skill-test/q1')}}">Skill Assestment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('introvert-or-extrovert') ? 'active' : '' }}" aria-current="page" href="{{url('introvert-extrovert-question/q1')}}">Introvert or Extrovert</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('events') ? 'active' : '' }}" aria-current="page" href="{{url('events')}}" >Our Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('billing') ? 'active' : '' }}" aria-current="page" href="{{url('billing')}}" >Billing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('parent-community') ? 'active' : '' }}" aria-current="page" href="{{url('parent-community')}}">Parent Community</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('brain-performance') ? 'active' : '' }}" aria-current="page" href="{{url('brain-performance')}}">Brain Performance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('test-attempt') ? 'active' : '' }}" aria-current="page" href="{{url('test-attempt')}}">My Test Attempts</a>
+                    </li>
+                    <!-- <li class="nav-item">
                         <a class="nav-link " aria-current="page" href="{{url('tips')}}" style="height:64px;">Your Flow & Grow Tips</a>
                     </li>
                     <li class="nav-item">
@@ -182,12 +220,8 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
                     <li class="nav-item">
                         <a class="nav-link " aria-current="page" href="{{url('test-attempt')}}">My Test Attempts</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="{{url('profile')}}">Profile</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="{{url('events')}}" style="height:40px;">Our Events</a>
-                    </li>
+                   
+                   
                     <li class="nav-item">
                         <a class="nav-link " aria-current="page" href="{{url('packages')}}">Pricing Packages</a>
                     </li>
@@ -200,36 +234,36 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " aria-current="page" href="{{url('comparison-request')}}">Comparison Request</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item logout">
-                        <a class="nav-link " aria-current="page" href="{{url('logout')}}">Logout</a>
+                        <a class="nav-link logout " aria-current="page" href="{{url('logout')}}"><i class="fas fa-sign-out mx-2"></i>Logout </a>
                     </li>
                 </ul>
             </div>
             <div class="col-md-10 vh-100 overflow-auto px-0 dashbordContainer">
                 <div class="row dashboard-top align-items-center hideOnMobile">
-                    <div class="col-md-3 text-start">
+                    <div class="col-md-6 text-start">
                         <div class="input-group search">
                             <input type="text" class="form-control" placeholder="Type what you need to know"
                                 style="background: transparent;">
-                            <div class="input-group-append">
+                            <!-- <div class="input-group-append">
                                 <button class="btn btn-outline-secondary" type="button"><i
                                         class="fas fa-search"></i></button>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     
-                    <div class="col-md-1 text-start">
+                    <!-- <div class="col-md-1 text-start">
     <form action="https://projects.genaitech.dev/zebra-brain-wp/retake" method="POST">
         @csrf
         <button type="submit" class="btn-retake  retake-btn">Retake</button>
     </form>
-</div>
+</div> -->
 
                     
                     
                     
-                    <div class="col-md-5">
+                    <div class="col-md-3">
 
                     </div>
                     <div class="col-md-1 text-end">
@@ -264,14 +298,12 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
                     </div>
                     <div class="col-md-2 text-start">
                         <div class="row  align-items-center">
-                            <div class="col-6 text-start">
+                            <div class="col-8 text-start">
                                 <h1 class="user-name">{{$customer_name}}</h1>
-                                <a href="{{url('logout')}}">
-                                    <h1 class="logout ">Logout </h1>
-                                </a>
+                                    <h1 class="logout ">{{$customer_email}}</h1>
                             </div>
-                            <div class="col-6 text-start">
-                                <img src="{{ asset('assets/images/zebra2.PNG') }}" class="user-image">
+                            <div class="col-4 text-start">
+                            <a href="{{url('logout')}}"><i class="fas fa-sign-out mx-2" style="color: #f52c3f;"></i></a>
                             </div>
                         </div>
                     </div>
@@ -312,11 +344,11 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
                                 </div>
                                 <h2 class="drawerTitle text-center mt-3 mb-4">Menu</h2>
                                 <ul class="nav flex-column text-center mobileDrawerMenu">
-                                    <li>
+                                    <!-- <li>
                                         <a href="{{url('retake')}}"><button type="submit" class="btn-retake  retake-btn">Retake</button></a>
 
-                                    </li>
-                                    <li class="nav-item">
+                                    </li> -->
+                                    <!-- <li class="nav-item">
                                         <a class="nav-link " aria-current="page" href="{{url('/')}}">Home</a>
                                     </li>
                                     <li class="nav-item">
@@ -364,7 +396,40 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
                                     <br>
                                     <li class="nav-item logout">
                                         <a class="nav-link " aria-current="page" href="{{url('logout')}}">Logout</a>
-                                    </li>
+                                    </li> -->
+                                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('dashboard') ? 'active' : '' }}" aria-current="page" href="{{url('dashboard')}}">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('careers') ? 'active' : '' }}" aria-current="page" href="{{url('careers')}}">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('profile') ? 'active' : '' }}" aria-current="page" href="{{url('profile')}}">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('skill-assestment') ? 'active' : '' }}" aria-current="page" href="{{url('skill-test/q1')}}">Skill Assestment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('introvert-or-extrovert') ? 'active' : '' }}" aria-current="page" href="{{url('introvert-extrovert-question/q1')}}">Introvert or Extrovert</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('events') ? 'active' : '' }}" aria-current="page" href="{{url('events')}}" >Our Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('billing') ? 'active' : '' }}" aria-current="page" href="{{url('billing')}}" >Billing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('parent-community') ? 'active' : '' }}" aria-current="page" href="{{url('parent-community')}}">Parent Community</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('brain-performance') ? 'active' : '' }}" aria-current="page" href="{{url('brain-performance')}}">Brain Performance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->is('test-attempt') ? 'active' : '' }}" aria-current="page" href="{{url('test-attempt')}}">My Test Attempts</a>
+                    </li>
+                    <li class="nav-item logout">
+                        <a class="nav-link logout " aria-current="page" href="{{url('logout')}}"><i class="fas fa-sign-out mx-2"></i>Logout </a>
+                    </li>
                                 </ul>
                                 {{-- <button type="button" class="btn-close float-end" aria-label="Close"
                                     id="closeDrawerBtn"></button> --}}

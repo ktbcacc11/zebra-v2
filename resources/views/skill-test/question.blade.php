@@ -143,7 +143,7 @@ p {
 </style>
 <section class="section-margin-bottom section-margin-top">
     <div class="container questions-container">
-    <h5 class="step-txt">Step 01/02</h5>
+    <!-- <h5 class="step-txt">Step 01/02</h5> -->
         <h3 class="section-title text-purple">Skill Assessment</h3>
         <p>Label your choices from 1 to 4, with 1 being your best choice, followed by 2, 3, and 4.</p>
 

@@ -425,11 +425,21 @@ public function sign_up(Request $request) {
 }
     public function profile(Request $request){
         if ($request->isMethod('get')) {
+
+            return view('profile');
+
+        }
+      
+    }
+    public function profile_settings(Request $request){
+        if ($request->isMethod('get')) {
             // $login_details = User::where('id', Auth::user()->id)->first();
             // $other_details = CustomerDetails::where('user_id', Auth::user()->id)->first();
 
             // return view('dashboard/profile', ['login_details' => $login_details, 'other_details' => $other_details]);
-             return view('dashboard/profile');
+            //  return view('dashboard/profile');
+
+            return view('dashboard/profile_settings');
 
         }
         if($request->isMethod('post')){

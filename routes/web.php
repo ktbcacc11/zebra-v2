@@ -26,7 +26,7 @@ $router->aliasMiddleware('checkUserPacakge', checkUserPacakge::class);
 
 Route::match(['get', 'post'],'/', [MainController::class, 'index']);
 Route::match(['get', 'post'],'/intro', [QuestionsController::class, 'intro']);
-Route::match(['get', 'post'],'/questions/{question}', [QuestionsController::class, 'question']);
+Route::match(['get', 'post'],'/questions/{question}', [QuestionsController::class, 'question'])->middleware('authCustomer');
 Route::match(['get', 'post'],'/childquestions/{question}', [QuestionsController::class, 'childquestions']);
 Route::match(['get', 'post'],'/questions-completed', [QuestionsController::class, 'thankyou']);
 
@@ -54,6 +54,7 @@ Route::match(['get', 'post'],'/university-programs', [MainController::class, 'un
 Route::match(['get', 'post'],'/test-attempt', [MainController::class, 'testAttempt'])->middleware('authCustomer');
 Route::match(['get', 'post'],'/supar-future-club', [MainController::class, 'suparFutureClub'])->middleware('authCustomer');
 Route::match(['get', 'post'],'/profile', [UserController::class, 'profile'])->middleware('authCustomer');
+Route::match(['get', 'post'],'/profile-settings', [UserController::class, 'profile_settings'])->middleware('authCustomer');
 Route::match(['get', 'post'],'/events', [MainController::class, 'events'])->middleware('authCustomer');
 
 Route::match(['get', 'post'],'/test-attempt-2', [MainController::class, 'testAttempt_2'])->middleware('authCustomer');
@@ -116,6 +117,33 @@ Route::match(['get', 'post'],'/compare-results/{id}', [ComparisonController::cla
 
 
 Route::get('/new-dashboard', [MainController::class, 'newDashboard']);
+Route::get('/comparison-page', function () {
+    return view('comparison.compare_results');
+});
+
+Route::get('/careers-inner-page-1', function () {
+    return view('careers.inner_page_1');
+});
+
+Route::get('/careers-inner-page-2', function () {
+    return view('careers.inner_page_2');
+});
+
+Route::get('/profile-new', function () {
+    return view('profile');
+});
+
+Route::get('/pricing', function () {
+    return view('pricing');
+});
+
+Route::get('/events-new', function () {
+    return view('events_new');
+});
+
+Route::get('/contact-form', function () {
+    return view('contact_form');
+});
 
 
 
@@ -125,3 +153,9 @@ Route::match(['get', 'post'],'/save-skill-test-answers', [SkillTestController::c
 
 Route::match(['get', 'post'],'/introvert-extrovert-question/{question}', [IntrovertExtrovertQuestionController::class, 'introvert_extrovert_question'])->middleware('authCustomer');
 Route::match(['get', 'post'],'/save-introvert-extrovert-answers', [IntrovertExtrovertQuestionController::class, 'save_introvert_extrovert_answers'])->middleware('authCustomer');
+
+
+Route::match(['get', 'post'],'/careers', [MainController::class, 'careers'])->middleware('authCustomer');
+
+Route::match(['get', 'post'],'/careers-inner', [MainController::class, 'careers_inner'])->middleware('authCustomer');
+Route::match(['get', 'post'],'/billing', [MainController::class, 'billing'])->middleware('authCustomer');
