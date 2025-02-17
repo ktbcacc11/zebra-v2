@@ -450,5 +450,16 @@ class MainController extends Controller
 {
     return view('new-dashboard');
 }
-  
+public function careers(){
+
+    return view('careers.inner_page_1');
+}
+public function careers_inner(){
+
+    return view('careers.inner_page_2');
+}
+public function billing(){
+
+    return view('pricing');
+}
 }

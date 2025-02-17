@@ -30,7 +30,7 @@ use App\Models\CustomerDetails;
 use App\Models\BrainScores;
 use App\Models\DimensionalQuestionAnswerMain;
 use App\Models\DimensionalQuestionAnswers;
-
+use App\Models\WPUsers;
 use App\Http\Controllers\BrainResultsController;
 
 class QuestionsController extends Controller
@@ -83,6 +83,7 @@ public function thankyou() {
     
     public function question($question) {
     
+    if (WPUsers::where('user_id', session('user_id'))->value('introverted_extroverted') == null || WPUsers::where('user_id', session('user_id'))->value('introverted_extroverted') == '') {
     $dob = session('user_dob'); 
     $age = \Carbon\Carbon::parse($dob)->age;
 
@@ -570,7 +571,10 @@ public function thankyou() {
             return view('questions/dimention_question', ['question' => $question, 'question_no' => 12]);
         }
     }
-    
+}
+else{
+    return redirect('dashboard')->with('fail', 'Can not take this test agin');
+}
 
 }
 

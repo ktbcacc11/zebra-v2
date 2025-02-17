@@ -54,6 +54,7 @@ Route::match(['get', 'post'],'/university-programs', [MainController::class, 'un
 Route::match(['get', 'post'],'/test-attempt', [MainController::class, 'testAttempt'])->middleware('authCustomer');
 Route::match(['get', 'post'],'/supar-future-club', [MainController::class, 'suparFutureClub'])->middleware('authCustomer');
 Route::match(['get', 'post'],'/profile', [UserController::class, 'profile'])->middleware('authCustomer');
+Route::match(['get', 'post'],'/profile-settings', [UserController::class, 'profile_settings'])->middleware('authCustomer');
 Route::match(['get', 'post'],'/events', [MainController::class, 'events'])->middleware('authCustomer');
 
 Route::match(['get', 'post'],'/test-attempt-2', [MainController::class, 'testAttempt_2'])->middleware('authCustomer');
@@ -142,12 +143,16 @@ Route::get('/contact-form', function () {
 });
 
 
-Route::get('/content', function () {
-    return view('new_pages.content');
-});
+
 Route::match(['get', 'post'],'/skill-test/{question}', [SkillTestController::class, 'skill_test'])->middleware('authCustomer');
 Route::match(['get', 'post'],'/save-skill-test-answers', [SkillTestController::class, 'save_skill_test_answers'])->middleware('authCustomer');
 
 
 Route::match(['get', 'post'],'/introvert-extrovert-question/{question}', [IntrovertExtrovertQuestionController::class, 'introvert_extrovert_question'])->middleware('authCustomer');
 Route::match(['get', 'post'],'/save-introvert-extrovert-answers', [IntrovertExtrovertQuestionController::class, 'save_introvert_extrovert_answers'])->middleware('authCustomer');
+
+
+Route::match(['get', 'post'],'/careers', [MainController::class, 'careers'])->middleware('authCustomer');
+
+Route::match(['get', 'post'],'/careers-inner', [MainController::class, 'careers_inner'])->middleware('authCustomer');
+Route::match(['get', 'post'],'/billing', [MainController::class, 'billing'])->middleware('authCustomer');

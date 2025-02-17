@@ -41,7 +41,10 @@ class SkillTestController extends Controller
 
     
     public function skill_test($question) {
-    
+    if (SkillTestAnswersMain::where('user_id', session('user_id'))
+    ->where('status', 'complete')
+    ->whereBetween('created_at', [Carbon::now()->subDays(365), Carbon::now()])
+    ->count() < 4) {
     $dob = session('user_dob'); 
     $age = \Carbon\Carbon::parse($dob)->age;
 
@@ -178,14 +181,17 @@ class SkillTestController extends Controller
         }
         
     }
-
+    }
+    else{
+        return redirect('dashboard')->with('fail', 'Attempts limit reached');
+    }
 }
 
     public function save_skill_test_answers(Request $request){
-        if (SkillTestAnswersMain::where('user_id', session('user_id'))
-        ->where('status', 'complete')
-        ->whereBetween('created_at', [Carbon::now()->subDays(365), Carbon::now()])
-        ->count() < 4) {
+        // if (SkillTestAnswersMain::where('user_id', session('user_id'))
+        // ->where('status', 'complete')
+        // ->whereBetween('created_at', [Carbon::now()->subDays(365), Carbon::now()])
+        // ->count() < 4) {
             if(session('skill_test_answer_main_id')){
                 $question_no = $request->question_no;
     
@@ -247,10 +253,10 @@ class SkillTestController extends Controller
                     return redirect('skill-test/q1')->with('message', 'Please answer this question first');
                 }
             }
-        }
-        else{
-            return back()->with('message', 'Attempts limit reached');
-        }
+        // }
+        // else{
+        //     return back()->with('message', 'Attempts limit reached');
+        // }
        
 
     }
