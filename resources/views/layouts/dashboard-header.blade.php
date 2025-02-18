@@ -200,6 +200,9 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
                     <li class="nav-item">
                         <a class="nav-link {{ request()->is('test-attempt') ? 'active' : '' }}" aria-current="page" href="{{url('test-attempt')}}">My Test Attempts</a>
                     </li>
+                    <li class="nav-item mt-2">
+                        <a class="nav-link  " aria-current="page" href="{{url('reset-questions')}}" style="background:#f1935d!important;color:#000;">Retake Questions </a>
+                    </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link " aria-current="page" href="{{url('tips')}}" style="height:64px;">Your Flow & Grow Tips</a>
                     </li>

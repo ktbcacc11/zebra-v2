@@ -8,6 +8,7 @@ use App\Models\QuestionAnswerMain;
 use App\Models\SkillTestAnswersMain;
 $attempt = QuestionAnswerMain::where("user_id", session('user_id'))->where('status', 'complete')->first();
 $skill_tests = SkillTestAnswersMain::where("user_id", session('user_id'))->where('status', 'complete')->get();
+$introvert_extrovert = WPUsers::where('user_id',session('user_id'))->value('introverted_extroverted');
 ?>
 
 <style>
@@ -256,16 +257,18 @@ $brain_score = BrainScores::where("answer_main_id", $attempt->id)->first();
         
         <div class="centered-container">
         <h3>Your brain stripes & Your test results</h3>
-        <h3>Your brain result code : {{$brain_score->result_code}}</h3>
+        <!-- <h3>Your brain result code : {{$brain_score->result_code}}</h3> -->
+        <h5>Your brain result code : {{$brain_score->result_code}}</h5>
         <?php 
         $c = 1;
         foreach($skill_tests as $skill_test) { 
           $skill_code = SkillBrainScores::where("skill_test_answer_main_id", $skill_test->id)->value('result_code') ?? '-'; 
         ?> 
-          <h3>Your skill result code {{$c}}: {{$skill_code}}</h3>
+          <h5>Your skill result code {{$c}}: {{$skill_code}}</h5>
         <?php 
       $c = $c + 1;
         } ?>
+        <h5>Introvert or Extrovert: {{$introvert_extrovert}}</h5>
         <!--<button class="custom-button">Download Report</button>-->
         <img src="{{ asset('assets/images/brainnew2.png') }}" alt="Brain Image">
         </div>

@@ -30,6 +30,8 @@ use App\Models\CustomerDetails;
 use App\Models\BrainScores;
 use App\Models\DimensionalQuestionAnswerMain;
 use App\Models\DimensionalQuestionAnswers;
+use App\Models\SkillTestAnswersMain;
+use App\Models\IntrovertExtrovertAnswerMain;
 use App\Models\WPUsers;
 use App\Http\Controllers\BrainResultsController;
 
@@ -1531,6 +1533,37 @@ public function save_dimensional_answers(Request $request) {
 //     $d_score->save();
 // }
 
+public function reset_questions()
+{
+    
+    $userId = session('user_id');
 
+    
+    $questionAnswerMain = QuestionAnswerMain::where('user_id', $userId)->first();
+    if ($questionAnswerMain) {
+        
+        QuestionAnswers::where('answer_main_id', $questionAnswerMain->id)->delete();
+
+        
+        $questionAnswerMain->delete();
+    }
+
+    
+    DimensionalQuestionAnswerMain::where('user_id', $userId)->delete();
+    DimensionalQuestionAnswers::where('user_id', $userId)->delete();
+
+    SkillTestAnswersMain::where('user_id', $userId)->delete();
+    IntrovertExtrovertAnswerMain::where('user_id', $userId)->delete();
+    
+    // session()->flash('success', 'Retake action completed successfully.');
+
+    $wp_user = WPUsers::where('user_id',$userId)->first();
+    $wp_user->brain_profile_id = null;
+    $wp_user->introverted_extroverted = null;
+    $wp_user->update();
+
+     return redirect('questions/q1');
+    
+}
     
 }
