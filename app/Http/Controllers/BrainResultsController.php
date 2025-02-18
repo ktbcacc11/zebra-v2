@@ -34,6 +34,10 @@ use App\Models\DimensionQuestions;
 use App\Models\IntrovertExtrovertQuestionAnswers;
 use App\Models\UserDimensionalScore;
 use App\Models\IntrovertExtrovertQuestions;
+use App\Models\SkillTestQuestionAnswers;
+use App\Models\SkillTestQuestions;
+use App\Models\SkillBrainScores;
+
 
 class BrainResultsController extends Controller
 {
@@ -61,7 +65,7 @@ class BrainResultsController extends Controller
                 elseif(Questions::where("id", $answers->question_id)->where("answer_4", $answers->first_answer)->exists()){
                     $r2_score = $r2_score+4;
                 }
-                else{}
+           
 
                 //score 3
                 if(Questions::where("id", $answers->question_id)->where("answer_1", $answers->second_answer)->exists()){
@@ -76,7 +80,7 @@ class BrainResultsController extends Controller
                 elseif(Questions::where("id", $answers->question_id)->where("answer_4", $answers->second_answer)->exists()){
                     $r2_score = $r2_score+3;
                 }
-                else{}
+          
 
                 //score 2
                 if(Questions::where("id", $answers->question_id)->where("answer_1", $answers->third_answer)->exists()){
@@ -91,7 +95,7 @@ class BrainResultsController extends Controller
                 elseif(Questions::where("id", $answers->question_id)->where("answer_4", $answers->third_answer)->exists()){
                     $r2_score = $r2_score+2;
                 }
-                else{}
+
 
                 //score 1
                 if(Questions::where("id", $answers->question_id)->where("answer_1", $answers->forth_answer)->exists()){
@@ -106,7 +110,7 @@ class BrainResultsController extends Controller
                 elseif(Questions::where("id", $answers->question_id)->where("answer_4", $answers->forth_answer)->exists()){
                     $r2_score = $r2_score+1;
                 }
-                else{}
+      
 
 
             }
@@ -959,5 +963,173 @@ public function add_introvert_extrovert_results($ie_answer_main_id)
     $user->update();
 }
 
+
+public function add_skill_brain_results($skill_test_answer_main_id)
+    {
+            //$answer_main_id = QuestionAnswerMain::where("user_id",Auth::user()->id)->value('id');
+            $answers = SkillTestQuestionAnswers::where("skill_test_answer_main_id",$skill_test_answer_main_id)->get();
+            $l1_score = 0;
+            $l2_score = 0;
+            $r1_score = 0;
+            $r2_score = 0;
+
+            foreach($answers as $answer){
+
+                //score 9
+                if(SkillTestQuestions::where("id", $answer->question_id)->where("answer_1", $answer->first_answer)->exists()){
+                    $l1_score = $l1_score+9;
+                }
+                elseif(SkillTestQuestions::where("id", $answer->question_id)->where("answer_2", $answer->first_answer)->exists()){
+                    $l2_score = $l2_score+9;
+                }
+                elseif(SkillTestQuestions::where("id", $answer->question_id)->where("answer_3", $answer->first_answer)->exists()){
+                    $r1_score = $r1_score+9;
+                }
+                elseif(SkillTestQuestions::where("id", $answer->question_id)->where("answer_4", $answer->first_answer)->exists()){
+                    $r2_score = $r2_score+9;
+                }
+
+                //score 8
+                if(SkillTestQuestions::where("id", $answer->question_id)->where("answer_1", $answer->second_answer)->exists()){
+                    $l1_score = $l1_score+8;
+                }
+                elseif(SkillTestQuestions::where("id", $answer->question_id)->where("answer_2", $answer->second_answer)->exists()){
+                    $l2_score = $l2_score+8;
+                }
+                elseif(SkillTestQuestions::where("id", $answer->question_id)->where("answer_3", $answer->second_answer)->exists()){
+                    $r1_score = $r1_score+8;
+                }
+                elseif(SkillTestQuestions::where("id", $answer->question_id)->where("answer_4", $answer->second_answer)->exists()){
+                    $r2_score = $r2_score+8;
+                }
+    
+                //score 5
+                if(SkillTestQuestions::where("id", $answer->question_id)->where("answer_1", $answer->third_answer)->exists()){
+                    $l1_score = $l1_score+5;
+                }
+                elseif(SkillTestQuestions::where("id", $answer->question_id)->where("answer_2", $answer->third_answer)->exists()){
+                    $l2_score = $l2_score+5;
+                }
+                elseif(SkillTestQuestions::where("id", $answer->question_id)->where("answer_3", $answer->third_answer)->exists()){
+                    $r1_score = $r1_score+5;
+                }
+                elseif(SkillTestQuestions::where("id", $answer->question_id)->where("answer_4", $answer->third_answer)->exists()){
+                    $r2_score = $r2_score+5;
+                }
+           
+                //score 3
+                if(SkillTestQuestions::where("id", $answer->question_id)->where("answer_1", $answer->forth_answer)->exists()){
+                    $l1_score = $l1_score+3;
+                }
+                elseif(SkillTestQuestions::where("id", $answer->question_id)->where("answer_2", $answer->forth_answer)->exists()){
+                    $l2_score = $l2_score+3;
+                }
+                elseif(SkillTestQuestions::where("id", $answer->question_id)->where("answer_3", $answer->forth_answer)->exists()){
+                    $r1_score = $r1_score+3;
+                }
+                elseif(SkillTestQuestions::where("id", $answer->question_id)->where("answer_4", $answer->forth_answer)->exists()){
+                    $r2_score = $r2_score+3;
+                }
+       
+
+            }
+            $l1_code = 0;
+            $l2_code = 0;
+            $r1_code = 0;
+            $r2_code = 0;
+
+            if($l1_score >= 75){
+                $l1_code = 1;
+            }
+            elseif($l1_score > 65){
+                $l1_code = 2;
+            }
+            else{
+                $l1_code = 3;
+            }
+
+
+            if($l2_score >= 75){
+                $l2_code = 1;
+            }
+            elseif($l2_score > 65){
+                $l2_code = 2;
+            }
+            else{
+                $l2_code = 3;
+            }
+
+            if($r1_score >= 75){
+                $r1_code = 1;
+            }
+            elseif($r1_score > 65){
+                $r1_code = 2;
+            }
+            else{
+                $r1_code = 3;
+            }
+
+            if($r2_score >= 75){
+                $r2_code = 1;
+            }
+            elseif($r2_score > 65){
+                $r2_code = 2;
+            }
+            else{
+                $r2_code = 3;
+            }
+
+        // if(SkillBrainScores::where("skill_test_answer_main_id", $skill_test_answer_main_id)->exists()){
+
+        //     $brain_score = SkillBrainScores::where("skill_test_answer_main_id", $skill_test_answer_main_id)->first();
+        //     $brain_score->l1_score = $l1_score;
+        //     $brain_score->l2_score = $l2_score;
+        //     $brain_score->r1_score = $r1_score;
+        //     $brain_score->r2_score = $r2_score;
+        //     $brain_score->result_code = $l1_code."-".$l2_code."-".$r2_code."-".$r1_code;
+        //     $brain_score->update();
+
+        //     $brain_score_updated = SkillBrainScores::where("skill_test_answer_main_id", $skill_test_answer_main_id)->first();
+
+        //     // $BrainResultsController = new BrainResultsController();
+        //     // $BrainResultsController->update_skill_brain_result($brain_score_updated,$skill_test_answer_main_id);
+        // }
+        // else{
+
+            $brain_score = new SkillBrainScores();
+            $brain_score->skill_test_answer_main_id = $skill_test_answer_main_id;
+            $brain_score->l1_score = $l1_score;
+            $brain_score->l2_score = $l2_score;
+            $brain_score->r1_score = $r1_score;
+            $brain_score->r2_score = $r2_score;
+            $brain_score->result_code = $l1_code."-".$l2_code."-".$r2_code."-".$r1_code;
+            $brain_score->save();
+
+            // $brain_score_updated = SkillBrainScores::where("skill_test_answer_main_id", $skill_test_answer_main_id)->first();
+
+            // $BrainResultsController = new BrainResultsController();
+            // $BrainResultsController->update_skill_brain_result($brain_score_updated,$skill_test_answer_main_id);
+        // }
+
+
+    }
+
+// public function update_skill_brain_result($brain_score, $skill_test_answer_main_id)
+// {
+  
+//     $user = WPUsers::where('user_id', session('user_id'))->first();
+
+//     // Check if a matching profile type is found before trying to access the ID
+//     $profile_type = ProfileTypes::whereJsonContains('code', $brain_score->result_code)->first();
+
+//     if ($profile_type) {
+//         $user->brain_profile_id = $profile_type->id;
+//     } else {
+
+//         $user->brain_profile_id = null; 
+//     }
+
+//     $user->update();
+// }
 }
 
