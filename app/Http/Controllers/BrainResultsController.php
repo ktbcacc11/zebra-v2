@@ -230,6 +230,11 @@ class BrainResultsController extends Controller
         }
     
       
+        $l1_percentage = round(($l1_score / 300) * 100);
+        $l2_percentage = round(($l2_score / 300) * 100);
+        $r1_percentage = round(($r1_score / 300) * 100);
+        $r2_percentage = round(($r2_score / 300) * 100);
+
         
         $l1_code = $this->getResultCode($l1_score);
         $l2_code = $this->getResultCode($l2_score);
@@ -240,10 +245,10 @@ class BrainResultsController extends Controller
         $brain_score = BrainScores::updateOrCreate(
             ['answer_main_id' => $answer_main_id],
             [
-                'l1_score' => $l1_score,
-                'l2_score' => $l2_score,
-                'r1_score' => $r1_score,
-                'r2_score' => $r2_score,
+                'l1_score' => $l1_percentage,
+                'l2_score' => $l2_percentage,
+                'r1_score' => $r1_percentage,
+                'r2_score' => $r2_percentage,
                 'cerebral_score' => $l1_score + $r1_score,
                 'limbic_score' => $l2_score + $r2_score,
                 'result_code' => "{$l1_code}-{$l2_code}-{$r2_code}-{$r1_code}"
@@ -1051,18 +1056,25 @@ public function add_skill_brain_results($skill_test_answer_main_id)
                 }
             }
             
+            $l1_percentage = round(($l1_score / 300) * 100);
+            $l2_percentage = round(($l2_score / 300) * 100);
+            $r1_percentage = round(($r1_score / 300) * 100);
+            $r2_percentage = round(($r2_score / 300) * 100);
+    
+            
             $l1_code = $this->getResultCode($l1_score);
             $l2_code = $this->getResultCode($l2_score);
             $r1_code = $this->getResultCode($r1_score);
             $r2_code = $this->getResultCode($r2_score);
+        
            
             
             $brain_score = new SkillBrainScores();
             $brain_score->skill_test_answer_main_id = $skill_test_answer_main_id;
-            $brain_score->l1_score = $l1_score;
-            $brain_score->l2_score = $l2_score;
-            $brain_score->r1_score = $r1_score;
-            $brain_score->r2_score = $r2_score;
+            $brain_score->l1_score = $l1_percentage;
+            $brain_score->l2_score = $l2_percentage;
+            $brain_score->r1_score = $r1_percentage;
+            $brain_score->r2_score = $r2_percentage;
             $brain_score->result_code = $l1_code."-".$l2_code."-".$r2_code."-".$r1_code;
             $brain_score->save();
            
