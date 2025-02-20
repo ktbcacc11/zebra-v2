@@ -152,7 +152,8 @@ class MainController extends Controller
 
     public function events(){
         $events = Events::where('status', 'active')->get();
-        return view('dashboard/event',['events' => $events]);
+        // return view('dashboard/events-new',['events' => $events]);
+        return view('events_new',['events' => $events]);
     }
     public function parentCommunity(Request $request){
         if ($request->isMethod('get')) {
