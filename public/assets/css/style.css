@@ -1015,13 +1015,13 @@ a {
 
 /* brain connect popup */
 .modal-backdrop {
-
-    background: rgba(0, 0, 0, 0.83) !important;
-    border-radius: 16px !important;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
-    backdrop-filter: blur(19.6px) !important;
-    -webkit-backdrop-filter: blur(19.6px) !important;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 }
+
 
 /* Centering the modal */
 .modal-dialog {
@@ -1085,29 +1085,29 @@ a {
 
 .contact-form-card {
     border-radius: 16px;
-    border: 0.5px solid #C6C8CA;
+    border: 0.5px solid #c6c8ca73;
     padding: 15px;
 }
 
-.contact-form-card .form-control {
+.contact-form-card .form-control, .brain-connect-modal .form-control{
     border-radius: 8px;
-    border: 0.5px solid #C6C8CA;
+    border: 0.5px solid #c6c8ca73;
     padding: 10px;
 
 }
 
-.contact-form-card .form-label {
+.contact-form-card .form-label, .brain-connect-modal .form-label{
     font-size: 16px;
     color: #000814;
 
 }
 
-.contact-form-card .form-control::placeholder {
+.contact-form-card .form-control::placeholder , .brain-connect-modal .form-control::placeholder {
     font-size: 16px;
     color: #C6C8CA;
 }
 
-.contact-form-card .yellow-send-message-btn {
+ .yellow-send-message-btn {
     background-color: #F6C94D;
     /* width: fit-content !important; */
     padding: 10px 15px !important;
@@ -1117,6 +1117,41 @@ a {
     color: #fff;
 
 }
+
+
+.brain-connect-modal .modal-body{
+   padding-top: 10px;
+   padding-inline: 30px;
+}
+
+.brain-connect-modal .modal-title{
+    font-size: 20px;
+}
+.brain-connect-modal .modal-text{
+    font-size: 16px;
+}
+
+.brain-connect-modal .btn-close1{
+    background-color: #FFFFFF;
+    padding: 10px 15px !important;
+    font-size: 18px;
+    border-radius: 32px;
+    border: 1px solid #F6C94D;
+    color: #F6C94D;
+}
+
+.brain-connect-modal .btn-close {
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: .25em .25em;
+    color: #000;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%23000' d='M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z'/%3E%3C/svg%3E") center / 1em auto no-repeat;
+    border: 0;
+    border-radius: .25rem;
+    opacity: .75;
+}
+
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .pricing-card {
