@@ -823,7 +823,7 @@ if ($age > 18){
 ?>
 
 <div class="dashboard-page-content pb-5">
-    <div class="p-3 w-100" style="padding-left: 40px !important;>
+    <div class="p-3 w-100" style="padding-left: 40px !important;">
         <h2 class="report-heading col-lg-6"> Basic Brain Report </h2>
         <div class="row align-items-center">
             <div class="col-6">
@@ -1326,7 +1326,7 @@ if ($age > 18){
 ?>
 
 <div class="dashboard-page-content pb-5">
-    <div class="p-3 w-100" style="padding-left: 40px !important;>
+    <div class="p-3 w-100" style="padding-left: 40px !important;">
         <h2 class="report-heading col-lg-6">Basic Brain Report</h2>
         <div class="row align-items-center">
             <div class="col-6">
@@ -1882,7 +1882,7 @@ if ($age > 18){
 ?>
 
 <div class="dashboard-page-content pb-5">
-    <div class="p-3 w-100" style="padding-left: 40px !important;>
+    <div class="p-3 w-100" style="padding-left: 40px !important;">
         <h2 class="report-heading col-lg-6">Basic Brain Report</h2>
         <div class="row align-items-center">
             <div class="col-6">
@@ -2440,7 +2440,7 @@ if ($age > 18){
 ?>
 
 <div class="dashboard-page-content pb-5">
-    <div class="p-3 w-100" style="padding-left: 40px !important;>
+    <div class="p-3 w-100" style="padding-left: 40px !important;">
         <h2 class="report-heading col-lg-6">Basic Brain Report</h2>
         <div class="row align-items-center">
             <div class="col-6">
@@ -2987,7 +2987,7 @@ if ($age > 18){
 ?>
 
 <div class="dashboard-page-content pb-5">
-    <div class="p-3 w-100" style="padding-left: 40px !important;>
+    <div class="p-3 w-100" style="padding-left: 40px !important;">
         <h2 class="report-heading col-lg-6">Basic Brain Report</h2>
         <div class="row align-items-center">
             <div class="col-6">
@@ -3551,7 +3551,7 @@ if ($age > 18){
 ?>
 
 <div class="dashboard-page-content pb-5">
-    <div class="p-3 w-100" style="padding-left: 40px !important;>
+    <div class="p-3 w-100" style="padding-left: 40px !important;">
         <h2 class="report-heading col-lg-6">Basic Brain Report</h2>
         <div class="row align-items-center">
             <div class="col-6">
@@ -4131,7 +4131,7 @@ if ($age > 18){
 ?>
 
 <div class="dashboard-page-content pb-5">
-    <div class="p-3 w-100" style="padding-left: 40px !important;>
+    <div class="p-3 w-100" style="padding-left: 40px !important;">
         <h2 class="report-heading col-lg-6">Basic Brain Report</h2>
         <div class="row align-items-center">
             <div class="col-6">
@@ -4721,7 +4721,7 @@ if ($age > 18){
 ?>
 
 <div class="dashboard-page-content pb-5">
-    <div class="p-3 w-100" style="padding-left: 40px !important;>
+    <div class="p-3 w-100" style="padding-left: 40px !important;">
         <h2 class="report-heading col-lg-6">Basic Brain Report</h2>
         <div class="row align-items-center">
             <div class="col-6">
@@ -5303,7 +5303,7 @@ if ($age > 18){
 ?>
 
 <div class="dashboard-page-content pb-5">
-    <div class="p-3 w-100" style="padding-left: 40px !important;>
+    <div class="p-3 w-100" style="padding-left: 40px !important;">
         <h2 class="report-heading col-lg-6">Basic Brain Report</h2>
         <div class="row align-items-center">
             <div class="col-6">
@@ -5867,7 +5867,7 @@ if ($age > 18){
 ?>
 
 <div class="dashboard-page-content pb-5">
-    <div class="p-3 w-100" style="padding-left: 40px !important;>
+    <div class="p-3 w-100" style="padding-left: 40px !important;">
         <h2 class="report-heading col-lg-6">Basic Brain Report</h2>
         <div class="row align-items-center">
             <div class="col-6">
@@ -6407,7 +6407,7 @@ if ($age > 18){
 ?>
 
 <div class="dashboard-page-content pb-5">
-    <div class="p-3 w-100" style="padding-left: 40px !important;>
+    <div class="p-3 w-100" style="padding-left: 40px !important;">
         <h2 class="report-heading col-lg-6">Basic Brain Report</h2>
         <div class="row align-items-center">
             <div class="col-6">
@@ -6946,7 +6946,7 @@ if ($age > 18){
 ?>
 
 <div class="dashboard-page-content pb-5">
-    <div class="p-3 w-100" style="padding-left: 40px !important;>
+    <div class="p-3 w-100" style="padding-left: 40px !important;">
         <h2 class="report-heading col-lg-6">Basic Brain Report</h2>
         <div class="row align-items-center">
             <div class="col-6">
@@ -7507,7 +7507,7 @@ if ($age > 18){
 ?>
 
 <div class="dashboard-page-content pb-5">
-    <div class="p-3 w-100" style="padding-left: 40px !important;>
+    <div class="p-3 w-100" style="padding-left: 40px !important;">
         <h2 class="report-heading col-lg-6">Basic Brain Report</h2>
         <div class="row align-items-center">
             <div class="col-6">
@@ -8065,7 +8065,7 @@ if ($age > 18){
 ?>
 
 <div class="dashboard-page-content pb-5">
-    <div class="p-3 w-100" style="padding-left: 40px !important;>
+    <div class="p-3 w-100" style="padding-left: 40px !important;">
         <h2 class="report-heading col-lg-6">Basic Brain Report</h2>
         <div class="row align-items-center">
             <div class="col-6">

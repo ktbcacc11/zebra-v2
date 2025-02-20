@@ -1014,7 +1014,7 @@ public function add_introvert_extrovert_results($ie_answer_main_id)
         $introverted_extroverted = 'introverted';
     }
     elseif($score >= 16 && $score <= 20){
-        $introverted_extroverted = 'balanced';
+        $introverted_extroverted = 'extroverted';
     }
     else{
         $introverted_extroverted = 'extroverted';

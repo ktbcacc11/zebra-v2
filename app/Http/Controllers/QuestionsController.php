@@ -32,8 +32,11 @@ use App\Models\DimensionalQuestionAnswerMain;
 use App\Models\DimensionalQuestionAnswers;
 use App\Models\SkillTestAnswersMain;
 use App\Models\IntrovertExtrovertAnswerMain;
+use App\Models\UserDimensionalScore;
+
 use App\Models\WPUsers;
 use App\Http\Controllers\BrainResultsController;
+
 
 class QuestionsController extends Controller
 {
@@ -1548,7 +1551,7 @@ public function reset_questions()
         $questionAnswerMain->delete();
     }
 
-    
+    UserDimensionalScore::where('user_id', $userId)->delete();
     DimensionalQuestionAnswerMain::where('user_id', $userId)->delete();
     DimensionalQuestionAnswers::where('user_id', $userId)->delete();
 
