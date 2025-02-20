@@ -473,4 +473,8 @@ public function billing(){
 
     return view('pricing');
 }
+public function introvert_or_extrovert(){
+
+    return view('new_pages.intro_extro');
+}
 }

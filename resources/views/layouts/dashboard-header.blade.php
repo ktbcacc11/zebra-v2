@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
                         <a class="nav-link {{ request()->is('skill-assestment') ? 'active' : '' }}" aria-current="page" href="{{url('skill-test/q1')}}">Skill Assestment</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ request()->is('introvert-or-extrovert') ? 'active' : '' }}" aria-current="page" href="{{url('introvert-extrovert-question/q1')}}">Introvert or Extrovert</a>
+                        <a class="nav-link {{ request()->is('introvert-or-extrovert') ? 'active' : '' }}" aria-current="page" href="{{url('introvert-or-extrovert')}}">Introvert or Extrovert</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {{ request()->is('events') ? 'active' : '' }}" aria-current="page" href="{{url('events')}}" >Our Events</a>
@@ -413,7 +413,7 @@ h1, h2, h3, h4, h5, h6, p, span, div, a, li {
                         <a class="nav-link {{ request()->is('skill-assestment') ? 'active' : '' }}" aria-current="page" href="{{url('skill-test/q1')}}">Skill Assestment</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ request()->is('introvert-or-extrovert') ? 'active' : '' }}" aria-current="page" href="{{url('introvert-extrovert-question/q1')}}">Introvert or Extrovert</a>
+                        <a class="nav-link {{ request()->is('introvert-or-extrovert') ? 'active' : '' }}" aria-current="page" href="{{url('introvert-or-extrovert')}}">Introvert or Extrovert</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {{ request()->is('events') ? 'active' : '' }}" aria-current="page" href="{{url('events')}}" >Our Events</a>

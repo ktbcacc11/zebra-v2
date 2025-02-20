@@ -268,49 +268,21 @@ $introvert_extrovert = WPUsers::where('user_id',session('user_id'))->value('intr
 }
 </style>
 
-<?php
- 
-$brain_score = BrainScores::where("answer_main_id", $attempt->id)->first(); 
+<?php if ($introvert_extrovert === 'introverted'): ?>
 
-?>
+<!--<div class="centered-container">-->
+<!--    <h3>You are an Introvert. The following describes your strengths as an introvert.</h3>-->
+    <!--<img src="{{ asset('assets/images/brainnew2.png') }}" alt="Brain Image">-->
+<!--</div>-->
 
-<div class="centered-container">
-    <h3>You are an Introvert. The following describes your strengths as an introvert.</h3>
-    <img src="{{ asset('assets/images/brainnew2.png') }}" alt="Brain Image">
-</div>
 
-<!-- <div class="row" style="justify-content: center;">
-          <div class="col-5 col-lg-3">
-            <div class="box-data p-4 bg-yellow" style="border:2px solid black;">
-              <p class="mb-0" style="color:#000000 !important;"> Candid ( Analytical Brain) </p>
-              <h3 class="mb-0" style="color:#000000 !important;">{{$brain_score->l1_score}}%</h3>
-            </div>
-          </div>
-          <div class="col-5 col-lg-3">
-            <div class="box-data p-4 bg-orange" style="border:2px solid black;">
-              <p class="mb-0" style="color:#000000 !important;">Fastidious ( Practical Brain)</p>
-              <h3 class="mb-0" style="color:#000000 !important;">{{$brain_score->l2_score}}%</h3>
-            </div>
-          </div>
-        </div>
-        <div class="row mt-3" style="justify-content: center;">
-          <div class="col-5 col-lg-3">
-            <div class="box-data p-4 bg-blue" style="border:2px solid black;">
-              <p class="mb-0" style="color:#000000 !important;">Maverick ( Innovative Brain )</p>
-              <h3 class="mb-0" style="color:#000000 !important;">{{$brain_score->r1_score}}%</h3>
-            </div>
-          </div>
-          <div class="col-5 col-lg-3">
-            <div class="box-data p-4 bg-green" style="border:2px solid black;">
-              <p class="mb-0" style="color:#000000 !important;">Affable ( Relational Brain)</p>
-              <h3 class="mb-0" style="color:#000000 !important;">{{$brain_score->r2_score}}%</h3>
-            </div>
-          </div> -->
 
-<div class=" middle-content p-3 w-90">
+
+<div class=" middle-content main-wrapper">
     <!-- <h2 class="report-heading">Advanced Strategies for Growth & Development:</h2> -->
     <div class="row align-items-center">
         <div class="col-12">
+            <h3>You are an Introvert. The following describes your strengths as an introvert.</h3>
             <p class="report-normal-text mt-4">
             <ol>
                 <li style="padding-bottom: 5px;">
@@ -358,5 +330,100 @@ $brain_score = BrainScores::where("answer_main_id", $attempt->id)->first();
         </div>
     </div>
 </div>
+    
+<?php elseif ($introvert_extrovert === 'extroverted'): ?>
+
+<!--<div class="centered-container">-->
+<!--    <h3>You are an Extrovert. The following describes your strengths as an introvert.</h3>-->
+<!--    <img src="{{ asset('assets/images/brainnew2.png') }}" alt="Brain Image">-->
+<!--</div>-->
+
+
+
+
+<div class=" middle-content  main-wrapper">
+    <!-- <h2 class="report-heading">Advanced Strategies for Growth & Development:</h2> -->
+    <div class="row align-items-center">
+        <div class="col-12">
+             <h3>You are an Extrovert. The following describes your strengths as an extrovert.</h3>
+            <p class="report-normal-text mt-4">
+            <ol>
+                <li style="padding-bottom: 5px;">
+                    <strong>Energized by Social Interaction:</strong> Extroverts gain energy from being around others and often seek out social situations to recharge.
+                </li>
+                <li style="padding-bottom: 5px;">
+                    <strong>Outgoing and Friendly:  </strong> They tend to be approachable and friendly, easily making
+connections with new people.
+                </li>
+                <li style="padding-bottom: 5px;">
+                    <strong>Skilled Communicators: </strong> Extroverts often express their thoughts and ideas openly,
+making them effective communicators in various settings
+                </li>
+                <li style="padding-bottom: 5px;">
+                    <strong>Preference for Group Activities:</strong> They enjoy teamwork and group settings, often
+thriving in collaborative environments.
+
+                </li>
+                <li style="padding-bottom: 5px;">
+                    <strong>Quick Decision-Making: </strong> Extroverts may be more inclined to make decisions on the
+spot, relying on their instincts and social interactions.
+                </li>
+                <li style="padding-bottom: 5px;">
+                    <strong>Adventurous Spirit: </strong> They are often open to new experiences and willing to try new
+activities, seeking excitement and novelty.
+
+                </li>
+                <li style="padding-bottom: 5px;">
+                    <strong>Comfortable in the Spotlight: </strong>  Extroverts generally enjoy being the center of attention
+and may excel in performance-based situations.
+                </li>
+                <li style="padding-bottom: 5px;">
+                    <strong>Strong Networkers: </strong>  They tend to build extensive social networks, leveraging
+connections for personal and professional opportunities.
+                </li>
+                <li style="padding-bottom: 5px;">
+                    <strong>Verbal Thinkers:  </strong>Extroverts often process their thoughts by talking them out loud, using
+conversations to clarify ideas
+                </li>
+                <li style="padding-bottom: 5px;">
+                    <strong>Optimistic Outlook:  </strong>  They may have a more positive and outgoing perspective on life,
+often focusing on the bright side of situations.
+                </li>
+            </ol>
+            </p>
+        </div>
+    </div>
+</div>
+    
+<?php else: ?>
+
+<div class="centered-container">
+    <h3>Plese answer our Questionnaire.</h3>
+    
+    <button class="buttons text-purple" type="button" onclick="window.location.href='{{ url('introvert-extrovert-question/q1') }}'">Start now</button>
+
+
+    
+</div>
+
+    
+<?php endif; ?>
+
+
 
 @include('layouts.dashboard-footer')
+
+<style>
+    
+    .buttons {
+    border: 2px solid #f5c84c;
+    color: white;
+    background-color: #f5c84c;
+    border-radius: 30px;
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3sease-in-out;
+}
+</style>
