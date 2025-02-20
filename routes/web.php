@@ -152,6 +152,11 @@ Route::get('/dashboard-new', function () {
 });
 
 
+Route::get('/intro-extro', function () {
+    return view('new_pages.intro_extro');
+});
+
+
 
 Route::match(['get', 'post'],'/skill-test/{question}', [SkillTestController::class, 'skill_test'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
 Route::match(['get', 'post'],'/save-skill-test-answers', [SkillTestController::class, 'save_skill_test_answers'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
