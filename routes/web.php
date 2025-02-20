@@ -147,6 +147,10 @@ Route::get('/contact-form', function () {
     return view('contact_form');
 });
 
+Route::get('/dashboard-new', function () {
+    return view('dashboard.dashboard-new');
+});
+
 
 
 Route::match(['get', 'post'],'/skill-test/{question}', [SkillTestController::class, 'skill_test'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');

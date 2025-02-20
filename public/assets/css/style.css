@@ -1153,6 +1153,291 @@ a {
 }
 
 
+/* dashboard new */
+
+.dashbaord-new-page p {
+    text-align: justify;
+}
+
+.dashbaord-new-page a:hover {
+    color: #000;
+}
+
+.dashbaord-new-page .data-box-row .box-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lock-icon{
+    top: 5px;
+    right: 5px;
+}
+
+.header-tab-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dashbaord-section-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.header-tab-card{
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+}
+
+.tab-content-title{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.tab-content-subtitle{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.activities .header-tab-card{
+    box-shadow: 1px 1px 20px #00000033;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+
+.activity-notification{
+    font-size: 16px;
+    color: #F1935D;
+}
+
+.activity-notification-text{
+    font-size: 14px;
+    color: #C6C8CA;
+}
+
+.tab-content-subtitle{
+    margin-bottom: 0;
+}
+
+.rounded-circle{
+    background-color: #F95B5B;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-report-btn{
+    border-radius: 32px;
+    font-size: 18px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 10px 15px;
+    width: max-content;
+    background-color: #F6C94D;
+    border: none;
+    color: #fff;
+}
+
+
+.future-oppotunity-card{
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.future-oppotunity-card h6{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.future-oppotunity-card p{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+}
+.future-oppotunity-card .lock-icon{
+    top: 31px;
+    right: -14px;
+}
+.future-oppotunity-card .lock-icon .rounded-circle, .learn-more .rounded-circle{
+    background-color: #000000;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.brain-growth-tip-card-1, .brain-growth-tip-card-2, .brain-growth-tip-card-3{
+   
+    background-repeat: no-repeat;
+    height: 200px;
+    /* width: 150px; */
+    border-radius: 10px;
+    object-fit: cover;
+    background-size: cover;
+}
+.brain-growth-tip-card-1{
+    background-image: url('/assets/images/teaching.png');
+}
+
+.brain-growth-tip-card-2{
+    background-image: url('/assets/images/moon.png');
+}
+
+.brain-growth-tip-card-3{
+    background-image: url('/assets/images/work.png');
+}
+
+
+.info-badge{
+    background-color: #000;
+    color: #fff;
+    font-size: 8px;
+    border-radius: 8px;
+    bottom: 10px;
+    right: 10px;
+    gap: 10px;
+    padding: 5px;
+    flex-direction: row;
+}
+.info-badge p {
+    padding: 0;
+    margin: 0;
+}
+
+.brain-growth-card-bottom-text{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.view-all-button{
+    border: none;
+    background-color: #fff;
+    color: #5A559D;
+    font-size: 11px;
+}
+
+.view-all-button:hover{
+    color: #45417c;
+}
+
+.learn-more-item-box{
+    height: 315px;
+    /* width: 280px; */
+    border-radius: 10px;
+    padding: 0;
+}
+
+.learn-more-item-box-img{
+    height: 212px;
+    width: 212px;
+    scale: 1;
+}
+
+.learn-more{
+    bottom: -66px;
+    left: 175px;
+}
+
+.booking-img{
+    height: auto;
+    width: 364px;
+    border-radius: 8px;
+}
+
+.booking .yellow-send-btn{
+    color: #000;
+}
+
+.booking ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#contentTitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#contentText{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+/* media queries of dashaboard new */
+@media (min-width: 768px) and (max-width: 1200px) {
+    .header-tab{
+        padding-right: 0 !important;
+        margin-right: 0 !important;
+        justify-content: start !important;
+        gap: 1rem !important;
+    }
+
+    .header-tab-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start !important;
+    }
+
+    .tab-content-title {
+        font-size: 15px;
+        text-align: start;
+    }
+
+    .tab-content-subtitle{
+        text-align: start;
+        font-size: 13px;
+    }
+
+    .lock-icon .rounded-circle {
+        height: 20px;
+    }
+
+    .future-oppotunity-card h6{
+        font-size: 16px;
+        padding-right: 0;
+    }
+
+    .future-oppotunity-card img {
+        height: 50px;
+    }
+
+    .booking-img{
+        width: 200px;
+    }
+}
+
+
+@media (min-width: 1500px) and (max-width: 300px) {
+    .booking-img{
+        width: 400px;
+    }
+
+}
+
+
+
+
+
+
+
+
+/* end of the dashboard new */
+
+
+/*  */
 @media (min-width: 768px) and (max-width: 1024px) {
     .pricing-card {
         padding-right: 10px;
