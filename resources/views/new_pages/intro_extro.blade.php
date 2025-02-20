@@ -203,7 +203,7 @@ $introvert_extrovert = WPUsers::where('user_id',session('user_id'))->value('intr
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 70vh;
+        height: 60vh;
         text-align: center;
     }
 }
