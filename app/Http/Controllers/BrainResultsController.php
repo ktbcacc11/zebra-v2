@@ -1077,11 +1077,24 @@ public function add_skill_brain_results($skill_test_answer_main_id)
             $brain_score->r2_score = $r2_percentage;
             $brain_score->result_code = $l1_code."-".$l2_code."-".$r2_code."-".$r1_code;
             $brain_score->save();
-           
 
+            $user = WPUsers::where('user_id', session('user_id'))->first();
+    
+            $profile_type = ProfileTypes::whereJsonContains('code', $brain_score->result_code)->first();
+        
+            if ($profile_type) {
+                $user->skill_brain_profile_id = $profile_type->id;
+            } else {
+                $user->skill_brain_profile_id = null; // or any default value
+            }
+        
+            $user->update();
+           
+            // (new BrainResultsController())->update_skill_brain_result($brain_score, $skill_test_answer_main_id);
     }
 
-
+    
+    
 private function getResultCode($score)
 {
     if ($score >= 75) {
