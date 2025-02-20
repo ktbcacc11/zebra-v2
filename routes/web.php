@@ -156,6 +156,10 @@ Route::get('/intro-extro', function () {
     return view('new_pages.intro_extro');
 });
 
+Route::get('/skill-report', function () {
+    return view('new_pages.skill_report');
+});
+
 
 
 Route::match(['get', 'post'],'/skill-test/{question}', [SkillTestController::class, 'skill_test'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
