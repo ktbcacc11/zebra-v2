@@ -179,3 +179,4 @@ Route::match(['get', 'post'],'/billing', [MainController::class, 'billing'])->mi
 
 Route::match(['get', 'post'], '/reset-questions', [QuestionsController::class, 'reset_questions']);
 Route::match(['get', 'post'], '/introvert-or-extrovert', [MainController::class, 'introvert_or_extrovert']);
+Route::match(['get', 'post'], '/skill-assestment', [MainController::class, 'skill_assestment']);

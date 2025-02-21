@@ -2,12 +2,11 @@
 
 <?php
 use App\Models\WPUsers;
-use App\Models\BrainScores;
 use App\Models\SkillBrainScores;
-use App\Models\QuestionAnswerMain;
 use App\Models\SkillTestAnswersMain;
-$attempt = QuestionAnswerMain::where("user_id", session('user_id'))->where('status', 'complete')->first();
-$skill_tests = SkillTestAnswersMain::where("user_id", session('user_id'))->where('status', 'complete')->get();
+
+$attempt = SkillTestAnswersMain::where("user_id", session('user_id'))->where('status', 'complete')->latest()->first();
+// $skill_tests = SkillTestAnswersMain::where("user_id", session('user_id'))->where('status', 'complete')->get();
 $introvert_extrovert = WPUsers::where('user_id',session('user_id'))->value('introverted_extroverted');
 ?>
 
@@ -269,8 +268,10 @@ $introvert_extrovert = WPUsers::where('user_id',session('user_id'))->value('intr
 
 <?php
  
-$brain_score = BrainScores::where("answer_main_id", $attempt->id)->first(); 
-
+$brain_score = SkillBrainScores::where("skill_test_answer_main_id", $attempt->id)->first(); 
+$brain_profile_id = WPUsers::where("user_id", session('user_id'))->value('skill_brain_profile_id');
+$dob = session('user_dob'); 
+$age = \Carbon\Carbon::parse($dob)->age;  
 ?>
 
 <div class="centered-container">
