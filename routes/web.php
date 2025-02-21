@@ -152,6 +152,15 @@ Route::get('/dashboard-new', function () {
 });
 
 
+Route::get('/intro-extro', function () {
+    return view('new_pages.intro_extro');
+});
+
+Route::get('/skill-report', function () {
+    return view('new_pages.skill_report');
+});
+
+
 
 Route::match(['get', 'post'],'/skill-test/{question}', [SkillTestController::class, 'skill_test'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
 Route::match(['get', 'post'],'/save-skill-test-answers', [SkillTestController::class, 'save_skill_test_answers'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
@@ -169,3 +178,5 @@ Route::match(['get', 'post'],'/billing', [MainController::class, 'billing'])->mi
 
 
 Route::match(['get', 'post'], '/reset-questions', [QuestionsController::class, 'reset_questions']);
+Route::match(['get', 'post'], '/introvert-or-extrovert', [MainController::class, 'introvert_or_extrovert']);
+Route::match(['get', 'post'], '/skill-assestment', [MainController::class, 'skill_assestment']);

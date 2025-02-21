@@ -1,4 +1,16 @@
 @include('layouts.dashboard-header')
+<?php
+$my_brain_score = $user_brain_score;
+$my_brain_profile_id = $user_brain_profile_id;
+$my_age = $user_age;
+$my_details = $user_dtails;
+
+
+$compare_brain_score = $other_brain_score;
+$compare_brain_profile_id = $other_brain_profile_id;
+$compare_age = $other_age;
+$compare_details = $other_dtails;
+?>
 <div class="dashboard-page-content">
 
     <div class="d-flex flex-row p-3 ps-lg-5 pt-lg-2 w-100">
