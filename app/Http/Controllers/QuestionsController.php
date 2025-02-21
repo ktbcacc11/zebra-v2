@@ -578,7 +578,7 @@ public function thankyou() {
     }
 }
 else{
-    return redirect('dashboard')->with('fail', 'Can not take this test agin');
+    return redirect('dashboard')->with('fail', 'Can not take this test again');
 }
 
 }
