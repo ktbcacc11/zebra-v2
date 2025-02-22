@@ -96,18 +96,20 @@ class ComparisonController extends Controller
         $user_attempt = QuestionAnswerMain::where("user_id", session('user_id'))->where('status', 'complete')->first();
         $user_brain_score = BrainScores::where("answer_main_id", $user_attempt->id)->first(); 
         $user_brain_profile_id = WPUsers::where("user_id", session('user_id'))->value('brain_profile_id');
-        $user_dob = session('user_dob'); 
-        $user_age = \Carbon\Carbon::parse($user_dob)->age; 
+        $user_dob =  WPUsers::where("user_id", session('user_id'))->value('date_of_birth');
+        $user_age = \Carbon\Carbon::parse($user_dob)->age;  
+        $user_dtails = WPUsers::where("user_id", session('user_id'))->first();
         
         $other_user_id = WPUsers::where("email", $comparison_detail->to_email)->value('user_id');
         $other_attempt = QuestionAnswerMain::where("user_id", $other_user_id)->where('status', 'complete')->first();
         $other_brain_score = BrainScores::where("answer_main_id", $other_attempt->id)->first(); 
         $other_brain_profile_id = WPUsers::where("user_id", $other_user_id)->value('brain_profile_id');
-        $other_dob = session('user_dob'); 
+        $other_dob =  WPUsers::where("user_id", $other_user_id)->value('date_of_birth');
         $other_age = \Carbon\Carbon::parse($other_dob)->age; 
+        $other_dtails = WPUsers::where("user_id", $other_user_id)->first();
         
         return view('comparison.compare_results', ['user_brain_score' => $user_brain_score, 'user_brain_profile_id' => $user_brain_profile_id, 'user_age' => $user_age,
-        'other_brain_score' => $other_brain_score, 'other_brain_profile_id' => $other_brain_profile_id, 'other_age' => $other_age]);
+        'user_dtails' => $user_dtails, 'other_brain_score' => $other_brain_score, 'other_brain_profile_id' => $other_brain_profile_id, 'other_age' => $other_age, 'other_dtails' => $other_dtails]);
     }
     }
   

@@ -290,18 +290,25 @@ function pickAnswer(element, answer, numberId) {
 
 function getRemainingAnswer() {
     const answers = [
-        { id: 'answer_1', answer: '{{e($question->answer_1)}}', numberId: 'number_1' },
-        { id: 'answer_2', answer: '{{e($question->answer_2)}}', numberId: 'number_2' },
-        { id: 'answer_3', answer: '{{e($question->answer_3)}}', numberId: 'number_3' },
-        { id: 'answer_4', answer: '{{e($question->answer_4)}}', numberId: 'number_4' }
+        { id: 'answer_1', answer: `{{ html_entity_decode($question->answer_1) }}`, numberId: 'number_1' },
+        { id: 'answer_2', answer: `{{ html_entity_decode($question->answer_2) }}`, numberId: 'number_2' },
+        { id: 'answer_3', answer: `{{ html_entity_decode($question->answer_3) }}`, numberId: 'number_3' },
+        { id: 'answer_4', answer: `{{ html_entity_decode($question->answer_4) }}`, numberId: 'number_4' }
     ];
 
     for (let i = 0; i < answers.length; i++) {
         if (!pickedAnswers[answers[i].numberId]) {
-            return { elementId: answers[i].id, answer: answers[i].answer, numberId: answers[i].numberId };
+            return { elementId: answers[i].id, answer: decodeHTMLEntities(answers[i].answer), numberId: answers[i].numberId };
         }
     }
     return null;
+}
+
+
+function decodeHTMLEntities(text) {
+    let textarea = document.createElement("textarea");
+    textarea.innerHTML = text;
+    return textarea.value;
 }
 
 function resetAnswer() {

@@ -152,7 +152,8 @@ class MainController extends Controller
 
     public function events(){
         $events = Events::where('status', 'active')->get();
-        return view('dashboard/event',['events' => $events]);
+        // return view('dashboard/events-new',['events' => $events]);
+        return view('events_new',['events' => $events]);
     }
     public function parentCommunity(Request $request){
         if ($request->isMethod('get')) {
@@ -471,5 +472,13 @@ public function careers_inner(){
 public function billing(){
 
     return view('pricing');
+}
+public function introvert_or_extrovert(){
+
+    return view('new_pages.intro_extro');
+}
+public function skill_assestment(){
+
+    return view('new_pages.skill_report');
 }
 }

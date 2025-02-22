@@ -10,6 +10,7 @@ use App\Http\Controllers\SkillTestController;
 use App\Http\Controllers\IntrovertExtrovertQuestionController;
 use Illuminate\Http\Request;
 use App\Http\Middleware\AuthCustomer;
+use App\Http\Middleware\AuthQuestionAnswered;
 use App\Http\Middleware\checkUserPacakge;
 /*
 |--------------------------------------------------------------------------
@@ -22,6 +23,7 @@ use App\Http\Middleware\checkUserPacakge;
 |
 */
 $router->aliasMiddleware('authCustomer', AuthCustomer::class);
+$router->aliasMiddleware('AuthQuestionAnswered', AuthQuestionAnswered::class);
 $router->aliasMiddleware('checkUserPacakge', checkUserPacakge::class);
 
 Route::match(['get', 'post'],'/', [MainController::class, 'index']);
@@ -43,35 +45,35 @@ Route::match(['get', 'post'],'/questions/game/game-5', [QuestionsController::cla
 Route::match(['get', 'post'],'/sign-in', [UserController::class, 'sign_in']);
 Route::match(['get', 'post'],'/sign-up', [UserController::class, 'sign_up']);
 Route::match(['get', 'post'],'/logout', [UserController::class, 'logout']);
-Route::match(['get', 'post'],'/packages', [MainController::class, 'packages'])->middleware('authCustomer');
-Route::match(['get', 'post'],'/buy-package/{package}', [UserController::class, 'buy_package'])->middleware('authCustomer');
-Route::match(['get', 'post'],'/dashboard', [MainController::class, 'dashboard'])->middleware('authCustomer');
-Route::match(['get', 'post'],'/tips', [MainController::class, 'tips'])->middleware('authCustomer');
-Route::match(['get', 'post'],'/consultation-booking', [MainController::class, 'consultationBooking'])->middleware('authCustomer');
-Route::match(['get', 'post'],'/internships', [MainController::class, 'internships'])->middleware('authCustomer');
-Route::match(['get', 'post'],'/scholarships', [MainController::class, 'scholarships'])->middleware('authCustomer');
-Route::match(['get', 'post'],'/university-programs', [MainController::class, 'universityPrograms'])->middleware('authCustomer');
-Route::match(['get', 'post'],'/test-attempt', [MainController::class, 'testAttempt'])->middleware('authCustomer');
-Route::match(['get', 'post'],'/supar-future-club', [MainController::class, 'suparFutureClub'])->middleware('authCustomer');
-Route::match(['get', 'post'],'/profile', [UserController::class, 'profile'])->middleware('authCustomer');
-Route::match(['get', 'post'],'/profile-settings', [UserController::class, 'profile_settings'])->middleware('authCustomer');
-Route::match(['get', 'post'],'/events', [MainController::class, 'events'])->middleware('authCustomer');
+Route::match(['get', 'post'],'/packages', [MainController::class, 'packages'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+Route::match(['get', 'post'],'/buy-package/{package}', [UserController::class, 'buy_package'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+Route::match(['get', 'post'],'/dashboard', [MainController::class, 'dashboard'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+Route::match(['get', 'post'],'/tips', [MainController::class, 'tips'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+Route::match(['get', 'post'],'/consultation-booking', [MainController::class, 'consultationBooking'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+Route::match(['get', 'post'],'/internships', [MainController::class, 'internships'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+Route::match(['get', 'post'],'/scholarships', [MainController::class, 'scholarships'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+Route::match(['get', 'post'],'/university-programs', [MainController::class, 'universityPrograms'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+Route::match(['get', 'post'],'/test-attempt', [MainController::class, 'testAttempt'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+Route::match(['get', 'post'],'/supar-future-club', [MainController::class, 'suparFutureClub'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+Route::match(['get', 'post'],'/profile', [UserController::class, 'profile'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+Route::match(['get', 'post'],'/profile-settings', [UserController::class, 'profile_settings'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+Route::match(['get', 'post'],'/events', [MainController::class, 'events'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
 
-Route::match(['get', 'post'],'/test-attempt-2', [MainController::class, 'testAttempt_2'])->middleware('authCustomer');
-
-
-Route::match(['get', 'post'],'/parent-community', [MainController::class, 'parentCommunity'])->middleware('authCustomer');
+Route::match(['get', 'post'],'/test-attempt-2', [MainController::class, 'testAttempt_2'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
 
 
-Route::match(['get', 'post'],'/view-tip/{id}', [MainController::class, 'tipInner'])->middleware('authCustomer');
-Route::match(['get', 'post'],'/view-university/{id}', [MainController::class, 'uniInner'])->middleware('authCustomer');
-Route::match(['get', 'post'],'/view-internship/{id}', [MainController::class, 'internInner'])->middleware('authCustomer');
-Route::match(['get', 'post'],'/view-scholarship/{id}', [MainController::class, 'scholarshipInner'])->middleware('authCustomer');
-Route::match(['get', 'post'],'/super-futer-inner', [MainController::class, 'superFutureInner'])->middleware('authCustomer');
-Route::match(['get', 'post'],'/search-buddy', [MainController::class, 'searchBuddy'])->middleware('authCustomer');
-Route::match(['get', 'post'],'/jobs', [MainController::class, 'jobs'])->middleware('authCustomer');
-Route::match(['get', 'post'],'/jobs-inner', [MainController::class, 'jobsInner'])->middleware('authCustomer');
-Route::match(['get', 'post'],'/consultation-booking-step-2', [MainController::class, 'consultStepTwo'])->middleware('authCustomer');
+Route::match(['get', 'post'],'/parent-community', [MainController::class, 'parentCommunity'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+
+
+Route::match(['get', 'post'],'/view-tip/{id}', [MainController::class, 'tipInner'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+Route::match(['get', 'post'],'/view-university/{id}', [MainController::class, 'uniInner'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+Route::match(['get', 'post'],'/view-internship/{id}', [MainController::class, 'internInner'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+Route::match(['get', 'post'],'/view-scholarship/{id}', [MainController::class, 'scholarshipInner'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+Route::match(['get', 'post'],'/super-futer-inner', [MainController::class, 'superFutureInner'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+Route::match(['get', 'post'],'/search-buddy', [MainController::class, 'searchBuddy'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+Route::match(['get', 'post'],'/jobs', [MainController::class, 'jobs'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+Route::match(['get', 'post'],'/jobs-inner', [MainController::class, 'jobsInner'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+Route::match(['get', 'post'],'/consultation-booking-step-2', [MainController::class, 'consultStepTwo'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
 
 Route::match(['get', 'post'],'/about-us', [MainController::class, 'aboutus']);
 Route::match(['get', 'post'],'/blogs', [MainController::class, 'blogs']);
@@ -89,7 +91,7 @@ Route::match(['get', 'post'],'/multi-tasking', [MainController::class, 'multitas
 Route::match(['get', 'post'],'/multi-task-inner', [MainController::class, 'multitaskinginner']);
 
 
-Route::match(['get', 'post'],'/basic-report-template', [MainController::class, 'basic_report_template'])->middleware('authCustomer');
+Route::match(['get', 'post'],'/basic-report-template', [MainController::class, 'basic_report_template'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
 
 
 
@@ -107,13 +109,13 @@ Route::match(['get', 'post'],'/stars-filter/{type}', [MainController::class, 'st
 Route::match(['get', 'post'],'/event-filter', [MainController::class, 'event_filter']);
 
 Route::match(['get', 'post'],'/save-dimensional-answers', [QuestionsController::class, 'save_dimensional_answers']);
-Route::match(['get', 'post'],'/enter-access-code', [UserController::class, 'enter_access_code'])->middleware('authCustomer');
+Route::match(['get', 'post'],'/enter-access-code', [UserController::class, 'enter_access_code'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
 
 
-Route::match(['get', 'post'],'/comparison-request', [ComparisonController::class, 'comparison_request'])->middleware('authCustomer');
-Route::match(['get', 'post'],'/accept-comparison-request/{id}', [ComparisonController::class, 'accept_comparison_request'])->middleware('authCustomer');
-Route::match(['get', 'post'],'/reject-comparison-request/{id}', [ComparisonController::class, 'reject_comparison_request'])->middleware('authCustomer');
-Route::match(['get', 'post'],'/compare-results/{id}', [ComparisonController::class, 'compare_results'])->middleware('authCustomer');
+Route::match(['get', 'post'],'/comparison-request', [ComparisonController::class, 'comparison_request'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+Route::match(['get', 'post'],'/accept-comparison-request/{id}', [ComparisonController::class, 'accept_comparison_request'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+Route::match(['get', 'post'],'/reject-comparison-request/{id}', [ComparisonController::class, 'reject_comparison_request'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+Route::match(['get', 'post'],'/compare-results/{id}', [ComparisonController::class, 'compare_results'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
 
 
 Route::get('/new-dashboard', [MainController::class, 'newDashboard']);
@@ -145,17 +147,36 @@ Route::get('/contact-form', function () {
     return view('contact_form');
 });
 
+Route::get('/dashboard-new', function () {
+    return view('dashboard.dashboard-new');
+});
 
 
-Route::match(['get', 'post'],'/skill-test/{question}', [SkillTestController::class, 'skill_test'])->middleware('authCustomer');
-Route::match(['get', 'post'],'/save-skill-test-answers', [SkillTestController::class, 'save_skill_test_answers'])->middleware('authCustomer');
+Route::get('/intro-extro', function () {
+    return view('new_pages.intro_extro');
+});
+
+Route::get('/skill-report', function () {
+    return view('new_pages.skill_report');
+});
 
 
-Route::match(['get', 'post'],'/introvert-extrovert-question/{question}', [IntrovertExtrovertQuestionController::class, 'introvert_extrovert_question'])->middleware('authCustomer');
-Route::match(['get', 'post'],'/save-introvert-extrovert-answers', [IntrovertExtrovertQuestionController::class, 'save_introvert_extrovert_answers'])->middleware('authCustomer');
+
+Route::match(['get', 'post'],'/skill-test/{question}', [SkillTestController::class, 'skill_test'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+Route::match(['get', 'post'],'/save-skill-test-answers', [SkillTestController::class, 'save_skill_test_answers'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
 
 
-Route::match(['get', 'post'],'/careers', [MainController::class, 'careers'])->middleware('authCustomer');
+Route::match(['get', 'post'],'/introvert-extrovert-question/{question}', [IntrovertExtrovertQuestionController::class, 'introvert_extrovert_question'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+Route::match(['get', 'post'],'/save-introvert-extrovert-answers', [IntrovertExtrovertQuestionController::class, 'save_introvert_extrovert_answers'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
 
-Route::match(['get', 'post'],'/careers-inner', [MainController::class, 'careers_inner'])->middleware('authCustomer');
-Route::match(['get', 'post'],'/billing', [MainController::class, 'billing'])->middleware('authCustomer');
+
+Route::match(['get', 'post'],'/careers', [MainController::class, 'careers'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+
+Route::match(['get', 'post'],'/careers-inner', [MainController::class, 'careers_inner'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+Route::match(['get', 'post'],'/billing', [MainController::class, 'billing'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
+
+
+
+Route::match(['get', 'post'], '/reset-questions', [QuestionsController::class, 'reset_questions']);
+Route::match(['get', 'post'], '/introvert-or-extrovert', [MainController::class, 'introvert_or_extrovert']);
+Route::match(['get', 'post'], '/skill-assestment', [MainController::class, 'skill_assestment']);

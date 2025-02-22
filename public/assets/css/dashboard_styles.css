@@ -724,6 +724,8 @@ li {
     margin-right: 10px;
 }
 
+
+
 @media screen and (max-width: 600px) {
     .displayOnMobile {
         display: block !important;
@@ -963,6 +965,11 @@ li {
         width: 150px;
     }
 
+    .dashboard-data-box-row .data-box-row{
+        display: flex !important;
+        justify-content: center;
+    }
+
 
 
 }
@@ -970,6 +977,11 @@ li {
 @media screen and (max-width: 900px) {
     .data-box-row {
         display: none !important;
+    }
+
+    .dashboard-data-box-row .data-box-row{
+        display: flex !important;
+        justify-content: center;
     }
 
     .mobile-data-box {
@@ -1005,6 +1017,11 @@ li {
 @media screen and (max-width: 1200px) and (min-width:900px) {
     .data-box-row {
         display: none !important;
+    }
+
+    .dashboard-data-box-row .data-box-row{
+        display: flex !important;
+        justify-content: center;
     }
 
     .mobile-data-box {

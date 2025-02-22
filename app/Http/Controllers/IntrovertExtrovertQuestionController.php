@@ -124,7 +124,7 @@ public function save_introvert_extrovert_answers(Request $request) {
                 $BrainResultsController->add_introvert_extrovert_results(session('ie_answer_main_id'));
                 $request->session()->forget(['ie_answer_main_id']);
 
-                return redirect('packages');
+                return redirect('dashboard');
 
             } else {
                 $next_page = $question_no + 1;

@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\WPUsers;
 
-class AuthCustomer
+class AuthQuestionAnswered
 {
     /**
      * Handle an incoming request.
@@ -18,12 +18,14 @@ class AuthCustomer
      */
     public function handle(Request $request, Closure $next)
     {
-        if(session('user_id')){
+  
+            $wp_user = WPUsers::where('user_id',session('user_id'))->first();
+            if($wp_user->brain_profile_id == null || $wp_user->brain_profile_id == ''){
+                return redirect('questions/q1');
+            }
+            else{
                 return $next($request);
-            
-        } else{
-            $request->session()->flush();
-            return redirect('sign-in')->with('message', 'You have to login first');
-        }
+            }
+
     }
 }
