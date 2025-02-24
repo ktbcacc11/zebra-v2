@@ -477,8 +477,8 @@ public function introvert_or_extrovert(){
 
     return view('new_pages.intro_extro');
 }
-public function skill_assestment(){
+public function report($type){
 
-    return view('new_pages.skill_report');
+    return view('report.report',['type' => $type]);
 }
 }
