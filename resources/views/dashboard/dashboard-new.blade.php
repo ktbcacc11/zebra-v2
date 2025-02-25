@@ -1,5 +1,9 @@
 @include('layouts.dashboard-header')
 <style>
+
+.middle-content{
+    display: none;
+}
     .report-heading{
         font-size: 22px;
         color: #000000;
@@ -163,7 +167,7 @@
       }
       
       .side-img-desktop2{
-          width:50% !important;
+          width:100% !important;
           height: auto !important;
       }
       
@@ -211,7 +215,7 @@
       }
       
       .side-img-desktop2{
-          width:30% !important;
+          width:100% !important;
           height: auto !important;
       }
       
@@ -539,14 +543,26 @@ if ($age > 18){
               You thoroughly research, calculate, and evaluate every situation, weighing the pros and cons carefully. Constantly questioning and probing for clarity is second nature to you. This makes you excellent at problem-solving and strategizing.
               Your strength lies in your logical, objective approach, and you often cut through complexity by sticking to the facts. While others may get lost in emotions or subjective views, you focus on what can be proven and understood through reason. People rely on you for your candid insights, no-nonsense attitude, and the ability to deliver grounded solutions.
         </p>
-        <div class="text-center mt-5">
+        {{-- <div class="text-center mt-5">
          <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2 ">
         </div>
         
         <h2 class="report-heading mt-5">Your Indices for Future Growth:</h2>
          <p class="report-normal-text mt-4">
               Understanding and evaluating various indices such as <strong>Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index,</strong> and <strong>21st-Century Agility Index</strong> can provide valuable insights into different aspects of your personal and professional development. These indices measure distinct traits and capabilities that are essential for success in today’s dynamic environment.
-        </p>
+        </p> --}}
+
+        <div class="row d-lg-flex d-block justify-content-lg-between">
+            <div class="col-4">
+                <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2 ">
+            </div>
+
+            <div class="col-8">
+                <h2 class="report-heading mt-5">Your Indices for Future Growth:</h2>
+                Understanding and evaluating various indices such as Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index, and 21st-Century Agility Index can provide valuable insights into different aspects of your personal and professional development. These indices measure distinct traits and capabilities that are essential for success in today’s dynamic environment.
+            </div>
+        </div>
+        
         
         <h2 class="report-heading mt-5">Let's Check Your Future Opportunities</h2>
         
@@ -1078,14 +1094,25 @@ if ($age > 18){
         <p class="report-normal-text ">
               Your tendency to stick to facts over assumptions allows you to make informed decisions that are grounded in reality. While others might be swayed by emotions or abstract ideas, you stay focused on what is practical and can be immediately applied.
         </p>
-        <div class="text-center mt-5">
+        {{-- <div class="text-center mt-5">
          <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2 ">
         </div>
         
         <h2 class="report-heading mt-5">Your Indices for Future Growth:</h2>
          <p class="report-normal-text mt-4">
               Understanding and evaluating various indices like Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration, and 21st-Century Agility can provide insights into areas for growth and personal development.
-        </p>
+        </p> --}}
+
+        <div class="row d-lg-flex d-block justify-content-lg-between">
+            <div class="col-4">
+                <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2 ">
+            </div>
+
+            <div class="col-8">
+                <h2 class="report-heading mt-5">Your Indices for Future Growth:</h2>
+                Understanding and evaluating various indices like Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration, and 21st-Century Agility can provide insights into areas for growth and personal development.
+            </div>
+        </div>
         
         <h2 class="report-heading mt-5">Let's Check Your Future Opportunities</h2>
         
@@ -1602,14 +1629,23 @@ if ($age > 18){
 <div class="dashboard-page-content pb-5">
     <div class="p-3 w-100" style="padding-left: 40px !important;">
         
-        <div class="text-center">
+        {{-- <div class="text-center">
          <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2">
         </div>
         
         <h2 class="report-heading mt-5">Your Indices for Future Growth:</h2>
          <p class="report-normal-text mt-4">
-            Understanding and evaluating key indices such as Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index, and 21st-Century Agility Index can provide valuable insights into your personal and professional development.        </p>
-        
+            Understanding and evaluating key indices such as Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index, and 21st-Century Agility Index can provide valuable insights into your personal and professional development.        </p> --}}
+            <div class="row d-lg-flex d-block justify-content-lg-between">
+                <div class="col-4">
+                    <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2 ">
+                </div>
+    
+                <div class="col-8">
+                    <h2 class="report-heading mt-5">Your Indices for Future Growth:</h2>
+                    Understanding and evaluating key indices such as Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index, and 21st-Century Agility Index can provide valuable insights into your personal and professional development.
+                </div>
+            </div>
         <h2 class="report-heading mt-5">Let's Check Your Future Opportunities</h2>
         
         <div class="row align-items-center mt-4">
@@ -2174,14 +2210,25 @@ if ($age > 18){
 <div class="dashboard-page-content pb-5">
     <div class="p-3 w-100" style="padding-left: 40px !important;">
         
-        <div class="text-center">
+        {{-- <div class="text-center">
          <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2">
         </div>
         
         <h2 class="report-heading mt-5">Your Indices for Future Growth:</h2>
          <p class="report-normal-text mt-4">
             Understanding and evaluating key indices such as Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index, and 21st-Century Agility Index can provide valuable insights into your personal and professional development.
-        </p>
+        </p> --}}
+
+        <div class="row d-lg-flex d-block justify-content-lg-between">
+            <div class="col-4">
+                <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2 ">
+            </div>
+
+            <div class="col-8">
+                <h2 class="report-heading mt-5">Your Indices for Future Growth:</h2>
+                Understanding and evaluating key indices such as Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index, and 21st-Century Agility Index can provide valuable insights into your personal and professional development.
+            </div>
+        </div>
         
         <h2 class="report-heading mt-5">Let's Check Your Future Opportunities</h2>
         
@@ -2748,14 +2795,24 @@ if ($age > 18){
 <div class="dashboard-page-content pb-5">
     <div class="p-3 w-100" style="padding-left: 40px !important;">
         
-        <div class="text-center">
+        {{-- <div class="text-center">
          <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2">
         </div>
         
         <h2 class="report-heading mt-5">Your Indices for Future Growth:</h2>
          <p class="report-normal-text mt-4">
              Understanding and evaluating key indices such as Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index, and 21st-Century Agility Index can provide valuable insights into your personal and professional development.
-        </p>
+        </p> --}}
+        <div class="row d-lg-flex d-block justify-content-lg-between">
+            <div class="col-4">
+                <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2 ">
+            </div>
+
+            <div class="col-8">
+                <h2 class="report-heading mt-5">Your Indices for Future Growth:</h2>
+                Understanding and evaluating key indices such as Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index, and 21st-Century Agility Index can provide valuable insights into your personal and professional development.
+            </div>
+        </div>
         
         <h2 class="report-heading mt-5">Let's Check Your Future Opportunities</h2>
         
@@ -3315,7 +3372,7 @@ if ($age > 18){
 <div class="dashboard-page-content pb-5">
     <div class="p-3 w-100" style="padding-left: 40px !important;">
        
-        <div class="text-center">
+        {{-- <div class="text-center">
          <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2">
         </div>
         
@@ -3323,7 +3380,17 @@ if ($age > 18){
          <p class="report-normal-text mt-4">
          Understanding and evaluating key indices such as Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index, and 21st-Century Agility Index can provide valuable insights into your personal and professional development.
 
-        </p>
+        </p> --}}
+        <div class="row d-lg-flex d-block justify-content-lg-between">
+            <div class="col-4">
+                <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2 ">
+            </div>
+
+            <div class="col-8">
+                <h2 class="report-heading mt-5">Your Indices for Future Growth:</h2>
+                Understanding and evaluating key indices such as Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index, and 21st-Century Agility Index can provide valuable insights into your personal and professional development.
+            </div>
+        </div>
         
         <h2 class="report-heading mt-5">Let's Check Your Future Opportunities</h2>
         
@@ -3895,7 +3962,7 @@ if ($age > 18){
 <div class="dashboard-page-content pb-5">
     <div class="p-3 w-100" style="padding-left: 40px !important;">
         
-        <div class="text-center ">
+        {{-- <div class="text-center ">
          <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2">
         </div>
         
@@ -3904,8 +3971,17 @@ if ($age > 18){
          Understanding and evaluating key indices such as Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index, and 21st-Century Agility Index can provide valuable insights into your personal and professional development.
 
 
-        </p>
-        
+        </p> --}}
+        <div class="row d-lg-flex d-block justify-content-lg-between">
+            <div class="col-4">
+                <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2 ">
+            </div>
+
+            <div class="col-8">
+                <h2 class="report-heading mt-5">Your Indices for Future Growth:</h2>
+                Understanding and evaluating key indices such as Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index, and 21st-Century Agility Index can provide valuable insights into your personal and professional development.
+            </div>
+        </div>
         <h2 class="report-heading mt-5">Let's Check Your Future Opportunities</h2>
         
         <div class="row align-items-center mt-4">
@@ -4489,7 +4565,7 @@ if ($age > 18){
 <div class="dashboard-page-content pb-5">
     <div class="p-3 w-100" style="padding-left: 40px !important;">
         
-        <div class="text-center">
+        {{-- <div class="text-center">
          <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2">
         </div>
         
@@ -4499,7 +4575,18 @@ if ($age > 18){
 
 
 
-        </p>
+        </p> --}}
+        <div class="row d-lg-flex d-block justify-content-lg-between">
+            <div class="col-4">
+                <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2 ">
+            </div>
+
+            <div class="col-8">
+                <h2 class="report-heading mt-5">Your Indices for Future Growth:</h2>
+                Understanding and evaluating key indices such as Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index, and 21st-Century Agility Index can provide valuable insights into your personal and professional development.
+
+            </div>
+        </div>
         
         <h2 class="report-heading mt-5">Let's Check Your Future Opportunities</h2>
         
@@ -5092,14 +5179,25 @@ if ($age > 18){
 <div class="dashboard-page-content pb-5">
     <div class="p-3 w-100" style="padding-left: 40px !important;">
        
-        <div class="text-center">
+        {{-- <div class="text-center">
          <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2">
         </div>
         
         <h2 class="report-heading mt-5">Your Indices for Future Growth:</h2>
          <p class="report-normal-text mt-4">
             Understanding and evaluating key indices such as Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index, and 21st-Century Agility Index can provide valuable insights into your personal and professional development.
-        </p>
+        </p> --}}
+        <div class="row d-lg-flex d-block justify-content-lg-between">
+            <div class="col-4">
+                <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2 ">
+            </div>
+
+            <div class="col-8">
+                <h2 class="report-heading mt-5">Your Indices for Future Growth:</h2>
+                Understanding and evaluating key indices such as Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index, and 21st-Century Agility Index can provide valuable insights into your personal and professional development.
+
+            </div>
+        </div>
         
         <h2 class="report-heading mt-5">Let's Check Your Future Opportunities</h2>
         
@@ -5689,15 +5787,26 @@ if ($age > 18){
 <div class="dashboard-page-content pb-5">
     <div class="p-3 w-100" style="padding-left: 40px !important;">
         
-        <div class="text-center">
+        {{-- <div class="text-center">
             <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2">
         </div>
         
         <h2 class="report-heading mt-5">Your Indices for Future Growth:</h2>
          <p class="report-normal-text mt-4">
             Understanding and evaluating key indices such as Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index, and 21st-Century Agility Index can provide valuable insights into your personal and professional development.
-        </p>
-        
+        </p> --}}
+       
+        <div class="row d-lg-flex d-block justify-content-lg-between">
+            <div class="col-4">
+                <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2 ">
+            </div>
+
+            <div class="col-8">
+                <h2 class="report-heading mt-5">Your Indices for Future Growth:</h2>
+                Understanding and evaluating key indices such as Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index, and 21st-Century Agility Index can provide valuable insights into your personal and professional development.
+
+            </div>
+        </div>
         <h2 class="report-heading mt-5">Let's Check Your Future Opportunities</h2>
         
         <div class="row align-items-center mt-4">
@@ -6272,14 +6381,25 @@ if ($age > 18){
 <div class="dashboard-page-content pb-5">
     <div class="p-3 w-100" style="padding-left: 40px !important;">
         
-        <div class="text-center">
+        {{-- <div class="text-center">
          <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2">
         </div>
         
         <h2 class="report-heading mt-5">Your Indices for Future Growth:</h2>
          <p class="report-normal-text mt-4">
             Understanding and evaluating key indices such as Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index, and 21st-Century Agility Index can provide valuable insights into your personal and professional development.
-        </p>
+        </p> --}}
+        <div class="row d-lg-flex d-block justify-content-lg-between">
+            <div class="col-4">
+                <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2 ">
+            </div>
+
+            <div class="col-8">
+                <h2 class="report-heading mt-5">Your Indices for Future Growth:</h2>
+                Understanding and evaluating key indices such as Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index, and 21st-Century Agility Index can provide valuable insights into your personal and professional development.
+
+            </div>
+        </div>
         
         <h2 class="report-heading mt-5">Let's Check Your Future Opportunities</h2>
         
@@ -6843,14 +6963,24 @@ if ($age > 18){
 <div class="dashboard-page-content pb-5">
     <div class="p-3 w-100" style="padding-left: 40px !important;">
        
-        <div class="text-center">
+        {{-- <div class="text-center">
          <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2">
         </div>
         
         <h2 class="report-heading mt-5">Your Indices for Future Growth:</h2>
          <p class="report-normal-text mt-4">
             Understanding and evaluating key indices such as Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index, and 21st-Century Agility Index can provide valuable insights into your personal and professional development.
-        </p>
+        </p> --}}
+        <div class="row d-lg-flex d-block justify-content-lg-between">
+            <div class="col-4">
+                <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2 ">
+            </div>
+
+            <div class="col-8">
+                <h2 class="report-heading mt-5">Your Indices for Future Growth:</h2>
+                Understanding and evaluating key indices such as Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index, and 21st-Century Agility Index can provide valuable insights into your personal and professional development.
+            </div>
+        </div>
         
         <h2 class="report-heading mt-5">Let's Check Your Future Opportunities</h2>
         
@@ -7417,14 +7547,24 @@ if ($age > 18){
 <div class="dashboard-page-content pb-5">
     <div class="p-3 w-100" style="padding-left: 40px !important;">
         
-        <div class="text-center">
+        {{-- <div class="text-center">
          <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2">
         </div>
         
         <h2 class="report-heading mt-5">Your Indices for Future Growth:</h2>
          <p class="report-normal-text mt-4">
             Understanding and evaluating key indices such as Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index, and 21st-Century Agility Index can provide valuable insights into your personal and professional development.
-        </p>
+        </p> --}}
+        <div class="row d-lg-flex d-block justify-content-lg-between">
+            <div class="col-4">
+                <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2 ">
+            </div>
+
+            <div class="col-8">
+                <h2 class="report-heading mt-5">Your Indices for Future Growth:</h2>
+                Understanding and evaluating key indices such as Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index, and 21st-Century Agility Index can provide valuable insights into your personal and professional development.
+            </div>
+        </div>
         
         <h2 class="report-heading mt-5">Let's Check Your Future Opportunities</h2>
         
@@ -8000,14 +8140,25 @@ if ($age > 18){
 <div class="dashboard-page-content pb-5">
     <div class="p-3 w-100" style="padding-left: 40px !important;">
         
-        <div class="text-center">
+        {{-- <div class="text-center">
          <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2">
         </div>
         
         <h2 class="report-heading mt-5">Your Indices for Future Growth:</h2>
          <p class="report-normal-text mt-4">
             Understanding and evaluating key indices such as Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index, and 21st-Century Agility Index can provide valuable insights into your personal and professional development.
-        </p>
+        </p> --}}
+        <div class="row d-lg-flex d-block justify-content-lg-between">
+            <div class="col-4">
+                <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2 ">
+            </div>
+
+            <div class="col-8">
+                <h2 class="report-heading mt-5">Your Indices for Future Growth:</h2>
+                Understanding and evaluating key indices such as Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index, and 21st-Century Agility Index can provide valuable insights into your personal and professional development.
+
+            </div>
+        </div>
         
         <h2 class="report-heading mt-5">Let's Check Your Future Opportunities</h2>
         
@@ -8574,14 +8725,25 @@ if ($age > 18){
 <div class="dashboard-page-content pb-5">
     <div class="p-3 w-100" style="padding-left: 40px !important;">
         
-        <div class="text-center">
+        {{-- <div class="text-center">
          <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2">
         </div>
         
         <h2 class="report-heading mt-5">Your Indices for Future Growth:</h2>
          <p class="report-normal-text mt-4">
             Understanding and evaluating key indices such as Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index, and 21st-Century Agility Index can provide valuable insights into your personal and professional development.
-        </p>
+        </p> --}}
+        <div class="row d-lg-flex d-block justify-content-lg-between">
+            <div class="col-4">
+                <img src="{{ asset('assets/images/growth.png') }}" class="side-img-desktop2 ">
+            </div>
+
+            <div class="col-8">
+                <h2 class="report-heading mt-5">Your Indices for Future Growth:</h2>
+                Understanding and evaluating key indices such as Leadership, Creativity, GIG Potential, Entrepreneurship, Team Collaboration Index, and 21st-Century Agility Index can provide valuable insights into your personal and professional development.
+
+            </div>
+        </div>
         
         <h2 class="report-heading mt-5">Let's Check Your Future Opportunities</h2>
         
@@ -9279,201 +9441,12424 @@ if ($age > 18){
             </div>
 
             {{-- section 8--}}
-            <div class="row mb-4">
 
-                <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                    <a href="">
-                        <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
-                            <div class=" d-flex flex-column justify-content-center">
-                                <div class="d-flex flex-column justify-content-center align-items-center">
-                                    <img class="learn-more-item-box-img"
-                                        src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
-                                        alt="">
-    
+           
+           
+
+            {{-- section 8 profile id 1 --}}
+            <?php if ($brain_profile_id == 1): ?>
+                <?php if ($age >= 12 && $age <= 14): ?>
+                <div class="row mb-4">
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
                                 </div>
-                                <div class="d-flex flex-column align-items-center learn-more-item-box-text">
-                                    <p class="m-0">Advanced Brain Report</p>
-                                    <p class="m-0">Short descriptions</p>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
                                 </div>
-    
                             </div>
-    
-                            <div class="position-absolute">
-                                <div class="position-absolute learn-more">
-                                    <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Videos about the brain</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Preferred studying and learning styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
                     
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities naturally preferred</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behaviour</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Inclination for subjects naturally</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Early hints to preferred career options</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div> --}}
+    
                 </div>
+                <?php endif; ?>
 
-
-                <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                    <a href="">
-                        <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
-                            <div class=" d-flex flex-column justify-content-center">
-                                <div class="d-flex flex-column justify-content-center align-items-center">
-                                    <img class="learn-more-item-box-img"
-                                        src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
-                                        alt="">
-    
+                <?php if ($age >= 15 && $age <= 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="d-flex flex-column align-items-center learn-more-item-box-text">
-                                    <p class="m-0">Advanced Brain Report</p>
-                                    <p class="m-0">Short descriptions</p>
-                                </div>
-    
-                            </div>
-    
-                            <div class="position-absolute">
-                                <div class="position-absolute learn-more">
-                                    <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
-                                </div>
-                            </div>
+                            </a>
+                            
                         </div>
-                    </a>
-                    
-                </div>
-
-                <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                    <a href="">
-                        <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
-                            <div class=" d-flex flex-column justify-content-center">
-                                <div class="d-flex flex-column justify-content-center align-items-center">
-                                    <img class="learn-more-item-box-img"
-                                        src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
-                                        alt="">
     
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="d-flex flex-column align-items-center learn-more-item-box-text">
-                                    <p class="m-0">Advanced Brain Report</p>
-                                    <p class="m-0">Short descriptions</p>
-                                </div>
-    
-                            </div>
-    
-                            <div class="position-absolute">
-                                <div class="position-absolute learn-more">
-                                    <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
-                                </div>
-                            </div>
+                            </a>
+                            
                         </div>
-                    </a>
-                    
-                </div>
-
-                <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                    <a href="">
-                        <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
-                            <div class=" d-flex flex-column justify-content-center">
-                                <div class="d-flex flex-column justify-content-center align-items-center">
-                                    <img class="learn-more-item-box-img"
-                                        src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
-                                        alt="">
     
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="d-flex flex-column align-items-center learn-more-item-box-text">
-                                    <p class="m-0">Advanced Brain Report</p>
-                                    <p class="m-0">Short descriptions</p>
-                                </div>
-    
-                            </div>
-    
-                            <div class="position-absolute">
-                                <div class="position-absolute learn-more">
-                                    <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
-                                </div>
-                            </div>
+                            </a>
+                            
                         </div>
-                    </a>
-                    
-                </div>
 
-                <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                    <a href="">
-                        <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
-                            <div class=" d-flex flex-column justify-content-center">
-                                <div class="d-flex flex-column justify-content-center align-items-center">
-                                    <img class="learn-more-item-box-img"
-                                        src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
-                                        alt="">
-    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behavior</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
                                 </div>
-                                <div class="d-flex flex-column align-items-center learn-more-item-box-text">
-                                    <p class="m-0">Advanced Brain Report</p>
-                                    <p class="m-0">Short descriptions</p>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
                                 </div>
-    
                             </div>
+                        </a>
+                        
+                    </div>
     
-                            <div class="position-absolute">
-                                <div class="position-absolute learn-more">
-                                    <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
                                 </div>
                             </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Career suitable</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Relationship styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Flow & grow basics</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    </div>
+                <?php endif; ?>
+
+                <?php if ($age > 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
                         </div>
-                    </a>
-                    
-                </div>
-
-
-                <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                    <a href="">
-                        <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
-                            <div class=" d-flex flex-column justify-content-center">
-                                <div class="d-flex flex-column justify-content-center align-items-center">
-                                    <img class="learn-more-item-box-img"
-                                        src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
-                                        alt="">
     
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="d-flex flex-column align-items-center learn-more-item-box-text">
-                                    <p class="m-0">Advanced Brain Report</p>
-                                    <p class="m-0">Short descriptions</p>
-                                </div>
-    
-                            </div>
-    
-                            <div class="position-absolute">
-                                <div class="position-absolute learn-more">
-                                    <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
-                                </div>
-                            </div>
+                            </a>
+                            
                         </div>
-                    </a>
-                    
-                </div>
-
-                <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                    <a href="">
-                        <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
-                            <div class=" d-flex flex-column justify-content-center">
-                                <div class="d-flex flex-column justify-content-center align-items-center">
-                                    <img class="learn-more-item-box-img"
-                                        src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
-                                        alt="">
     
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="d-flex flex-column align-items-center learn-more-item-box-text">
-                                    <p class="m-0">Advanced Brain Report</p>
-                                    <p class="m-0">Short descriptions</p>
-                                </div>
-    
-                            </div>
-    
-                            <div class="position-absolute">
-                                <div class="position-absolute learn-more">
-                                    <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
-                                </div>
-                            </div>
+                            </a>
+                            
                         </div>
-                    </a>
-                    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Parenting styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Communication and behaviour</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Diet and Nutrition</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Job and work</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Relationship styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Business and negotiation style</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div> --}}
+        
+                    </div>
+    
+                <?php endif; ?>
+            <?php endif; ?>
+
+
+            {{-- section 8 profile id 2--}}
+            <?php if ($brain_profile_id == 2): ?>
+                <?php if ($age >= 12 && $age <= 14): ?>
+                <div class="row mb-4">
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Videos about the brain</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Preferred studying and learning styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities naturally preferred</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behaviour</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Inclination for subjects naturally</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Early hints to preferred career options</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div> --}}
+    
                 </div>
+                <?php endif; ?>
 
-            </div>
+                <?php if ($age >= 15 && $age <= 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behavior</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Career suitable</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Relationship styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Flow & grow basics</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    </div>
+                <?php endif; ?>
 
+                <?php if ($age > 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Parenting styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Communication and behaviour</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Diet and Nutrition</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Job and work</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Relationship styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Business and negotiation style</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div> --}}
+        
+                    </div>
+    
+                <?php endif; ?>
+            <?php endif; ?>
+
+
+            {{-- section 8 profile id 3--}}
+            <?php if ($brain_profile_id == 3): ?>
+                <?php if ($age >= 12 && $age <= 14): ?>
+                <div class="row mb-4">
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Videos about the brain</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Preferred studying and learning styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities naturally preferred</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behaviour</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Inclination for subjects naturally</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Early hints to preferred career options</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div> --}}
+    
+                </div>
+                <?php endif; ?>
+
+                <?php if ($age >= 15 && $age <= 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behavior</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Career suitable</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Relationship styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Flow & grow basics</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    </div>
+                <?php endif; ?>
+
+                <?php if ($age > 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Parenting styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Communication and behaviour</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Diet and Nutrition</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Job and work</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Relationship styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Business and negotiation style</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div> --}}
+        
+                    </div>
+    
+                <?php endif; ?>
+            <?php endif; ?>
+
+            {{-- section 8 profile id 4 --}}
+            <?php if ($brain_profile_id == 4): ?>
+                <?php if ($age >= 12 && $age <= 14): ?>
+                <div class="row mb-4">
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Videos about the brain</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Preferred studying and learning styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities naturally preferred</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behaviour</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Inclination for subjects naturally</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Early hints to preferred career options</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div> --}}
+    
+                </div>
+                <?php endif; ?>
+
+                <?php if ($age >= 15 && $age <= 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behavior</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Career suitable</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Relationship styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Flow & grow basics</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    </div>
+                <?php endif; ?>
+
+                <?php if ($age > 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Parenting styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Communication and behaviour</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Diet and Nutrition</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Job and work</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Relationship styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Business and negotiation style</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div> --}}
+        
+                    </div>
+    
+                <?php endif; ?>
+            <?php endif; ?>
+           
+            {{-- section 8 profile id 5--}}
+            <?php if ($brain_profile_id == 5): ?>
+                <?php if ($age >= 12 && $age <= 14): ?>
+                <div class="row mb-4">
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Videos about the brain</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Preferred studying and learning styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities naturally preferred</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behaviour</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Inclination for subjects naturally</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Early hints to preferred career options</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div> --}}
+    
+                </div>
+                <?php endif; ?>
+
+                <?php if ($age >= 15 && $age <= 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behavior</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Career suitable</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Relationship styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Flow & grow basics</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    </div>
+                <?php endif; ?>
+
+                <?php if ($age > 18): ?>
+                    <div class="row mb-4">
+
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Parenting styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Communication and behaviour</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Diet and Nutrition</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Job and work</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Relationship styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Business and negotiation style</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div> --}}
+        
+                    </div>
+    
+                <?php endif; ?>
+            <?php endif; ?>
+
+
+            {{-- section 8 profile id 6--}}
+            <?php if ($brain_profile_id == 6): ?>
+                <?php if ($age >= 12 && $age <= 14): ?>
+                <div class="row mb-4">
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Videos about the brain</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Preferred studying and learning styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities naturally preferred</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behaviour</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Inclination for subjects naturally</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Early hints to preferred career options</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div> --}}
+    
+                </div>
+                <?php endif; ?>
+
+                <?php if ($age >= 15 && $age <= 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behavior</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Career suitable</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Relationship styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Flow & grow basics</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    </div>
+                <?php endif; ?>
+
+                <?php if ($age > 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Parenting styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Communication and behaviour</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Diet and Nutrition</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Job and work</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Relationship styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Business and negotiation style</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div> --}}
+        
+                    </div>
+    
+                <?php endif; ?>
+            <?php endif; ?>
+            
+            {{-- section 8 profile id 7--}}
+            <?php if ($brain_profile_id == 7): ?>
+                <?php if ($age >= 12 && $age <= 14): ?>
+                <div class="row mb-4">
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Videos about the brain</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Preferred studying and learning styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities naturally preferred</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behaviour</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Inclination for subjects naturally</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Early hints to preferred career options</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div> --}}
+    
+                </div>
+                <?php endif; ?>
+
+                <?php if ($age >= 15 && $age <= 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behavior</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Career suitable</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Relationship styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Flow & grow basics</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    </div>
+                <?php endif; ?>
+
+                <?php if ($age > 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Parenting styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Communication and behaviour</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Diet and Nutrition</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Job and work</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Relationship styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Business and negotiation style</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div> --}}
+        
+                    </div>
+    
+                <?php endif; ?>
+            <?php endif; ?>
+
+            {{-- section 8 profile id 8--}}
+            <?php if ($brain_profile_id == 8): ?>
+                <?php if ($age >= 12 && $age <= 14): ?>
+                <div class="row mb-4">
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Videos about the brain</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Preferred studying and learning styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities naturally preferred</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behaviour</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Inclination for subjects naturally</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Early hints to preferred career options</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div> --}}
+    
+                </div>
+                <?php endif; ?>
+
+                <?php if ($age >= 15 && $age <= 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behavior</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Career suitable</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Relationship styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Flow & grow basics</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    </div>
+                <?php endif; ?>
+
+                <?php if ($age > 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Parenting styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Communication and behaviour</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Diet and Nutrition</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Job and work</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Relationship styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Business and negotiation style</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div> --}}
+        
+                    </div>
+    
+                <?php endif; ?>
+            <?php endif; ?>
+
+            {{-- section 8 profile id 9--}}
+            <?php if ($brain_profile_id == 9): ?>
+                <?php if ($age >= 12 && $age <= 14): ?>
+                <div class="row mb-4">
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Videos about the brain</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Preferred studying and learning styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities naturally preferred</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behaviour</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Inclination for subjects naturally</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Early hints to preferred career options</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div> --}}
+    
+                </div>
+                <?php endif; ?>
+
+                <?php if ($age >= 15 && $age <= 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behavior</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Career suitable</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Relationship styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Flow & grow basics</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    </div>
+                <?php endif; ?>
+
+                <?php if ($age > 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Parenting styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Communication and behaviour</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Diet and Nutrition</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Job and work</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Relationship styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Business and negotiation style</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div> --}}
+        
+                    </div>
+    
+                <?php endif; ?>
+            <?php endif; ?>
+
+
+            {{-- section 8 profile id 10--}}
+            <?php if ($brain_profile_id == 10): ?>
+                <?php if ($age >= 12 && $age <= 14): ?>
+                <div class="row mb-4">
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Videos about the brain</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Preferred studying and learning styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities naturally preferred</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behaviour</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Inclination for subjects naturally</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Early hints to preferred career options</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div> --}}
+    
+                </div>
+                <?php endif; ?>
+
+                <?php if ($age >= 15 && $age <= 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behavior</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Career suitable</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Relationship styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Flow & grow basics</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    </div>
+                <?php endif; ?>
+
+                <?php if ($age > 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="{{ url('/report/advanced-brain-report') }}">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Parenting styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Communication and behaviour</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Diet and Nutrition</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Job and work</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Relationship styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Business and negotiation style</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div> --}}
+        
+                    </div>
+    
+                <?php endif; ?>
+            <?php endif; ?>
+
+
+            {{-- section 8 profile id 11--}}
+            <?php if ($brain_profile_id == 11): ?>
+                <?php if ($age >= 12 && $age <= 14): ?>
+                <div class="row mb-4">
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Videos about the brain</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Preferred studying and learning styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities naturally preferred</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behaviour</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Inclination for subjects naturally</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Early hints to preferred career options</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div> --}}
+    
+                </div>
+                <?php endif; ?>
+
+                <?php if ($age >= 15 && $age <= 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behavior</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Career suitable</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Relationship styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Flow & grow basics</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    </div>
+                <?php endif; ?>
+
+                <?php if ($age > 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Parenting styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Communication and behaviour</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Diet and Nutrition</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Job and work</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Relationship styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Business and negotiation style</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div> --}}
+        
+                    </div>
+    
+                <?php endif; ?>
+            <?php endif; ?>
+
+            {{-- section 8 profile id 12--}}
+            <?php if ($brain_profile_id == 12): ?>
+                <?php if ($age >= 12 && $age <= 14): ?>
+                <div class="row mb-4">
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Videos about the brain</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Preferred studying and learning styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities naturally preferred</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behaviour</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Inclination for subjects naturally</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Early hints to preferred career options</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div> --}}
+    
+                </div>
+                <?php endif; ?>
+
+                <?php if ($age >= 15 && $age <= 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behavior</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Career suitable</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Relationship styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Flow & grow basics</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    </div>
+                <?php endif; ?>
+
+                <?php if ($age > 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Parenting styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Communication and behaviour</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Diet and Nutrition</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Job and work</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Relationship styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Business and negotiation style</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div> --}}
+        
+                    </div>
+    
+                <?php endif; ?>
+            <?php endif; ?>
+
+
+            {{-- section 8 profile id 13--}}
+            <?php if ($brain_profile_id == 13): ?>
+                <?php if ($age >= 12 && $age <= 14): ?>
+                <div class="row mb-4">
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Videos about the brain</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Preferred studying and learning styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities naturally preferred</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behaviour</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Inclination for subjects naturally</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Early hints to preferred career options</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div> --}}
+    
+                </div>
+                <?php endif; ?>
+
+                <?php if ($age >= 15 && $age <= 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behavior</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Career suitable</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Relationship styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Flow & grow basics</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    </div>
+                <?php endif; ?>
+
+                <?php if ($age > 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Parenting styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Communication and behaviour</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Diet and Nutrition</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Job and work</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Relationship styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Business and negotiation style</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div> --}}
+        
+                    </div>
+    
+                <?php endif; ?>
+            <?php endif; ?>
+
+
+
+
+            {{-- section 8 profile id 14--}}
+            <?php if ($brain_profile_id == 14): ?>
+                <?php if ($age >= 12 && $age <= 14): ?>
+                <div class="row mb-4">
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Videos about the brain</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Preferred studying and learning styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities naturally preferred</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behaviour</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Inclination for subjects naturally</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Early hints to preferred career options</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div> --}}
+    
+                </div>
+                <?php endif; ?>
+
+                <?php if ($age >= 15 && $age <= 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behavior</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Career suitable</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Relationship styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Flow & grow basics</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    </div>
+                <?php endif; ?>
+
+                <?php if ($age > 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Parenting styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Communication and behaviour</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Diet and Nutrition</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Job and work</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Relationship styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Business and negotiation style</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div> --}}
+        
+                    </div>
+    
+                <?php endif; ?>
+            <?php endif; ?>
+
+
+
+            {{-- section 8 profile id 15 --}}
+            <?php if ($brain_profile_id == 15): ?>
+                <?php if ($age >= 12 && $age <= 14): ?>
+                <div class="row mb-4">
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Videos about the brain</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Preferred studying and learning styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities naturally preferred</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behaviour</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Inclination for subjects naturally</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Early hints to preferred career options</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Advanced Brain Report</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div> --}}
+    
+                </div>
+                <?php endif; ?>
+
+                <?php if ($age >= 15 && $age <= 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Communication and behavior</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Diet and Nutrition</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Career suitable</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Subjects preferred for matching career options.</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Extracurricular activities</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Relationship styles</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                        <a href="">
+                            <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                <div class=" d-flex flex-column justify-content-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img class="learn-more-item-box-img"
+                                            src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                            alt="">
+        
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                        <p class="m-0">Flow & grow basics</p>
+                                        <p class="m-0">Short descriptions</p>
+                                    </div>
+        
+                                </div>
+        
+                                <div class="position-absolute">
+                                    <div class="position-absolute learn-more">
+                                        <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+    
+                    </div>
+                <?php endif; ?>
+
+                <?php if ($age > 18): ?>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Videos about the brain</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Preferred studying and learning styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Parenting styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-2.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Communication and behaviour</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-3.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Diet and Nutrition</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Job and work</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-1.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Relationship styles</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+        
+                        <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-5.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Business and negotiation style</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div>
+        
+                        {{-- <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
+                            <a href="">
+                                <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
+                                    <div class=" d-flex flex-column justify-content-center">
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <img class="learn-more-item-box-img"
+                                                src="{{ asset('assets/images/dashboard-new/cognitive profile-main image-4.png') }}"
+                                                alt="">
+            
+                                        </div>
+                                        <div class="d-flex flex-column align-items-center learn-more-item-box-text">
+                                            <p class="m-0">Advanced Brain Report</p>
+                                            <p class="m-0">Short descriptions</p>
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="position-absolute">
+                                        <div class="position-absolute learn-more">
+                                            <img class="rounded-circle" src="{{ asset('assets/images/lock.png') }}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                        </div> --}}
+        
+                    </div>
+    
+                <?php endif; ?>
+            <?php endif; ?>
+           
 
             {{-- section 9 --}}
             <div class="row mb-4">

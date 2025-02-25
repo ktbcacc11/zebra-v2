@@ -11,6 +11,8 @@ $brain_profile_id = WPUsers::where("user_id", session('user_id'))->value('skill_
 $dob = session('user_dob'); 
 $age = \Carbon\Carbon::parse($dob)->age;  
 
+
+
 $report_type = $type;
 ?>
 <style>
@@ -118,25 +120,315 @@ $report_type = $type;
 }
 </style>
 
-<?php if($report_type == 'advanced-brain-report'){
-if ($brain_profile_id == 1): 
-    if ($age >= 12 && $age <= 14){
- 
-    }
-    if ($age >= 15 && $age <= 18){
-   
-    }
-    if ($age > 18){
-
-    }
-endif;
-} ?>
 <section class="py-5">
     <div class="container text-center pt-5 pb-1">
         <h3 class="heading1 text-purple">Take the first step toward understanding your brain better with us!</h3>
         <p class="p1 ">Self Discovery to  Holistic Growth & Development harnesses the principles of Neuro development and Neuroplasticity.</p>
     </div>
 
+
+
+    <?php if ($report_type == 'basic-brain-report'): ?>
+
+    <!-- Basic brain report -->
+    <?php if ($brain_profile_id == 1): ?>
+
+        <div class="container mt-4">
+            <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                <div class="row align-items-center text-md-start text-center">
+                    <div class="col-md-2 mb-3 mb-md-0">
+                        <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                    </div>
+                    <div class="col-md-5 col-lg-7 col-xl-8">
+                        <h4 class="q1">Leadership </h4>
+                        <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p>
+                    </div>
+                    <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2">Read More</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                <div class="row align-items-center text-md-start text-center">
+                    <div class="col-md-2 mb-3 mb-md-0">
+                        <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                    </div>
+                    <div class="col-md-5 col-lg-7 col-xl-8">
+                        <h4 class="q1">Creativity</h4>
+                        <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p>
+                    </div>
+                    <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                    <button class="home-slider-btn mt-2" style="background-color: #EAEAEA; color: #AAA6A0;">Next Step</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                <div class="row align-items-center text-md-start text-center">
+                    <div class="col-md-2 mb-3 mb-md-0">
+                        <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                    </div>
+                    <div class="col-md-5 col-lg-7 col-xl-8">
+                        <h4 class="q1">GIG Potential</h4>
+                        <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p>
+                    </div>
+                    <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                    <button class="home-slider-btn mt-2" style="background-color: #EAEAEA; color: #AAA6A0;">Next Step</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                <div class="row align-items-center text-md-start text-center">
+                    <div class="col-md-2 mb-3 mb-md-0">
+                        <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                    </div>
+                    <div class="col-md-5 col-lg-7 col-xl-8">
+                        <h4 class="q1">Entrepreneurship</h4>
+                        <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p>
+                    </div>
+                    <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                    <button class="home-slider-btn mt-2" style="background-color: #EAEAEA; color: #AAA6A0;">Next Step</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                <div class="row align-items-center text-md-start text-center">
+                    <div class="col-md-2 mb-3 mb-md-0">
+                        <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                    </div>
+                    <div class="col-md-5 col-lg-7 col-xl-8">
+                        <h4 class="q1">Team Collaboration Index</h4>
+                        <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p>
+                    </div>
+                    <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                    <button class="home-slider-btn mt-2" style="background-color: #EAEAEA; color: #AAA6A0;">Next Step</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                <div class="row align-items-center text-md-start text-center">
+                    <div class="col-md-2 mb-3 mb-md-0">
+                        <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                    </div>
+                    <div class="col-md-5 col-lg-7 col-xl-8">
+                        <h4 class="q1">21st-Century Agility Index</h4>
+                        <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p>
+                    </div>
+                    <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                    <button class="home-slider-btn mt-2" style="background-color: #EAEAEA; color: #AAA6A0;">Next Step</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+    <?php elseif ($brain_profile_id == 2): ?>
+        <!-- Code for brain_profile_id 2 -->
+    <?php elseif ($brain_profile_id == 3): ?>
+        <!-- Code for brain_profile_id 3 -->
+    <?php elseif ($brain_profile_id == 4): ?>
+        <!-- Code for brain_profile_id 4 -->
+    <?php elseif ($brain_profile_id == 5): ?>
+        <!-- Code for brain_profile_id 5 -->
+    <?php elseif ($brain_profile_id == 6): ?>
+        <!-- Code for brain_profile_id 6 -->
+    <?php elseif ($brain_profile_id == 7): ?>
+        <!-- Code for brain_profile_id 7 -->
+    <?php elseif ($brain_profile_id == 8): ?>
+        <!-- Code for brain_profile_id 8 -->
+    <?php elseif ($brain_profile_id == 9): ?>
+        <!-- Code for brain_profile_id 9 -->
+    <?php elseif ($brain_profile_id == 10): ?>
+        <!-- Code for brain_profile_id 10 -->
+    <?php elseif ($brain_profile_id == 11): ?>
+        <!-- Code for brain_profile_id 11 -->
+    <?php elseif ($brain_profile_id == 12): ?>
+        <!-- Code for brain_profile_id 12 -->
+    <?php elseif ($brain_profile_id == 13): ?>
+        <!-- Code for brain_profile_id 13 -->
+    <?php elseif ($brain_profile_id == 14): ?>
+        <!-- Code for brain_profile_id 14 -->
+    <?php elseif ($brain_profile_id == 15): ?>
+        <!-- Code for brain_profile_id 15 -->
+    <?php endif; ?>
+
+<?php elseif ($report_type == 'videos-about-the-brain'): ?>
+
+    <!-- Videos about the brain -->
+    <?php if ($brain_profile_id == 1): ?>
+       
+    <?php elseif ($brain_profile_id == 2): ?>
+        <!-- Code for brain_profile_id 2 -->
+    <?php elseif ($brain_profile_id == 3): ?>
+        <!-- Code for brain_profile_id 3 -->
+    <?php elseif ($brain_profile_id == 4): ?>
+        <!-- Code for brain_profile_id 4 -->
+    <?php elseif ($brain_profile_id == 5): ?>
+        <!-- Code for brain_profile_id 5 -->
+    <?php elseif ($brain_profile_id == 6): ?>
+        <!-- Code for brain_profile_id 6 -->
+    <?php elseif ($brain_profile_id == 7): ?>
+        <!-- Code for brain_profile_id 7 -->
+    <?php elseif ($brain_profile_id == 8): ?>
+        <!-- Code for brain_profile_id 8 -->
+    <?php elseif ($brain_profile_id == 9): ?>
+        <!-- Code for brain_profile_id 9 -->
+    <?php elseif ($brain_profile_id == 10): ?>
+        <!-- Code for brain_profile_id 10 -->
+    <?php elseif ($brain_profile_id == 11): ?>
+        <!-- Code for brain_profile_id 11 -->
+    <?php elseif ($brain_profile_id == 12): ?>
+        <!-- Code for brain_profile_id 12 -->
+    <?php elseif ($brain_profile_id == 13): ?>
+        <!-- Code for brain_profile_id 13 -->
+    <?php elseif ($brain_profile_id == 14): ?>
+        <!-- Code for brain_profile_id 14 -->
+    <?php elseif ($brain_profile_id == 15): ?>
+        <!-- Code for brain_profile_id 15 -->
+    <?php endif; ?>
+
+<?php elseif ($report_type == 'prefered-learning-style'): ?>
+
+    <!-- Preferred learning style -->
+    <?php if ($brain_profile_id == 1): ?>
+        <!-- Code for brain_profile_id 1 -->
+    <?php elseif ($brain_profile_id == 2): ?>
+        <!-- Code for brain_profile_id 2 -->
+    <?php elseif ($brain_profile_id == 3): ?>
+        <!-- Code for brain_profile_id 3 -->
+    <?php elseif ($brain_profile_id == 4): ?>
+        <!-- Code for brain_profile_id 4 -->
+    <?php elseif ($brain_profile_id == 5): ?>
+        <!-- Code for brain_profile_id 5 -->
+    <?php elseif ($brain_profile_id == 6): ?>
+        <!-- Code for brain_profile_id 6 -->
+    <?php elseif ($brain_profile_id == 7): ?>
+        <!-- Code for brain_profile_id 7 -->
+    <?php elseif ($brain_profile_id == 8): ?>
+        <!-- Code for brain_profile_id 8 -->
+    <?php elseif ($brain_profile_id == 9): ?>
+        <!-- Code for brain_profile_id 9 -->
+    <?php elseif ($brain_profile_id == 10): ?>
+        <!-- Code for brain_profile_id 10 -->
+    <?php elseif ($brain_profile_id == 11): ?>
+        <!-- Code for brain_profile_id 11 -->
+    <?php elseif ($brain_profile_id == 12): ?>
+        <!-- Code for brain_profile_id 12 -->
+    <?php elseif ($brain_profile_id == 13): ?>
+        <!-- Code for brain_profile_id 13 -->
+    <?php elseif ($brain_profile_id == 14): ?>
+        <!-- Code for brain_profile_id 14 -->
+    <?php elseif ($brain_profile_id == 15): ?>
+        <!-- Code for brain_profile_id 15 -->
+    <?php endif; ?>
+
+<?php elseif ($report_type == 'extracurricular-activities'): ?>
+
+    <!-- Extracurricular activities -->
+    <?php if ($brain_profile_id == 1): ?>
+        <!-- Code for brain_profile_id 1 -->
+    <?php elseif ($brain_profile_id == 2): ?>
+        <!-- Code for brain_profile_id 2 -->
+    <?php elseif ($brain_profile_id == 3): ?>
+        <!-- Code for brain_profile_id 3 -->
+    <?php elseif ($brain_profile_id == 4): ?>
+        <!-- Code for brain_profile_id 4 -->
+    <?php elseif ($brain_profile_id == 5): ?>
+        <!-- Code for brain_profile_id 5 -->
+    <?php elseif ($brain_profile_id == 6): ?>
+        <!-- Code for brain_profile_id 6 -->
+    <?php elseif ($brain_profile_id == 7): ?>
+        <!-- Code for brain_profile_id 7 -->
+    <?php elseif ($brain_profile_id == 8): ?>
+        <!-- Code for brain_profile_id 8 -->
+    <?php elseif ($brain_profile_id == 9): ?>
+        <!-- Code for brain_profile_id 9 -->
+    <?php elseif ($brain_profile_id == 10): ?>
+        <!-- Code for brain_profile_id 10 -->
+    <?php elseif ($brain_profile_id == 11): ?>
+        <!-- Code for brain_profile_id 11 -->
+    <?php elseif ($brain_profile_id == 12): ?>
+        <!-- Code for brain_profile_id 12 -->
+    <?php elseif ($brain_profile_id == 13): ?>
+        <!-- Code for brain_profile_id 13 -->
+    <?php elseif ($brain_profile_id == 14): ?>
+        <!-- Code for brain_profile_id 14 -->
+    <?php elseif ($brain_profile_id == 15): ?>
+        <!-- Code for brain_profile_id 15 -->
+    <?php endif; ?>
+
+<?php elseif ($report_type == 'communication-and-behaviour'): ?>
+
+    <!-- Communication and behaviour -->
+    <?php if ($brain_profile_id == 1): ?>
+        <!-- Code for brain_profile_id 1 -->
+    <?php elseif ($brain_profile_id == 2): ?>
+        <!-- Code for brain_profile_id 2 -->
+    <?php elseif ($brain_profile_id == 3): ?>
+        <!-- Code for brain_profile_id 3 -->
+    <?php elseif ($brain_profile_id == 4): ?>
+        <!-- Code for brain_profile_id 4 -->
+    <?php elseif ($brain_profile_id == 5): ?>
+        <!-- Code for brain_profile_id 5 -->
+    <?php elseif ($brain_profile_id == 6): ?>
+        <!-- Code for brain_profile_id 6 -->
+    <?php elseif ($brain_profile_id == 7): ?>
+        <!-- Code for brain_profile_id 7 -->
+    <?php elseif ($brain_profile_id == 8): ?>
+        <!-- Code for brain_profile_id 8 -->
+    <?php elseif ($brain_profile_id == 9): ?>
+        <!-- Code for brain_profile_id 9 -->
+    <?php elseif ($brain_profile_id == 10): ?>
+        <!-- Code for brain_profile_id 10 -->
+    <?php elseif ($brain_profile_id == 11): ?>
+        <!-- Code for brain_profile_id 11 -->
+    <?php elseif ($brain_profile_id == 12): ?>
+        <!-- Code for brain_profile_id 12 -->
+    <?php elseif ($brain_profile_id == 13): ?>
+        <!-- Code for brain_profile_id 13 -->
+    <?php elseif ($brain_profile_id == 14): ?>
+        <!-- Code for brain_profile_id 14 -->
+    <?php elseif ($brain_profile_id == 15): ?>
+        <!-- Code for brain_profile_id 15 -->
+    <?php endif; ?>
+
+<?php endif; ?>
+
+
+
+
+<button onclick="vvvv()">touch</button>
+
+
+
+
+
+    
+</section>
+
+<script>
+   
+    var brainProfileId = <?php echo json_encode($brain_profile_id); ?>;
+
+    function vvvv() {
+        alert("Profile ID: " + brainProfileId);
+    }
+
+
+</script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+{{-- <section class="py-5">
+    <div class="container text-center pt-5 pb-1">
+        <h3 class="heading1 text-purple">Take the first step toward understanding your brain better with us!</h3>
+        <p class="p1 ">Self Discovery to  Holistic Growth & Development harnesses the principles of Neuro development and Neuroplasticity.</p>
+    </div>
     <div class="container mt-4">
         <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
             <div class="row align-items-center text-md-start text-center">
@@ -148,7 +440,7 @@ endif;
                     <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p>
                 </div>
                 <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                    <button class="home-slider-btn mt-2">Start now</button>
+                    <button class="home-slider-btn mt-2">Read More</button>
                 </div>
             </div>
         </div>
@@ -199,8 +491,5 @@ endif;
         </div>
 
     </div>
-</section>
 
-
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</section> --}}
