@@ -7,7 +7,7 @@ $my_details = $user_dtails;
 
 
 $compare_brain_score = $other_brain_score;
-$compare_brain_profile_id = '15';
+$compare_brain_profile_id = '14';
 $compare_age = $other_age;
 $compare_details = $other_dtails;
 ?>
@@ -81,10 +81,17 @@ $compare_details = $other_dtails;
                                 aria-selected="false">Matching Career Options</button>
                         </li>
                         <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="flow-grow-tab" data-bs-toggle="pill"
+                                data-bs-target="#flow-grow-options" type="button" role="tab" aria-controls="flow-grow-options"
+                                aria-selected="false">Flow & grow basics</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
                             <button class="nav-link last-link" id="skills-tab" data-bs-toggle="pill"
                                 data-bs-target="#skills" type="button" role="tab" aria-controls="skills"
                                 aria-selected="false">Skill Test</button>
                         </li>
+
+                       
                     </ul>
 
                     <div class="tab-content" id="pills-tabContent">
@@ -4075,9 +4082,20 @@ As a <strong>Practical Empath / Grounded Relational Thinker,</strong> your stren
 
                                                         </p>
 
-                                                        <h6 class="collapsible-btn-content-title">1. Collaborative Learning
-                                                        </h6>
-                                                                        <ul class="collapsible-content-list">
+
+                                                        <div class="accordion" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-1" aria-expanded="false" aria-controls="collapseTwo-1">
+                                                            1. Collaborative Learning
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
                                                                             <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Approach: </span>
                                                                                 <span class="list-description">You thrive in group settings where you can share ideas and gain insights from others. Collaborative discussions enhance your understanding and stimulate creativity.</span>
@@ -4095,11 +4113,35 @@ As a <strong>Practical Empath / Grounded Relational Thinker,</strong> your stren
                                                                             </li>
                                                                             
                                                                         </ul>
+                                                                
 
-                                                                        <h6 class="collapsible-btn-content-title">2. Interdisciplinary Approach
 
-                                                        </h6>
-                                                                        <ul class="collapsible-content-list">
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                    
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-2" aria-expanded="false" aria-controls="collapseTwo-2">
+                                                            2. Interdisciplinary Approach
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
                                                                             <li class="collapsible-content-list-item">
                                                                                 <span class="list-title">Approach: </span>
                                                                                 <span class="list-description">You enjoy integrating concepts from multiple disciplines, fostering a holistic understanding of topics. This approach allows you to see connections between ideas that others may overlook.
@@ -4121,10 +4163,36 @@ As a <strong>Practical Empath / Grounded Relational Thinker,</strong> your stren
                                                                             
                                                                         </ul>
 
-                                                                        <h6 class="collapsible-btn-content-title">3. Visual Learning
+                                                                
 
-</h6>
-                <ul class="collapsible-content-list">
+
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree-3" aria-expanded="false" aria-controls="collapseThree-3">
+                                                            3. Visual Learning
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseThree-3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
                     <li class="collapsible-content-list-item">
                         <span class="list-title">Approach: </span>
                         <span class="list-description">You often find visual aids helpful in understanding complex concepts. Diagrams, charts, and infographics enhance your comprehension and retention of information.
@@ -4149,11 +4217,34 @@ As a <strong>Practical Empath / Grounded Relational Thinker,</strong> your stren
                     
                 </ul>
 
-                <h6 class="collapsible-btn-content-title">4. Reflective Learning
+
+                                                                
 
 
-</h6>
-                <ul class="collapsible-content-list">
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour-4" aria-expanded="false" aria-controls="collapseFour-4">
+                                                            4. Reflective Learning
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFour-4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
                     <li class="collapsible-content-list-item">
                         <span class="list-title">Approach: </span>
                         <span class="list-description">You value time for reflection, allowing you to process information and connect it to your existing knowledge. Reflection enhances your understanding of concepts and your implications.
@@ -4181,12 +4272,33 @@ As a <strong>Practical Empath / Grounded Relational Thinker,</strong> your stren
                     
                 </ul>
 
-                <h6 class="collapsible-btn-content-title">5. Hands-On Learning
+                                                               
 
 
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
 
-</h6>
-                <ul class="collapsible-content-list">
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive-5" aria-expanded="false" aria-controls="collapseFive-5">
+                                                            5. Hands-On Learning
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFive-5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
                     <li class="collapsible-content-list-item">
                         <span class="list-title">Approach: </span>
                         <span class="list-description">You benefit from practical application and experiential learning, which help solidify concepts and theories. Engaging in hands-on activities enhances your ability to integrate knowledge.
@@ -4217,13 +4329,32 @@ As a <strong>Practical Empath / Grounded Relational Thinker,</strong> your stren
                     
                 </ul>
 
-                <h6 class="collapsible-btn-content-title">6. Problem-Based Learning
+                                                               
 
 
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
 
 
-</h6>
-                <ul class="collapsible-content-list">
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix-6" aria-expanded="false" aria-controls="collapseSix-6">
+                                                            6. Problem-Based Learning
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSix-6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
                     <li class="collapsible-content-list-item">
                         <span class="list-title">Approach: </span>
                         <span class="list-description">You enjoy tackling real-world problems and challenges as a way to learn. This method allows you to apply your analytical thinking skills and creativity in finding solutions.
@@ -4257,14 +4388,35 @@ As a <strong>Practical Empath / Grounded Relational Thinker,</strong> your stren
                     
                 </ul>
 
-                <h6 class="collapsible-btn-content-title">7. Inquiry-Based Learning
+                                                               
+
+
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
 
 
 
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven-7" aria-expanded="false" aria-controls="collapseSeven-7">
+                                                            7. Inquiry-Based Learning
 
 
-</h6>
-                <ul class="collapsible-content-list">
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSeven-7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
                     <li class="collapsible-content-list-item">
                         <span class="list-title">Approach: </span>
                         <span class="list-description">You thrive when encouraged to ask questions and explore topics that spark your curiosity. This approach fosters a deeper understanding of subjects.
@@ -4301,7 +4453,42 @@ As a <strong>Practical Empath / Grounded Relational Thinker,</strong> your stren
                     
                 </ul>
 
-                <h6 class="collapsible-btn-content-title">Tips to Enhance Learning:
+                                                                
+
+
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+
+                                                      
+                                                                       
+
+                                                                       
+                                                                       
+
+                                                                        
+               
+
+               
+               
+
+               
+               
+
+             
+               
+
+                
+               
+
+                <h6 class="collapsible-btn-content-title mt-3">Tips to Enhance Learning:
 
 
 
@@ -13303,7 +13490,8 @@ As a Practical Empath or Grounded Relational Thinker, your communication and beh
                                                         <div class="accordion-item collapsible-div">
                                                           <h2 class="accordion-header">
                                                             <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive-5" aria-expanded="false" aria-controls="collapseFive-5">
-                                                            Behavioral Traits:
+                                                            5. Research-Based Choices
+
 
                                                             </button>
                                                           </h2>
@@ -13317,13 +13505,14 @@ As a Practical Empath or Grounded Relational Thinker, your communication and beh
                                                                                    
                                                                                 <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Approach: </span>
-                                                                                    <span class="list-description">You prioritize understanding others' feelings and perspectives, actively listening to what you say. Your empathetic nature fosters trust and openness in conversations.
+                                                                                    <span class="list-description">You tend to make informed decisions about your diet based on research and evidence. This analytical perspective allows you to stay updated on nutritional trends and health recommendations.
                                                                                     </span>
                                                                                   </li>
 
                                                                                   <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Strength: </span>
-                                                                                    <span class="list-description">This quality encourages meaningful dialogue and makes others feel valued and understood.
+                                                                                    <span class="list-title">Key Practices:  </span>
+                                                                                    <span class="list-description">Reading nutritional literature, following reputable health sources, and experimenting with different dietary approaches based on sound principles.
+
                                                                                     </span>
                                                                                   </li>
                                                                                
@@ -13353,7 +13542,8 @@ As a Practical Empath or Grounded Relational Thinker, your communication and beh
                                                         <div class="accordion-item collapsible-div">
                                                           <h2 class="accordion-header">
                                                             <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix-6" aria-expanded="false" aria-controls="collapseSix-6">
-                                                            Behavioral Traits:
+                                                            6. Creativity in Cooking
+
 
                                                             </button>
                                                           </h2>
@@ -13367,13 +13557,15 @@ As a Practical Empath or Grounded Relational Thinker, your communication and beh
                                                                                    
                                                                                 <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Approach: </span>
-                                                                                    <span class="list-description">You prioritize understanding others' feelings and perspectives, actively listening to what you say. Your empathetic nature fosters trust and openness in conversations.
+                                                                                    <span class="list-description">You enjoy experimenting with new recipes and flavors, allowing you to express your creativity in the kitchen. This exploration enhances your culinary skills and keeps meals exciting.
+
                                                                                     </span>
                                                                                   </li>
 
                                                                                   <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Strength: </span>
-                                                                                    <span class="list-description">This quality encourages meaningful dialogue and makes others feel valued and understood.
+                                                                                    <span class="list-title">Key Practices: </span>
+                                                                                    <span class="list-description">Trying out new cuisines, incorporating seasonal ingredients, and adapting recipes to suit your tastes and nutritional needs.
+
                                                                                     </span>
                                                                                   </li>
                                                                                
@@ -13404,7 +13596,8 @@ As a Practical Empath or Grounded Relational Thinker, your communication and beh
                                                         <div class="accordion-item collapsible-div">
                                                           <h2 class="accordion-header">
                                                             <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven-7" aria-expanded="false" aria-controls="collapseSeven-7">
-                                                            Behavioral Traits:
+                                                            7. Hydration Awareness
+
 
                                                             </button>
                                                           </h2>
@@ -13418,13 +13611,15 @@ As a Practical Empath or Grounded Relational Thinker, your communication and beh
                                                                                    
                                                                                 <li class="collapsible-content-list-item">
                                                                                     <span class="list-title">Approach: </span>
-                                                                                    <span class="list-description">You prioritize understanding others' feelings and perspectives, actively listening to what you say. Your empathetic nature fosters trust and openness in conversations.
+                                                                                    <span class="list-description">You understand the importance of staying hydrated and are likely mindful of your fluid intake throughout the day, recognizing its impact on overall health and cognitive function.
+
                                                                                     </span>
                                                                                   </li>
 
                                                                                   <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Strength: </span>
-                                                                                    <span class="list-description">This quality encourages meaningful dialogue and makes others feel valued and understood.
+                                                                                    <span class="list-title">Key Practices: </span>
+                                                                                    <span class="list-description">Keeping track of water consumption, incorporating hydrating foods (like fruits and vegetables), and setting reminders to drink water regularly.
+
                                                                                     </span>
                                                                                   </li>
                                                                                
@@ -13464,15 +13659,17 @@ As a Practical Empath or Grounded Relational Thinker, your communication and beh
 
                                                        
 
-                                                                            <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Tips for Enhancing Communication and Behavior:
+                                                                            <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Best Eating Habits for You:
+
 
 
 </h5>
 
-<ol class="collapsible-content-list">
+<ul class="collapsible-content-list">
                                                                                 <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Practice Active Listening:</span>
-                                                                                    <span class="list-description"> Engage fully when others speak, demonstrating genuine interest in your thoughts and feelings. This enhances understanding and strengthens connections.
+                                                                                    <span class="list-title">Plan Meals Ahead: </span>
+                                                                                    <span class="list-description"> Organize your meals to ensure nutritional balance and convenience.
+
 
 
 
@@ -13481,17 +13678,8 @@ As a Practical Empath or Grounded Relational Thinker, your communication and beh
                                                                                   </li>
 
                                                                                   <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Encourage Open Dialogue:  </span>
-                                                                                    <span class="list-description"> Create an atmosphere where everyone feels comfortable sharing your ideas and feedback. Promote discussions that value diverse perspectives.
-
-
-
-                                                                                    </span>
-                                                                                  </li>
-
-                                                                                  <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Leverage Your Analytical Skills: </span>
-                                                                                    <span class="list-description"> Use your analytical abilities to break down complex topics during discussions, helping others understand the reasoning behind your thoughts.
+                                                                                    <span class="list-title">Focus on Whole Foods: </span>
+                                                                                    <span class="list-description"> Prioritize fresh, unprocessed ingredients that nourish your body and mind.
 
 
 
@@ -13500,8 +13688,9 @@ As a Practical Empath or Grounded Relational Thinker, your communication and beh
                                                                                   </li>
 
                                                                                   <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Seek Feedback:  </span>
-                                                                                    <span class="list-description"> Regularly ask for feedback from peers or mentors to refine your communication style and ensure your ideas are conveyed effectively.
+                                                                                    <span class="list-title">Practice Mindful Eating: </span>
+                                                                                    <span class="list-description"> Engage fully with your meals to enhance your eating experience and maintain control over portions.
+
 
 
 
@@ -13510,8 +13699,19 @@ As a Practical Empath or Grounded Relational Thinker, your communication and beh
                                                                                   </li>
 
                                                                                   <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Reflect on Interactions: </span>
-                                                                                    <span class="list-description"> After conversations or meetings, take time to assess your communication style and behaviors. Identify areas for improvement and recognize your successes.
+                                                                                    <span class="list-title">Stay Social with Food:  </span>
+                                                                                    <span class="list-description"> Share meals and cooking experiences with friends and family to foster connections.
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Experiment Creatively: </span>
+                                                                                    <span class="list-description"> Explore new recipes and cuisines to keep your meals interesting and enjoyable.
+
 
 
 
@@ -13519,13 +13719,28 @@ As a Practical Empath or Grounded Relational Thinker, your communication and beh
 
                                                                                     </span>
                                                                                   </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Monitor Hydration: </span>
+                                                                                    <span class="list-description">Ensure proper fluid intake throughout the day for optimal health.
+
+
+
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
 
                                                                                   
                                                                                
-                                                                            </ol>
+                                                                            </ul>
 
                                                                             <p class="comparison-description">
-                                                                            By understanding and embracing your communication and behavioral tendencies as a Quadruple Pie dominant individual, you can enhance your ability to connect with others and foster meaningful, productive relationships in all areas of your life. Your strengths in empathy, collaboration, and analytical thinking make you a valuable partner and contributor in any relationship.
+                                                                            By aligning your dietary choices with your holistic and integrative nature, you can create a nourishing and enjoyable eating experience that enhances your overall well-being while supporting your health goals.
+
 
 
                                                         </p>
@@ -13538,7 +13753,9 @@ As a Practical Empath or Grounded Relational Thinker, your communication and beh
                                                         <div class="col-12">
                                                         
                                                         <p class="comparison-description">
-                                                        As a Independent Problem-Solver or Analytical Innovator, your communication and behavior styles are characterized by a strong analytical approach, independence, and a focus on logical reasoning. You value clear, direct communication and often prioritize problem-solving in your interactions. Here’s how your communication and behavior typically manifest:
+                                                        As a Independent Problem-Solver or Analytical Innovator, your approach to diet and nutrition is characterized by logic, precision, and a focus on health outcomes. You tend to prioritize meal planning and making informed decisions about your food choices. Here’s how you might think about food and nutrition:
+
+
 
                                                         </p>
 
@@ -13547,180 +13764,45 @@ As a Practical Empath or Grounded Relational Thinker, your communication and beh
                                                         <div class="accordion-item collapsible-div">
                                                           <h2 class="accordion-header">
                                                             <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-1" aria-expanded="false" aria-controls="collapseTwo-1">
-                                                            Communication Style:
+                                                            1. Structured Meal Planning
+
+
                                                             </button>
                                                           </h2>
                                                           <div id="collapseTwo-1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                                             <div class="accordion-body p-0">
                                                                 <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
-                                                                <ol class="collapsible-content-list">
-                                                                                <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Clear and Direct
-                                                                                    </span>
-                                                                                    <ul class="collapsible-content-list">
-                                                                                <li class="collapsible-content-list-item">
+                                                                <ul class="collapsible-content-list">
+                                                                                
                                                                                     
-                                                                                    <span class="list-description">You prefer straightforward communication that gets to the point. You value clarity and efficiency in discussions, avoiding unnecessary embellishments.
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Approach: </span>
+                                                                                    <span class="list-description"> You prefer to have a clear plan for your meals, organizing them to ensure a balanced intake of essential nutrients. You appreciate the efficiency that comes from meal prepping.
+
+
                                                                                     </span>
                                                                                   </li>
 
                                                                                   <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Strength: </span>
-                                                                                    <span class="list-description"> This clarity fosters understanding and minimizes miscommunication, making it easier for others to follow your reasoning.
+                                                                                    <span class="list-title">Key Practices: </span>
+                                                                                    <span class="list-description">Creating weekly meal plans that include all food groups (proteins, carbohydrates, fats, fruits, and vegetables) to maintain nutritional balance.
+
 
                                                                                     </span>
                                                                                   </li>
                                                                                
-                                                                            </ul>
-                                                                                  </li>
+                                                                            
+                                                                                  
 
 
-                                                                                  <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Analytical and Logical
-
-
-                                                                                    </span>
-                                                                                    <ul class="collapsible-content-list">
-                                                                                <li class="collapsible-content-list-item">
-                                                                                    
-                                                                                    <span class="list-description">You tend to approach discussions with a logical mindset, often using data and evidence to support your arguments. Your analytical nature allows you to dissect complex ideas and present them clearly.
-
-
-                                                                                    </span>
-                                                                                  </li>
-
-                                                                                  <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Strength: </span>
-                                                                                    <span class="list-description">Your reliance on logic enhances your credibility and encourages others to consider your perspectives thoughtfully.
-
-
-                                                                                    </span>
-                                                                                  </li>
+                                                                                 
 
                                                                                   
                                                                                
-                                                                            </ul>
-                                                                                  </li>
-
-                                                                                  <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Problem-Solving Focused
-
-
-
-                                                                                    </span>
-                                                                                    <ul class="collapsible-content-list">
-                                                                                <li class="collapsible-content-list-item">
-                                                                                    
-                                                                                    <span class="list-description">In conversations, you often aim to identify solutions to challenges. You may redirect discussions toward finding practical outcomes, especially in group settings.
-
-
-
-                                                                                    </span>
-                                                                                  </li>
-
-                                                                                  <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Strength: </span>
-                                                                                    <span class="list-description">This problem-solving orientation can help groups stay focused and productive during discussions.
-
-
-
-                                                                                    </span>
-                                                                                  </li>
-
-                                                                                  
+                                                                          
                                                                                
                                                                             </ul>
-                                                                                  </li>
-
-                                                                                  <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Independent and Self-Reliant
-
-
-
-                                                                                    </span>
-                                                                                    <ul class="collapsible-content-list">
-                                                                                <li class="collapsible-content-list-item">
-                                                                                    
-                                                                                    <span class="list-description"> You tend to express your ideas and opinions confidently, relying on your analytical skills rather than seeking validation from others. This independence allows you to contribute original thoughts.
-
-
-                                                                                    </span>
-                                                                                  </li>
-
-                                                                                  <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Strength: </span>
-                                                                                    <span class="list-description">Your self-reliance can inspire others to share your own ideas without fear of judgment.
-
-
-
-                                                                                    </span>
-                                                                                  </li>
-
-                                                                                  
-                                                                               
-                                                                            </ul>
-                                                                                  </li>
-
-                                                                                  <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Reflective and Thoughtful
-
-
-
-                                                                                    </span>
-                                                                                    <ul class="collapsible-content-list">
-                                                                                <li class="collapsible-content-list-item">
-                                                                                    
-                                                                                    <span class="list-description">You often take time to think through your responses before speaking. This reflective nature enables you to consider different angles and formulate well-reasoned arguments.
-
-
-                                                                                    </span>
-                                                                                  </li>
-
-                                                                                  <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Strength: </span>
-                                                                                    <span class="list-description"> This thoughtfulness can lead to more meaningful and impactful discussions.
-
-
-
-                                                                                    </span>
-                                                                                  </li>
-
-                                                                                  
-                                                                               
-                                                                            </ul>
-                                                                                  </li>
-
-                                                                                  <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Objective and Unbiased
-
-
-
-                                                                                    </span>
-                                                                                    <ul class="collapsible-content-list">
-                                                                                <li class="collapsible-content-list-item">
-                                                                                    
-                                                                                    <span class="list-description"> You aim to approach discussions with objectivity, focusing on facts rather than emotions. This approach can help keep conversations grounded and constructive.
-
-
-
-                                                                                    </span>
-                                                                                  </li>
-
-                                                                                  <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Strength: </span>
-                                                                                    <span class="list-description">Your objectivity encourages others to engage in rational discussions, enhancing collaborative problem-solving.
-
-
-
-                                                                                    </span>
-                                                                                  </li>
-
-                                                                                  
-                                                                               
-                                                                            </ul>
-                                                                                  </li>
-                                                                               
-                                                                            </ol>
                                                                     
                                                                     
                                                                 </div>
@@ -13736,195 +13818,326 @@ As a Practical Empath or Grounded Relational Thinker, your communication and beh
                                                         <div class="accordion-item collapsible-div">
                                                           <h2 class="accordion-header">
                                                             <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-2" aria-expanded="false" aria-controls="collapseTwo-2">
-                                                            Behavioral Traits:
+                                                            2. Focus on Nutritional Value
+
+
 
                                                             </button>
                                                           </h2>
                                                           <div id="collapseTwo-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                                             <div class="accordion-body p-0">
                                                                 <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
-                                                                    <ol class="collapsible-content-list">
-                                                                                <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Independent Thinker
 
-
-                                                                                    </span>
-                                                                                    <ul class="collapsible-content-list">
-                                                                                <li class="collapsible-content-list-item">
+                                                                <ul class="collapsible-content-list">
+                                                                                
                                                                                     
-                                                                                    <span class="list-description">You enjoy exploring ideas and solutions on your own and may prefer to work independently on tasks. This independence can lead to innovative approaches and unique insights.
-
-
-                                                                                    </span>
-                                                                                  </li>
-
-                                                                                  <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Strength: </span>
-                                                                                    <span class="list-description">Your independent thinking fosters originality and allows for creative problem-solving.
-
-
-                                                                                    </span>
-                                                                                  </li>
-                                                                               
-                                                                            </ul>
-                                                                                  </li>
-
-
-                                                                                  <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Detail-Oriented
-
-
-
-                                                                                    </span>
-                                                                                    <ul class="collapsible-content-list">
-                                                                                <li class="collapsible-content-list-item">
-                                                                                    
-                                                                                    <span class="list-description">You tend to pay close attention to details, ensuring that you fully understand the nuances of a situation before taking action. This focus on detail enhances your analytical skills.
-
-
-
-                                                                                    </span>
-                                                                                  </li>
-
-                                                                                  <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Strength: </span>
-                                                                                    <span class="list-description"> Your attention to detail can lead to thorough analyses and comprehensive solutions.
-
-
-
-                                                                                    </span>
-                                                                                  </li>
-
-                                                                                  
-                                                                               
-                                                                            </ul>
-                                                                                  </li>
-
-                                                                                  <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Solution-Oriented
-
-
-
-
-                                                                                    </span>
-                                                                                    <ul class="collapsible-content-list">
-                                                                                <li class="collapsible-content-list-item">
-                                                                                  
-                                                                                    <span class="list-description">You approach challenges with a focus on finding effective solutions. You enjoy brainstorming ideas and exploring different avenues to overcome obstacles.
-
-
-
-
-                                                                                    </span>
-                                                                                  </li>
-
-                                                                                  <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Strength: </span>
-                                                                                    <span class="list-description">This solution-oriented mindset can help motivate others and keep teams on track during complex projects.
-
-
-
-
-                                                                                    </span>
-                                                                                  </li>
-
-                                                                                  
-                                                                               
-                                                                            </ul>
-                                                                                  </li>
-
-                                                                                  <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Calm and Composed
-
-
-
-                                                                                    </span>
-                                                                                    <ul class="collapsible-content-list">
-                                                                                <li class="collapsible-content-list-item">
-                                                                                    
-                                                                                    <span class="list-description"> You often maintain a calm demeanor, even in stressful situations. Your composed behavior allows you to think clearly and rationally, which is particularly valuable during problem-solving.
-
-
-
-                                                                                    </span>
-                                                                                  </li>
-
-                                                                                  <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Strength: </span>
-                                                                                    <span class="list-description">Your calmness can help diffuse tension in group settings and foster a more constructive atmosphere.
-
-
-                                                                                    </span>
-                                                                                  </li>
-
-                                                                                  
-                                                                               
-                                                                            </ul>
-                                                                                  </li>
-
-                                                                                  <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Inquisitive and Curious
-
-
-
-                                                                                    </span>
-                                                                                    <ul class="collapsible-content-list">
-                                                                                <li class="collapsible-content-list-item">
-                                                                                    
-                                                                                    <span class="list-description">You have a natural curiosity about how things work and enjoy exploring new ideas and concepts. This inquisitive nature drives your analytical thinking and problem-solving abilities.
-
-
-
-
-                                                                                    </span>
-                                                                                  </li>
-
-                                                                                  <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Strength: </span>
-                                                                                    <span class="list-description">Your curiosity can inspire innovative approaches and encourage others to think critically.
-
-
-
-                                                                                    </span>
-                                                                                  </li>
-
-                                                                                  
-                                                                               
-                                                                            </ul>
-                                                                                  </li>
-
-                                                                                  <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Self-Motivated
-
-
-
-                                                                                    </span>
-                                                                                    <ul class="collapsible-content-list">
-                                                                                <li class="collapsible-content-list-item">
                                                                                    
-                                                                                    <span class="list-description"> You are often driven by personal goals and interests, seeking out challenges that stimulate your analytical thinking. This self-motivation fuels your independent learning and growth.
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Approach: </span>
+                                                                                    <span class="list-description">You’re interested in the nutritional facts behind what you eat, often reading labels to monitor calories, vitamins, and minerals. Evidence-based decisions guide your dietary choices.
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Interests: </span>
+                                                                                    <span class="list-description"> Researching various diets (e.g., Mediterranean, paleo) or nutritional strategies (e.g., macronutrient tracking) to optimize health and cognitive performance.
 
 
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree-3" aria-expanded="false" aria-controls="collapseThree-3">
+                                                            3. Mindful Eating
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseThree-3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Approach: </span>
+                                                                                    <span class="list-description">You prefer to eat in a purposeful and focused manner, appreciating the flavors and textures of your meals. Mindful eating helps you maintain control over your portions and choices.
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Mindful Techniques: </span>
+                                                                                    <span class="list-description">Savoring each bite, understanding when you’re full, and eliminating distractions during meals to enhance your eating experience.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour-4" aria-expanded="false" aria-controls="collapseFour-4">
+                                                            4. Research-Based Choices
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFour-4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Approach: </span>
+                                                                                    <span class="list-description">You make informed, evidence-based decisions about your diet, often relying on research and expert recommendations to guide your choices.
 
 
                                                                                     </span>
                                                                                   </li>
 
                                                                                   <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Strength: </span>
-                                                                                    <span class="list-description">  Your intrinsic motivation allows you to pursue knowledge and skills relevant to your interests, leading to continual self-improvement.
+                                                                                    <span class="list-title">Key Practices: </span>
+                                                                                    <span class="list-description"> Keeping up-to-date with the latest nutritional research, considering the impact of specific nutrients on health, and adjusting your diet accordingly.
 
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive-5" aria-expanded="false" aria-controls="collapseFive-5">
+                                                            5. Routine and Consistency
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFive-5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Approach: </span>
+                                                                                    <span class="list-description">You enjoy having a set routine for your meals, whether it’s three meals a day or smaller, frequent meals, which helps you maintain balance and control.
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Practices:  </span>
+                                                                                    <span class="list-description"> Sticking to regular meal times and ensuring that your meals are nutritious and satisfying.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix-6" aria-expanded="false" aria-controls="collapseSix-6">
+                                                            6. Portion Control
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSix-6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Approach: </span>
+                                                                                    <span class="list-description">You pay attention to portion sizes and often measure or plan your servings to ensure you are consuming the right amount for your goals.
 
 
                                                                                     </span>
                                                                                   </li>
 
-                                                                                  
-                                                                               
-                                                                            </ul>
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Practices: </span>
+                                                                                    <span class="list-description">Using measuring cups or a food scale to track portions, which allows you to maintain control over your intake.
+
+
+                                                                                    </span>
                                                                                   </li>
                                                                                
-                                                                            </ol>
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven-7" aria-expanded="false" aria-controls="collapseSeven-7">
+                                                            7. Hydration Awareness
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSeven-7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Approach: </span>
+                                                                                    <span class="list-description">You understand the importance of staying hydrated and are likely mindful of your water intake throughout the day.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Practices: </span>
+                                                                                    <span class="list-description">Setting reminders to drink water regularly, tracking your fluid intake, and ensuring you stay adequately hydrated.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
                                                                     
                                                                     
                                                                 </div>
@@ -13949,15 +14162,16 @@ As a Practical Empath or Grounded Relational Thinker, your communication and beh
 
                                                        
 
-                                                                            <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Tips for Enhancing Communication and Behavior:
+                                                                            <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Best Eating Habits for You:
+
 
 
 </h5>
 
-<ol class="collapsible-content-list">
+<ul class="collapsible-content-list">
                                                                                 <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Practice Active Listening:</span>
-                                                                                    <span class="list-description">Engage fully when others speak, demonstrating genuine interest in your thoughts and feelings. This can enhance collaboration and foster a supportive environment.
+                                                                                    <span class="list-title">Plan Meals Ahead: </span>
+                                                                                    <span class="list-description"> Organize your meals to ensure nutritional balance and convenience.
 
 
 
@@ -13967,8 +14181,8 @@ As a Practical Empath or Grounded Relational Thinker, your communication and beh
                                                                                   </li>
 
                                                                                   <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Encourage Open Dialogue: </span>
-                                                                                    <span class="list-description"> Create an atmosphere where everyone feels comfortable sharing your ideas and feedback. Promote discussions that value diverse perspectives and constructive criticism.
+                                                                                    <span class="list-title">Focus on Nutrition: </span>
+                                                                                    <span class="list-description"> Pay attention to the nutritional content of your foods and adjust based on your health goals.
 
 
 
@@ -13977,19 +14191,8 @@ As a Practical Empath or Grounded Relational Thinker, your communication and beh
                                                                                   </li>
 
                                                                                   <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Leverage Your Analytical Skills: </span>
-                                                                                    <span class="list-description"> Use your analytical abilities to break down complex topics during discussions, helping others understand the reasoning behind your thoughts.
-
-
-
-
-
-                                                                                    </span>
-                                                                                  </li>
-
-                                                                                  <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Seek Feedback:  </span>
-                                                                                    <span class="list-description"> Regularly ask for feedback from peers or mentors to refine your communication style and ensure your ideas are conveyed effectively.
+                                                                                    <span class="list-title">Practice Mindful Eating: </span>
+                                                                                    <span class="list-description"> Engage fully with your meals to enhance your eating experience and maintain control over portions.
 
 
 
@@ -13999,8 +14202,20 @@ As a Practical Empath or Grounded Relational Thinker, your communication and beh
                                                                                   </li>
 
                                                                                   <li class="collapsible-content-list-item">
-                                                                                    <span class="list-title">Reflect on Interactions: </span>
-                                                                                    <span class="list-description"> After conversations or meetings, take time to assess your communication style and behaviors. Identify areas for improvement and recognize your successes.
+                                                                                    <span class="list-title">Research-Based Dieting: </span>
+                                                                                    <span class="list-description"> Base your dietary choices on reliable information and personal research.
+
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Maintain Routine: </span>
+                                                                                    <span class="list-description"> Stick to a consistent eating schedule that keeps your energy levels steady throughout the day.
+
 
 
 
@@ -14009,13 +14224,29 @@ As a Practical Empath or Grounded Relational Thinker, your communication and beh
 
                                                                                     </span>
                                                                                   </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Control Portions:  </span>
+                                                                                    <span class="list-description">Measure your food to prevent overeating and maintain balance.
+
+
+
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
 
                                                                                   
                                                                                
-                                                                            </ol>
+                                                                            </ul>
 
                                                                             <p class="comparison-description">
-                                                                            You can enhance your ability to connect with others and foster meaningful, productive relationships in all areas of your life. Your analytical thinking, independence, and solution-oriented mindset make you a valuable partner and contributor in any setting.
+                                                                            By aligning your dietary choices with your logical and analytical nature, you can create a nourishing and enjoyable eating experience that enhances your overall well-being while supporting your health goals.
+
+
 
 
                                                         </p>
@@ -14026,1578 +14257,1666 @@ As a Practical Empath or Grounded Relational Thinker, your communication and beh
 
                                                     <?php elseif ($compare_brain_profile_id === '13' ): ?>
 
-<div class="col-12">
+                                                        <div class="col-12">
+                                                        
+                                                        <p class="comparison-description">
+                                                        As a Visionary Dreamer or Conceptual Creative, your approach to diet and nutrition is characterized by creativity, exploration, and an emphasis on connection. You tend to prioritize meals that are not only nutritious but also allow for imaginative expression and social engagement. Here’s how you might think about food and nutrition:
 
-<p class="comparison-description">
-As a Visionary Dreamer or Conceptual Creative, your communication and behavior styles are characterized by creativity, empathy, and a strong focus on collaboration. You value meaningful interactions and often seek to foster deeper understanding in your relationships. Here’s how your communication and behavior typically manifest:
 
-</p>
 
+                                                        </p>
 
-<div class="accordion" id="accordionExample">
-<div class="accordion-item collapsible-div">
-  <h2 class="accordion-header">
-    <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-1" aria-expanded="false" aria-controls="collapseTwo-1">
-    Communication Style:
-    </button>
-  </h2>
-  <div id="collapseTwo-1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-    <div class="accordion-body p-0">
-        <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
-        <ol class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            <span class="list-title">Creative and Imaginative
 
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You tend to express your thoughts and ideas in imaginative and engaging ways. This creative approach makes conversations more dynamic and invites others to think outside the box.
+                                                        <div class="accordion" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-1" aria-expanded="false" aria-controls="collapseTwo-1">
+                                                            1. Emphasis on Variety and Creativity
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                   
+                                                                                    <span class="list-description">You enjoy experimenting with a wide range of foods and flavors, often trying out new recipes and cuisines. This creative approach makes mealtime an exciting and enjoyable experience.
 
-                            </span>
-                          </li>
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">  Your creativity in communication can inspire others and stimulate rich discussions.
+                                                                                    </span>
+                                                                                  </li>
 
-                            </span>
-                          </li>
-                       
-                    </ul>
-                          </li>
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Practices: </span>
+                                                                                    <span class="list-description">Trying different cooking styles, incorporating seasonal ingredients, and exploring international cuisines.
 
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Empathetic and Relational
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
 
 
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You possess a strong ability to understand and connect with the emotions of others. Your empathetic nature allows you to engage in meaningful conversations and create supportive environments.
+                                                                                 
 
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                    
 
 
-                            </span>
-                          </li>
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-2" aria-expanded="false" aria-controls="collapseTwo-2">
+                                                            2. Mindful Eating
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">This empathy builds trust and fosters deeper connections with peers.
 
 
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
 
-                            </span>
-                          </li>
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    
+                                                                                    <span class="list-description">You value the experience of eating and often take time to savor your meals. Mindful eating enhances your connection with food and fosters a deeper appreciation for the flavors and textures of what you consume.
 
-                          
-                       
-                    </ul>
-                          </li>
+                                                                                    </span>
+                                                                                  </li>
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Collaborative and Inclusive
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Mindful Techniques:  </span>
+                                                                                    <span class="list-description"> Eating without distractions, engaging in conversations during meals, and reflecting on the ingredients and preparation processes.
 
 
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
 
 
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You thrive in discussions that encourage participation from everyone involved. You value diverse perspectives and seek to create a collaborative atmosphere where all voices are heard.
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
 
 
 
-                            </span>
-                          </li>
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description"> This inclusivity enhances group dynamics and fosters a sense of belonging among your peers.
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree-3" aria-expanded="false" aria-controls="collapseThree-3">
+                                                            3. Social and Communal Meals
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseThree-3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                   
+                                                                                    <span class="list-description">Meals often serve as opportunities for social interaction and bonding. You appreciate sharing food with others and may prioritize communal dining experiences.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Practices: </span>
+                                                                                    <span class="list-description">Organizing potlucks, family dinners, or cooking with friends to foster connection and create memorable experiences.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour-4" aria-expanded="false" aria-controls="collapseFour-4">
+                                                            4. Health-Conscious Choices
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFour-4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                   
+                                                                                    <span class="list-description">While you enjoy creativity in cooking, you also pay attention to the nutritional aspects of your food. You seek out ingredients that promote overall health and well-being.
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Interests: </span>
+                                                                                    <span class="list-description"> Focusing on whole foods, fresh vegetables, fruits, lean proteins, and whole grains while minimizing processed foods and sugars.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive-5" aria-expanded="false" aria-controls="collapseFive-5">
+                                                            5. Creative Presentation
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFive-5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    
+                                                                                    <span class="list-description">You likely enjoy presenting your meals in visually appealing ways, as the aesthetics of food can enhance the dining experience.
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Practices:  </span>
+                                                                                    <span class="list-description">Arranging dishes artfully, using colorful ingredients, and garnishing plates to create an inviting atmosphere.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix-6" aria-expanded="false" aria-controls="collapseSix-6">
+                                                            6. Exploration of Food Trends
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSix-6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    
+                                                                                    <span class="list-description">You may be drawn to exploring various dietary trends and philosophies, assessing what resonates with your values and lifestyle.
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Interests:  </span>
+                                                                                    <span class="list-description"> Investigating plant-based diets, sustainable eating practices, or holistic nutrition approaches that align with your ideals.
+
 
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
 
 
+                                                                                 
 
-                            </span>
-                          </li>
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
 
-                          
-                       
-                    </ul>
-                          </li>
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Visionary and Inspirational
 
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven-7" aria-expanded="false" aria-controls="collapseSeven-7">
+                                                            7. Mindful Preparation
 
 
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSeven-7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
 
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description"> Your communication often includes visionary ideas and ideals that inspire others. You enjoy sharing your thoughts on possibilities and future scenarios, encouraging others to dream big.
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                  
+                                                                                    <span class="list-description">You might enjoy the process of cooking itself, viewing it as a creative outlet rather than just a means to an end. This makes meal preparation a fulfilling activity.
 
 
+                                                                                    </span>
+                                                                                  </li>
 
-                            </span>
-                          </li>
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Practices: </span>
+                                                                                    <span class="list-description">Experimenting with new recipes, involving friends or family in cooking, and reflecting on the significance of the meals you prepare.
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">This visionary quality can motivate those around you to explore new ideas and perspectives.
 
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
 
 
+                                                                                 
 
-                            </span>
-                          </li>
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
 
-                          
-                       
-                    </ul>
-                          </li>
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Open and Honest
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight-8" aria-expanded="false" aria-controls="collapseEight-8">
+                                                            Suggested Meal Ideas:
 
 
 
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseEight-8" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
 
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You value transparency in your interactions and prefer to communicate openly about your thoughts and feelings. This honesty fosters trust and authenticity in relationships.
+                                                                <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Breakfast:
 
 
 
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description"> Your straightforwardness encourages others to share your ideas and concerns, leading to more meaningful conversations.
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Reflective and Thoughtful
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description"> You take time to consider your interactions and the ideas presented during conversations. This thoughtful approach helps you digest information and respond meaningfully.
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">This reflection enhances your understanding and allows for deeper discussions.
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-                       
-                    </ol>
-            
-            
-        </div>
-    </div>
-  </div>
-</div>  
-</div>
-
-
-
-{{-- Strategic Team Sports --}}
-<div class="accordion mt-3" id="accordionExample">
-<div class="accordion-item collapsible-div">
-  <h2 class="accordion-header">
-    <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-2" aria-expanded="false" aria-controls="collapseTwo-2">
-    Behavioral Traits:
-
-    </button>
-  </h2>
-  <div id="collapseTwo-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-    <div class="accordion-body p-0">
-        <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
-            <ol class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            <span class="list-title">Imaginative and Visionary
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You approach tasks and relationships with a sense of creativity and vision. You enjoy brainstorming new ideas and exploring possibilities for the future.
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description"> This imaginative quality helps you think outside the box and come up with innovative solutions.
-
-
-                            </span>
-                          </li>
-                       
-                    </ul>
-                          </li>
-
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Collaborative and Team-Oriented
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You thrive in collaborative settings where teamwork is emphasized. You value input from others and enjoy working together to achieve common goals.
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">This teamwork fosters strong relationships and enhances the overall effectiveness of group efforts.
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Supportive and Nurturing
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                          
-                            <span class="list-description">You often take on a supportive role in relationships, offering encouragement and motivation to those around you. You enjoy uplifting others and celebrating your successes.
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">Your supportive behavior creates a positive environment that fosters growth and collaboration.
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Curious and Open-Minded
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description"> You possess a natural curiosity about the world and the people around you. You enjoy exploring new ideas and concepts, which can lead to creative insights.
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">This curiosity encourages lifelong learning and personal growth.
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Reflective and Introspective
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You value self-reflection and take time to assess your interactions and behaviors within relationships. This introspective approach allows for personal growth and deeper connections.
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description"> Your ability to reflect enhances your emotional intelligence and helps you develop stronger, more meaningful relationships.
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Flexible and Adaptive
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                           
-                            <span class="list-description"> You are often driven by personal goals and interests, seeking out challenges that stimulate your analytical thinking. This self-motivation fuels your independent learning and growth.
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">   Your adaptability can lead to innovative solutions in evolving environments.
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-                       
-                    </ol>
-            
-            
-        </div>
-    </div>
-  </div>
-</div>  
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Tips for Enhancing Communication and Behavior:
 
 
 </h5>
 
-<ol class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            <span class="list-title">Practice Active Listening:</span>
-                            <span class="list-description">Engage fully when others speak, showing genuine interest in your thoughts and feelings. This enhances empathy and understanding.
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                <span class="list-title">Smoothie Bowl: </span>
+                                                                                    <span class="list-description">Blend your favorite fruits with yogurt or plant-based milk, and top with granola, seeds, and fresh fruit for a colorful and nutritious start to your day.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Avocado Toast: </span>
+                                                                                    <span class="list-description">Spread mashed avocado on whole-grain bread and top with tomatoes, radishes, or a poached egg for a creative twist on a classic breakfast.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+
+                                                                            <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Lunch:
 
 
 
 
 
 
-                            </span>
-                          </li>
+</h5>
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Encourage Open Dialogue: </span>
-                            <span class="list-description"> Create an environment where everyone feels comfortable sharing your ideas and feedback. Promote discussions that value diverse perspectives.
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Leverage Your Imagination: </span>
-                            <span class="list-description"> Use your creativity to enhance presentations or discussions, incorporating visuals or storytelling to make your points more engaging.
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                <span class="list-title">Mediterranean Grain Bowl: </span>
+                                                                                    <span class="list-description">Combine quinoa or farro with chickpeas, diced cucumbers, cherry tomatoes, and feta cheese, drizzled with olive oil and lemon juice for a refreshing lunch.
 
 
 
 
+                                                                                    </span>
+                                                                                  </li>
 
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Seek Diverse Perspectives:  </span>
-                            <span class="list-description"> Actively encourage input from others in group settings, valuing different viewpoints and fostering a collaborative atmosphere.
-
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Wrap with a Twist: </span>
+                                                                                    <span class="list-description"> Use a whole-grain wrap filled with hummus, mixed greens, roasted vegetables, and grilled chicken or tofu for a nutritious and visually appealing meal.
 
 
 
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
 
-                            </span>
-                          </li>
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Reflect on Interactions: </span>
-                            <span class="list-description"> Take time to assess your communication style and behaviors after discussions. Identify areas for improvement and recognize your successes.
+                                                                                 
 
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+
+                                                                            <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Dinner:
 
 
 
 
 
 
-                            </span>
-                          </li>
+</h5>
 
-                          
-                       
-                    </ol>
-
-                    <p class="comparison-description">
-                    By understanding and embracing your communication and behavioral tendencies as a LOW L2 dominant individual, you can enhance your ability to connect with others and foster meaningful, fulfilling relationships in all areas of your life. Your imaginative thinking, empathetic nature, and strong relational abilities make you a valuable partner and contributor in any relationship.
-
-
-
-</p>
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                <span class="list-title">Stir-Fried Veggies and Tofu: </span>
+                                                                                    <span class="list-description">Create a colorful stir-fry using a variety of vegetables and tofu, flavored with ginger and soy sauce. Serve over brown rice or noodles for a satisfying meal.
 
 
-</div>
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Stuffed Peppers:  </span>
+                                                                                    <span class="list-description">Fill bell peppers with a mixture of quinoa, black beans, corn, and spices, then bake until tender for a healthy and colorful dinner option.
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+
+                                                                            <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Snacks:
+
+
+
+
+
+
+</h5>
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                <span class="list-title">Veggie Platter: </span>
+                                                                                    <span class="list-description">Arrange a variety of colorful raw vegetables with a homemade dip (like tzatziki or hummus) for a nutritious and visually appealing snack.
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Fruit and Nut Energy Balls:  </span>
+                                                                                    <span class="list-description">Combine nuts, seeds, dried fruit, and oats to make no-bake energy balls that are both nutritious and satisfying.
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                   
+                                                   
+                                                   
+
+
+
+
+
+
+
+
+
+
+
+                                                      
+
+                                                       
+
+                                                                            <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Best Eating Habits for You:
+
+
+
+
+
+</h5>
+
+<ul class="collapsible-content-list">
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Experiment with Variety: </span>
+                                                                                    <span class="list-description">Incorporate diverse ingredients and cuisines to keep meals exciting and fulfilling.
+
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Mindful Eating Practices: </span>
+                                                                                    <span class="list-description"> Savor each bite and focus on the sensory aspects of your meals.
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Engage in Social Eating: </span>
+                                                                                    <span class="list-description"> Share meals with friends and family to enhance connection and enjoyment.
+
+
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Creative Cooking: </span>
+                                                                                    <span class="list-description"> Allow your creativity to shine through in meal preparation and presentation.
+
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Health-Conscious Choices: </span>
+                                                                                    <span class="list-description"> Prioritize whole, nutritious foods while allowing for occasional indulgences.
+
+
+
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  
+
+
+                                                                                  
+                                                                               
+                                                                            </ul>
+
+                                                                            <p class="comparison-description">
+                                                                            By aligning your dietary choices with your creative and relational nature, you can create a nourishing and enjoyable eating experience that enhances your overall well-being while supporting your health goals.
+
+
+
+
+                                                        </p>
+
+                                                        
+                                                    </div>
 
 <?php elseif ($compare_brain_profile_id === '12' ): ?>
 
-<div class="col-12">
+    <div class="col-12">
+                                                        
+                                                        <p class="comparison-description">
+                                                        As a  Abstract Idealist or Relational Planner, your approach to diet and nutrition is characterized by a focus on creativity, exploration, and relational dynamics. You tend to prioritize meals that are not only nutritious but also allow for social engagement and imaginative expression. Here’s how you might think about food and nutrition:
 
-<p class="comparison-description">
-As a Abstract Idealist or Relational Planner, your communication and behavior styles are characterized by creativity, relational engagement, and an emphasis on meaningful connections. You value open dialogue and collaboration, which shapes how you interact with others. Here’s how your communication and behavior typically manifest:
 
-</p>
 
+                                                        </p>
 
-<div class="accordion" id="accordionExample">
-<div class="accordion-item collapsible-div">
-  <h2 class="accordion-header">
-    <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-1" aria-expanded="false" aria-controls="collapseTwo-1">
-    Communication Style:
-    </button>
-  </h2>
-  <div id="collapseTwo-1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-    <div class="accordion-body p-0">
-        <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
-        <ol class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            <span class="list-title">Creative and Expressive
 
+                                                        <div class="accordion" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-1" aria-expanded="false" aria-controls="collapseTwo-1">
+                                                            1. Emphasis on Variety and Creativity
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                   
+                                                                                    <span class="list-description">
+                                                                                    You enjoy exploring a wide range of foods and flavors, often experimenting with new recipes and cuisines. This creative approach makes mealtime an exciting and enjoyable experience.
 
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You often use imaginative language and creative expression in your communication. You enjoy exploring ideas and concepts, making your conversations engaging and thought-provoking.
 
+                                                                                    </span>
+                                                                                  </li>
 
-                            </span>
-                          </li>
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Practices: </span>
+                                                                                    <span class="list-description"> Trying out different cooking styles, incorporating seasonal ingredients, and exploring international cuisines.
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">  This creativity can inspire others and foster a dynamic exchange of ideas.
 
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
 
-                            </span>
-                          </li>
-                       
-                    </ul>
-                          </li>
 
+                                                                                 
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Empathetic and Relational
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                    
 
 
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-2" aria-expanded="false" aria-controls="collapseTwo-2">
+                                                            2. Mindful Eating
 
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You possess a strong ability to understand and connect with the emotions of others. Your empathetic nature allows you to engage in meaningful conversations and create supportive environments.
 
 
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
 
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                   
+                                                                                    <span class="list-description">You value the experience of eating and often take time to savor your meals. Mindful eating enhances your connection with food and fosters a deeper appreciation for the flavors and textures of what you consume.
 
-                            </span>
-                          </li>
+                                                                                    </span>
+                                                                                  </li>
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">This empathy builds trust and fosters deeper connections with others.
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Mindful Techniques:  </span>
+                                                                                    <span class="list-description">  Eating without distractions, engaging in conversations during meals, and reflecting on the ingredients and preparation processes.
 
 
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
 
 
-                            </span>
-                          </li>
+                                                                                 
 
-                          
-                       
-                    </ul>
-                          </li>
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Collaborative and Inclusive
 
 
 
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree-3" aria-expanded="false" aria-controls="collapseThree-3">
+                                                            3. Social and Communal Meals
 
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You thrive in discussions that encourage participation from everyone involved. You value diverse perspectives and seek to create a collaborative atmosphere where all voices are heard.
 
 
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseThree-3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
 
 
-                            </span>
-                          </li>
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                   
+                                                                                    <span class="list-description">Meals often serve as opportunities for social interaction and bonding. You appreciate sharing food with others and may prioritize communal dining experiences.
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">  This inclusivity enhances group dynamics and fosters a sense of belonging among peers.
 
+                                                                                    </span>
+                                                                                  </li>
 
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Practices:  </span>
+                                                                                    <span class="list-description">Organizing potlucks, family dinners, or cooking with friends to foster connection and create memorable experiences.
 
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
 
 
-                            </span>
-                          </li>
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
 
-                          
-                       
-                    </ul>
-                          </li>
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour-4" aria-expanded="false" aria-controls="collapseFour-4">
+                                                            4. Health-Conscious Choices
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFour-4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    
+                                                                                    <span class="list-description">While you enjoy creativity in cooking, you also pay attention to the nutritional aspects of your food. You seek out ingredients that promote overall health and well-being.
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Reflective and Thoughtful
 
+                                                                                    </span>
+                                                                                  </li>
 
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                     <span class="list-title">Key Interests: </span>
+                                                                                    <span class="list-description">Focusing on whole foods, fresh vegetables, fruits, lean proteins, and whole grains while minimizing processed foods and sugars.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                                  
+                                                                               
+                                                                            
+                                                                                  
 
 
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
 
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description"> You tend to reflect on your interactions and the ideas presented during conversations. This thoughtful approach helps you consider different viewpoints before responding.
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive-5" aria-expanded="false" aria-controls="collapseFive-5">
+                                                            5. Creative Presentation
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFive-5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                   
+                                                                                    <span class="list-description">You likely enjoy presenting your meals in visually appealing ways, as the aesthetics of food can enhance the dining experience.
 
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Practices: </span>
+                                                                                    <span class="list-description">Arranging dishes artfully, using colorful ingredients, and garnishing plates to create an inviting atmosphere.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
 
 
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix-6" aria-expanded="false" aria-controls="collapseSix-6">
+                                                            6. Exploration of Food Trends
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSix-6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                   
+                                                                                    <span class="list-description">You may be drawn to exploring various dietary trends and philosophies, assessing what resonates with your values and lifestyle.
 
-                            </span>
-                          </li>
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">This reflection enhances your understanding and allows for more nuanced discussions.
+                                                                                    </span>
+                                                                                  </li>
 
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Interests: </span>
+                                                                                    <span class="list-description"> Investigating plant-based diets, sustainable eating practices, or holistic nutrition approaches that align with your ideals.
 
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
 
 
-                            </span>
-                          </li>
+                                                                                 
 
-                          
-                       
-                    </ul>
-                          </li>
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Visionary and Inspirational
 
 
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven-7" aria-expanded="false" aria-controls="collapseSeven-7">
+                                                            7. Mindful Preparation
 
 
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">Your communication often includes visionary ideas and ideals that inspire others. You enjoy sharing your thoughts on possibilities and future scenarios.
 
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSeven-7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
 
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                   
+                                                                                    <span class="list-description">You might enjoy the process of cooking itself, viewing it as a creative outlet rather than just a means to an end. This makes meal preparation a fulfilling activity.
 
+                                                                                    </span>
+                                                                                  </li>
 
-                            </span>
-                          </li>
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Practices: </span>
+                                                                                    <span class="list-description">Experimenting with new recipes, involving friends or family in cooking, and reflecting on the significance of the meals you prepare.
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">  This visionary quality can motivate those around you to explore new ideas and perspectives.
 
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
 
 
+                                                                                 
 
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                   
+                                                   
 
-                            </span>
-                          </li>
 
-                          
-                       
-                    </ul>
-                          </li>
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Open and Honest
 
 
 
 
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description"> You value transparency in your interactions and prefer to communicate openly about your thoughts and feelings. This honesty fosters trust and authenticity in relationships.
 
 
 
 
-                            </span>
-                          </li>
+                                                      
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">Your openness encourages others to share your ideas and concerns, leading to more meaningful conversations.
+                                                       
 
+                                                                            <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Best Eating Habits for You:
 
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-                       
-                    </ol>
-            
-            
-        </div>
-    </div>
-  </div>
-</div>  
-</div>
-
-
-
-{{-- Strategic Team Sports --}}
-<div class="accordion mt-3" id="accordionExample">
-<div class="accordion-item collapsible-div">
-  <h2 class="accordion-header">
-    <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-2" aria-expanded="false" aria-controls="collapseTwo-2">
-    Behavioral Traits:
-
-    </button>
-  </h2>
-  <div id="collapseTwo-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-    <div class="accordion-body p-0">
-        <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
-            <ol class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            <span class="list-title">Imaginative and Visionary
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You approach tasks and relationships with a sense of creativity and vision. You enjoy brainstorming new ideas and exploring possibilities for the future.
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">  This imaginative quality helps you think outside the box and come up with innovative solutions.
-
-
-
-                            </span>
-                          </li>
-                       
-                    </ul>
-                          </li>
-
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Collaborative and Team-Oriented
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You thrive in collaborative settings where teamwork is emphasized. You value input from others and enjoy working together to achieve common goals.
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">This teamwork fosters strong relationships and enhances the overall effectiveness of group efforts.
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Supportive and Encouraging
-
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                          
-                            <span class="list-description">You often take on a supportive role in relationships, offering encouragement and motivation to those around you. You enjoy uplifting others and celebrating your successes.
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">Your supportive behavior creates a positive environment that fosters growth and collaboration.
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Curious and Open-Minded
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description"> You possess a natural curiosity about the world and the people around you. You enjoy exploring new ideas and concepts, which can lead to creative insights.
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">This curiosity encourages lifelong learning and personal growth.
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Reflective and Introspective
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You value self-reflection and take time to assess your interactions and behaviors within relationships. This introspective approach allows for personal growth and deeper connections.
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description"> Your ability to reflect enhances your emotional intelligence and helps you develop stronger, more meaningful relationships.
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Flexible and Adaptive
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                           
-                            <span class="list-description"> You tend to be open to change and willing to adapt your approach based on new information or feedback. This flexibility allows you to navigate dynamic situations effectively.
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">    Your adaptability can lead to innovative solutions in changing environments.
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-                       
-                    </ol>
-            
-            
-        </div>
-    </div>
-  </div>
-</div>  
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Tips for Enhancing Communication and Behavior:
 
 
 </h5>
 
-<ol class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            <span class="list-title">Practice Active Listening:</span>
-                            <span class="list-description">Engage fully when others speak, showing genuine interest in your thoughts and feelings. This enhances empathy and understanding.
+<ul class="collapsible-content-list">
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Experiment with Variety: </span>
+                                                                                    <span class="list-description"> Incorporate diverse ingredients and cuisines to keep meals exciting and fulfilling.
+
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Mindful Eating Practices:  </span>
+                                                                                    <span class="list-description"> Savor each bite and focus on the sensory aspects of your meals.
+
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Engage in Social Eating:  </span>
+                                                                                    <span class="list-description"> Share meals with friends and family to enhance connection and enjoyment.
 
 
 
 
 
 
-                            </span>
-                          </li>
+                                                                                    </span>
+                                                                                  </li>
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Encourage Open Dialogue: </span>
-                            <span class="list-description"> Create an environment where everyone feels comfortable sharing your ideas and feedback. Promote discussions that value diverse perspectives.
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Leverage Your Imagination: </span>
-                            <span class="list-description"> Use your creativity to enhance presentations or discussions, incorporating visuals or storytelling to make your points more engaging.
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Creative Cooking: </span>
+                                                                                    <span class="list-description"> Allow your creativity to shine through in meal preparation and presentation.
 
 
 
 
 
-                            </span>
-                          </li>
+                                                                                    </span>
+                                                                                  </li>
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Seek Diverse Perspectives:  </span>
-                            <span class="list-description"> Actively encourage input from others in group settings, valuing different viewpoints and fostering a collaborative atmosphere.
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Reflect on Interactions: </span>
-                            <span class="list-description"> Take time to assess your communication style and behaviors after discussions. Identify areas for improvement and recognize your successes.
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Health-Conscious Choices: </span>
+                                                                                    <span class="list-description">  Prioritize whole, nutritious foods while allowing for occasional indulgences.
 
 
 
 
 
 
+                                                                                    </span>
+                                                                                  </li>
 
-                            </span>
-                          </li>
+                                                                                
 
-                          
-                       
-                    </ol>
+                                                                                  
+                                                                               
+                                                                            </ul>
 
-                    <p class="comparison-description">
-                    You can enhance your ability to connect with others and foster meaningful, fulfilling relationships in all areas of your life. Your imaginative thinking, empathetic nature, and strong relational abilities make you a valuable partner and contributor in any relationship
-
-
-
-</p>
+                                                                            <p class="comparison-description">
+                                                                            By aligning your dietary choices with your creative and relational nature, you can create a nourishing and enjoyable eating experience that enhances your overall well-being while supporting your health goals.
 
 
-</div>
+
+
+                                                        </p>
+
+                                                        
+                                                    </div>
 
 
 <?php elseif ($compare_brain_profile_id === '11' ): ?>
 
-<div class="col-12">
+    <div class="col-12">
+                                                        
+                                                        <p class="comparison-description">
+                                                        As a Grounded Thinker or Structured Planner, your approach to diet and nutrition is characterized by a focus on organization, practicality, and evidence-based choices. You tend to prioritize meals that are not only nutritious but also align with your structured lifestyle. Here’s how you might think about food and nutrition:
 
-<p class="comparison-description">
-As a Grounded Thinker or Structured Planner, your communication and behavior styles are characterized by a preference for clarity, organization, and logical reasoning. You thrive in environments that value structured interactions and practical approaches. Here’s how your communication and behavior typically manifest:
+
+
+                                                        </p>
+
+
+                                                        <div class="accordion" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-1" aria-expanded="false" aria-controls="collapseTwo-1">
+                                                            1. Structured Meal Planning
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                  
+                                                                                    <span class="list-description">You prefer to have a clear plan for your meals, organizing your dietary intake to ensure it is balanced and nutritious.
 
-</p>
 
+                                                                                    </span>
+                                                                                  </li>
 
-<div class="accordion" id="accordionExample">
-<div class="accordion-item collapsible-div">
-  <h2 class="accordion-header">
-    <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-1" aria-expanded="false" aria-controls="collapseTwo-1">
-    Communication Style:
-    </button>
-  </h2>
-  <div id="collapseTwo-1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-    <div class="accordion-body p-0">
-        <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
-        <ol class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            <span class="list-title">Clear and Concise
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Practices: </span>
+                                                                                    <span class="list-description"> Creating weekly meal plans that include a variety of food groups, such as proteins, vegetables, fruits, and whole grains. You may also enjoy meal prepping to save time and ensure consistency in your diet
 
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
 
 
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You prefer to communicate in a straightforward manner, focusing on clarity and precision. Your messages are typically well-structured, allowing others to understand your points easily.
+                                                                                 
 
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                    
 
 
-                            </span>
-                          </li>
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-2" aria-expanded="false" aria-controls="collapseTwo-2">
+                                                            2. Focus on Nutritional Value
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">   This clarity reduces misunderstandings and facilitates effective communication in both personal and professional settings.
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                   
+                                                                                    <span class="list-description">You are interested in the nutritional aspects of your food. Reading labels and researching different foods to ensure your meals are healthy and beneficial is likely part of your routine.
 
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Interests: </span>
+                                                                                    <span class="list-description">  Understanding macronutrients (carbohydrates, proteins, fats), vitamins, and minerals, and how you contribute to overall health and energy levels.
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
 
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
 
-                            </span>
-                          </li>
-                       
-                    </ul>
-                          </li>
 
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Analytical and Rational
 
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree-3" aria-expanded="false" aria-controls="collapseThree-3">
+                                                            3. Practical and Simple Recipes
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseThree-3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                  
+                                                                                    <span class="list-description">You appreciate meals that are easy to prepare and require minimal ingredients while still providing balanced nutrition.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Practices: </span>
+                                                                                    <span class="list-description">Opting for straightforward recipes that allow for efficient cooking and meal preparation without sacrificing flavor or nutrition.
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour-4" aria-expanded="false" aria-controls="collapseFour-4">
+                                                            4. Mindful Eating
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFour-4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                   
+                                                                                    <span class="list-description">You value meals that allow for reflection and connection with others. Eating mindfully enhances your dining experience, making it more enjoyable and fulfilling.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Mindful Techniques: </span>
+                                                                                    <span class="list-description">Savoring each bite, being aware of portion sizes, and engaging in conversations during meals to enhance social connections.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive-5" aria-expanded="false" aria-controls="collapseFive-5">
+                                                            5. Variety and Flexibility
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFive-5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                  
+                                                                                    <span class="list-description">You enjoy a diverse diet that includes a wide range of foods. Trying new recipes and flavors keeps your meals interesting and prevents monotony.
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Practices:  </span>
+                                                                                    <span class="list-description">Exploring different cuisines, incorporating seasonal ingredients, and being open to trying new foods.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix-6" aria-expanded="false" aria-controls="collapseSix-6">
+                                                            6. Healthy Comfort Foods
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSix-6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                  
+                                                                                    <span class="list-description">You seek out meals that provide both nutrition and comfort, often modifying traditional comfort foods to make them healthier.
 
 
+                                                                                    </span>
+                                                                                  </li>
 
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You approach conversations with a logical mindset, often providing data or evidence to support your views. You enjoy discussing ideas that are grounded in facts and analysis.
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Balanced Approach: </span>
+                                                                                    <span class="list-description">Creating healthier versions of your favorite dishes, such as using whole grains, lean proteins, and plenty of vegetables.
 
 
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
 
 
+                                                                                 
 
-                            </span>
-                          </li>
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description"> This analytical approach can enhance discussions, leading to well-informed decisions.
 
 
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven-7" aria-expanded="false" aria-controls="collapseSeven-7">
+                                                            7. Hydration Awareness
 
 
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSeven-7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
 
-                            </span>
-                          </li>
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                  
+                                                                                    <span class="list-description">You understand the importance of staying hydrated and are likely mindful of your fluid intake. Proper hydration supports both physical and mental well-being.
 
-                          
-                       
-                    </ul>
-                          </li>
+                                                                                    </span>
+                                                                                  </li>
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Structured and Organized
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Practices: </span>
+                                                                                    <span class="list-description"> Drinking plenty of water throughout the day, incorporating herbal teas, and consuming water-rich foods like fruits and vegetables.
 
 
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
 
 
+                                                                                 
 
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">Your communication is often organized, with a clear progression of ideas. You may prefer to outline your thoughts before sharing them, ensuring a logical flow.
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                   
+                                                   
 
 
 
 
 
-                            </span>
-                          </li>
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">   This organization helps others follow your reasoning and contributes to more effective discussions.
 
 
 
 
 
-                            </span>
-                          </li>
+                                                      
 
-                          
-                       
-                    </ul>
-                          </li>
+                                                       
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Supportive Listener
+                                                                            <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Best Eating Habits for You:
 
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description"> While you communicate your ideas clearly, you also prioritize listening to others. You value your input and seek to understand your perspectives, making you a supportive conversational partner.
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">Your listening skills foster a sense of trust and respect in relationships.
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Detail-Oriented
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You tend to focus on details, ensuring that important aspects of a discussion are addressed. You may be inclined to ask clarifying questions to ensure full understanding.
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">   This attention to detail helps prevent misunderstandings and promotes thoroughness in discussions.
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Feedback-Oriented
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description"> You appreciate constructive feedback and often seek it to improve your communication skills. You encourage others to share your thoughts on your ideas and presentations.
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">This openness to feedback fosters an environment of continuous improvement and collaboration.
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-                       
-                    </ol>
-            
-            
-        </div>
-    </div>
-  </div>
-</div>  
-</div>
-
-
-
-{{-- Strategic Team Sports --}}
-<div class="accordion mt-3" id="accordionExample">
-<div class="accordion-item collapsible-div">
-  <h2 class="accordion-header">
-    <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-2" aria-expanded="false" aria-controls="collapseTwo-2">
-    Behavioral Traits:
-
-    </button>
-  </h2>
-  <div id="collapseTwo-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-    <div class="accordion-body p-0">
-        <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
-            <ol class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            <span class="list-title">Structured and Methodical
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">Your approach to tasks and interactions is highly organized. You thrive on having a clear plan and enjoy breaking down complex tasks into manageable steps.
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description"> This structured behavior enhances your ability to meet deadlines and achieve goals 
-
-
-
-                            </span>
-                          </li>
-                       
-                    </ul>
-                          </li>
-
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Pragmatic and Practical
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You tend to focus on practical solutions to problems, prioritizing what works best in real-world situations. You prefer to take a no-nonsense approach to challenges.
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description"> Your pragmatic nature helps you navigate obstacles effectively, finding solutions that are both realistic and achievable.
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Calm and Composed
-
-
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                          
-                            <span class="list-description">You usually maintain a calm demeanor, especially in challenging situations. Your grounded nature allows you to approach problems with a level head, providing stability for those around you.
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">This calmness can help de-escalate tensions and facilitate constructive discussions.
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Goal-Oriented
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description"> You approach tasks with specific objectives in mind, whether it’s completing a project, achieving a personal goal, or collaborating on a team effort.
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description"> This focus on goals encourages purposeful interactions and a sense of direction in your work.
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Reflective and Introspective
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You value self-reflection and take time to assess your interactions and behaviors within relationships. This introspective approach allows for personal growth and deeper connections.
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">  This reflection enhances your emotional intelligence and helps you navigate relational dynamics more effectively.
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Reliable and Dependable
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                           
-                            <span class="list-description"> Others often see you as a reliable team member or friend. You follow through on commitments and ensure that tasks are completed as planned.
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">   This dependability fosters trust and strengthens relationships, making you a valued contributor in group settings.
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-                       
-                    </ol>
-            
-            
-        </div>
-    </div>
-  </div>
-</div>  
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Tips for Enhancing Communication and Behavior:
 
 
 </h5>
 
-<ol class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            <span class="list-title">Practice Active Listening:</span>
-                            <span class="list-description">Continue to engage fully when others speak, showing genuine interest in your thoughts and feelings. Ask clarifying questions to demonstrate your understanding.
+<ul class="collapsible-content-list">
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Plan Meals Ahead: </span>
+                                                                                    <span class="list-description"> Organizing your meals ahead of time for efficiency and balance.
+
+
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Nutritional Focus: </span>
+                                                                                    <span class="list-description">  Paying attention to the nutritional content of your food and making informed choices.
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Mindful Eating: </span>
+                                                                                    <span class="list-description">Savoring each bite and being present during meals to enhance your eating experience.
+
+
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Practical Cooking:  </span>
+                                                                                    <span class="list-description">Preparing simple and healthy meals that fit into your structured lifestyle.
+
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Variety: </span>
+                                                                                    <span class="list-description"> Incorporating a wide range of foods into your diet to ensure nutritional balance while allowing for occasional indulgences.
 
 
 
@@ -15605,47 +15924,12 @@ As a Grounded Thinker or Structured Planner, your communication and behavior sty
 
 
 
-                            </span>
-                          </li>
+                                                                                    </span>
+                                                                                  </li>
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Encourage Open Dialogue: </span>
-                            <span class="list-description">  Create an environment where everyone feels comfortable sharing your ideas and feedback. Promote discussions that value diverse perspectives.
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Leverage Your Analytical Skills: </span>
-                            <span class="list-description"> Use your analytical abilities to structure your communication effectively, helping others understand complex information more easily.
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Reflect on Interactions:  </span>
-                            <span class="list-description"> Take time to assess your communication style and behaviors after discussions. Identify areas for improvement and recognize your successes.
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Support and Encourage Others:</span>
-                            <span class="list-description"> Be proactive in providing support to those around you. Your positive reinforcement can enhance relationships and foster a sense of community.
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Hydration:  </span>
+                                                                                    <span class="list-description">Ensuring proper water intake throughout the day to support overall health.
 
 
 
@@ -15654,556 +15938,504 @@ As a Grounded Thinker or Structured Planner, your communication and behavior sty
 
 
 
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ol>
-
-                    <p class="comparison-description">
-                    By understanding and embracing your communication and behavioral tendencies as a LOW R1 dominant individual, you can enhance your ability to connect with others and foster meaningful, fulfilling relationships in all areas of your life. Your structured thinking, practical approach, and strong relational abilities make you a valuable partner and contributor in any relationship.
+                                                                                    </span>
+                                                                                  </li>
 
 
+                                                                                  
+                                                                               
+                                                                            </ul>
 
-</p>
+                                                                            <p class="comparison-description">
+                                                                            By aligning your dietary choices with your practical and structured nature, you can create a nourishing and enjoyable eating experience that enhances your overall well-being while supporting your health goals.
 
 
-</div>
+
+
+                                                        </p>
+
+                                                        
+                                                    </div>
 
 <?php elseif ($compare_brain_profile_id === '10' ): ?>
 
-<div class="col-12">
+    <div class="col-12">
+                                                        
+                                                        <p class="comparison-description">
+                                                        As a Practical Innovator or Grounded Creative, your approach to diet and nutrition is characterized by a balance of practicality and creativity. You tend to prioritize meals that are not only nutritious but also allow for innovation and experimentation. Here’s how you might think about food and nutrition:
 
-<p class="comparison-description">
-As a Practical Innovator or Grounded Creative, your communication and behavior styles are characterized by a blend of practical application, creativity, and interpersonal engagement. You thrive in environments where you can express innovative ideas while connecting meaningfully with others. Here’s how your communication and behavior typically manifest:
+
+
+                                                        </p>
+
+
+                                                        <div class="accordion" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-1" aria-expanded="false" aria-controls="collapseTwo-1">
+                                                            1. Structured Meal Planning
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    
+                                                                                    <span class="list-description">You prefer to have a clear plan for your meals, organizing your dietary intake to ensure it is balanced and nutritious.
 
-</p>
+                                                                                    </span>
+                                                                                  </li>
 
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Practices: </span>
+                                                                                    <span class="list-description"> Creating weekly meal plans that include a variety of food groups such as proteins, vegetables, fruits, and whole grains. You may also enjoy meal prepping to save time and ensure consistency.
 
-<div class="accordion" id="accordionExample">
-<div class="accordion-item collapsible-div">
-  <h2 class="accordion-header">
-    <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-1" aria-expanded="false" aria-controls="collapseTwo-1">
-    Communication Style:
-    </button>
-  </h2>
-  <div id="collapseTwo-1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-    <div class="accordion-body p-0">
-        <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
-        <ol class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            <span class="list-title">Innovative and Clear
 
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
 
 
+                                                                                 
 
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You prefer to communicate in a straightforward manner, presenting your ideas clearly while also being open to creative solutions. Your innovative thinking allows you to propose new concepts that can be easily understood.
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                    
 
 
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-2" aria-expanded="false" aria-controls="collapseTwo-2">
+                                                            2. Focus on Nutritional Value
 
 
-                            </span>
-                          </li>
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                   
+                                                                                    <span class="list-description">You are interested in the nutritional aspects of your food. You likely read labels and research different foods to ensure your meals are healthy and beneficial.
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">    This clarity reduces misunderstandings and encourages collaboration.
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Interests: </span>
+                                                                                    <span class="list-description"> Understanding macronutrients (carbohydrates, proteins, fats), vitamins, and minerals, and how you contribute to overall health and energy levels.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
 
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
 
 
 
-                            </span>
-                          </li>
-                       
-                    </ul>
-                          </li>
 
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree-3" aria-expanded="false" aria-controls="collapseThree-3">
+                                                            3. Innovative Cooking
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseThree-3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                   
+                                                                                    <span class="list-description">You enjoy experimenting with recipes and trying new ingredients. This creativity allows you to create unique and flavorful meals while ensuring you are nutritious.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Practices: </span>
+                                                                                    <span class="list-description">Experimenting with different cuisines, incorporating seasonal ingredients, and modifying traditional recipes to make them healthier.
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Empathetic and Relational
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour-4" aria-expanded="false" aria-controls="collapseFour-4">
+                                                            4. Mindful Eating
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFour-4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                  
+                                                                                    <span class="list-description">You appreciate meals that allow for reflection and connection with others. Sharing meals with family and friends enhances the dining experience.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Mindful Techniques: </span>
+                                                                                    <span class="list-description">Savoring each bite, engaging in conversations during meals, and being present in the moment to enhance the enjoyment of food.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive-5" aria-expanded="false" aria-controls="collapseFive-5">
+                                                            5. Variety and Flexibility
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFive-5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                   
+                                                                                    <span class="list-description">You value a diverse diet that includes a wide range of foods. Trying new recipes and flavors keeps your meals exciting and helps you discover new preferences.
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Practices:  </span>
+                                                                                    <span class="list-description">Exploring international dishes, incorporating plant-based options, and being open to different cooking styles.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix-6" aria-expanded="false" aria-controls="collapseSix-6">
+                                                            6. Healthy Comfort Foods
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSix-6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    
+                                                                                    <span class="list-description">You seek out meals that provide both nutrition and comfort. You enjoy making healthier versions of your favorite comfort foods that nourish your body without sacrificing taste.
 
 
+                                                                                    </span>
+                                                                                  </li>
 
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Balanced Approach: </span>
+                                                                                    <span class="list-description">Modifying traditional recipes to include healthier ingredients, such as using whole grains instead of refined ones or incorporating more vegetables.
 
 
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You approach conversations with empathy and a genuine interest in others’ perspectives. You seek to build connections through shared experiences and mutual understanding.
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
 
 
+                                                                                 
 
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
 
 
 
-                            </span>
-                          </li>
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven-7" aria-expanded="false" aria-controls="collapseSeven-7">
+                                                            7. Hydration Awareness
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">  Your empathetic communication fosters trust and encourages open dialogue, making others feel valued.
 
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSeven-7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
 
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    
+                                                                                    <span class="list-description">You understand the importance of staying hydrated and are likely mindful of your fluid intake. Proper hydration supports both physical and mental well-being.
 
 
+                                                                                    </span>
+                                                                                  </li>
 
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Practices: </span>
+                                                                                    <span class="list-description">Drinking plenty of water throughout the day, incorporating herbal teas, and consuming water-rich foods like fruits and vegetables.
 
-                            </span>
-                          </li>
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
 
-                          
-                       
-                    </ul>
-                          </li>
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Collaborative
+                                                                                 
 
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                   
+                                                   
 
 
 
 
 
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You thrive in group settings where input from others is valued. Your collaborative nature encourages participation and brainstorming, which enhances creativity and group dynamics.
 
 
 
 
 
 
-                            </span>
-                          </li>
+                                                      
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">   This collaborative approach leads to more comprehensive and innovative solutions.
+                                                       
 
+                                                                            <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Best Eating Habits for You:
 
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Active Listener
-
-
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description"> You engage in active listening, showing genuine interest in what others are saying. This helps you understand your needs and concerns better, allowing for more effective communication.
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">Your listening skills build rapport and strengthen relationships, as others feel appreciated and heard.
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Structured Yet Flexible
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You tend to organize your thoughts logically, but you also allow for flexibility in discussions. This adaptability enables you to explore creative ideas while maintaining a focus on practical applications.
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">  This balance helps you navigate conversations effectively, making them both productive and innovative.
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Feedback-Oriented
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description"> You value constructive feedback and encourage others to share your thoughts on your communication style. This openness to critique helps you refine your approach and enhances your effectiveness.
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">This willingness to receive feedback fosters an environment of continuous improvement and mutual respect.
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-                       
-                    </ol>
-            
-            
-        </div>
-    </div>
-  </div>
-</div>  
-</div>
-
-
-
-{{-- Strategic Team Sports --}}
-<div class="accordion mt-3" id="accordionExample">
-<div class="accordion-item collapsible-div">
-  <h2 class="accordion-header">
-    <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-2" aria-expanded="false" aria-controls="collapseTwo-2">
-    Behavioral Traits:
-
-    </button>
-  </h2>
-  <div id="collapseTwo-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-    <div class="accordion-body p-0">
-        <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
-            <ol class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            <span class="list-title">Relational and Connective
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You prioritize building meaningful connections with others and seek to create a sense of community. Your social nature enables you to engage with a wide range of you.
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description"> This relational focus helps create strong networks and support systems.
-
-
-
-
-                            </span>
-                          </li>
-                       
-                    </ul>
-                          </li>
-
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Innovative Thinker
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You approach situations with a creative mindset, often generating innovative solutions to challenges. Your ability to think outside the box is a significant asset in both personal and professional contexts.
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description"> Your innovative thinking can lead to breakthrough ideas and improvements.
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Supportive and Nurturing
-
-
-
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                          
-                            <span class="list-description">You often take on a supportive role in relationships, offering encouragement and assistance to those you care about. You prioritize the well-being of others and actively seek to uplift them.
-
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">Your nurturing behavior helps build trust and reinforces positive connections.
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Adaptable and Open-Minded
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description"> You are open to new ideas and approaches, adapting your communication and behavior to suit different relational contexts. This flexibility allows you to navigate diverse social dynamics effectively.
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description"> Your adaptability helps maintain healthy relationships and fosters collaboration.
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Goal-Oriented
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You approach tasks and interactions with specific goals in mind, whether it’s fostering deeper connections, collaborating on projects, or supporting each other’s aspirations.
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">   This focus on objectives encourages purposeful interactions and a sense of direction in your relationships.
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Reflective and Introspective
-
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                           
-                            <span class="list-description"> You value self-reflection and take time to assess your interactions and behaviors within relationships. This introspective approach allows for personal growth and deeper connections.
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">    This reflection enhances your emotional intelligence and helps you navigate relational dynamics more effectively.
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-                       
-                    </ol>
-            
-            
-        </div>
-    </div>
-  </div>
-</div>  
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Tips for Enhancing Communication and Behavior:
 
 
 </h5>
 
-<ol class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            <span class="list-title">Practice Active Listening:</span>
-                            <span class="list-description">Continue to engage fully when others speak, asking clarifying questions and demonstrating genuine interest in your thoughts and feelings.
+<ul class="collapsible-content-list">
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Meal Planning: </span>
+                                                                                    <span class="list-description">  Organizing your meals ahead of time for efficiency and balance.
+
+
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Nutritional Focus: </span>
+                                                                                    <span class="list-description"> Paying attention to the nutritional content of your food and making informed choices.
+
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Mindful Eating:</span>
+                                                                                    <span class="list-description"> Savoring each bite and being present during meals to enhance your eating experience.
+
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Innovative Cooking:</span>
+                                                                                    <span class="list-description">  Experimenting with new recipes and flavors to keep meals exciting and enjoyable.
+
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Variety and Flexibility: </span>
+                                                                                    <span class="list-description"> Incorporating a wide range of foods into your diet to ensure nutritional balance while allowing for occasional indulgences.
+
+
+
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Hydration: </span>
+                                                                                    <span class="list-description">Ensuring proper water intake throughout the day to support overall health.
 
 
 
@@ -16212,622 +16444,511 @@ As a Practical Innovator or Grounded Creative, your communication and behavior s
 
 
 
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Encourage Open Dialogue: </span>
-                            <span class="list-description">  Create an environment where everyone feels comfortable sharing your ideas and feedback. Promote discussions that value diverse perspectives.
+                                                                                    </span>
+                                                                                  </li>
 
 
+                                                                                  
+                                                                               
+                                                                            </ul>
 
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Leverage Your Innovative Skills: </span>
-                            <span class="list-description"> Use your creativity to explore new ideas and solutions in your communication, making interactions engaging and impactful.
+                                                                            <p class="comparison-description">
+                                                                            By aligning your dietary choices with your practical and creative nature, you can create a nourishing and enjoyable eating experience that enhances your overall well-being while supporting your health goals.
 
 
 
 
+                                                        </p>
 
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Reflect on Interactions: </span>
-                            <span class="list-description">  Take time to assess your communication style and behaviors after discussions. Identify areas for improvement and recognize your successes.
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Support and Encourage Others:</span>
-                            <span class="list-description"> Be proactive in providing support to those around you. Your positive reinforcement can enhance relationships and foster a sense of community.
-  
-
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ol>
-
-                    
-
-
-</div>
+                                                        
+                                                    </div>
 
 
 <?php elseif ($compare_brain_profile_id === '9' ): ?>
 
-<div class="col-12">
+    <div class="col-12">
+                                                        
+                                                        <p class="comparison-description">
+                                                        As a Analytical Connector or Relational Analyst, your approach to diet and nutrition is characterized by a blend of analytical reasoning and a focus on social connections. You tend to prioritize balanced meals that nourish both your body and mind, while also considering the relational aspects of eating. Here’s how you might think about food and nutrition:
 
-<p class="comparison-description">
-As an Analytical Connector or Relational Analyst, your communication and behavior styles are characterized by a blend of analytical reasoning and relational understanding. You thrive in environments where you can engage meaningfully with others while applying your analytical skills to navigate complex information. Here’s how your communication and behavior typically manifest:
 
-</p>
 
+                                                        </p>
 
-<div class="accordion" id="accordionExample">
-<div class="accordion-item collapsible-div">
-  <h2 class="accordion-header">
-    <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-1" aria-expanded="false" aria-controls="collapseTwo-1">
-    Communication Style:
-    </button>
-  </h2>
-  <div id="collapseTwo-1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-    <div class="accordion-body p-0">
-        <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
-        <ol class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            <span class="list-title">Analytical and Clear
 
+                                                        <div class="accordion" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-1" aria-expanded="false" aria-controls="collapseTwo-1">
+                                                            1. Structured Meal Planning
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    
+                                                                                    <span class="list-description">You prefer to have a clear plan for your meals, often organizing your dietary intake to ensure it is balanced and nutritious.
 
 
+                                                                                    </span>
+                                                                                  </li>
 
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Practices: </span>
+                                                                                    <span class="list-description"> Creating weekly meal plans that include a variety of food groups such as proteins, vegetables, fruits, and whole grains. You may also enjoy meal prepping to save time.
 
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You prefer to communicate with clarity and precision. Your analytical mindset helps you articulate complex ideas in an understandable way, making it easier for others to grasp your insights.
 
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
 
 
+                                                                                 
 
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                    
 
-                            </span>
-                          </li>
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">     This clarity reduces misunderstandings and enhances the effectiveness of your communication.
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-2" aria-expanded="false" aria-controls="collapseTwo-2">
+                                                            2. Focus on Nutritional Value
 
 
 
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
 
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                   
+                                                                                    <span class="list-description">You are interested in the nutritional facts behind the foods you eat. You likely read labels and research different foods to ensure your meals are healthy and beneficial.
 
-                            </span>
-                          </li>
-                       
-                    </ul>
-                          </li>
+                                                                                    </span>
+                                                                                  </li>
 
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Interests: </span>
+                                                                                    <span class="list-description"> Paying attention to macronutrients (carbs, proteins, fats), vitamins, and minerals, and understanding how you affect overall health and well-being.
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Empathetic and Relational
 
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
 
 
+                                                                                 
 
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
 
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You approach conversations with an empathetic understanding of others’ feelings and perspectives. You seek to connect on an emotional level while providing logical insights.
 
 
 
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree-3" aria-expanded="false" aria-controls="collapseThree-3">
+                                                            3. Mindful Eating
 
 
 
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseThree-3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
 
-                            </span>
-                          </li>
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">  Your empathetic communication fosters trust and strengthens relationships, making it easier for others to share your thoughts with you.
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    
+                                                                                    <span class="list-description">You appreciate meals that allow for reflection and connection with others. Sharing meals with family and friends enhances the experience, making it more enjoyable and meaningful.
 
 
+                                                                                    </span>
+                                                                                  </li>
 
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Mindful Techniques: </span>
+                                                                                    <span class="list-description">Savoring each bite, engaging in conversations during meals, and being present in the moment.
 
 
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
 
 
-                            </span>
-                          </li>
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
 
-                          
-                       
-                    </ul>
-                          </li>
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour-4" aria-expanded="false" aria-controls="collapseFour-4">
+                                                            4. Practical Cooking Skills
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFour-4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    
+                                                                                    <span class="list-description">You enjoy cooking and may appreciate recipes that are simple to follow yet allow for creativity. Practical cooking methods that save time and effort are appealing to you.
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Collaborative
 
+                                                                                    </span>
+                                                                                  </li>
 
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Interests: </span>
+                                                                                    <span class="list-description">Experimenting with new recipes, utilizing seasonal ingredients, and finding ways to make healthy meals quickly.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
 
+                                                                                 
 
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
 
 
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You thrive in collaborative environments where input from others is valued. You actively encourage group discussions and enjoy working together to analyze and develop ideas.
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive-5" aria-expanded="false" aria-controls="collapseFive-5">
+                                                            5. Variety and Flexibility
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFive-5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
 
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                   
+                                                                                    <span class="list-description">You value a diverse diet that includes a wide range of foods. Trying new recipes and cuisines keeps your meals exciting and helps you discover new flavors.
 
+                                                                                    </span>
+                                                                                  </li>
 
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Practices:  </span>
+                                                                                    <span class="list-description">Exploring international dishes, incorporating plant-based options, and being open to different cooking styles.
 
 
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
 
 
-                            </span>
-                          </li>
+                                                                                 
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">  This collaborative approach enhances teamwork and fosters creativity in group settings.
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
 
 
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix-6" aria-expanded="false" aria-controls="collapseSix-6">
+                                                            6. Healthy Comfort Foods
 
 
 
-                            </span>
-                          </li>
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSix-6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                 
+                                                                                    <span class="list-description">You likely seek out meals that provide both nutrition and comfort. You enjoy making healthier versions of your favorite comfort foods that nourish your body without sacrificing taste.
 
-                          
-                       
-                    </ul>
-                          </li>
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Active Listener
+                                                                                    </span>
+                                                                                  </li>
 
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Balanced Approach: </span>
+                                                                                    <span class="list-description">Modifying traditional recipes to include healthier ingredients, such as using whole grains instead of refined ones or incorporating more vegetables.
 
 
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
 
 
+                                                                                 
 
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
 
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description"> You are attentive when others speak, demonstrating genuine interest in your thoughts and feelings. This active listening enhances your understanding and helps you respond thoughtfully.
 
 
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven-7" aria-expanded="false" aria-controls="collapseSeven-7">
+                                                            7. Hydration Awareness
 
 
 
-                            </span>
-                          </li>
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSeven-7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description"> Your listening skills build rapport and strengthen relationships, as others feel appreciated and heard.
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                   
+                                                                                    <span class="list-description">You understand the importance of staying hydrated and are likely mindful of your fluid intake. Proper hydration supports both physical and mental well-being.
 
 
+                                                                                    </span>
+                                                                                  </li>
 
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Practices: </span>
+                                                                                    <span class="list-description">Drinking plenty of water throughout the day, incorporating herbal teas, and consuming water-rich foods like fruits and vegetables.
 
 
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
 
-                            </span>
-                          </li>
 
-                          
-                       
-                    </ul>
-                          </li>
+                                                                                 
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Structured and Organized
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                   
+                                                   
 
 
 
 
 
 
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You prefer to present information in a structured manner, often using logical frameworks to guide your communication. This organization helps others follow your thought process easily.
 
 
 
 
 
+                                                      
 
+                                                       
 
-                            </span>
-                          </li>
+                                                                            <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Best Eating Habits for You:
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">  Your structured approach enhances the clarity of your messages and supports effective decision-making.
-
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Feedback-Oriented
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description"> You value feedback and encourage others to share your thoughts on your communication style. This openness to critique helps you refine your approach and enhance your effectiveness.
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description"> This willingness to receive feedback fosters an environment of continuous improvement and mutual respect.
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-                       
-                    </ol>
-            
-            
-        </div>
-    </div>
-  </div>
-</div>  
-</div>
-
-
-
-{{-- Strategic Team Sports --}}
-<div class="accordion mt-3" id="accordionExample">
-<div class="accordion-item collapsible-div">
-  <h2 class="accordion-header">
-    <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-2" aria-expanded="false" aria-controls="collapseTwo-2">
-    Behavioral Traits:
-
-    </button>
-  </h2>
-  <div id="collapseTwo-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-    <div class="accordion-body p-0">
-        <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
-            <ol class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            <span class="list-title">Relational and Connective
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You prioritize building meaningful connections with others and seek to create a sense of community. Your social nature enables you to engage with a wide range of you.
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description"> This relational focus helps create strong networks and support systems.
-
-
-
-
-                            </span>
-                          </li>
-                       
-                    </ul>
-                          </li>
-
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Analytical Thinker
-
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You approach situations with a logical mindset, often analyzing data and information to inform your decisions. This analytical trait helps you navigate complex issues effectively.
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description"> Your analytical thinking allows you to identify patterns and make data-driven decisions.
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Supportive and Nurturing
-
-
-
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                          
-                            <span class="list-description">You often take on a supportive role in relationships, offering encouragement and assistance to those you care about. You prioritize the well-being of others and actively seek to uplift them.
-
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">Your nurturing behavior helps build trust and reinforces positive connections.
-
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Adaptable and Flexible
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description"> You are open to change and can adjust your communication style based on the needs of the situation or the people involved. This flexibility enhances your effectiveness in various social contexts.
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">  Your adaptability allows you to navigate different social dynamics smoothly.
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Goal-Oriented
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You approach tasks and interactions with specific goals in mind, whether it’s building deeper connections or collaborating on projects. This focus on objectives encourages purposeful interactions.
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">   Your goal-oriented mindset can lead to meaningful outcomes in both personal and professional relationships.
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Reflective and Introspective
-
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                           
-                            <span class="list-description"> You value self-reflection and take time to assess your interactions and behaviors within relationships. This introspective approach allows you to learn from experiences and grow personally.
-
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">     This reflection enhances your emotional intelligence and helps you develop stronger, more meaningful relationships.
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-                       
-                    </ol>
-            
-            
-        </div>
-    </div>
-  </div>
-</div>  
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Tips for Enhancing Communication and Behavior:
 
 
 </h5>
 
-<ol class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            <span class="list-title">Practice Active Listening:</span>
-                            <span class="list-description">Continue to engage fully when others speak, asking clarifying questions and demonstrating genuine interest in your thoughts and feelings.
+<ul class="collapsible-content-list">
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Meal Planning:</span>
+                                                                                    <span class="list-description">  Organizing your meals ahead of time for efficiency and balance.
+
+
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Nutritional Focus:</span>
+                                                                                    <span class="list-description"> Paying attention to the nutritional content of your food.
+
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Mindful Eating: </span>
+                                                                                    <span class="list-description">  Savoring each bite and being in control of your portions.
+
+
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Practical Cooking: </span>
+                                                                                    <span class="list-description">  Experimenting with easy and nutritious recipes that cater to your tastes.
+
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Variety and Flexibility: </span>
+                                                                                    <span class="list-description"> Incorporating a wide range of foods into your diet to ensure nutritional balance while allowing for occasional indulgences.
+
+
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Hydration: </span>
+                                                                                    <span class="list-description"> Ensuring proper water intake throughout the day.
 
 
 
@@ -16836,166 +16957,374 @@ As an Analytical Connector or Relational Analyst, your communication and behavio
 
 
 
-                            </span>
-                          </li>
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Encourage Open Dialogue: </span>
-                            <span class="list-description">  Create an environment where everyone feels comfortable sharing your ideas and feedback. Promote discussions that value diverse perspectives.
+                                                                                    </span>
+                                                                                  </li>
 
 
+                                                                                  
+                                                                               
+                                                                            </ul>
 
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Leverage Your Analytical Skills:  </span>
-                            <span class="list-description"> Use your analytical abilities to structure your communication effectively, helping others understand complex information more easily.
+                                                                            <p class="comparison-description">
+                                                                            By aligning your dietary choices with your analytical and relational nature, you can create a nourishing and enjoyable eating experience that enhances your overall well-being while supporting your health goals.
 
 
 
+                                                        </p>
 
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Reflect on Interactions: </span>
-                            <span class="list-description">  Take time to assess your communication style and behaviors after discussions. Identify areas for improvement and recognize your successes.
-
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Support and Encourage Others:</span>
-                            <span class="list-description"> Be proactive in providing support to those around you. Your positive reinforcement can enhance relationships and foster a sense of community.
-  
-
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ol>
-
-                    <p class="comparison-description">
-                    By understanding and embracing your communication and behavioral tendencies as an L1R2 / R2L1 dominant individual, you can enhance your ability to connect with others and foster meaningful, fulfilling relationships in all areas of your life. Your analytical skills, empathetic understanding, and strong relational abilities make you a valuable partner and contributor in any relationship.
-
-
-</p>
-
-                    
-
-
-</div>
+                                                        
+                                                    </div>
 
 <?php elseif ($compare_brain_profile_id === '8' ): ?>
 
-<div class="col-12">
+    <div class="col-12">
+                                                        
+                                                        <p class="comparison-description">
+                                                        Your approach to diet and nutrition is likely characterized by a practical mindset and a focus on relational aspects of eating. You tend to prioritize balanced meals that nourish both your body and mind while also considering the social context of food. Here’s how you might think about food and nutrition:
 
-<p class="comparison-description">
-As a Practical Empath or Grounded Relational Thinker, your communication and behavior styles are characterized by empathy, practicality, and a strong focus on relational dynamics. You thrive in environments where you can connect with others meaningfully and provide grounded solutions to challenges. Here’s how your communication and behavior typically manifest:
+
+
+                                                        </p>
+
+
+                                                        <div class="accordion" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-1" aria-expanded="false" aria-controls="collapseTwo-1">
+                                                            1. Balanced Meal Planning
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                   
+                                                                                    <span class="list-description">You prefer to have a structured approach to meal planning, ensuring that your meals are nutritionally balanced and meet your dietary needs. This planning helps you stay organized and mindful of your food choices.
+                                                                                    
 
+                                                                                    </span>
+                                                                                  </li>
 
-</p>
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Practices: </span>
+                                                                                    <span class="list-description">Creating weekly meal plans that incorporate a variety of food groups, including fruits, vegetables, proteins, and whole grains.
 
 
-<div class="accordion" id="accordionExample">
-<div class="accordion-item collapsible-div">
-  <h2 class="accordion-header">
-    <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-1" aria-expanded="false" aria-controls="collapseTwo-1">
-    Communication Style:
-    </button>
-  </h2>
-  <div id="collapseTwo-1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-    <div class="accordion-body p-0">
-        <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
-        <ol class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            <span class="list-title">Empathetic and Relational
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
 
 
+                                                                                 
 
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                    
 
 
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-2" aria-expanded="false" aria-controls="collapseTwo-2">
+                                                            2. Emphasis on Nutritional Value
 
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You communicate with a strong sense of empathy, seeking to understand the emotions and perspectives of others. This relational approach helps you build trust and rapport.
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    
+                                                                                    <span class="list-description">You are interested in the nutritional aspects of the foods you consume. You likely research the health benefits of different ingredients to optimize your diet and support overall well-being.
 
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Interests: </span>
+                                                                                    <span class="list-description"> Reading labels, understanding macronutrients (carbs, proteins, fats), and selecting foods rich in vitamins and minerals.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
 
 
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree-3" aria-expanded="false" aria-controls="collapseThree-3">
+                                                            3. Mindful and Social Eating
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseThree-3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                   
+                                                                                    <span class="list-description">You value the social aspects of eating and often enjoy sharing meals with friends and family. Eating together enhances your sense of connection and community.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Mindful Techniques: </span>
+                                                                                    <span class="list-description">Engaging in conversations during meals, savoring the flavors and textures of food, and focusing on the overall experience of dining.
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour-4" aria-expanded="false" aria-controls="collapseFour-4">
+                                                            4. Practical Cooking Skills
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFour-4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                   
+                                                                                    <span class="list-description">You appreciate practical cooking techniques that allow you to prepare healthy meals efficiently. You enjoy experimenting with recipes that are easy to follow and allow for creativity.
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Interests:</span>
+                                                                                    <span class="list-description">Meal prepping, using simple recipes, and exploring various cooking methods to keep meals interesting.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive-5" aria-expanded="false" aria-controls="collapseFive-5">
+                                                            5. Healthy Comfort Foods
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFive-5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                   
+                                                                                    <span class="list-description">You likely seek out meals that provide both nutrition and comfort. You enjoy making healthier versions of your favorite comfort foods that nourish your body without sacrificing taste.
 
+                                                                                    </span>
+                                                                                  </li>
 
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Balanced Approach:  </span>
+                                                                                    <span class="list-description">Modifying traditional recipes to include healthier ingredients, such as using whole grains instead of refined ones or incorporating more vegetables.
 
-                            </span>
-                          </li>
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">     Your empathetic communication fosters a supportive environment, making others feel valued and understood.
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
 
 
+                                                                                 
 
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
 
 
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix-6" aria-expanded="false" aria-controls="collapseSix-6">
+                                                            7. Hydration Awareness
 
-                            </span>
-                          </li>
-                       
-                    </ul>
-                          </li>
 
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Clear and Direct
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSix-6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
 
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                  
+                                                                                    <span class="list-description">You understand the importance of staying hydrated and are likely mindful of your fluid intake. Proper hydration supports both physical and mental well-being.
 
 
+                                                                                    </span>
+                                                                                  </li>
 
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Key Practices: </span>
+                                                                                    <span class="list-description"> Drinking plenty of water throughout the day, incorporating herbal teas, and consuming water-rich foods like fruits and vegetables.
 
 
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You prefer to communicate in a straightforward manner, ensuring your message is clear and easily understood. You value honesty and transparency in your interactions.
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
 
 
+                                                                                 
 
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
 
 
 
+                                                  
+                                                   
+                                                   
 
 
-                            </span>
-                          </li>
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">  This clarity helps prevent misunderstandings and promotes effective communication.
 
 
 
@@ -17003,489 +17332,80 @@ As a Practical Empath or Grounded Relational Thinker, your communication and beh
 
 
 
-                            </span>
-                          </li>
 
-                          
-                       
-                    </ul>
-                          </li>
+                                                      
 
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Collaborative
+                                                       
 
+                                                                            <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Best Eating Habits for You:
 
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You thrive in collaborative environments where input from others is valued. You actively encourage group discussions and value diverse perspectives in problem-solving.
-
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">   This collaborative approach enhances teamwork and fosters creativity in group settings.
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Active Listener
-
-
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You are attentive when others speak, demonstrating genuine interest in your thoughts and feelings. This active listening enhances your understanding and helps you respond thoughtfully.
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">  Your listening skills build rapport and strengthen relationships, as others feel appreciated and heard.
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Practical Problem-Solver
-
-
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">Your communication often reflects a practical approach to challenges. You focus on finding solutions and offering grounded advice based on your understanding of the situation.
-
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description"> This practical orientation allows you to provide relevant insights and support to those around you.
-
-
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Encouraging and Supportive
-
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description"> You tend to be encouraging in your communication, providing positive reinforcement and support to others. You celebrate your successes and help them through challenges.
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description"> Your supportive nature fosters a sense of community and belonging, making it easier for others to approach you for help.
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-                       
-                    </ol>
-            
-            
-        </div>
-    </div>
-  </div>
-</div>  
-</div>
-
-
-
-{{-- Strategic Team Sports --}}
-<div class="accordion mt-3" id="accordionExample">
-<div class="accordion-item collapsible-div">
-  <h2 class="accordion-header">
-    <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-2" aria-expanded="false" aria-controls="collapseTwo-2">
-    Behavioral Traits:
-
-    </button>
-  </h2>
-  <div id="collapseTwo-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-    <div class="accordion-body p-0">
-        <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
-            <ol class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            <span class="list-title">Relational and Connective
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You prioritize building meaningful connections with others and seek to create a sense of community. Your social nature enables you to engage with a wide range of you.
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description"> This relational focus helps create strong networks and support systems.
-
-
-
-
-                            </span>
-                          </li>
-                       
-                    </ul>
-                          </li>
-
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Adaptable and Flexible
-
-
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You are open to change and can adjust your communication style based on the needs of the situation or the people involved. This flexibility enhances your effectiveness in various social contexts.
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">Your adaptability allows you to navigate different social dynamics smoothly.
-
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Grounded and Practical
-
-
-
-
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                          
-                            <span class="list-description">You approach situations with a practical mindset, focusing on realistic solutions and achievable goals. This grounded approach helps you stay focused and balanced.
-
-
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">Your practicality can inspire others to adopt a similar mindset when facing challenges.
-
-
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Positive and Optimistic
-
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description"> You tend to maintain a positive outlook, bringing joy and enthusiasm into your relationships. Your optimism can uplift those around you and create a positive atmosphere.
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">  This positivity can be contagious, fostering an environment where others feel encouraged and motivated.
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Reflective and Introspective
-
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            
-                            <span class="list-description">You value self-reflection and take time to consider your interactions and behaviors. This introspective approach allows you to learn from experiences and grow personally.
-
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">    This reflection enhances your emotional intelligence and helps you develop stronger, more meaningful relationships.
-
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Goal-Oriented in Relationships
-
-
-
-
-
-
-
-                            </span>
-                            <ul class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                           
-                            <span class="list-description"> You may approach relationships with specific goals in mind, whether it’s building deeper connections, collaborating on projects, or supporting each other’s aspirations.
-
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Strength: </span>
-                            <span class="list-description">     This goal-oriented mindset can lead to purposeful interactions and a sense of accomplishment in shared endeavors.
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ul>
-                          </li>
-                       
-                    </ol>
-            
-            
-        </div>
-    </div>
-  </div>
-</div>  
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Tips for Enhancing Communication and Behavior:
 
 
 </h5>
 
-<ol class="collapsible-content-list">
-                        <li class="collapsible-content-list-item">
-                            <span class="list-title">Practice Active Listening:</span>
-                            <span class="list-description">Continue to engage fully when others speak, asking clarifying questions and demonstrating genuine interest in your thoughts and feelings.
+<ul class="collapsible-content-list">
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Meal Planning: </span>
+                                                                                    <span class="list-description"> Organizing your meals ahead of time for efficiency and balance.
+
+
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Nutritional Focus: </span>
+                                                                                    <span class="list-description"> Paying attention to the nutritional content of your food.
+
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Mindful Eating:</span>
+                                                                                    <span class="list-description"> Savoring each bite and being in control of your portions.
+
+
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Practical Cooking:  </span>
+                                                                                    <span class="list-description">Experimenting with easy and nutritious recipes that cater to your tastes.
+
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Variety and Flexibility: </span>
+                                                                                    <span class="list-description"> Incorporating a wide range of foods into your diet to ensure nutritional balance while allowing for occasional indulgences.
+
+
+
+
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Hydration:  </span>
+                                                                                    <span class="list-description">Ensuring proper water intake throughout the day.
 
 
 
@@ -17494,81 +17414,24 @@ As a Practical Empath or Grounded Relational Thinker, your communication and beh
 
 
 
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Encourage Open Dialogue: </span>
-                            <span class="list-description">  Create an environment where everyone feels comfortable sharing your ideas and feedback. Promote discussions that value diverse perspectives.
+                                                                                    </span>
+                                                                                  </li>
 
 
+                                                                                  
+                                                                               
+                                                                            </ul>
 
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Leverage Your Empathy: </span>
-                            <span class="list-description"> Use your empathetic nature to connect with others on a deeper level, fostering trust and understanding in your relationships.
+                                                                            <p class="comparison-description">
+                                                                            By aligning your dietary choices with your empathetic and practical nature, you can create a nourishing and enjoyable eating experience that enhances your overall well-being while supporting your health goals.
 
 
 
 
+                                                        </p>
 
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Reflect on Interactions: </span>
-                            <span class="list-description">  Take time to assess your communication style and behaviors after discussions. Identify areas for improvement and recognize your successes.
-
-
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          <li class="collapsible-content-list-item">
-                            <span class="list-title">Support and Encourage Others:</span>
-                            <span class="list-description"> Be proactive in providing encouragement and support to those around you. Your positive reinforcement can enhance relationships and foster a sense of community.
-
-  
-
-
-
-
-
-
-
-
-                            </span>
-                          </li>
-
-                          
-                       
-                    </ol>
-
-                    <p class="comparison-description">
-                    By understanding and embracing your communication and behavioral tendencies as an L2R2 / R2L2 dominant individual, you can enhance your ability to connect with others and foster meaningful, fulfilling relationships in all areas of your life. Your empathic skills, practical thinking, and strong relational abilities make you a valuable contributor to any team or collaborative effort.
-
-
-</p>
-
-                    
-
-
-</div>
+                                                        
+                                                    </div>
 
 
 
@@ -17599,6 +17462,4946 @@ As a Practical Empath or Grounded Relational Thinker, your communication and beh
                             <div class="tab-pane fade" id="career-options" role="tabpanel"
                                 aria-labelledby="career-options-tab" tabindex="-1">
                                 <h5>career options</h5>
+                            </div>
+                            <div class="tab-pane fade" id="flow-grow-options" role="tabpanel"
+                                aria-labelledby="flow-grow-options-tab" tabindex="-1">
+                                <div class="row d-flex ">
+                                    {{-- compare one --}}
+                                    <div class="col-6 comparing-div comparing-div-1" id="comparing-div-5">
+                                        <div class="p-3">
+                                            <div class="comparing-head">
+                                                <div class="comparing-head-section">
+                                                    <p class="name">John Doe</p>
+                                                </div>
+                                                <div class="comparing-head-section">
+                                                    <p class="email">johndoe@gmail.com</p>
+                                                </div>
+                                            </div>
+    
+    
+    
+    
+                                            <div class="col-12 scrollable-campare">
+                                                <div class="row mb-5 gx-3 gy-3">
+    
+                                                    
+    
+                                                    <div class="col-12">
+                                                        <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Sports and other extracurricular activities naturally preferred</h5>
+                                                        <p class="comparison-description">
+                                                            Lorem ipsum dolor sit amet consectetur. Mi ornare justo lacus
+                                                            felis. In tortor ultrices morbi sed proin lectus.
+                                                            Semper vel commodo a massa velit faucibus pulvinar lacus. Mauris
+                                                            amet neque a nec sed fames.
+                                                            Cursus proin bibendum nulla tempus. Eu non laoreet non arcu
+                                                            facilisis sollicitudin laoreet sed.
+                                                            Non eget nulla tellus aliquam sodales. Volutpat nunc feugiat
+                                                            quam ipsum rutrum ornare.
+                                                            Non neque fringilla lorem pellentesque mauris. Ornare aenean
+                                                            placerat venenatis congue amet amet.
+                                                            Dignissim in faucibus vitae enim sit integer blandit odio a.
+                                                            Aliquet ullamcorper nec condimentum gravida imperdiet sit
+                                                            interdum morbi. Augue integer vel orci tortor.
+                                                            Viverra tellus lacus ipsum in integer pellentesque id pretium.
+                                                            Ut aliquam diam a viverra sit.
+                                                            Metus aliquam vulputate diam quisque volutpat suspendisse vitae
+                                                            malesuada.
+                                                            Ullamcorper adipiscing velit tortor venenatis feugiat orci
+                                                            placerat faucibus sed.
+                                                        </p>
+                                                    </div>
+                                                    <div class="accordion" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-1" aria-expanded="false" aria-controls="collapseTwo-1">
+                                                                Individual Sports
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+                                                                    <div class="col-12">
+                                                                        <p class="explaining">
+                                                                            Given your Analytical Brain and logical, structured approach to problem-solving, you are likely to excel in sports and extracurricular activities that involve strategy, precision, and individual focus. You prefer activities where you can carefully assess situations and make calculated decisions, as well as those that offer clear rules and objectives.
+                                                                        </p>
+                                                                        <div class="px-2">
+                                                                            <h6 class="collapsible-btn-content-title my-4">Recomonded Sports</h6>
+                                                                            <ul class="collapsible-content-list">
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Tennis: </span>
+                                                                                    <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
+                                                                                  </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Golf : </span>
+                                                                                    <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
+                                                                                </li>
+    
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Swimming :</span>
+                                                                                    <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
+                                                                                </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Fencing :</span>
+                                                                                    <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
+                                                                                </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Archery :</span>
+                                                                                    <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        
+                                                                    </div>
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                    
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-2" aria-expanded="false" aria-controls="collapseTwo-2">
+                                                                Strategic Team Sports
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+                                                                    <div class="col-12">
+                                                                        <p class="explaining">
+                                                                            Given your Analytical Brain and logical, structured approach to problem-solving, you are likely to excel in sports and extracurricular activities that involve strategy, precision, and individual focus. You prefer activities where you can carefully assess situations and make calculated decisions, as well as those that offer clear rules and objectives.
+                                                                        </p>
+                                                                        <div class="px-2">
+                                                                            <h6 class="collapsible-btn-content-title my-4">Recomonded Sports</h6>
+                                                                            <ul class="collapsible-content-list">
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Tennis: </span>
+                                                                                    <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
+                                                                                  </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Golf : </span>
+                                                                                    <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
+                                                                                </li>
+    
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Swimming :</span>
+                                                                                    <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
+                                                                                </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Fencing :</span>
+                                                                                    <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
+                                                                                </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Archery :</span>
+                                                                                    <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        
+                                                                    </div>
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                   
+                                                    {{-- Mind Sports --}}
+                                                    
+                                                    <div class="accordion" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-3" aria-expanded="false" aria-controls="collapseTwo-3">
+                                                                Mind Sports
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+                                                                    <div class="col-12">
+                                                                        <p class="explaining">
+                                                                            Given your Analytical Brain and logical, structured approach to problem-solving, you are likely to excel in sports and extracurricular activities that involve strategy, precision, and individual focus. You prefer activities where you can carefully assess situations and make calculated decisions, as well as those that offer clear rules and objectives.
+                                                                        </p>
+                                                                        <div class="px-2">
+                                                                            <h6 class="collapsible-btn-content-title my-4">Recomonded Sports</h6>
+                                                                            <ul class="collapsible-content-list">
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Tennis: </span>
+                                                                                    <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
+                                                                                  </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Golf : </span>
+                                                                                    <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
+                                                                                </li>
+    
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Swimming :</span>
+                                                                                    <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
+                                                                                </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Fencing :</span>
+                                                                                    <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
+                                                                                </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Archery :</span>
+                                                                                    <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        
+                                                                    </div>
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                    {{-- STEM - Related Extracurriculars --}}
+                                                    
+                                                    <div class="accordion" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-4" aria-expanded="false" aria-controls="collapseTwo-4">
+                                                                STEM - Related Extracurriculars
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+                                                                    <div class="col-12">
+                                                                        <p class="explaining">
+                                                                            Given your Analytical Brain and logical, structured approach to problem-solving, you are likely to excel in sports and extracurricular activities that involve strategy, precision, and individual focus. You prefer activities where you can carefully assess situations and make calculated decisions, as well as those that offer clear rules and objectives.
+                                                                        </p>
+                                                                        <div class="px-2">
+                                                                            <h6 class="collapsible-btn-content-title my-4">Recomonded Sports</h6>
+                                                                            <ul class="collapsible-content-list">
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Tennis: </span>
+                                                                                    <span class="list-description">Involves strategic shot placement, calculating angles, and anticipating opponents' moves.</span>
+                                                                                  </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Golf : </span>
+                                                                                    <span class="list-description">Requires focus, precision, and careful planning for each shot.</span>
+                                                                                </li>
+    
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Swimming :</span>
+                                                                                    <span class="list-description">Offers individual goal setting and improvement tracking, along with structured technique refinement.</span>
+                                                                                </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Fencing :</span>
+                                                                                    <span class="list-description">Combines agility with a strategic, tactical approach, demanding quick thinking and calculated movements.</span>
+                                                                                </li>
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Archery :</span>
+                                                                                    <span class="list-description">Focuses on precision, control, and mental discipline-perfect for someone who values accuracy.</span>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        
+                                                                    </div>
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+    
+                                    {{-- compare 2 --}}
+    
+                                    <div class="col-6 comparing-div comparing-div-2" id="comparing-div-6">
+                                        <div class="p-3">
+                                            <div class="comparing-head">
+                                                <div class="comparing-head-section">
+                                                    <p class="name">John Doe</p>
+                                                </div>
+                                                <div class="comparing-head-section">
+                                                    <p class="email">johndoe@gmail.com</p>
+                                                </div>
+                                            </div>
+    
+    
+    
+    
+                                            <div class="col-12 scrollable-campare">
+                                                <div class="row mb-5 gx-3 gy-3">
+    
+                                                <?php if ($compare_brain_profile_id === '15' ): ?>
+
+                                                    <div class="col-12">
+                                                        
+                                                        <p class="comparison-description">
+                                                        As a Quadruple Pie individual (Harmonized Thinker or Balanced Integrator), your approach to personal growth and development emphasizes collaboration, creativity, and analytical thinking. You thrive in environments that allow you to synthesize diverse perspectives and foster meaningful connections. Here’s how you can cultivate flow and growth effectively:
+
+
+                                                        </p>
+
+
+                                                        <div class="accordion" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-1" aria-expanded="false" aria-controls="collapseTwo-1">
+                                                            1. Set Clear, Collaborative Goals
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Define Your Objectives: </span>
+                                                                                    <span class="list-description">Establish both short-term and long-term goals that align with your strengths and values. Involve others in the goal-setting process to enhance collaboration and accountability.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Visualize Success Together:  </span>
+                                                                                    <span class="list-description">Create a vision board or shared goals document with peers to maintain motivation and focus on collective aspirations.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                    
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-2" aria-expanded="false" aria-controls="collapseTwo-2">
+                                                            2. Engage in Interdisciplinary Learning
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Explore Diverse Learning Opportunities: </span>
+                                                                                    <span class="list-description"> Seek out workshops, courses, or experiences that challenge your thinking and encourage integrative exploration across various fields.
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Utilize Analytical Tools: </span>
+                                                                                    <span class="list-description"> Incorporate tools and resources that facilitate data analysis, project management, and creative thinking into your learning process.
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree-3" aria-expanded="false" aria-controls="collapseThree-3">
+                                                            3. Foster Collaborative Problem-Solving
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseThree-3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Identify Real-World Challenges: </span>
+                                                                                    <span class="list-description"> Look for complex problems in your personal or professional life that require collaborative solutions. Engage peers to brainstorm ideas and develop innovative approaches.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Encourage Diverse Perspectives: </span>
+                                                                                    <span class="list-description">Create a safe space for open dialogue, allowing everyone to contribute your insights and suggestions.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour-4" aria-expanded="false" aria-controls="collapseFour-4">
+                                                            4. Cultivate Emotional Intelligence
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFour-4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Practice Self-Reflection: </span>
+                                                                                    <span class="list-description">Regularly assess your emotions and behaviors to understand your impact on your relationships and decision-making. This enhances self-awareness and promotes personal growth.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Develop Empathy:</span>
+                                                                                    <span class="list-description">Work on actively understanding the feelings and perspectives of others. Engage in activities that require collaboration and deep listening.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive-5" aria-expanded="false" aria-controls="collapseFive-5">
+                                                            5. Embrace Flexibility and Adaptability
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFive-5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Be Open to Change:</span>
+                                                                                    <span class="list-description">Develop a mindset that embraces change and uncertainty. This flexibility will help you navigate challenges more effectively and foster resilience.
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Seek Feedback and Adjust:   </span>
+                                                                                    <span class="list-description">Regularly seek feedback from peers, mentors, or supervisors. Use this input to adjust your strategies and approaches as necessary.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix-6" aria-expanded="false" aria-controls="collapseSix-6">
+                                                            6. Prioritize Consistency and Routine
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSix-6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Establish Daily Routines:  </span>
+                                                                                    <span class="list-description">Create a daily schedule that includes time for collaborative work, creative exploration, and personal development. Consistency helps build positive habits.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Balance Structure with Flexibility:  </span>
+                                                                                    <span class="list-description">While routines are important, allow for spontaneity and adaptability in your plans to encourage new experiences.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven-7" aria-expanded="false" aria-controls="collapseSeven-7">
+                                                            7. Utilize Mindfulness Techniques
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSeven-7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Practice Mindfulness:  </span>
+                                                                                    <span class="list-description">Engage in mindfulness exercises, such as meditation or deep breathing, to enhance focus and reduce stress. This can lead to greater clarity in your problem-solving pursuits.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Stay Present in Activities: </span>
+                                                                                    <span class="list-description">Focus fully on tasks or discussions, immersing yourself in the moment to enhance your understanding and enjoyment of the process.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapeEight-8" aria-expanded="false" aria-controls="collapeEight-8">
+                                                            8. Build a Supportive Community
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapeEight-8" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Connect with Like-Minded Individuals: </span>
+                                                                                    <span class="list-description">Engage with groups or communities that share your interests and values, fostering collaboration and mutual support.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Participate in Networking Events: </span>
+                                                                                    <span class="list-description">Attend workshops, conferences, or social gatherings to expand your network and connect with others in your field of interest.
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+
+                                                    
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapeNine-9" aria-expanded="false" aria-controls="collapeNine-9">
+                                                            9. Celebrate Achievements
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapeNine-9" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Acknowledge Milestones:  </span>
+                                                                                    <span class="list-description">Take time to recognize and celebrate your accomplishments, both big and small. This positive reinforcement can motivate you to continue pursuing your goals.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Reflect on Progress: </span>
+                                                                                    <span class="list-description">Regularly review your achievements and challenges to learn from your experiences and adjust your growth strategies accordingly.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapeTen-10" aria-expanded="false" aria-controls="collapeTen-10">
+                                                            10. Embrace Continuous Learning
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapeTen-10" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Stay Curious:  </span>
+                                                                                    <span class="list-description">Cultivate a mindset of lifelong learning by exploring new subjects, skills, or interests. Stay open to new ideas and experiences that can contribute to your growth.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Engage in Professional Development:  </span>
+                                                                                    <span class="list-description">Seek out opportunities for professional development, such as workshops, courses, or certifications that can enhance your skills and knowledge.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                   
+                                                   
+
+
+
+
+
+
+
+
+
+
+
+                                                      
+
+                                                       
+
+                                                                            <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Conclusion: Embracing Flow and Growth
+
+
+
+</h5>
+
+
+
+                                                                            <p class="comparison-description">
+                                                                            As a<strong> Quadruple Pie (Harmonized Thinker / Balanced Integrator),</strong> you can thrive by focusing on the integration of collaborative skills and creative exploration in your personal and professional development. By prioritizing your unique strengths and exploring new opportunities for growth, you can achieve a sense of flow in your daily life. This holistic approach will enhance your ability to connect with others, innovate, and make a meaningful impact in your endeavors. Embrace your integrative nature, nurture your relational skills, and continue to explore new horizons in your journey of growth and self-discovery.
+
+
+
+
+                                                        </p>
+
+                                                        
+                                                    </div>
+
+                                                    <?php elseif ($compare_brain_profile_id === '14' ): ?>
+
+                                                        <div class="col-12">
+                                                        
+                                                        <p class="comparison-description">
+                                                        As a Independent Problem-Solver or Analytical Innovator, your approach to personal growth and development emphasizes logic, analytical thinking, and practical solutions. You thrive in environments that allow you to explore ideas independently while also valuing structured growth opportunities. Here’s how you can cultivate flow and growth effectively:
+
+
+
+                                                        </p>
+
+
+                                                        <div class="accordion" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-1" aria-expanded="false" aria-controls="collapseTwo-1">
+                                                            1. Set Clear, Achievable Goals
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Define Your Objectives: </span>
+                                                                                    <span class="list-description"> Establish both short-term and long-term goals that align with your analytical strengths. Make sure these goals are specific, measurable, attainable, relevant, and time-bound (SMART).
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Visualize Your Success:  </span>
+                                                                                    <span class="list-description">Create a visual representation of your goals (such as a vision board) to keep you motivated and focused on your journey.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                    
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-2" aria-expanded="false" aria-controls="collapseTwo-2">
+                                                            2. Engage in Structured Learning
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Explore Diverse Learning Opportunities:  </span>
+                                                                                    <span class="list-description"> Seek out workshops, courses, or experiences that challenge your thinking and encourage analytical exploration. Focus on topics that stimulate your curiosity and align with your interests.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Utilize Analytical Tools: </span>
+                                                                                    <span class="list-description"> Incorporate tools and resources that facilitate data analysis, project management, and critical thinking into your learning process.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree-3" aria-expanded="false" aria-controls="collapseThree-3">
+                                                            3. Foster Collaborative Problem-Solving
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseThree-3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Identify Real-World Problems:  </span>
+                                                                                    <span class="list-description">  Look for challenges in your personal or professional life that require innovative solutions. This will allow you to apply your problem-solving skills effectively.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Brainstorm Solutions:  </span>
+                                                                                    <span class="list-description">Engage in brainstorming sessions where you can explore multiple solutions to a problem. Encourage divergent thinking to come up with creative ideas.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour-4" aria-expanded="false" aria-controls="collapseFour-4">
+                                                            4. Cultivate Emotional Intelligence
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFour-4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Practice Self-Reflection: </span>
+                                                                                    <span class="list-description"> Regularly assess your emotions and behaviors to understand your impact on your relationships and decision-making. This enhances self-awareness and promotes personal growth.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Develop Empathy:</span>
+                                                                                    <span class="list-description">Work on actively understanding the feelings and perspectives of others. Engage in activities that require collaboration and deep listening.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive-5" aria-expanded="false" aria-controls="collapseFive-5">
+                                                            5. Embrace Flexibility and Adaptability
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFive-5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Be Open to Change:</span>
+                                                                                    <span class="list-description">Develop a mindset that embraces change and uncertainty. This flexibility will help you navigate challenges more effectively and foster resilience.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Seek Feedback and Adjust:  </span>
+                                                                                    <span class="list-description">Regularly seek feedback from peers, mentors, or supervisors. Use this input to adjust your strategies and approaches as necessary.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix-6" aria-expanded="false" aria-controls="collapseSix-6">
+                                                            6. Prioritize Consistency and Routine
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSix-6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Establish Daily Routines:  </span>
+                                                                                    <span class="list-description">Create a daily schedule that includes time for collaborative work, creative exploration, and personal development. Consistency helps build positive habits.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Balance Structure with Flexibility:  </span>
+                                                                                    <span class="list-description">While routines are important, allow for spontaneity and adaptability in your plans to encourage new experiences.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven-7" aria-expanded="false" aria-controls="collapseSeven-7">
+                                                            7. Utilize Mindfulness Techniques
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSeven-7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Practice Mindfulness:  </span>
+                                                                                    <span class="list-description">Engage in mindfulness exercises, such as meditation or deep breathing, to enhance focus and reduce stress. This can lead to greater clarity in your problem-solving pursuits.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Stay Present in Activities: </span>
+                                                                                    <span class="list-description">Focus fully on tasks or discussions, immersing yourself in the moment to enhance your understanding and enjoyment of the process.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapeEight-8" aria-expanded="false" aria-controls="collapeEight-8">
+                                                            8. Build a Supportive Community
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapeEight-8" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Connect with Like-Minded Individuals: </span>
+                                                                                    <span class="list-description">Engage with groups or communities that share your interests and values, fostering collaboration and mutual support.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Participate in Networking Events: </span>
+                                                                                    <span class="list-description">Attend workshops, conferences, or social gatherings to expand your network and connect with others in your field of interest.
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+
+                                                    
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapeNine-9" aria-expanded="false" aria-controls="collapeNine-9">
+                                                            9. Celebrate Achievements
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapeNine-9" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Acknowledge Milestones:  </span>
+                                                                                    <span class="list-description">Take time to recognize and celebrate your accomplishments, both big and small. This positive reinforcement can motivate you to continue pursuing your goals.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Reflect on Progress: </span>
+                                                                                    <span class="list-description">Regularly review your achievements and challenges to learn from your experiences and adjust your growth strategies accordingly.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapeTen-10" aria-expanded="false" aria-controls="collapeTen-10">
+                                                            10. Embrace Continuous Learning
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapeTen-10" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Stay Curious:  </span>
+                                                                                    <span class="list-description">Cultivate a mindset of lifelong learning by exploring new subjects, skills, or interests. Stay open to new ideas and experiences that can contribute to your growth.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Engage in Professional Development:  </span>
+                                                                                    <span class="list-description">Seek out opportunities for professional development, such as workshops, courses, or certifications that can enhance your skills and knowledge.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                   
+                                                   
+
+
+
+
+
+
+
+
+
+
+
+                                                      
+
+                                                       
+
+                                                                            <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Conclusion: Embracing Flow and Growth
+
+
+
+
+</h5>
+
+
+
+                                                                            <p class="comparison-description">
+                                                                            As a<strong> Independent Problem-Solver / Analytical Innovators,</strong> you can thrive by focusing on the integration of analytical skills and independent exploration in your personal and professional development. By prioritizing your unique strengths and exploring new opportunities for growth, you can achieve a sense of flow in your daily life. This holistic approach will enhance your ability to connect with others, innovate, and make a meaningful impact in your endeavors. Embrace your analytical nature, nurture your problem-solving skills, and continue to explore new horizons in your journey of growth and self-discovery.
+
+
+
+
+
+                                                        </p>
+
+                                                        
+                                                    </div>
+
+                                                        
+
+
+                                                    <?php elseif ($compare_brain_profile_id === '13' ): ?>
+
+                                                        <div class="col-12">
+                                                        
+                                                        <p class="comparison-description">
+                                                        Your approach to growth and personal development emphasizes creativity, exploration, and meaningful connections. You thrive in environments that allow for imaginative thinking and collaborative efforts. Here’s how you can cultivate flow and growth effectively:
+
+
+                                                        </p>
+
+
+                                                        <div class="accordion" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-1" aria-expanded="false" aria-controls="collapseTwo-1">
+                                                            1. Set Visionary Goals
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Define Your Aspirations: </span>
+                                                                                    <span class="list-description">Establish both short-term and long-term goals that align with your creative vision and values. Make sure these goals reflect your desire for exploration and innovation.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Visualize Success:   </span>
+                                                                                    <span class="list-description">Use vision boards or mind maps to visually represent your goals, helping you stay motivated and focused on your journey.
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                    
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-2" aria-expanded="false" aria-controls="collapseTwo-2">
+                                                            2. Engage in Creative Learning
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Explore Diverse Learning Opportunities: </span>
+                                                                                    <span class="list-description"> Seek out workshops, classes, or experiences that challenge your thinking and encourage creative exploration. This can enhance your imaginative capabilities.
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Utilize Multimedia Resources:  </span>
+                                                                                    <span class="list-description">  Incorporate videos, podcasts, and interactive content into your learning process to stimulate different modes of engagement.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree-3" aria-expanded="false" aria-controls="collapseThree-3">
+                                                            3. Foster Collaborative Growth
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseThree-3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Build a Supportive Network: </span>
+                                                                                    <span class="list-description"> Surround yourself with like-minded you who encourage creativity and open dialogue. Engage in group projects or brainstorming sessions to explore ideas collectively.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Participate in Collaborative Workshops:  </span>
+                                                                                    <span class="list-description">Join community or organizational workshops that focus on relationship-building and collaboration to enhance your teamwork skills.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour-4" aria-expanded="false" aria-controls="collapseFour-4">
+                                                            4. Cultivate Emotional Intelligence
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFour-4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Practice Self-Reflection: </span>
+                                                                                    <span class="list-description">Regularly assess your emotions and behaviors to understand your impact on your relationships and decision-making. This enhances self-awareness and promotes personal growth.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Develop Empathy:</span>
+                                                                                    <span class="list-description">Work on actively understanding the feelings and perspectives of others. Engage in activities that require collaboration and deep listening.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive-5" aria-expanded="false" aria-controls="collapseFive-5">
+                                                            5. Embrace Flexible Problem-Solving
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFive-5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Approach Challenges Creatively: </span>
+                                                                                    <span class="list-description">When faced with obstacles, use creative thinking to brainstorm multiple solutions. This flexibility allows for innovative problem-solving.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Document Solutions:    </span>
+                                                                                    <span class="list-description">Keep a record of challenges and the solutions you implemented, helping you learn from past experiences and adapt in the future.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix-6" aria-expanded="false" aria-controls="collapseSix-6">
+                                                            6. Prioritize Consistency and Routine
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSix-6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Establish Daily Routines:   </span>
+                                                                                    <span class="list-description">Create a daily schedule that includes time for creative exploration, personal development, and social interactions. Consistency helps build positive habits.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Balance Structure with Flexibility:  </span>
+                                                                                    <span class="list-description">While routines are essential, allow for spontaneity and adaptability in your plans to encourage new experiences.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven-7" aria-expanded="false" aria-controls="collapseSeven-7">
+                                                            7. Utilize Mindfulness Techniques
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSeven-7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Practice Mindfulness:  </span>
+                                                                                    <span class="list-description">Engage in mindfulness exercises, such as meditation or deep breathing, to enhance focus and reduce stress. This can lead to greater clarity in your creative pursuits.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Stay Present in Activities: </span>
+                                                                                    <span class="list-description">Focus fully on tasks or discussions, immersing yourself in the moment to enhance your understanding and enjoyment of the process.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapeEight-8" aria-expanded="false" aria-controls="collapeEight-8">
+                                                            8. Build a Supportive Community
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapeEight-8" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Connect with Like-Minded Individuals: </span>
+                                                                                    <span class="list-description">Engage with groups or communities that share your interests and values, fostering collaboration and mutual support.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Participate in Networking Events: </span>
+                                                                                    <span class="list-description">Attend workshops, conferences, or social gatherings to expand your network and connect with others in your field of interest.
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+
+                                                    
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapeNine-9" aria-expanded="false" aria-controls="collapeNine-9">
+                                                            9. Celebrate Achievements
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapeNine-9" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Acknowledge Milestones:  </span>
+                                                                                    <span class="list-description">Take time to recognize and celebrate your accomplishments, both big and small. This positive reinforcement can motivate you to continue pursuing your goals.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Reflect on Progress: </span>
+                                                                                    <span class="list-description">Regularly review your achievements and challenges to learn from your experiences and adjust your growth strategies accordingly.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapeTen-10" aria-expanded="false" aria-controls="collapeTen-10">
+                                                            10. Embrace Continuous Learning
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapeTen-10" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Stay Curious:  </span>
+                                                                                    <span class="list-description">Cultivate a mindset of lifelong learning by exploring new subjects, skills, or interests. Stay open to new ideas and experiences that can contribute to your growth.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Engage in Professional Development:  </span>
+                                                                                    <span class="list-description">Seek out opportunities for professional development, such as workshops, courses, or certifications that can enhance your skills and knowledge.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                   
+                                                   
+
+
+
+
+
+
+
+
+
+
+
+                                                      
+
+                                                       
+
+                                                                            <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Conclusion: Embracing Flow and Growth
+
+
+
+</h5>
+
+
+
+                                                                            <p class="comparison-description">
+                                                                            You can thrive by focusing on the integration of creativity and relational dynamics in your personal and professional development. By prioritizing your unique strengths and exploring new opportunities for growth, you can achieve a sense of flow in your daily life. This holistic approach will enhance your ability to connect with others, innovate, and make a meaningful impact in your endeavors. Embrace your idealistic nature, nurture your creative skills, and continue to explore new horizons in your journey of growth and self-discovery.
+
+
+
+
+                                                        </p>
+
+                                                        
+                                                    </div>
+
+                                                        
+
+<?php elseif ($compare_brain_profile_id === '12' ): ?>
+
+    <div class="col-12">
+                                                        
+                                                        <p class="comparison-description">
+                                                        As aAbstract Idealist or Relational Planner, your approach to growth and personal development emphasizes creativity, exploration, and meaningful connections. You thrive in environments that allow for imaginative thinking and collaboration. Here’s how you can cultivate flow and growth effectively:
+
+
+                                                        </p>
+
+
+                                                        <div class="accordion" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-1" aria-expanded="false" aria-controls="collapseTwo-1">
+                                                            1. Set Meaningful Goals
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Define Your Vision:</span>
+                                                                                    <span class="list-description">Establish both short-term and long-term goals that resonate with your values and aspirations. Ensure these goals reflect your desire for creativity and relational engagement.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Track Your Progress:  </span>
+                                                                                    <span class="list-description">Use visual tools like vision boards or goal-setting apps to monitor your journey and stay motivated.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                    
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-2" aria-expanded="false" aria-controls="collapseTwo-2">
+                                                            2. Engage in Creative Learning
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Explore Diverse Learning Opportunities: </span>
+                                                                                    <span class="list-description">  Seek out workshops, classes, or experiences that challenge your thinking and allow for creative exploration. This can enhance your imaginative capabilities.
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Utilize Multimedia Resources:  </span>
+                                                                                    <span class="list-description"> Incorporate videos, podcasts, and interactive content into your learning process to stimulate different modes of engagement.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree-3" aria-expanded="false" aria-controls="collapseThree-3">
+                                                            3. Foster Collaborative Growth
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseThree-3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Build a Supportive Network:  </span>
+                                                                                    <span class="list-description"> LSurround yourself with like-minded you who encourage creativity and open dialogue. Engage in group projects or brainstorming sessions to explore ideas collectively.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Participate in Workshops:  </span>
+                                                                                    <span class="list-description">Join community or organizational workshops that focus on collaboration and relationship-building to enhance your teamwork skills.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour-4" aria-expanded="false" aria-controls="collapseFour-4">
+                                                            4. Cultivate Emotional Intelligence
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFour-4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Practice Self-Reflection: </span>
+                                                                                    <span class="list-description">Regularly assess your emotions and behaviors to understand your impact on your relationships and decision-making. This enhances self-awareness and promotes personal growth.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Develop Empathy:</span>
+                                                                                    <span class="list-description">Work on actively understanding the feelings and perspectives of others. Engage in activities that require collaboration and deep listening.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive-5" aria-expanded="false" aria-controls="collapseFive-5">
+                                                            5. Embrace Flexible Problem-Solving
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFive-5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Approach Challenges Creatively: </span>
+                                                                                    <span class="list-description">When faced with obstacles, use creative thinking to brainstorm multiple solutions. This flexibility allows for innovative problem-solving.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Document Solutions:   </span>
+                                                                                    <span class="list-description">RKeep a record of challenges and the solutions you implemented, helping you learn from past experiences and adapt in the future.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix-6" aria-expanded="false" aria-controls="collapseSix-6">
+                                                            6. Prioritize Consistency and Routine
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSix-6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Establish Daily Routines:  </span>
+                                                                                    <span class="list-description">Create a daily schedule that includes time for collaborative work, creative exploration, and personal development. Consistency helps build positive habits.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Balance Structure with Flexibility:  </span>
+                                                                                    <span class="list-description">While routines are important, allow for spontaneity and adaptability in your plans to encourage new experiences.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven-7" aria-expanded="false" aria-controls="collapseSeven-7">
+                                                            7. Utilize Mindfulness Techniques
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSeven-7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Practice Mindfulness:  </span>
+                                                                                    <span class="list-description">Engage in mindfulness exercises, such as meditation or deep breathing, to enhance focus and reduce stress. This can lead to greater clarity in your problem-solving pursuits.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Stay Present in Activities: </span>
+                                                                                    <span class="list-description">Focus fully on tasks or discussions, immersing yourself in the moment to enhance your understanding and enjoyment of the process.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapeEight-8" aria-expanded="false" aria-controls="collapeEight-8">
+                                                            8. Build a Supportive Community
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapeEight-8" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Connect with Like-Minded Individuals: </span>
+                                                                                    <span class="list-description">Engage with groups or communities that share your interests and values, fostering collaboration and mutual support.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Participate in Networking Events: </span>
+                                                                                    <span class="list-description">Attend workshops, conferences, or social gatherings to expand your network and connect with others in your field of interest.
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+
+                                                    
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapeNine-9" aria-expanded="false" aria-controls="collapeNine-9">
+                                                            9. Celebrate Achievements
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapeNine-9" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Acknowledge Milestones:  </span>
+                                                                                    <span class="list-description">Take time to recognize and celebrate your accomplishments, both big and small. This positive reinforcement can motivate you to continue pursuing your goals.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Reflect on Progress: </span>
+                                                                                    <span class="list-description">Regularly review your achievements and challenges to learn from your experiences and adjust your growth strategies accordingly.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapeTen-10" aria-expanded="false" aria-controls="collapeTen-10">
+                                                            10. Embrace Continuous Learning
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapeTen-10" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Stay Curious:  </span>
+                                                                                    <span class="list-description">Cultivate a mindset of lifelong learning by exploring new subjects, skills, or interests. Stay open to new ideas and experiences that can contribute to your growth.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Engage in Professional Development:  </span>
+                                                                                    <span class="list-description">Seek out opportunities for professional development, such as workshops, courses, or certifications that can enhance your skills and knowledge.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                   
+                                                   
+
+
+
+
+
+
+
+
+
+
+
+                                                      
+
+                                                       
+
+                                                                            <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Conclusion: Embracing Flow and Growth
+
+
+
+</h5>
+
+
+
+                                                                            <p class="comparison-description">
+                                                                            As a <strong>Abstract Idealist / Relational Planner,</strong> you can thrive by focusing on the integration of creativity and relational dynamics in your personal and professional development. By prioritizing your unique strengths and exploring new opportunities for growth, you can achieve a sense of flow in your daily life. This holistic approach will enhance your ability to connect with others, innovate, and make a meaningful impact in your endeavors. Embrace your idealistic nature, nurture your creative skills, and continue to explore new horizons in your journey of growth and self-discovery.
+
+
+
+
+
+                                                        </p>
+
+                                                        
+                                                    </div>
+
+    
+
+
+<?php elseif ($compare_brain_profile_id === '11' ): ?>
+
+    <div class="col-12">
+                                                        
+                                                        <p class="comparison-description">
+                                                        As a Grounded Thinker or Structured Planner, your approach to growth and personal development emphasizes the integration of structured methodologies with practical application. You thrive when you can create order and clarity in your endeavors, making your path to growth both efficient and effective. Here’s how you can cultivate flow and growth effectively:
+
+
+
+                                                        </p>
+
+
+                                                        <div class="accordion" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-1" aria-expanded="false" aria-controls="collapseTwo-1">
+                                                            1. Set Clear, Measurable Goals
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Define Specific Objectives:  </span>
+                                                                                    <span class="list-description">Establish short-term and long-term goals that are specific, measurable, achievable, relevant, and time-bound (SMART). This structured approach helps maintain focus.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Track Progress:   </span>
+                                                                                    <span class="list-description">Use tools like goal-setting apps or journals to monitor your progress regularly, which reinforces motivation and accountability.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                    
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-2" aria-expanded="false" aria-controls="collapseTwo-2">
+                                                            2. Engage in Organized Learning
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Create a Learning Plan:  </span>
+                                                                                    <span class="list-description"> Develop a structured plan for acquiring new skills or knowledge. Break down larger topics into smaller, manageable segments that you can tackle step-by-step.
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Utilize Resources:</span>
+                                                                                    <span class="list-description"> Identify resources such as online courses, books, or workshops that align with your learning goals. A well-curated selection will keep you organized and focused.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree-3" aria-expanded="false" aria-controls="collapseThree-3">
+                                                            3. Foster Collaborative Growth
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseThree-3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Seek Out Mentorship: </span>
+                                                                                    <span class="list-description"> Connect with mentors or peers who can provide guidance and support. Collaborative relationships can enhance learning and motivate you to grow.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Participate in Group Activities:  </span>
+                                                                                    <span class="list-description">Engage in team projects or study groups where you can share knowledge and insights, fostering a collaborative atmosphere for growth.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour-4" aria-expanded="false" aria-controls="collapseFour-4">
+                                                            4. Cultivate Emotional Intelligence
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFour-4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Practice Self-Reflection: </span>
+                                                                                    <span class="list-description">Regularly assess your emotions and behaviors to understand how you impact your interactions. This reflection enhances self-awareness and personal growth.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Develop Empathy:</span>
+                                                                                    <span class="list-description">Focus on understanding the emotions and perspectives of others. This can improve your communication skills and strengthen relationships.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive-5" aria-expanded="false" aria-controls="collapseFive-5">
+                                                            5. Embrace Structured Problem-Solving
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFive-5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Analyze Challenges Logically:</span>
+                                                                                    <span class="list-description">When faced with obstacles, approach them methodically. Break down the problem, identify possible solutions, and create a step-by-step plan to address it.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Document Solutions:   </span>
+                                                                                    <span class="list-description">Keep a record of challenges and the solutions you implemented. This documentation can serve as a reference for future problem-solving efforts.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix-6" aria-expanded="false" aria-controls="collapseSix-6">
+                                                            6. Prioritize Consistency and Routine
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSix-6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Establish Routines:   </span>
+                                                                                    <span class="list-description">Create daily or weekly routines that incorporate time for personal development and learning. Consistency reinforces good habits and fosters growth.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Balance Structure with Flexibility:  </span>
+                                                                                    <span class="list-description">While routines are essential, allow for flexibility to adapt to new opportunities or changes in circumstances.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven-7" aria-expanded="false" aria-controls="collapseSeven-7">
+                                                            7. Utilize Mindfulness Techniques
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSeven-7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Practice Mindfulness:  </span>
+                                                                                    <span class="list-description">Engage in mindfulness practices such as meditation or deep breathing to enhance focus and reduce stress. This can improve your overall well-being and productivity.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Stay Present in Your Activities:  </span>
+                                                                                    <span class="list-description">When engaging in tasks or learning, focus fully on the present moment. This mindfulness can lead to a deeper understanding and enjoyment of the process.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapeEight-8" aria-expanded="false" aria-controls="collapeEight-8">
+                                                            8. Build a Supportive Community
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapeEight-8" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Connect with Like-Minded Individuals: </span>
+                                                                                    <span class="list-description">Surround yourself with people who share your interests and values. A supportive community fosters collaboration and motivation for growth.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Participate in Networking Events: </span>
+                                                                                    <span class="list-description">Attend workshops, conferences, or social gatherings to expand your network and connect with others in your field of interest.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+
+                                                    
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapeNine-9" aria-expanded="false" aria-controls="collapeNine-9">
+                                                            9. Celebrate Achievements
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapeNine-9" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Acknowledge Milestones:  </span>
+                                                                                    <span class="list-description">Take time to recognize and celebrate your accomplishments, both big and small. This positive reinforcement can motivate you to continue pursuing your goals.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Reflect on Progress: </span>
+                                                                                    <span class="list-description">Regularly review your achievements and challenges to learn from your experiences and adjust your growth strategies accordingly.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapeTen-10" aria-expanded="false" aria-controls="collapeTen-10">
+                                                            10. Embrace Continuous Learning
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapeTen-10" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Stay Curious:  </span>
+                                                                                    <span class="list-description">Cultivate a mindset of lifelong learning by exploring new subjects, skills, or interests. Stay open to new ideas and experiences that can contribute to your growth.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Engage in Professional Development:  </span>
+                                                                                    <span class="list-description">Seek out opportunities for professional development, such as workshops, courses, or certifications that can enhance your skills and knowledge.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                   
+                                                   
+
+
+
+
+
+
+
+
+
+
+
+                                                      
+
+                                                       
+
+                                                                            <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Conclusion: Embracing Flow and Growth
+
+
+
+</h5>
+
+
+
+                                                                            <p class="comparison-description">
+                                                                            As a <strong>Grounded Thinker / Structured Planner,</strong> you can thrive by focusing on the integration of structured methodologies with practical applications in your personal and professional development. By prioritizing your unique strengths and exploring new opportunities for growth, you can achieve a sense of flow in your daily life. This holistic approach will enhance your ability to connect with others, innovate, and make a meaningful impact in your endeavors. Embrace your grounded nature, nurture your practical skills, and continue to explore new horizons in your journey of growth and self-discovery.
+
+
+
+
+
+                                                        </p>
+
+                                                        
+                                                    </div>
+
+    
+
+<?php elseif ($compare_brain_profile_id === '10' ): ?>
+
+    <div class="col-12">
+                                                        
+                                                        <p class="comparison-description">
+                                                        You thrive in environments that allow you to express your creativity while applying practical solutions to real-world problems. Here’s how you can cultivate flow and growth effectively:
+
+
+                                                        </p>
+
+
+                                                        <div class="accordion" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-1" aria-expanded="false" aria-controls="collapseTwo-1">
+                                                            1. Set Clear, Innovative Goals
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Define Meaningful Objectives: </span>
+                                                                                    <span class="list-description">Establish personal and professional goals that resonate with your values and aspirations. Focus on goals that encourage both creativity and practicality.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Visualize Success: </span>
+                                                                                    <span class="list-description">Use vision boards or mind maps to visualize your goals and the steps needed to achieve them, making the process engaging and inspiring.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                    
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-2" aria-expanded="false" aria-controls="collapseTwo-2">
+                                                            2. Engage in Collaborative Learning
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Participate in Group Activities:  </span>
+                                                                                    <span class="list-description"> Seek opportunities for group projects or collaborative workshops where you can share ideas and learn from others. Collaboration enhances creativity and fosters a supportive environment.
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Seek Diverse Perspectives:  </span>
+                                                                                    <span class="list-description"> Actively engage with you from different backgrounds and fields to broaden your understanding and inspire innovative thinking.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree-3" aria-expanded="false" aria-controls="collapseThree-3">
+                                                            3. Cultivate Emotional Intelligence
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseThree-3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Practice Active Listening:  </span>
+                                                                                    <span class="list-description"> Develop your listening skills to better understand the emotions and perspectives of others. This practice enhances your empathy and relational skills.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Reflect on Interactions: </span>
+                                                                                    <span class="list-description">Take time to analyze your conversations and interactions, identifying areas for improvement and recognizing your strengths in communication.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour-4" aria-expanded="false" aria-controls="collapseFour-4">
+                                                            4.  Build a Supportive Community
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFour-4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Connect with Like-Minded Individuals: </span>
+                                                                                    <span class="list-description"> Surround yourself with people who share similar interests and values. A supportive community fosters collaboration and enhances personal growth.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Participate in Networking Events: </span>
+                                                                                    <span class="list-description">Attend workshops, conferences, or social gatherings to expand your network and connect with other creative thinkers.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive-5" aria-expanded="false" aria-controls="collapseFive-5">
+                                                            5. Integrate Mindfulness Practices
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFive-5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Practice Mindfulness Techniques: </span>
+                                                                                    <span class="list-description"> Incorporate mindfulness practices such as meditation or deep breathing into your routine to help clear your mind and enhance focus.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Stay Present in Your Work:   </span>
+                                                                                    <span class="list-description"> Focus on the task at hand, minimizing distractions to achieve a state of flow where you can work efficiently and effectively.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix-6" aria-expanded="false" aria-controls="collapseSix-6">
+                                                            6. Balance Work and Personal Life
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSix-6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Establish Work-Life Boundaries: </span>
+                                                                                    <span class="list-description">Set clear boundaries between work and personal time to maintain balance and prevent burnout. Prioritize self-care and relaxation.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Engage in Hobbies and Interests:  </span>
+                                                                                    <span class="list-description">Pursue activities outside of work that stimulate creativity and relaxation. Engaging in hobbies can provide a refreshing break and enhance overall well-being.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+
+                                                    
+
+
+
+                                                    
+                                                    
+                                                   
+                                                   
+
+
+
+
+
+
+
+
+
+
+
+                                                      
+
+                                                       
+
+                                                                            <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Conclusion: Embracing Flow and Growth
+
+
+
+</h5>
+
+
+
+                                                                            <p class="comparison-description">
+                                                                            As a Practical Innovator or Grounded Creative, you can thrive by focusing on the integration of practical skills and innovative thinking in your personal and professional development. By prioritizing your unique strengths and exploring new opportunities for growth, you can achieve a sense of flow in your daily life. This holistic approach will enhance your ability to connect with others, innovate, and make a meaningful impact in your endeavors. Embrace your practical nature, nurture your creative spirit, and continue to explore new horizons in your journey of growth and self-discovery.
+
+
+
+
+
+                                                        </p>
+
+                                                        
+                                                    </div>
+
+   
+
+
+<?php elseif ($compare_brain_profile_id === '9' ): ?>
+
+    <div class="col-12">
+                                                        
+                                                        <p class="comparison-description">
+                                                        Your approach to flow and growth centers around the integration of analytical thinking and relational engagement. You thrive in environments that allow you to connect with others while applying your knowledge and skills in meaningful ways. Here’s how you can cultivate flow and growth in a way that aligns with your strengths:
+
+
+                                                        </p>
+
+
+                                                        <div class="accordion" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-1" aria-expanded="false" aria-controls="collapseTwo-1">
+                                                            1. Set Clear, Relational Goals
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Define Meaningful Objectives:</span>
+                                                                                    <span class="list-description">Establish personal and professional goals that resonate with your values and the needs of those around you. Aim for goals that benefit both yourself and your connections with others.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Visualize Success: </span>
+                                                                                    <span class="list-description">Use tools like vision boards or mind maps to visualize your goals and the steps needed to achieve them, making the process more engaging and relatable.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                    
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-2" aria-expanded="false" aria-controls="collapseTwo-2">
+                                                            2. Engage in Collaborative Learning
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Participate in Group Activities: </span>
+                                                                                    <span class="list-description"> Seek opportunities for group projects or collaborative workshops where you can share ideas and learn from others. Collaboration enhances creativity and fosters a supportive learning environment.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Seek Feedback: </span>
+                                                                                    <span class="list-description"> Actively solicit input from peers and mentors to refine your ideas and improve your skills.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree-3" aria-expanded="false" aria-controls="collapseThree-3">
+                                                            3. Cultivate Emotional Intelligence
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseThree-3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Practice Active Listening:  </span>
+                                                                                    <span class="list-description"> Develop your listening skills to better understand the emotions and perspectives of others. This practice enhances your empathy and relational skills.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Reflect on Interactions: </span>
+                                                                                    <span class="list-description">Take time to analyze your conversations and interactions, identifying areas for improvement and recognizing your strengths.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour-4" aria-expanded="false" aria-controls="collapseFour-4">
+                                                            4. Foster Creativity Through Analytical Exploration
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFour-4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Explore Diverse Creative Outlets:  </span>
+                                                                                    <span class="list-description">Challenge yourself to try new artistic mediums or creative activities that push your boundaries. This exploration can spark new ideas and enhance your innovative thinking.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Participate in Brainstorming Sessions: </span>
+                                                                                    <span class="list-description">Engage in group brainstorming sessions that encourage free-flowing ideas, leading to innovative solutions and insights.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive-5" aria-expanded="false" aria-controls="collapseFive-5">
+                                                            5. Build a Supportive Community
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFive-5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Connect with Like-Minded Individuals: </span>
+                                                                                    <span class="list-description">Surround yourself with people who share similar interests and values. A supportive community fosters collaboration and enhances personal growth.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Participate in Networking Events:  </span>
+                                                                                    <span class="list-description">Attend workshops, conferences, or social gatherings to expand your network and connect with other like-minded you.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix-6" aria-expanded="false" aria-controls="collapseSix-6">
+                                                            6. Embrace Flexibility and Adaptability
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSix-6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Be Open to New Ideas:  </span>
+                                                                                    <span class="list-description">Embrace change and remain open to exploring different perspectives and approaches. Flexibility enhances your ability to adapt in dynamic environments.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Experiment with New Methods:  </span>
+                                                                                    <span class="list-description">Challenge yourself to try unconventional approaches in your work or projects. This experimentation can lead to unexpected insights and creative breakthroughs.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven-7" aria-expanded="false" aria-controls="collapseSeven-7">
+                                                            7. Integrate Mindfulness Practices
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSeven-7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Practice Mindfulness Techniques:  </span>
+                                                                                    <span class="list-description"> Incorporate mindfulness practices such as meditation or deep breathing into your routine. These techniques help clear your mind and enhance focus.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Stay Present in Your Work:  </span>
+                                                                                    <span class="list-description">Focus on the task at hand, minimizing distractions to achieve a state of flow where you can work efficiently and effectively.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapeEight-8" aria-expanded="false" aria-controls="collapeEight-8">
+                                                            8. Balance Work and Personal Life
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapeEight-8" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Establish Work-Life Boundaries:  </span>
+                                                                                    <span class="list-description">Set clear boundaries between work and personal time to maintain balance and prevent burnout. Prioritize self-care and relaxation.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Engage in Hobbies and Interests: </span>
+                                                                                    <span class="list-description">Pursue activities outside of work that stimulate creativity and relaxation. Engaging in hobbies can provide a refreshing break and enhance overall well-being.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+
+                                                    
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapeNine-9" aria-expanded="false" aria-controls="collapeNine-9">
+                                                            9. Track Progress and Celebrate Achievements
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapeNine-9" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Monitor Your Progress:  </span>
+                                                                                    <span class="list-description">Keep track of your goals and the steps you’ve taken toward achieving them. This accountability can motivate you and help you stay focused.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Celebrate Milestones: </span>
+                                                                                    <span class="list-description"> Recognize and celebrate your achievements, both big and small. Acknowledging progress reinforces your motivation to continue growing.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                   
+                                                   
+                                                   
+
+
+
+
+
+
+
+
+
+
+
+                                                      
+
+                                                       
+
+                                                                            <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Conclusion: Embracing Flow and Growth
+
+
+
+</h5>
+
+
+
+                                                                            <p class="comparison-description">
+                                                                            As an Analytical Connector or Relational Analyst, you can thrive by focusing on the integration of analytical skills and practical relational engagement in your personal and professional development. By prioritizing your unique strengths and exploring new opportunities for growth, you can achieve a sense of flow in your personal and professional life. This holistic approach will enhance your ability to connect with others, innovate, and make a meaningful impact in your endeavors. Embrace your analytical nature, nurture your relationships, and continue to explore new horizons in your journey of growth and self-discovery.
+
+
+
+
+
+                                                        </p>
+
+                                                        
+                                                    </div>
+
+    
+
+<?php elseif ($compare_brain_profile_id === '8' ): ?>
+
+    <div class="col-12">
+                                                        
+                                                        <p class="comparison-description">
+                                                        Your approach to flow and growth centers around the integration of empathy, practicality, and relational dynamics. You thrive in environments that allow you to connect with others while applying your knowledge and skills in meaningful ways. Here’s how you can cultivate flow and growth in a way that aligns with your strengths:
+
+
+
+                                                        </p>
+
+
+                                                        <div class="accordion" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-1" aria-expanded="false" aria-controls="collapseTwo-1">
+                                                            1. Establish Clear, Relational Goals
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Set Meaningful Objectives:</span>
+                                                                                    <span class="list-description">Define personal and professional goals that resonate with your values and the needs of those around you. Aim for goals that not only benefit you but also enhance your connections with others.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Visualize Success: </span>
+                                                                                    <span class="list-description">Use tools like vision boards or mind maps to visualize your goals and the steps needed to achieve them, making the process more engaging and relatable.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+                                                    
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-2" aria-expanded="false" aria-controls="collapseTwo-2">
+                                                            2. Emphasize Collaborative Learning
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseTwo-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Engage in Group Activities:  </span>
+                                                                                    <span class="list-description">  Participate in group projects or collaborative workshops where you can share ideas and learn from others. Collaboration enhances creativity and fosters a supportive learning environment.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Seek Feedback:</span>
+                                                                                    <span class="list-description">  Actively solicit input from peers and mentors to refine your ideas and improve your skills.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree-3" aria-expanded="false" aria-controls="collapseThree-3">
+                                                            3. Cultivate Emotional Intelligence
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseThree-3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Practice Active Listening:  </span>
+                                                                                    <span class="list-description">Develop your listening skills to better understand the emotions and perspectives of others. This practice enhances your empathy and relational skills.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Reflect on Interactions: </span>
+                                                                                    <span class="list-description"> Take time to analyze your conversations and interactions, identifying areas for improvement and recognizing your strengths.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour-4" aria-expanded="false" aria-controls="collapseFour-4">
+                                                            4. Foster Creativity Through Practical Exploration
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFour-4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Explore Diverse Creative Outlets: </span>
+                                                                                    <span class="list-description">Challenge yourself to try new artistic mediums or creative activities that push your boundaries. This exploration can spark new ideas and enhance your innovative thinking.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Participate in Brainstorming Sessions: </span>
+                                                                                    <span class="list-description">Engage in group brainstorming sessions that encourage free-flowing ideas, which can lead to innovative solutions and insights.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive-5" aria-expanded="false" aria-controls="collapseFive-5">
+                                                            5. Build a Supportive Community
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseFive-5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Connect with Like-Minded Individuals:</span>
+                                                                                    <span class="list-description">Surround yourself with people who share similar interests and values. A supportive community fosters collaboration and enhances personal growth.
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Participate in Networking Events:   </span>
+                                                                                    <span class="list-description">Attend workshops, conferences, or social gatherings to expand your network and connect with other like-minded you.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix-6" aria-expanded="false" aria-controls="collapseSix-6">
+                                                            6. Embrace Flexibility and Adaptability
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSix-6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Be Open to New Ideas:  </span>
+                                                                                    <span class="list-description">Embrace change and remain open to exploring different perspectives and approaches. Flexibility enhances your ability to adapt in dynamic environments.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Experiment with New Methods: </span>
+                                                                                    <span class="list-description">Challenge yourself to try unconventional approaches in your work or projects. This experimentation can lead to unexpected insights and creative breakthroughs.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven-7" aria-expanded="false" aria-controls="collapseSeven-7">
+                                                            7. Integrate Mindfulness Practices
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapseSeven-7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Practice Mindfulness Techniques:   </span>
+                                                                                    <span class="list-description"> Incorporate mindfulness practices such as meditation or deep breathing into your routine. These techniques help clear your mind and enhance focus.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Stay Present in Your Work:</span>
+                                                                                    <span class="list-description"> Focus on the task at hand, minimizing distractions to achieve a state of flow where you can work efficiently and effectively.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapeEight-8" aria-expanded="false" aria-controls="collapeEight-8">
+                                                            8. Balance Work and Personal Life
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapeEight-8" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Establish Work-Life Boundaries:  </span>
+                                                                                    <span class="list-description">Set clear boundaries between work and personal time to maintain balance and prevent burnout. Prioritize self-care and relaxation.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Engage in Hobbies and Interests:  </span>
+                                                                                    <span class="list-description"> Pursue activities outside of work that stimulate creativity and relaxation. Engaging in hobbies can provide a refreshing break and enhance overall well-being.
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+
+                                                    
+                                                    {{-- Strategic Team Sports --}}
+                                                    <div class="accordion mt-3" id="accordionExample">
+                                                        <div class="accordion-item collapsible-div">
+                                                          <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed collapsible" type="button" data-bs-toggle="collapse" data-bs-target="#collapeNine-9" aria-expanded="false" aria-controls="collapeNine-9">
+                                                            9. Track Progress and Celebrate Achievements
+
+
+
+
+                                                            </button>
+                                                          </h2>
+                                                          <div id="collapeNine-9" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body p-0">
+                                                                <div class="d-flex flex-column p-lg-3 p-xl-3 p-md-3 p-0 pt-2 justify-content-center">
+
+                                                                <ul class="collapsible-content-list">
+                                                                                
+                                                                                    
+                                                                                   
+                                                                                <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Monitor Your Progress:   </span>
+                                                                                    <span class="list-description">Keep track of your goals and the steps you’ve taken toward achieving them. This accountability can motivate you and help you stay focused.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+
+                                                                                  <li class="collapsible-content-list-item">
+                                                                                    <span class="list-title">Celebrate Milestones: </span>
+                                                                                    <span class="list-description">Recognize and celebrate your achievements, both big and small. Acknowledging progress reinforces your motivation to continue growing.
+
+
+
+                                                                                    </span>
+                                                                                  </li>
+                                                                               
+                                                                            
+                                                                                  
+
+
+                                                                                 
+
+                                                                                  
+                                                                               
+                                                                          
+                                                                               
+                                                                            </ul>
+                                                                   
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                    </div>
+
+
+                                                    
+                                                   
+                                                   
+
+
+
+
+
+
+
+
+
+
+
+                                                      
+
+                                                       
+
+                                                                            <h5 class="description-title mt-lg-4 mb-lg-3 my-1">Conclusion: Embracing Flow and Growth
+
+
+
+</h5>
+
+
+
+                                                                            <p class="comparison-description">
+                                                                            As a Practical Empath or Grounded Relational Thinker, you can thrive by focusing on the integration of empathy and practical skills in your personal and professional development. By prioritizing your unique strengths and exploring new opportunities for growth, you can achieve a sense of flow in your personal and professional life. This holistic approach will enhance your ability to connect with others, innovate, and make a meaningful impact in your endeavors. Embrace your creativity, nurture your relationships, and continue to explore new horizons in your journey of growth and self-discovery.
+
+
+
+
+
+                                                        </p>
+
+                                                        
+                                                    </div>
+
+    
+
+
+
+
+                                                        <?php else: ?>
+
+
+<?php endif; ?>
+    
+                                                 
+    
+                                                  
+                                                   
+
+
+                                                   
+                                                 
+                                                   
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="tab-pane fade" id="skills" role="tabpanel" aria-labelledby="skills-tab"
                                 tabindex="-1">
