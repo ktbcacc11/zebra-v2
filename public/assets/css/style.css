@@ -1425,6 +1425,17 @@ a {
 }
 
 
+.modal-for-card p,.modal-for-card h1, .modal-for-card h2,.modal-for-card h3,.modal-for-card h4 {
+    font-family: "Inter", sans-serif;
+}
+
+.modal-for-card .modal-title{
+    text-align: center;
+}
+
+.modal-for-card .modal-body p {
+    text-align: justify;
+}
 
 
 /* media queries of dashaboard new */

@@ -185,3 +185,8 @@ Route::match(['get', 'post'], '/introvert-or-extrovert', [MainController::class,
 Route::match(['get', 'post'], '/skill-assestment', [MainController::class, 'skill_assestment']);
 
 Route::match(['get', 'post'], '/report/{type}', [MainController::class, 'report']);
+
+
+Route::get('/report-error/{type}', function () {
+    return view('report.report-error');
+});

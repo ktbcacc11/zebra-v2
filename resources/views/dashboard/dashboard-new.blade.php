@@ -21955,7 +21955,11 @@ if ($age > 18){
                 
             </div>
         </div>
-
+        <form method="POST" action="{{ url('/report/advanced-brain-report') }}">
+            @csrf
+            <!-- Your form fields here -->
+            <button type="submit">Submit</button>
+        </form>
     </div>
 
 </div>
