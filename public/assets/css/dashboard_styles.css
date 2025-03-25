@@ -619,7 +619,7 @@ li {
 
 .dashboard-page-content {
     min-height: 100vh;
-    padding-top: 120px;
+    /* padding-top: 120px; */
     padding-left: 0px;
     padding-bottom: 0px;
 }
