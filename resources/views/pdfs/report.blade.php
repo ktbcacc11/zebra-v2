@@ -231,7 +231,36 @@ Flexibility and adaptability to change can be areas for growth. Learning to embr
 @include('pdfs.report-dimension-content')
 <h1 class="report-header2" style="margin-bottom:25px;margin-top:50px;">Learn More About You</h1>  
 <h1 class="report-header2" style="margin-bottom:25px;margin-top:25px;">Advanced Brain Report</h1>  
- 
+<ul>
+     <li class="body-text "><b>Characteristics :</b>Practical individuals excel in understanding and supporting others. They are compassionate and emotionally intelligent.</li>
+     <li class="body-text "><b>Outcomes :</b>This dimension is linked to strong interpersonal skills and success in roles that require teamwork and leadership.</li>
+     <li class="body-text "><b>Relationships :</b> Empathetic individuals prioritize emotional connections and seek partners who value mutual support and understanding.</li>
+     <li class="body-text "><b>LifeChoices :</b>They often choose careers in education, counseling, or social work.</li>
+     <li class="body-text "><b>Hands-On Skills :</b>Proficiency in practical tasks and applying theoretical knowledge to real-life situations.</li>
+     <li class="body-text "><b>Functional Problem Solving :</b>Ability to identify and implement solutions that work effectively in real-world contexts.</li>
+     <li class="body-text "><b>Common Sense Applications :</b>Use of practical wisdom in everyday decision-making.</li>
+     <li class="body-text "><b>Task Management :</b>Skilled at organizing and executing tasks efficiently.</li>
+     <li class="body-text "><b>Process Improvement :</b>Ability to analyze and improve processes for better efficiency.</li>
+     <li class="body-text "><b>Technical Proficiency :</b>Skilled in using tools and technology effectively for practical tasks.</li>
+     <li class="body-text "><b>Sustainability Focus :</b> Awareness of sustainable practices in problem-solving and project execution.</li>
+     <li class="body-text "><b>Work Ethic :</b>Strong commitment to completing tasks diligently and responsibly.</li>
+     <li class="body-text "><b>User-Centric Design :</b> Ability to create solutions that prioritize user needs and experiences.</li>
+     <li class="body-text "><b>Collaboration in Practice :</b> Effective teamwork skills, focusing on achieving practical outcomes collectively.</li>
+ </ul>
+<?php
+if ($age >= 12 && $age <= 14){ ?>
+<h1 class="report-header2" style="margin-bottom:25px;margin-top:25px;">Sports and other extracurricular activities naturally preferred</h1>
+<p class="body-text " >
+Given your Analytical Brain and logical, structured approach to problem-solving, you are likely to excel in sports and extracurricular activities that involve strategy, precision, and individual focus. You prefer activities where you can carefully assess situations and make calculated decisions, as well as those that offer clear rules and objectives.
+<br><br>
+Here’s a breakdown of sports and extracurricular activities that align with your strengths:
+</p>
+<h1 class="report-header3" style="margin-bottom:10px;;margin-top:20px;">1. Individual Sports</h1> 
+<p class="body-text " >
+Individual sports allow you to focus on personal performance, set measurable goals, and analyze your own progress over time. These sports typically have a high degree of strategy and technical precision.
+</p>
+<?php }
+?>
 <?php
 endif;
 ?>
