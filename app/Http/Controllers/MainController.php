@@ -483,4 +483,10 @@ public function report($type,  Request $request){
 
     return view('report.report',['type' => $type]);
 }
+public function download_report(){
+    $pdf_name ='brain_report.pdf';
+    $pdf = PDF::loadView('pdfs.report');
+    $pdf->setPaper('a4', 'portrait')->save(public_path('db_files/reports/').$pdf_name);
+    return $pdf->download();
+    }
 }

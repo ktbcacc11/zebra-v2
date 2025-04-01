@@ -190,3 +190,5 @@ Route::match(['get', 'post'], '/report/{type}', [MainController::class, 'report'
 Route::get('/report-error/{type}', function () {
     return view('report.report-error');
 });
+
+Route::match(['get', 'post'], '/download-report', [MainController::class, 'download_report']);
