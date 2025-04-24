@@ -1,6 +1,9 @@
 @include('new_layouts.header')
 @include('report.Flow-and-grow-basics-modals');
 @include('report.job-and-work-modals');
+@include('report.preferred-studying-and-learning-styles-modals');
+@include('report.relationship-styles-modals');
+@include('report.Inclination-for-subjects-naturally');
 
 <?php
 use App\Models\WPUsers;
@@ -123,6 +126,10 @@ $report_type = $type;
 .img-content-page{
     height: 100px;
     width: 100px;
+}
+
+.report-list{
+    font-weight: 500
 }
 </style>
 
@@ -6344,7 +6351,7 @@ $report_type = $type;
                             <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p>
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-2-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6359,7 +6366,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-2-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6374,7 +6381,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-2-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6389,7 +6396,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-2-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6404,7 +6411,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-2-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6420,7 +6427,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-2-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6435,7 +6442,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-2-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6450,7 +6457,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-2-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6465,7 +6472,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-2-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6481,7 +6488,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-2-10">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6496,7 +6503,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-2-11">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6512,7 +6519,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-2-12">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6541,7 +6548,7 @@ $report_type = $type;
                             <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p>
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-3-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6556,7 +6563,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-3-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6571,7 +6578,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-3-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6586,7 +6593,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-3-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6601,7 +6608,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-3-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6617,7 +6624,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-3-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6632,7 +6639,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-3-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6647,7 +6654,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-3-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6664,7 +6671,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-3-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6680,7 +6687,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-3-10">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6695,7 +6702,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-3-11">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6711,7 +6718,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-3-12">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6727,7 +6734,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-3-13">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6743,7 +6750,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-3-14">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6759,7 +6766,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-3-15">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6775,7 +6782,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-3-16">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6804,7 +6811,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-4-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6819,7 +6826,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-4-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6834,7 +6841,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-4-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6850,7 +6857,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-4-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6865,7 +6872,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-4-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6881,7 +6888,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-4-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6896,7 +6903,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-4-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6911,7 +6918,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-4-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6928,7 +6935,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-4-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6945,7 +6952,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-4-10">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6960,7 +6967,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-4-11">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6976,7 +6983,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-4-12">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -6992,7 +6999,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-4-13">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7008,7 +7015,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-4-14">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7024,7 +7031,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-4-15">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7040,7 +7047,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-4-16">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7069,7 +7076,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-5-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7085,7 +7092,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-5-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7100,7 +7107,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-5-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7116,7 +7123,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-5-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7131,7 +7138,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-5-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7148,7 +7155,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-5-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7163,7 +7170,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-5-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7178,7 +7185,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-5-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7193,7 +7200,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-5-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7210,7 +7217,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-5-10">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7225,7 +7232,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-5-11">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7241,7 +7248,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-5-12">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7256,7 +7263,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-5-13">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7272,7 +7279,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-5-14">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7288,7 +7295,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-5-15">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7304,7 +7311,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-5-16">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7333,7 +7340,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-6-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7348,7 +7355,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-6-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7363,7 +7370,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-6-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7379,7 +7386,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-6-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7394,7 +7401,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-6-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7410,7 +7417,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-6-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7425,7 +7432,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-6-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7440,7 +7447,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-6-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7456,7 +7463,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-6-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7472,7 +7479,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-6-10">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7487,7 +7494,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-6-11">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7503,7 +7510,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-6-12">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7518,7 +7525,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-6-13">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7534,7 +7541,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-6-14">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7551,7 +7558,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-6-15">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7567,7 +7574,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-6-16">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7596,7 +7603,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-7-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7611,7 +7618,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-7-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7626,7 +7633,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-7-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7642,7 +7649,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-7-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7657,7 +7664,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-7-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7674,7 +7681,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-7-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7690,7 +7697,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-7-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7705,7 +7712,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-7-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7721,7 +7728,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-7-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7737,7 +7744,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-7-10">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7753,7 +7760,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-7-11">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7769,7 +7776,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-7-12">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7784,7 +7791,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-7-13">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7800,7 +7807,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-7-14">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7817,7 +7824,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-7-15">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7833,7 +7840,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-7-16">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7861,7 +7868,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-8-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7877,7 +7884,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-8-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7893,7 +7900,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-8-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7908,7 +7915,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-8-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7924,7 +7931,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-8-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7940,7 +7947,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-8-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7956,7 +7963,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-8-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7971,7 +7978,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-8-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -7987,7 +7994,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-8-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8003,7 +8010,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-8-10">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8019,7 +8026,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-8-11">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8035,7 +8042,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-8-12">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8050,7 +8057,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-8-13">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8067,7 +8074,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-8-14">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8084,7 +8091,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-8-15">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8100,7 +8107,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-8-16">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8129,7 +8136,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-9-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8145,7 +8152,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-9-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8161,7 +8168,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-9-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8176,7 +8183,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-9-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8192,7 +8199,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-9-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8209,7 +8216,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-9-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8225,7 +8232,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-9-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8241,7 +8248,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-9-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8257,7 +8264,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-9-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8273,7 +8280,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-9-10">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8289,7 +8296,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-9-11">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8305,7 +8312,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-9-12">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8320,7 +8327,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-9-13">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8337,7 +8344,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-9-14">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8354,7 +8361,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-9-15">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8370,7 +8377,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-9-16">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8384,7 +8391,7 @@ $report_type = $type;
             <div class="container text-center pt-5 pb-1">
                 <h3 class="heading1 text-purple">Inclination for subjects naturally
                 </h3>
-                <p class="p1 ">As aPractical Innovator or Grounded Creative), your natural inclinations lean toward subjects that emphasize practical application, creativity, and innovation. You thrive in environments that allow you to explore new ideas while grounding them in real-world contexts. Here are the preferred subjects that align with your strengths and the corresponding career options:
+                <p class="p1 ">As a Practical Innovator or Grounded Creative), your natural inclinations lean toward subjects that emphasize practical application, creativity, and innovation. You thrive in environments that allow you to explore new ideas while grounding them in real-world contexts. Here are the preferred subjects that align with your strengths and the corresponding career options:
                 </p>
             </div>
             <div class="container mt-4">
@@ -8399,7 +8406,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-10-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8415,7 +8422,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-10-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8431,7 +8438,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-10-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8446,7 +8453,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-10-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8462,7 +8469,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-10-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8479,7 +8486,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-10-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8495,7 +8502,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-10-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8511,7 +8518,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-10-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8528,7 +8535,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-10-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8545,7 +8552,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-10-10">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8561,7 +8568,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-10-11">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8578,7 +8585,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-10-12">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8593,7 +8600,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-10-13">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8611,7 +8618,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-10-14">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8630,7 +8637,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-10-15">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8659,7 +8666,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-11-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8675,7 +8682,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-11-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8691,7 +8698,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-11-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8706,7 +8713,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-11-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8722,7 +8729,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-11-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8739,7 +8746,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-11-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8755,7 +8762,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-11-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8771,7 +8778,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-11-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8788,7 +8795,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-11-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8805,7 +8812,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-11-10">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8821,7 +8828,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-11-11">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8838,7 +8845,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-11-12">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8853,7 +8860,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-11-13">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8871,7 +8878,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-11-14">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8888,7 +8895,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-11-15">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8905,7 +8912,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-11-16">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8934,7 +8941,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-12-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8950,7 +8957,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-12-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8966,7 +8973,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-12-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8981,7 +8988,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-12-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -8997,7 +9004,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-12-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9014,7 +9021,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-12-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9030,7 +9037,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-12-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9046,7 +9053,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-12-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9064,7 +9071,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-12-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9081,7 +9088,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-12-10">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9097,7 +9104,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-12-11">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9114,7 +9121,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-12-12">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9129,7 +9136,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-12-13">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9145,7 +9152,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-12-14">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9160,7 +9167,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-12-15">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9177,7 +9184,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-12-16">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9206,7 +9213,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-13-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9223,7 +9230,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-13-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9239,7 +9246,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-13-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9254,7 +9261,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-13-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9270,7 +9277,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-13-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9287,7 +9294,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-13-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9303,7 +9310,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-13-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9319,7 +9326,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-13-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9337,7 +9344,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-13-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9356,7 +9363,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-13-10">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9374,7 +9381,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-13-11">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9389,7 +9396,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-13-12">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9405,7 +9412,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-13-13">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9420,7 +9427,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-13-14">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9437,7 +9444,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-13-15">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9467,7 +9474,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-14-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9484,7 +9491,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-14-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9500,7 +9507,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-14-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9515,7 +9522,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-14-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9531,7 +9538,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-14-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9548,7 +9555,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-14-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9564,7 +9571,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-14-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9580,7 +9587,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-14-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9598,7 +9605,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-14-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9617,7 +9624,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-14-10">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9636,7 +9643,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-14-11">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9665,7 +9672,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-15-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9682,7 +9689,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-15-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9699,7 +9706,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-15-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9715,7 +9722,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-15-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9731,7 +9738,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-15-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9748,7 +9755,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-15-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9764,7 +9771,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-15-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9780,7 +9787,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-15-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9796,7 +9803,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-15-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9815,7 +9822,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-15-10">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9834,7 +9841,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#Inclination-for-subjects-naturally-15-11">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9874,7 +9881,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-1-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9889,7 +9896,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-1-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9904,7 +9911,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-1-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9919,7 +9926,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-1-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9937,7 +9944,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-1-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9953,7 +9960,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-1-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9969,7 +9976,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-1-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -9985,7 +9992,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-1-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10015,7 +10022,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-2-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10030,7 +10037,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-2-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10045,7 +10052,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-2-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10060,7 +10067,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-2-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10078,7 +10085,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-2-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10094,7 +10101,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-2-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10110,7 +10117,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-2-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10126,7 +10133,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-2-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10153,7 +10160,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-3-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10168,7 +10175,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-3-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10183,7 +10190,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-3-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10198,7 +10205,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-3-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10216,7 +10223,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-3-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10232,7 +10239,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-3-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10248,7 +10255,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-3-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10264,7 +10271,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-3-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10291,7 +10298,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-4-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10306,7 +10313,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-4-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10321,7 +10328,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-4-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10336,7 +10343,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-4-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10354,7 +10361,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-4-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10371,7 +10378,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-4-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10387,7 +10394,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-4-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10404,7 +10411,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-4-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10422,7 +10429,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-4-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10449,7 +10456,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-5-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10465,7 +10472,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-5-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10480,7 +10487,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-5-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10495,7 +10502,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-5-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10513,7 +10520,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-5-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10530,7 +10537,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-5-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10546,7 +10553,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-5-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10564,7 +10571,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-5-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10593,7 +10600,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-6-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10609,7 +10616,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-6-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10625,7 +10632,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-6-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10641,7 +10648,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-6-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10659,7 +10666,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-6-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10676,7 +10683,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-6-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10692,7 +10699,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-6-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10708,7 +10715,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-6-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10726,7 +10733,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-6-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10753,7 +10760,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-7-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10768,7 +10775,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-7-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10783,7 +10790,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-7-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10798,7 +10805,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-7-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10816,7 +10823,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-7-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10832,7 +10839,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-7-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10848,7 +10855,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-7-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10864,7 +10871,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-7-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10880,7 +10887,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-7-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10907,7 +10914,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-8-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10922,7 +10929,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-8-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10937,7 +10944,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-8-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10952,7 +10959,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-8-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10970,7 +10977,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-8-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -10986,7 +10993,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-8-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11005,7 +11012,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-8-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11033,7 +11040,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-9-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11048,7 +11055,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-9-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11064,7 +11071,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-9-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11079,7 +11086,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-9-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11097,7 +11104,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-9-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11113,7 +11120,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-9-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11129,7 +11136,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-9-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11148,7 +11155,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-9-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11175,7 +11182,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-10-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11190,7 +11197,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-10-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11206,7 +11213,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-10-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11221,7 +11228,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-10-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11239,7 +11246,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-10-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11255,7 +11262,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-10-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11271,7 +11278,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-10-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11290,7 +11297,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-10-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11317,7 +11324,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-11-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11332,7 +11339,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-11-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11348,7 +11355,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-11-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11363,7 +11370,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-11-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11381,7 +11388,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-11-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11397,7 +11404,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-11-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11413,7 +11420,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-11-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11432,7 +11439,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-11-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11458,7 +11465,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-12-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11473,7 +11480,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-12-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11489,7 +11496,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-12-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11504,7 +11511,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-12-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11522,7 +11529,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-12-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11538,7 +11545,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-12-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11554,7 +11561,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-12-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11573,7 +11580,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-12-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11599,7 +11606,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-13-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11614,7 +11621,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-13-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11630,7 +11637,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-13-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11645,7 +11652,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-13-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11663,7 +11670,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-13-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11679,7 +11686,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-13-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11695,7 +11702,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-13-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11715,7 +11722,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-13-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11741,7 +11748,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-14-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11756,7 +11763,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-14-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11772,7 +11779,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-14-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11787,7 +11794,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-14-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11806,7 +11813,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-14-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11823,7 +11830,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-14-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11839,7 +11846,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-14-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11859,7 +11866,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-14-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11885,7 +11892,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-15-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11900,7 +11907,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-15-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11916,7 +11923,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-15-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11931,7 +11938,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-15-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11950,7 +11957,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-15-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11967,7 +11974,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-15-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -11983,7 +11990,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-15-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -12003,7 +12010,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#diet-and-nutrition-15-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -12028,8 +12035,8 @@ $report_type = $type;
     <?php if ($brain_profile_id == 1): ?>
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">communication-and-behaviour</h3>
-                {{-- <p class="p1 ">Self Discovery to  Holistic Growth & Development harnesses the principles of Neuro development and Neuroplasticity.</p> --}}
+                <h3 class="heading1 text-purple">Communication-and-behaviour</h3>
+                <p class="p1 ">As someone with an Analytical Brain and a candid communication style, your approach to interactions is likely rooted in logic, objectivity, and a desire for clarity. Below is an in-depth look at your communication style and behavioral tendencies</p>
             </div>
             <div class="container mt-4">
                 <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
@@ -12039,7 +12046,7 @@ $report_type = $type;
                         </div>
                         <div class="col-md-5 col-lg-7 col-xl-8">
                             <h4 class="q1">1. Direct and Candid</h4>
-                            <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
                             <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
@@ -12054,7 +12061,7 @@ $report_type = $type;
                         </div>
                         <div class="col-md-5 col-lg-7 col-xl-8">
                             <h4 class="q1">2. Fact-Based Communication</h4>
-                            <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
                         <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
@@ -12069,7 +12076,7 @@ $report_type = $type;
                         </div>
                         <div class="col-md-5 col-lg-7 col-xl-8">
                             <h4 class="q1">3. Listening for Logical Flow</h4>
-                            <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
                         <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
@@ -12084,7 +12091,7 @@ $report_type = $type;
                         </div>
                         <div class="col-md-5 col-lg-7 col-xl-8">
                             <h4 class="q1">4. Preference for Structured Communication</h4>
-                            <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
                         <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
@@ -12101,7 +12108,7 @@ $report_type = $type;
                         </div>
                         <div class="col-md-5 col-lg-7 col-xl-8">
                             <h4 class="q1">1. Problem-Solving Orientation</h4>
-                            <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
                         <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
@@ -12116,7 +12123,7 @@ $report_type = $type;
                         </div>
                         <div class="col-md-5 col-lg-7 col-xl-8">
                             <h4 class="q1">2. Independent and Self-Sufficient</h4>
-                            <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
                         <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
@@ -12132,7 +12139,57 @@ $report_type = $type;
                         </div>
                         <div class="col-md-5 col-lg-7 col-xl-8">
                             <h4 class="q1">3. Detail-Oriented and Perfectionistic</h4>
-                            <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Systematic and Methodical</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Conflict Resolution Style</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips for Enhancing Communication and Behavior</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
                         <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
@@ -12147,7 +12204,7 @@ $report_type = $type;
         
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">communication-and-behaviour</h3>
+                <h3 class="heading1 text-purple">Communication-and-behaviour</h3>
                 {{-- <p class="p1 ">Self Discovery to  Holistic Growth & Development harnesses the principles of Neuro development and Neuroplasticity.</p> --}}
             </div>
             <div class="container mt-4">
@@ -12336,6 +12393,21 @@ $report_type = $type;
                     </div>
                 </div>
 
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips for Enhancing Communication and Behavior</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
         
             </div>
         
@@ -12345,7 +12417,7 @@ $report_type = $type;
        
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">communication-and-behaviour</h3>
+                <h3 class="heading1 text-purple">Communication-and-behaviour</h3>
                 <p class="p1 ">As a Empathetic Connector, Relational Harmonizer, or Compassionate Thinker, your communication and behavior style is rooted in empathy, emotional intelligence, and the ability to connect with others on a deeper level. You prioritize harmony, understanding, and open dialogue in both personal and professional settings.</p>
             </div>
             <div class="container mt-4">
@@ -12540,6 +12612,22 @@ $report_type = $type;
                     </div>
                 </div>
 
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips to Enhance Communication and Behavior</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
                 
 
         
@@ -12551,8 +12639,8 @@ $report_type = $type;
 
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">communication-and-behaviour</h3>
-                <p class="p1 ">As aInnovative Maverick, Creative Visionary, or Non-Conformist Thinker, your communication and behavior styles are characterized by creativity, originality, and a willingness to challenge the norm. You thrive in environments where you can express your ideas freely and connect with others in innovative ways. Here’s how your communication and behavior typically manifest:
+                <h3 class="heading1 text-purple">Communication-and-behaviour</h3>
+                <p class="p1 ">As a Innovative Maverick, Creative Visionary, or Non-Conformist Thinker, your communication and behavior styles are characterized by creativity, originality, and a willingness to challenge the norm. You thrive in environments where you can express your ideas freely and connect with others in innovative ways. Here’s how your communication and behavior typically manifest:
                 </p>
             </div>
             <div class="container mt-4">
@@ -12748,7 +12836,20 @@ $report_type = $type;
                     </div>
                 </div>
 
-                
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips for Enhancing Communication and Behavior</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        </div>
+                    </div>
+                </div>
 
         
             </div>
@@ -12757,7 +12858,7 @@ $report_type = $type;
     <?php elseif ($brain_profile_id == 5): ?>
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">communication-and-behaviour</h3>
+                <h3 class="heading1 text-purple">Communication-and-behaviour</h3>
                 <p class="p1 ">As a Balanced Logical Thinker or Dual Analytical-Practical, your communication and behavior styles are characterized by a strong preference for clarity, structure, and practical problem-solving. You excel in environments that encourage critical thinking and logical reasoning. Here’s how your communication and behavior typically manifest:
 
                 </p>
@@ -12970,7 +13071,7 @@ $report_type = $type;
     <?php elseif ($brain_profile_id == 6): ?>
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">communication-and-behaviour</h3>
+                <h3 class="heading1 text-purple">Communication-and-behaviour</h3>
                 <p class="p1 ">As a Relational Creative or Creative Connector, your communication and behavior styles are characterized by strong interpersonal skills, creativity, and a focus on collaboration. You thrive in environments where you can connect with others and express your ideas freely. Here’s how your communication and behavior typically manifest:
                 </p>
             </div>
@@ -13173,7 +13274,20 @@ $report_type = $type;
                 </div>
 
                 
-
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips for Enhancing Communication and Behavior</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        </div>
+                    </div>
+                </div>
         
             </div>
         
@@ -13183,7 +13297,7 @@ $report_type = $type;
         
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">communication-and-behaviour</h3>
+                <h3 class="heading1 text-purple">Communication-and-behaviour</h3>
                 <p class="p1 ">As a Innovative Analyst or Creative Problem-Solver, your communication and behavior styles are characterized by a blend of analytical thinking, creativity, and strong interpersonal skills. You thrive in environments where you can articulate ideas clearly and engage with others in meaningful ways. Here’s how your communication and behavior typically manifest:
                 </p>
             </div>
@@ -13335,7 +13449,20 @@ $report_type = $type;
                     </div>
                 </div>
 
-                
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips for Enhancing Communication and Behavior</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        </div>
+                    </div>
+                </div>
 
         
             </div>
@@ -13346,7 +13473,7 @@ $report_type = $type;
         
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">communication-and-behaviour</h3>
+                <h3 class="heading1 text-purple">Communication-and-behaviour</h3>
                 <p class="p1 ">As a Practical Empath or Grounded Relational Thinker, your communication and behavior styles are characterized by empathy, practicality, and a strong focus on relational dynamics. You thrive in environments where you can connect with others meaningfully and provide grounded solutions to challenges. Here’s how your communication and behavior typically manifest:
                 </p>
             </div>
@@ -13545,7 +13672,20 @@ $report_type = $type;
                     </div>
                 </div>
 
-                
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips for Enhancing Communication and Behavior</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        </div>
+                    </div>
+                </div>
 
         
             </div>
@@ -13555,8 +13695,8 @@ $report_type = $type;
     <?php elseif ($brain_profile_id == 9): ?>
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">communication-and-behaviour</h3>
-                <p class="p1 ">As a Practical Empath or Grounded Relational Thinker, your communication and behavior styles are characterized by empathy, practicality, and a strong focus on relational dynamics. You thrive in environments where you can connect with others meaningfully and provide grounded solutions to challenges. Here’s how your communication and behavior typically manifest:
+                <h3 class="heading1 text-purple">Communication-and-behaviour</h3>
+                <p class="p1 ">As an Analytical Connector or Relational Analyst, your communication and behavior styles are characterized by a blend of analytical reasoning and relational understanding. You thrive in environments where you can engage meaningfully with others while applying your analytical skills to navigate complex information. Here’s how your communication and behavior typically manifest:
                 </p>
             </div>
             <div class="container mt-4">
@@ -13567,7 +13707,7 @@ $report_type = $type;
                             <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
                         </div>
                         <div class="col-md-5 col-lg-7 col-xl-8">
-                            <h4 class="q1">1. Empathetic and Relational
+                            <h4 class="q1">1. Analytical and Clear
                             </h4>
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
@@ -13583,7 +13723,7 @@ $report_type = $type;
                             <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
                         </div>
                         <div class="col-md-5 col-lg-7 col-xl-8">
-                            <h4 class="q1">2. Clear and Direct</h4>
+                            <h4 class="q1">2. Empathetic and Relational</h4>
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
@@ -13630,7 +13770,7 @@ $report_type = $type;
                             <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
                         </div>
                         <div class="col-md-5 col-lg-7 col-xl-8">
-                            <h4 class="q1">5. Practical Problem-Solver
+                            <h4 class="q1">5. Structured and Organized
                             </h4>
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
@@ -13646,7 +13786,7 @@ $report_type = $type;
                             <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
                         </div>
                         <div class="col-md-5 col-lg-7 col-xl-8">
-                            <h4 class="q1">6. Encouraging and Supportive
+                            <h4 class="q1">6. Feedback-Oriented
                             </h4>
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
@@ -13679,7 +13819,7 @@ $report_type = $type;
                             <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
                         </div>
                         <div class="col-md-5 col-lg-7 col-xl-8">
-                            <h4 class="q1">2.Adaptable and Flexible
+                            <h4 class="q1">2. Analytical Thinker
                             </h4>
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
@@ -13696,7 +13836,7 @@ $report_type = $type;
                             <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
                         </div>
                         <div class="col-md-5 col-lg-7 col-xl-8">
-                            <h4 class="q1">3. Grounded and Practica
+                            <h4 class="q1">3. Supportive and Nurturing
                             </h4>
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
@@ -13712,7 +13852,7 @@ $report_type = $type;
                             <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
                         </div>
                         <div class="col-md-5 col-lg-7 col-xl-8">
-                            <h4 class="q1">4. Positive and Optimistic
+                            <h4 class="q1">4. Adaptable and Flexible
                             </h4>
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
@@ -13728,7 +13868,7 @@ $report_type = $type;
                             <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
                         </div>
                         <div class="col-md-5 col-lg-7 col-xl-8">
-                            <h4 class="q1">5. Reflective and Introspective
+                            <h4 class="q1">5. Goal-Oriented
                             </h4>
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
@@ -13745,7 +13885,24 @@ $report_type = $type;
                             <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
                         </div>
                         <div class="col-md-5 col-lg-7 col-xl-8">
-                            <h4 class="q1">6. Goal-Oriented in Relationships</h4>
+                            <h4 class="q1">6. Reflective and Introspective</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips for Enhancing Communication and Behavior</h4>
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
@@ -13764,7 +13921,7 @@ $report_type = $type;
     <?php elseif ($brain_profile_id == 10): ?>
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">communication-and-behaviour</h3>
+                <h3 class="heading1 text-purple">Communication-and-behaviour</h3>
                 <p class="p1 ">As a Practical Innovator or Grounded Creative, your communication and behavior styles are characterized by a blend of practical application, creativity, and interpersonal engagement. You thrive in environments where you can express innovative ideas while connecting meaningfully with others. Here’s how your communication and behavior typically manifest:
 
                 </p>
@@ -13968,7 +14125,20 @@ $report_type = $type;
                     </div>
                 </div>
 
-                
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips for Enhancing Communication and Behavior</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        </div>
+                    </div>
+                </div>
 
         
             </div>
@@ -13977,7 +14147,7 @@ $report_type = $type;
     <?php elseif ($brain_profile_id == 11): ?>
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">communication-and-behaviour</h3>
+                <h3 class="heading1 text-purple">Communication-and-behaviour</h3>
                 <p class="p1 ">As a Grounded Thinker or Structured Planner, your communication and behavior styles are characterized by a preference for clarity, organization, and logical reasoning. You thrive in environments that value structured interactions and practical approaches. Here’s how your communication and behavior typically manifest:
 
 
@@ -14185,7 +14355,20 @@ $report_type = $type;
                 </div>
 
                 
-
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips for Enhancing Communication and Behavior</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        </div>
+                    </div>
+                </div>
         
             </div>
         
@@ -14195,7 +14378,7 @@ $report_type = $type;
 
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">communication-and-behaviour</h3>
+                <h3 class="heading1 text-purple">Communication-and-behaviour</h3>
                 <p class="p1 ">As a Abstract Idealist or Relational Planner, your communication and behavior styles are characterized by creativity, relational engagement, and an emphasis on meaningful connections. You value open dialogue and collaboration, which shapes how you interact with others. Here’s how your communication and behavior typically manifest:
 
                 </p>
@@ -14404,7 +14587,20 @@ $report_type = $type;
                     </div>
                 </div>
 
-                
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips for Enhancing Communication and Behavior</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        </div>
+                    </div>
+                </div>
 
         
             </div>
@@ -14415,7 +14611,7 @@ $report_type = $type;
 
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">communication-and-behaviour</h3>
+                <h3 class="heading1 text-purple">Communication-and-behaviour</h3>
                 <p class="p1 ">As a Visionary Dreamer or Conceptual Creative, your communication and behavior styles are characterized by creativity, empathy, and a strong focus on collaboration. You value meaningful interactions and often seek to foster deeper understanding in your relationships. Here’s how your communication and behavior typically manifest:
 
 
@@ -14623,7 +14819,20 @@ $report_type = $type;
                     </div>
                 </div>
 
-                
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips for Enhancing Communication and Behavior</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        </div>
+                    </div>
+                </div>
 
         
             </div>
@@ -14632,7 +14841,7 @@ $report_type = $type;
     <?php elseif ($brain_profile_id == 14): ?>
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">communication-and-behaviour</h3>
+                <h3 class="heading1 text-purple">Communication-and-behaviour</h3>
                 <p class="p1 ">As a Independent Problem-Solver or Analytical Innovator, your communication and behavior styles are characterized by a strong analytical approach, independence, and a focus on logical reasoning. You value clear, direct communication and often prioritize problem-solving in your interactions. Here’s how your communication and behavior typically manifest:
                 </p>
             </div>
@@ -14844,7 +15053,20 @@ $report_type = $type;
                 </div>
 
                 
-
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips for Enhancing Communication and Behavior</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        </div>
+                    </div>
+                </div>
         
             </div>
         
@@ -14852,7 +15074,7 @@ $report_type = $type;
     <?php elseif ($brain_profile_id == 15): ?>
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">communication-and-behaviour</h3>
+                <h3 class="heading1 text-purple">Communication-and-behaviour</h3>
                 <p class="p1 ">As a Quadruple Pie individual (Harmonized Thinker or Balanced Integrator), your communication and behavior styles are characterized by a blend of analytical thinking, creativity, and relational engagement. You value clear communication, collaboration, and the integration of diverse perspectives in your interactions with others. Here’s how your communication and behavior typically manifest:
                 </p>
             </div>
@@ -15067,7 +15289,20 @@ $report_type = $type;
                 </div>
 
                 
-
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips for Enhancing Communication and Behavior</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        </div>
+                    </div>
+                </div>
         
             </div>
         
@@ -15083,13 +15318,13 @@ $report_type = $type;
     <?php endif; ?>
 
     
-<?php elseif ($report_type == 'videos-about-the-brain'): ?>
+<?php elseif ($report_type == 'preferred-studying-and-learning-styles'): ?>
 
-    <!-- Videos about the brain -->
+    <!-- preferred-studying-and-learning-styles -->
     <?php if ($brain_profile_id == 1): ?>
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">videos-about-the-brain</h3>
+                <h3 class="heading1 text-purple">Preferred studying and learning styles</h3>
                 {{-- <p class="p1 ">Self Discovery to  Holistic Growth & Development harnesses the principles of Neuro development and Neuroplasticity.</p> --}}
             </div>
             <div class="container mt-4">
@@ -15100,10 +15335,10 @@ $report_type = $type;
                         </div>
                         <div class="col-md-5 col-lg-7 col-xl-8">
                             <h4 class="q1">1. Logical/Mathematical Learning Style</h4>
-                            <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p>
+                            <p class="qp1">You thrive in environments where you can apply reasoning, logic, and analysis. Learning through patterns, data, and cause-effect relationships is your natural mode of absorbing information.</p>
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#preferred-studying-and-learning-styles-1-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -15116,10 +15351,10 @@ $report_type = $type;
                         <div class="col-md-5 col-lg-7 col-xl-8">
                             <h4 class="q1">2. Sequential Learning
                             </h4>
-                            <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p>
+                            <p class="qp1">You prefer a step-by-step approach when learning new material. You need a clear structure and process to absorb information effectively, and you dislike jumping between topics or ideas.</p>
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#preferred-studying-and-learning-styles-1-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -15131,10 +15366,10 @@ $report_type = $type;
                         </div>
                         <div class="col-md-5 col-lg-7 col-xl-8">
                             <h4 class="q1">3. Verbal (Linguistic) Learning Style</h4>
-                            <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p>
+                            <p class="qp1">While you are more logic-oriented, you still excel when information is presented in a clear, structured verbal format. Detailed explanations, especially those that avoid ambiguity, work well for you.</p>
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#preferred-studying-and-learning-styles-1-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -15146,10 +15381,10 @@ $report_type = $type;
                         </div>
                         <div class="col-md-5 col-lg-7 col-xl-8">
                             <h4 class="q1">4. Reflective Learning</h4>
-                            <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p>
+                            <p class="qp1">You learn best when given time to reflect on the material and analyze its meaning. You prefer to study independently and appreciate time for deep thinking.</p>
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#preferred-studying-and-learning-styles-1-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -15162,10 +15397,10 @@ $report_type = $type;
                         </div>
                         <div class="col-md-5 col-lg-7 col-xl-8">
                             <h4 class="q1">5. Detail-Oriented Learning</h4>
-                            <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p>
+                            <p class="qp1">As a Systematic Analyst, you are highly attentive to details, making you meticulous when studying complex subjects. You appreciate in-depth analysis and dislike superficial or vague explanations.</p>
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#preferred-studying-and-learning-styles-1-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -15177,10 +15412,25 @@ $report_type = $type;
                         </div>
                         <div class="col-md-5 col-lg-7 col-xl-8">
                             <h4 class="q1">6. Problem-Solving Approach</h4>
-                            <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p>
+                            <p class="qp1">You enjoy learning by applying theoretical concepts to real-world problems. Case studies, simulations, and problem-solving exercises are particularly engaging for you.</p>
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#preferred-studying-and-learning-styles-1-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips to Enhance Learning</h4>
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#preferred-studying-and-learning-styles-1-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -15191,7 +15441,7 @@ $report_type = $type;
     <?php elseif ($brain_profile_id == 2): ?>
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">videos-about-the-brain</h3>
+                <h3 class="heading1 text-purple">Preferred studying and learning styles</h3>
                 <p class="p1 ">As someone with a <strong>Practical Thinker</strong> brain dominance, your learning style is rooted in logic, organization, and structure. You prefer clear, methodical approaches to studying and thrive when given the tools to systematically break down information. Here’s a breakdown of your preferred learning styles based on your brain’s strengths</p>
             </div>
             <div class="container mt-4">
@@ -15290,6 +15540,36 @@ $report_type = $type;
                         </div>
                     </div>
                 </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips to Enhance Learning</h4>
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#preferred-studying-and-learning-styles-1-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips to Enhance Learning</h4>
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#preferred-studying-and-learning-styles-1-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
         
             </div>
         
@@ -15298,7 +15578,7 @@ $report_type = $type;
     <?php elseif ($brain_profile_id == 3): ?>
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">videos-about-the-brain</h3>
+                <h3 class="heading1 text-purple">Preferred studying and learning styles</h3>
                 {{-- <p class="p1 ">As a Empathetic Connector, Relational Harmonizer, or Compassionate Thinker, your learning style is centered around emotional connection, collaboration, and understanding the broader social or relational context of what you're studying. You excel when learning involves communication, group interactions, and a focus on human experiences.
 
                 </p> --}}
@@ -15416,6 +15696,21 @@ $report_type = $type;
                         </div>
                     </div>
                 </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips to Enhance Learning</h4>
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#preferred-studying-and-learning-styles-1-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
         
             </div>
         
@@ -15424,7 +15719,7 @@ $report_type = $type;
 
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">videos-about-the-brain</h3>
+                <h3 class="heading1 text-purple">Preferred studying and learning styles</h3>
                 <p class="p1 ">As an Innovative Maverick, Creative Visionary, or Non-Conformist Thinker, your studying and learning styles are characterized by a strong preference for creativity, exploration, and independent thinking. You thrive in environments that allow for experimentation and original thought. Here’s how you typically approach learning:
                 </p>
             </div>
@@ -15541,6 +15836,20 @@ $report_type = $type;
                     </div>
                 </div>
         
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips to Enhance Learning</h4>
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#preferred-studying-and-learning-styles-1-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         
         </section>     
@@ -15549,7 +15858,7 @@ $report_type = $type;
 
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">videos-about-the-brain</h3>
+                <h3 class="heading1 text-purple">Preferred studying and learning styles</h3>
                 <p class="p1 ">As a Balanced Logical Thinker or Dual Analytical-Practical, your studying and learning styles are characterized by a strong preference for structure, logic, and practical application. You thrive in environments that promote critical thinking and real-world problem-solving. Here’s how you typically approach learning:
 
                 </p>
@@ -15668,7 +15977,21 @@ $report_type = $type;
                         </div>
                     </div>
                 </div>
-        
+                
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips to Enhance Learning</h4>
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#preferred-studying-and-learning-styles-1-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         
         </section> 
@@ -15677,7 +16000,7 @@ $report_type = $type;
         
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">videos-about-the-brain</h3>
+                <h3 class="heading1 text-purple">Preferred studying and learning styles</h3>
                 <p class="p1 ">As a Relational Creative or Creative Connector,  your studying and learning styles are characterized by a blend of creativity, collaboration, and interpersonal engagement. You thrive in environments that encourage creativity and meaningful connections with others. Here’s how you typically approach learning:
                 </p>
             </div>
@@ -15796,6 +16119,20 @@ $report_type = $type;
                     </div>
                 </div>
         
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips to Enhance Learning</h4>
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#preferred-studying-and-learning-styles-1-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         
         </section> 
@@ -15803,7 +16140,7 @@ $report_type = $type;
     <?php elseif ($brain_profile_id == 7): ?>
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">videos-about-the-brain</h3>
+                <h3 class="heading1 text-purple">Preferred studying and learning styles</h3>
                 <p class="p1 ">As a Innovative Analyst or Creative Problem-Solver, your studying and learning styles are characterized by a blend of analytical thinking and creative exploration. You thrive in environments that encourage both logical reasoning and innovative thinking. Here’s how you typically approach learning:
                 </p>
             </div>
@@ -15905,7 +16242,19 @@ $report_type = $type;
                     </div>
                 </div>
 
-
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips to Enhance Learning</h4>
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#preferred-studying-and-learning-styles-1-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
                 
         
             </div>
@@ -15915,7 +16264,7 @@ $report_type = $type;
 
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">videos-about-the-brain</h3>
+                <h3 class="heading1 text-purple">Preferred studying and learning styles</h3>
                 <p class="p1 ">As a Practical Empath or Grounded Relational Thinker, your studying and learning styles are characterized by a blend of practical application and relational engagement. You thrive in environments that allow you to connect with others while applying your knowledge in meaningful ways. Here’s how you typically approach learning:
                 </p>
             </div>
@@ -16037,6 +16386,20 @@ $report_type = $type;
                     </div>
                 </div>
         
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips to Enhance Learning</h4>
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#preferred-studying-and-learning-styles-1-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         
         </section> 
@@ -16044,7 +16407,7 @@ $report_type = $type;
 
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">videos-about-the-brain</h3>
+                <h3 class="heading1 text-purple">Preferred studying and learning styles</h3>
                 <p class="p1 ">As an Analytical Connector or Relational Analyst, your studying and learning styles are characterized by a blend of analytical thinking and relational engagement. You thrive in environments where you can dissect complex information while connecting with others. Here’s how you typically approach learning:
                 </p>
             </div>
@@ -16163,7 +16526,21 @@ $report_type = $type;
                         </div>
                     </div>
                 </div>
-        
+                
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips to Enhance Learning</h4>
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#preferred-studying-and-learning-styles-1-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         
         </section> 
@@ -16172,7 +16549,7 @@ $report_type = $type;
 
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">videos-about-the-brain</h3>
+                <h3 class="heading1 text-purple">Preferred studying and learning styles</h3>
                 <p class="p1 ">As a Practical Innovator or Grounded Creative, your studying and learning styles are characterized by a blend of practical application and creative exploration. You thrive in environments that allow you to engage with material in a hands-on manner while incorporating innovative thinking. Here’s how you typically approach learning:
                 </p>
             </div>
@@ -16275,7 +16652,19 @@ $report_type = $type;
                     </div>
                 </div>
 
-
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips to Enhance Learning</h4>
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#preferred-studying-and-learning-styles-1-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
                 
         
             </div>
@@ -16285,7 +16674,7 @@ $report_type = $type;
     <?php elseif ($brain_profile_id == 11): ?>
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">videos-about-the-brain</h3>
+                <h3 class="heading1 text-purple">Preferred studying and learning styles</h3>
                 <p class="p1 ">As a Grounded Thinker or Structured Planner, your learning and studying styles are characterized by a strong preference for organization, structure, and logical reasoning. You thrive in environments where you can methodically approach new information and tasks. Here’s how you typically engage with learning:
                 </p>
             </div>
@@ -16406,7 +16795,19 @@ $report_type = $type;
                     </div>
                 </div>
 
-
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips to Enhance Learning</h4>
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#preferred-studying-and-learning-styles-1-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
                 
         
             </div>
@@ -16415,7 +16816,7 @@ $report_type = $type;
     <?php elseif ($brain_profile_id == 12): ?>
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">videos-about-the-brain</h3>
+                <h3 class="heading1 text-purple">Preferred studying and learning styles</h3>
                 <p class="p1 ">As a Abstract Idealist or Relational Planner, your studying and learning styles are characterized by a preference for creativity, exploration, and relational engagement. You thrive in environments that allow for imaginative thinking while fostering connections with others. Here’s how you typically engage with learning:
                 </p>
             </div>
@@ -16519,7 +16920,19 @@ $report_type = $type;
                 </div>
 
 
-                
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips to Enhance Learning</h4>
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#preferred-studying-and-learning-styles-1-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
         
             </div>
         
@@ -16527,7 +16940,7 @@ $report_type = $type;
     <?php elseif ($brain_profile_id == 13): ?>
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">videos-about-the-brain</h3>
+                <h3 class="heading1 text-purple">Preferred studying and learning styles</h3>
                 <p class="p1 ">As a Visionary Dreamer or Conceptual Creative, your studying and learning styles are characterized by a preference for creativity, exploration, and abstract thinking. You thrive in environments that allow for imaginative engagement and collaborative learning. Here’s how you typically engage with learning:
                 </p>
             </div>
@@ -16631,7 +17044,19 @@ $report_type = $type;
                     </div>
                 </div>
 
-
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips to Enhance Learning</h4>
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#preferred-studying-and-learning-styles-1-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
                 
         
             </div>
@@ -16640,7 +17065,7 @@ $report_type = $type;
     <?php elseif ($brain_profile_id == 14): ?>
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">videos-about-the-brain</h3>
+                <h3 class="heading1 text-purple">Preferred studying and learning styles</h3>
                 <p class="p1 ">As a Independent Problem-Solver or Analytical Innovator, your studying and learning styles are characterized by a strong analytical approach, a focus on independence, and a preference for logical reasoning. You thrive in environments that allow you to explore concepts deeply and apply your critical thinking skills. Here’s how you typically engage with learning:
 
                 </p>
@@ -16745,7 +17170,19 @@ $report_type = $type;
                     </div>
                 </div>
 
-
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips to Enhance Learning</h4>
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#preferred-studying-and-learning-styles-1-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
                 
         
             </div>
@@ -16754,7 +17191,7 @@ $report_type = $type;
     <?php elseif ($brain_profile_id == 15): ?>
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
-                <h3 class="heading1 text-purple">videos-about-the-brain</h3>
+                <h3 class="heading1 text-purple">Preferred studying and learning styles</h3>
                 <p class="p1 ">As a Quadruple Pie individual (Harmonized Thinker or Balanced Integrator), your studying and learning styles are characterized by a blend of analytical thinking, creativity, and relational engagement. You thrive in environments that allow for collaboration, synthesis of diverse ideas, and practical application. Here’s how you typically engage with learning
 
                 </p>
@@ -16879,18 +17316,31 @@ $report_type = $type;
                 </div>
 
 
-                
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Tips to Enhance Learning</h4>
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#preferred-studying-and-learning-styles-1-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
         
             </div>
         
         </section>
     <?php else: ?>
         <div>
-            <p>No data available videos about the brain</p>
+            <p>No data available preferred-studying-and-learning-styles</p>
         </div>
     <?php endif; ?>
 
 <?php elseif ($report_type == 'relationship-styles'): ?>
+
     <?php if ($brain_profile_id == 1): ?>
         <section class="py-5">
             <div class="container text-center pt-5 pb-1">
@@ -16912,7 +17362,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-1-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -16927,7 +17377,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-1-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -16943,7 +17393,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-1-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -16959,7 +17409,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-1-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -16977,7 +17427,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-1-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -16993,7 +17443,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-1-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17009,7 +17459,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-1-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17043,7 +17493,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-2-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17059,7 +17509,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-2-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17075,7 +17525,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-2-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17091,7 +17541,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-2-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17109,7 +17559,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-2-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17125,7 +17575,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-2-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17141,7 +17591,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-2-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17153,11 +17603,11 @@ $report_type = $type;
                             <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
                         </div>
                         <div class="col-md-5 col-lg-7 col-xl-8">
-                            <h4 class="q1">7.High Standards</h4>
+                            <h4 class="q1">8.High Standards</h4>
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-2-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17170,9 +17620,9 @@ $report_type = $type;
             <div class="container text-center pt-5 pb-1">
                 <h3 class="heading1 text-purple">Relationship styles
                 </h3>
-                {{-- <p class="p1 ">As someone with an Analytical Brain and a candid, logical approach to communication, your relationship style is rooted in objectivity, precision, and a desire for clarity. You are likely to approach relationships with an emphasis on honesty, problem-solving, and factual information, while also seeking mutual understanding and effective communication. Here’s a breakdown of your relationship styles:
+                <p class="p1 ">As a Empathetic Connector, Relational Harmonizer, or Compassionate Thinker, your approach to relationships is characterized by empathy, connection, and a deep understanding of others' emotions. Here’s how your relationship style typically manifests:
 
-                </p> --}}
+                </p>
             </div>
             <div class="container mt-4">
                 <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
@@ -17186,7 +17636,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-3-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17202,7 +17652,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-3-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17218,7 +17668,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-3-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17234,7 +17684,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-3-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17252,7 +17702,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-3-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17269,7 +17719,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-3-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17286,7 +17736,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-3-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17302,7 +17752,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-3-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17319,7 +17769,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-3-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17335,7 +17785,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-3-10">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17352,7 +17802,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-3-11">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17382,7 +17832,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-4-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17399,7 +17849,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-4-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17415,7 +17865,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-4-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17432,7 +17882,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-4-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17451,7 +17901,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-4-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17469,7 +17919,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-4-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17487,7 +17937,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-4-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17503,7 +17953,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-4-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17521,7 +17971,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-4-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17538,7 +17988,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-4-10">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17555,7 +18005,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-4-11">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17584,7 +18034,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-5-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17599,7 +18049,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-5-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17615,7 +18065,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-5-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17631,7 +18081,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-5-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17650,7 +18100,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-5-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17666,7 +18116,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-5-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17682,7 +18132,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-5-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17698,7 +18148,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-5-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17716,7 +18166,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-5-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17736,7 +18186,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-5-10">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17765,7 +18215,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-6-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17780,7 +18230,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-6-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17795,7 +18245,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-6-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17810,7 +18260,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-6-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17828,7 +18278,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-6-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17845,7 +18295,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-6-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17862,7 +18312,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-6-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17879,7 +18329,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-6-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17897,7 +18347,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-6-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17914,7 +18364,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-6-10">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17931,7 +18381,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-6-11">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -17960,7 +18410,7 @@ $report_type = $type;
                                 {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                             </div>
                             <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                                <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                                <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-7-1">Read More</button>
                             </div>
                         </div>
                     </div>
@@ -17975,7 +18425,7 @@ $report_type = $type;
                                 {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                             </div>
                             <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-7-2">Read More</button>
                             </div>
                         </div>
                     </div>
@@ -17991,7 +18441,7 @@ $report_type = $type;
                                 {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                             </div>
                             <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-7-3">Read More</button>
                             </div>
                         </div>
                     </div>
@@ -18006,7 +18456,7 @@ $report_type = $type;
                                 {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                             </div>
                             <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-7-4">Read More</button>
                             </div>
                         </div>
                     </div>
@@ -18024,7 +18474,7 @@ $report_type = $type;
                                 {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                             </div>
                             <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-7-5">Read More</button>
                             </div>
                         </div>
                     </div>
@@ -18041,7 +18491,7 @@ $report_type = $type;
                                 {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                             </div>
                             <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-7-6">Read More</button>
                             </div>
                         </div>
                     </div>
@@ -18059,7 +18509,7 @@ $report_type = $type;
                                 {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                             </div>
                             <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-7-7">Read More</button>
                             </div>
                         </div>
                     </div>
@@ -18076,7 +18526,7 @@ $report_type = $type;
                                 {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                             </div>
                             <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-7-8">Read More</button>
                             </div>
                         </div>
                     </div>
@@ -18095,7 +18545,7 @@ $report_type = $type;
                                 {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                             </div>
                             <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-7-9">Read More</button>
                             </div>
                         </div>
                     </div>
@@ -18123,7 +18573,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-8-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18138,7 +18588,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-8-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18153,7 +18603,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-8-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18168,7 +18618,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-8-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18187,7 +18637,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-8-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18204,7 +18654,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-8-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18220,7 +18670,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-8-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18237,7 +18687,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-8-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18254,7 +18704,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-8-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18270,7 +18720,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-8-10">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18287,7 +18737,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-8-11">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18315,7 +18765,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-9-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18330,7 +18780,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-9-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18345,7 +18795,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-9-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18360,7 +18810,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-9-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18379,7 +18829,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-9-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18396,7 +18846,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-9-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18412,7 +18862,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-9-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18429,7 +18879,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-9-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18446,7 +18896,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-9-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18462,7 +18912,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-9-10">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18479,7 +18929,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-9-11">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18508,7 +18958,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-10-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18523,7 +18973,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-10-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18538,7 +18988,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-10-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18553,7 +19003,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-10-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18571,7 +19021,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-10-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18587,7 +19037,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-10-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18604,7 +19054,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-10-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18622,7 +19072,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-10-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18651,7 +19101,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-11-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18666,7 +19116,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-11-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18681,7 +19131,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-11-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18696,7 +19146,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-11-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18715,7 +19165,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-11-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18732,7 +19182,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-11-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18748,7 +19198,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-11-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18765,7 +19215,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-11-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18783,7 +19233,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-11-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18799,7 +19249,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-11-10">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18816,7 +19266,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-11-11">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18844,7 +19294,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-12-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18859,7 +19309,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-12-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18874,7 +19324,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-12-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18889,7 +19339,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-12-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18907,7 +19357,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-12-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18923,7 +19373,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-12-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18940,7 +19390,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-12-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18956,7 +19406,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-12-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18973,7 +19423,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-12-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -18989,7 +19439,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-12-10">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19006,7 +19456,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-12-11">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19034,7 +19484,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-13-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19049,7 +19499,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-13-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19064,7 +19514,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-13-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19079,7 +19529,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-13-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19097,7 +19547,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-13-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19113,7 +19563,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-13-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19130,7 +19580,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-13-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19146,7 +19596,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-13-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19163,7 +19613,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-13-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19179,7 +19629,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-13-10">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19196,7 +19646,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-13-11">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19225,7 +19675,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-14-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19240,7 +19690,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-14-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19255,7 +19705,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-14-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19270,7 +19720,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-14-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19288,7 +19738,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-14-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19304,7 +19754,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-14-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19321,7 +19771,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-14-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19337,7 +19787,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-14-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19354,7 +19804,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-14-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19370,7 +19820,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-14-10">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19387,7 +19837,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-14-11">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19417,7 +19867,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-15-1">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19432,7 +19882,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-15-2">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19447,7 +19897,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-15-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19462,7 +19912,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-15-4">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19480,7 +19930,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-15-5">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19496,7 +19946,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-15-6">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19512,7 +19962,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-15-7">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19528,7 +19978,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-15-8">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19545,7 +19995,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-15-9">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19561,7 +20011,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-15-10">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19578,7 +20028,7 @@ $report_type = $type;
                             {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
                         </div>
                         <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
-                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#relationship-styles-15-11">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -19768,6 +20218,7234 @@ $report_type = $type;
         <h6>no data available</h6>
     <?php endif; ?>
 
+<?php elseif($report_type == 'subjects-preferred-for-matching-career-options'):?>
+    <?php if($brain_profile_id == 1):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">Subjects preferred for matching career options.(Future looks)</h3>
+                <p class="p1 ">For an Analytical Brain, the preferred subjects focus on fostering logic, analysis, and precision to match future career paths. These subjects help enhance skills in problem-solving, data interpretation, and structured thinking, which are critical for future careers in technology, engineering, finance, and analytical fields. Here’s a breakdown of preferred subjects and your alignment with future career options</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Mathematics</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-1-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2.  Computer Science/Information Technology</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-1-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Physics</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-1-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Economics</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-1-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Engineering (Mechanical, Electrical, Civil, etc.)</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-1-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Accounting/Finance</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-1-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Statistics</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-1-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Chemistry</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-1-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">9. Law (with a focus on Analytical and Critical Thinking)</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-1-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">10. Business Studies (with a focus on Analytics/Strategy)</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-1-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">11. Architecture</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-1-11">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Future Career Outlook for you</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-1-12">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section> 
+    <?php elseif($brain_profile_id == 2):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">Subjects preferred for matching career options.(Future looks)</h3>
+                <p class="p1 ">For an Analytical Brain, the preferred subjects focus on fostering logic, analysis, and precision to match future career paths. These subjects help enhance skills in problem-solving, data interpretation, and structured thinking, which are critical for future careers in technology, engineering, finance, and analytical fields. Here’s a breakdown of preferred subjects and your alignment with future career options</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Mathematics</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-2-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2.  Physics</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-2-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Computer Science</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-2-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Economics</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-2-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Accounting and Finance</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-2-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Engineering (Mechanical, Civil, Electrical, Software)</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-2-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Statistics</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-2-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Business Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-2-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">9. Information Technology (IT)</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-2-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">10. Chemistry</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-2-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">11. Architecture</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-2-11">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">12. Supply Chain Management</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-2-12">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">13. Law</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-2-13">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">14. Urban Planning/Environmental Science</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-2-14">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">15. Medicine (Certain Specialties)</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-2-15">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">16. Logistics and Operations Management</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-2-16">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Conclusion</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-2-17">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section> 
+    <?php elseif($brain_profile_id == 3):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">Subjects preferred for matching career options.</h3>
+                <p class="p1 ">As a Empathetic Connector, Relational Harmonizer, or Compassionate Thinker, your natural inclination is toward subjects that emphasize human interaction, emotional intelligence, and understanding the dynamics of relationships. You thrive in areas that allow you to connect with others and foster a sense of community. Here are the preferred subjects that align with your strengths and the corresponding career options:</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Psychology</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-3-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2.  Sociology</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-3-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Communications</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-3-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Education</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-3-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Human Resources</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-3-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Social Work</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-3-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Public Health</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-3-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Conflict Resolution and Mediation</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-3-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">9. Arts and Humanities</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-3-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">10. Environmental Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-3-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">11. Political Science</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-3-11">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">12. Creative Writing</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-3-12">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">13. Theatre and Performance Arts</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-3-13">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">14. Nutrition and Wellness</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-3-14">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">15. Marketing (Focus on Social Impact)</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-3-15">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Study Tips for you</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-3-16">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section> 
+    <?php elseif($brain_profile_id == 4):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">Subjects preferred for matching career options.</h3>
+                <p class="p1 ">As a Innovative Maverick, Creative Visionary, or Non-Conformist Thinker, your natural inclinations lean toward subjects that promote creativity, innovation, and original thought. You thrive in environments that encourage exploration, experimentation, and thinking outside the box. Here are the preferred subjects that align with your strengths and the corresponding career options</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Fine Arts</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-4-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2.  Graphic Design</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-4-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Literature and Creative Writing</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-4-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Theater and Performing Arts</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-4-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Music</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-4-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Design and Technology</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-4-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Media Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-4-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Entrepreneurship</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-4-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">9. Psychology (Creative Focus)</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-4-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">10. Environmental Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-4-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">11. Philosophy</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-4-11">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">12. Culinary Arts</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-4-12">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">13. Fashion Design</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-4-13">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">14. Digital Media and Animation</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-4-14">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">15. Research and Development</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-4-15">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Study Tips for your brain</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-4-16">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section> 
+    <?php elseif($brain_profile_id == 5):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">Subjects preferred for matching career options.</h3>
+                <p class="p1 ">As a Innovative Maverick, Creative Visionary, or Non-Conformist Thinker, your natural inclinations lean toward subjects that promote creativity, innovation, and original thought. You thrive in environments that encourage exploration, experimentation, and thinking outside the box. Here are the preferred subjects that align with your strengths and the corresponding career options</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Mathematics</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-5-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2. Science (Biology, Chemistry, Physics)</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-5-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Computer Science</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-5-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Economics</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-5-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Engineering</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-5-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Business and Management</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-5-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Statistics and Data Analysis</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-5-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Psychology</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-5-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">9. Law</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-5-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">10. Information Technology</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-5-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">11. Environmental Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-5-11">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">12. Health Sciences</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-5-12">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">13. Social Sciences</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-5-13">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">14. Creative Writing (Analytical Focus)</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-5-14">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">15. Project Management</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-5-15">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Study Tips for you</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-5-16">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section> 
+    <?php elseif($brain_profile_id == 6):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">Subjects preferred for matching career options.</h3>
+                <p class="p1 ">As a Innovative Maverick, Creative Visionary, or Non-Conformist Thinker, your natural inclinations lean toward subjects that promote creativity, innovation, and original thought. You thrive in environments that encourage exploration, experimentation, and thinking outside the box. Here are the preferred subjects that align with your strengths and the corresponding career options</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Fine Arts</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-6-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2. Theater and Performing Arts</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-6-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Music</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-6-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Creative Writing and Literature</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-6-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Psychology</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-6-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Communication Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-6-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Education and Training</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-6-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Media Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-6-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">9. Design (Graphic, Interior, Fashion)</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-6-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">10. Cultural Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-6-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">11. Social Work</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-6-11">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">12. Entrepreneurship</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-6-12">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">13. Public Relations and Marketing</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-6-13">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">14. Graphic Design and Multimedia Arts</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-6-14">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">15. Environmental Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-6-15">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Study Tips for your brain</h4>
+                        {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                    </div>
+                    <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                    <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-6-16">Read More</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        </section>
+    <?php elseif($brain_profile_id == 7):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">As an Innovative Analyst or Creative Problem-Solver, your natural inclinations lean subjects that promote analytical thinking, creative exploration, and problem-solving. You thrive in environments that encourage logical reasoning alongside innovative and practical applications. Here are the preferred subjects that align with your strengths and the corresponding career options</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Mathematics</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-7-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2. Computer Science</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-7-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Engineering</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-7-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Science (Physics, Chemistry, Biology)</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-7-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Psychology</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-7-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Creative Writing and Literature</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-7-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Business and Management</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-7-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Design (Graphic, Industrial, Fashion)</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-7-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">9. Environmental Science</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-7-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">10. Social Sciences</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-7-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">11. Marketing and Public Relations</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-7-11">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">12. Entrepreneurship</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-7-12">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">13. Technology and Multimedia Arts</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-7-13">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">14. Philosophy and Critical Thinking</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-7-14">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">15. Health Sciences</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-7-15">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Study Tips for you</h4>
+                        {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                    </div>
+                    <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                    <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-7-16">Read More</button>
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+        </section>
+    <?php elseif($brain_profile_id == 8):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">As a Practical Empath or Grounded Relational Thinker, your natural inclinations lean toward subjects that promote empathy, practical application, and relational engagement. You thrive in environments that allow you to connect with others meaningfully while applying your knowledge to solve real-world challenges. Here are the preferred subjects that align with your strengths and the corresponding career options</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Psychology</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-8-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2. Social Sciences</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-8-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Communication Studies</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-8-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Education and Training</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-8-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Health Sciences</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-8-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Environmental Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-8-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Creative Arts and Design</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-8-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Business and Management</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-8-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">9. Culinary Arts</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-8-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">10. Public Policy and Administration</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-8-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">11. Cultural Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-8-11">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">12. Technology and Media Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-8-12">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">13. Leadership Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-8-13">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">14. Human Services</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-8-14">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">15. Philosophy and Ethics</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-8-15">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Study Tips for you</h4>
+                        {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                    </div>
+                    <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                    <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-8-16">Read More</button>
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+        </section>
+    <?php elseif($brain_profile_id == 9):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">As an Analytical Connector or Relational Analyst, your natural inclinations lean toward subjects that promote analytical thinking, problem-solving, and relational engagement. You thrive in environments where you can connect with others while applying your knowledge to dissect complex information. Here are the preferred subjects that align with your strengths and the corresponding career options</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Psychology</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-9-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2. Sociology</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-9-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Communication Studies</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-9-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Data Science and Analytics</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-9-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Education and Training</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-9-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Health Sciences</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-9-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Environmental Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-9-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Business and Management</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-9-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">9. Public Policy and Administration</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-9-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">10. Cultural Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-9-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">11. Technology and Media Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-9-11">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">12. Leadership Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-9-12">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">13. Human Services</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-9-13">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">14. Philosophy and Ethics</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-9-14">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Study Tips for you</h4>
+                        {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                    </div>
+                    <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                    <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-9-15">Read More</button>
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+        </section>
+    <?php elseif($brain_profile_id == 10):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">As a Practical Innovator or Grounded Creative, your natural inclinations lean toward subjects that emphasize practical application, creativity, and innovative thinking. You thrive in environments where you can explore new ideas while grounding them in real-world contexts. Here are the preferred subjects that align with your strengths and the corresponding career options</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Creative Arts</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-10-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2. Design and Technology</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-10-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Business and Entrepreneurship</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-10-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Environmental Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-10-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Philosophy and Ethics</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-10-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Health Sciences</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-10-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Leadership Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-10-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Entrepreneurship</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-10-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Study Tips for you</h4>
+                        {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                    </div>
+                    <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                    <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-10-9">Read More</button>
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+        </section>
+    <?php elseif($brain_profile_id == 11):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">As a Grounded Thinker or Structured Planner, your natural inclinations lean toward subjects that emphasize organization, practicality, and logical reasoning. You thrive in environments where clear structure and analytical thinking are valued. Here are the preferred subjects that align with your strengths and the corresponding career options</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Mathematics</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-11-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2. Science</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-11-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Engineering</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-11-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Business Administration</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-11-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Computer Science</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-11-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Economics</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-11-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Education</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-11-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Psychology</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-11-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">9. Political Science</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-11-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">10. Health Sciences</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-11-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">11. Environmental Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-11-11">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">12. Statistics</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-11-12">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">13. Legal Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-11-13">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">14. History</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-11-14">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">15. Finance</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-11-15">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Study Tips for you</h4>
+                        {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                    </div>
+                    <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                    <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-11-16">Read More</button>
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+        </section>
+    <?php elseif($brain_profile_id == 12):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">As a Abstract Idealist or Relational Planner, your natural inclinations lean toward subjects that emphasize creativity, exploration, and relational engagement. You thrive in environments that allow for imaginative thinking and the exploration of ideas while fostering connections with others. Here are the preferred subjects that align with your strengths and the corresponding career options</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Psychology</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-12-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2. Creative Writing and Literature</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-12-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Art and Design</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-12-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Sociology</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-12-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Communication Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-12-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Environmental Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-12-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Education</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-12-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Philosophy</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-12-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">9. Cultural Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-12-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">10. Business Administration</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-12-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">11. History</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-12-11">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">12. Theatre and Performing Arts</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-12-12">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">13. International Relations</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-12-13">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">14. Marketing and Advertising</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-12-14">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">15. Media Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-12-15">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Study Tips for you</h4>
+                        {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                    </div>
+                    <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                    <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-12-16">Read More</button>
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+        </section>
+    <?php elseif($brain_profile_id == 13):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">As a Visionary Dreamer or Conceptual Creative, your natural inclinations lean toward subjects that emphasize creativity, exploration, and abstract thinking. You thrive in environments that allow for imaginative exploration and the development of innovative ideas. Here are the preferred subjects that align with your strengths and the corresponding career options</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Creative Writing and Literature</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-13-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2. Art and Design</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-13-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Psychology</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-13-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Sociology</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-13-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Communication Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-13-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Environmental Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-13-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Philosophy</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-13-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Cultural Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-13-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">9. Business Administration</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-13-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">10. History</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-13-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">11. Performing Arts</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-13-11">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">12. International Relations</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-13-12">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">13. Marketing and Advertising</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-13-13">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">14. Media Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-13-14">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Study Tips for you</h4>
+                        {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                    </div>
+                    <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                    <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-13-15">Read More</button>
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+        </section>
+    <?php elseif($brain_profile_id == 14):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">As a Independent Problem-Solver or Analytical Innovator, your natural inclinations lean toward subjects that emphasize analytical thinking, problem-solving, and logical reasoning. You thrive in environments that allow you to engage deeply with concepts and apply critical thinking skills. Here are the preferred subjects that align with your strengths and the corresponding career options</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Mathematics</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-14-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2. Statistics</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-14-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Computer Science</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-14-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Engineering</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-14-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Physics</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-14-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Economics</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-14-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Psychology</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-14-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Research Methodology</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-14-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">9. Environmental Science</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-14-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">10. Information Technology</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-14-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">11. Business Administration</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-14-11">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">12. Philosophy</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-14-12">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Study Tips for LOW R2 Learners</h4>
+                        {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                    </div>
+                    <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                    <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-14-13">Read More</button>
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+        </section>
+    <?php elseif($brain_profile_id == 15):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">As a Quadruple Pie individual (Harmonized Thinker or Balanced Integrator), your natural inclinations lean toward subjects that emphasize analytical thinking, creativity, and relational engagement. You thrive in environments that allow you to explore diverse perspectives, integrate ideas, and foster collaboration. Here are the preferred subjects that align with your strengths and the corresponding career options</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Interdisciplinary Studies</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-15-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2. Psychology</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-15-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Communication Studies</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-15-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Creative Arts</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-15-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Business Administration</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-15-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Environmental Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-15-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Sociology</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-15-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Education</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-15-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">9. Creative Writing</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-15-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">10. Public Policy</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-15-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Study Tips for Quadruple Pie Learners</h4>
+                        {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                    </div>
+                    <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                    <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#subjects-preferred-for-matching-career-options-15-11">Read More</button>
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+        </section>
+    <?php else:?>
+    <?php endif;?>
+
+
+<?php elseif($report_type == 'careers-suitable'):?>
+    <?php if($brain_profile_id == 1):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">Careers suitable</h3>
+                <p class="p1 ">For an analytical/candid brain (characterized by analytical, logical, and detail-oriented thinking), suitable careers are those that allow for critical thinking, problem-solving, and working with data or structured systems. Here’s a breakdown of careers suited for analytical/candid you, aligned with your strengths in logic, precision, and structured decision-making</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Data Scientist</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-1-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2. Financial Analyst</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-1-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Actuary</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-1-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Engineer (Mechanical, Electrical, Civil, etc.)</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-1-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Software Developer</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-1-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Economist</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-1-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Operations Research Analyst</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-1-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Accountant/Auditor</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-1-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">9. Statistician</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-1-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">10. Legal Analyst/Corporate Lawyer</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-1-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">11. Project Manager</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-1-11">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">12. Architect</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-1-12">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">13. Financial Planner</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-1-13">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">14. Quality Assurance Manager</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-1-14">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">15. Supply Chain Manager</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-1-15">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">16. Operations Manager</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-1-16">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">17. Investment Banker</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-1-17">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">18. Pharmaceutical Researcher</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-1-18">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">19. Cryptographer</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-1-19">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">20. Policy Analyst</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-1-20">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Future Career Outlook for you</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-1-21">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section> 
+    <?php elseif($brain_profile_id == 2):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">Careers suitable</h3>
+                <p class="p1 ">Based on your brain type, you excel in careers that require logical thinking, precision, organization, and methodical problem-solving. These careers typically involve structured environments, clear processes, and measurable outcomes. Here are the careers most suited to your cognitive strengths</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Engineering Careers</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-2-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2. Data and Analytics Careers</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-2-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Finance and Accounting Careers</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-2-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Technology and IT Careers</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-2-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Operations and Supply Chain Management</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-2-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Architecture and Urban Planning</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-2-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Law and Legal Analysis</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-2-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Research and Scientific Careers</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-2-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">9. Project Management</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-2-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">10. Business and Strategy Careers</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-2-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">11. Logistics and Process Improvement</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-2-11">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">12. Quality Control and Compliance</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-2-12">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">13. Economics and Financial Planning</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-2-13">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">14. Technical Writing and Documentation</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-2-14">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">15. Environmental and Sustainability Careers</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-2-15">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Conclusion</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-2-16">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section> 
+    <?php elseif($brain_profile_id == 3):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">Careers suitable</h3>
+                <p class="p1 ">As a Empathetic Connector, Relational Harmonizer, or Compassionate Thinker, you are well-suited for careers that emphasize emotional intelligence, collaboration, and relationship-building. You thrive in environments where you can connect with others, support your growth, and foster a positive atmosphere. Here are the careers that align with your strengths</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Counseling and Therapy</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-3-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2. Education</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-3-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Social Work</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-3-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Human Resources</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-3-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Public Health</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-3-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Mediation and Conflict Resolution</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-3-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Creative Arts Therapy</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-3-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Customer Service and Client Relations</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-3-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">9. Advocacy and Nonprofit Work</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-3-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">10. Event Planning</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-3-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">11. Research in Social Sciences</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-3-11">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">12. Marketing and Public Relations</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-3-12">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">13. Leadership and Team Management</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-3-13">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">14. Life Coaching and Personal Development</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-3-14">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">15. Arts and Humanities</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-3-15">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Work Environment Preferences</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-3-16">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Conclusion</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-3-17">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section> 
+    <?php elseif($brain_profile_id == 4):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">Careers suitable</h3>
+                <p class="p1 ">As a Innovative Maverick, Creative Visionary, or Non-Conformist Thinker, you are drawn to careers that allow for creativity, originality, and innovation. You thrive in environments where you can express your unique ideas, challenge conventions, and explore new possibilities. Here are the types of jobs that align with your strengths</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Creative Industries</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-4-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2. Entrepreneurship</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-4-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Media and Communications</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-4-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Marketing and Advertising</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-4-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Performing Arts</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-4-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Technology and Innovation</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-4-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Research and Development</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-4-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Art and Design Education</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-4-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">9. Social Entrepreneurship</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-4-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">10. Culinary Arts</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-4-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">11. Consulting and Coaching</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-4-11">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">12. Writing and Content Creation</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-4-12">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">13. Innovation and Design Challenges</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-4-13">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">14. Fashion and Trend Forecasting</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-4-14">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">15. Digital Media and Animation</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-4-15">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Work Environment Preferences</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-4-16">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Conclusion</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-4-17">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section> 
+    <?php elseif($brain_profile_id == 5):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">Careers suitable</h3>
+                <p class="p1 ">As a Balanced Logical Thinker or Dual Analytical-Practical, you are drawn to careers that emphasize logical analysis, practical problem-solving, and structured environments. Your ability to think critically and apply knowledge in real-world situations makes you an asset in various fields. Here are the types of jobs that align with your strengths</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Data Analysis and Statistics</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-5-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2. Engineering</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-5-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Project Management</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-5-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Finance and Accounting</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-5-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Information Technology</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-5-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Healthcare Administration</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-5-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Consulting</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-5-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Education and Training</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-5-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">9. Research and Development</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-5-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">10. Public Policy and Administration</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-5-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">11. Marketing and Market Research</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-5-11">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">12. Quality Assurance and Control</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-5-12">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">13. Environmental Science</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-5-13">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">14. Technical Writing</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-5-14">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">15. Social Research and Development</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-5-15">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Work Environment Preferences</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-5-16">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Conclusion</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-5-17">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section> 
+    <?php elseif($brain_profile_id == 6):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">Careers suitable</h3>
+                <p class="p1 ">As a Relational Creative or Creative Connector, you are drawn to careers that emphasize creativity, collaboration, and the ability to connect with others on an emotional level. You thrive in environments that allow for creative expression and interpersonal engagement. Here are the types of jobs and work environments that align with your strengths</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Creative Arts and Design</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-6-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2. Performing Arts</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-6-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Education and Teaching</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-6-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Marketing and Public Relations</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-6-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Social and Community Services</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-6-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Media and Communications</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-6-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Event Planning and Management</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-6-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Nonprofit and Advocacy Work</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-6-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">9. Research and Development in Creative Fields</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-6-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">10. Entrepreneurship</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-6-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">11. Psychology and Counseling</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-6-11">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">12. Cultural Studies and Anthropology</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-6-12">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">13. Innovation and Creative Consultancy</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-6-13">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">14. Technology and Multimedia Arts</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-6-14">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">15. Health and Wellness Coaching</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-6-15">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Work Environment Preferences</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-6-16">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Conclusion</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-6-17">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section> 
+    <?php elseif($brain_profile_id == 7):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">Careers suitable</h3>
+                <p class="p1 ">As an Innovative Analyst or Creative Problem-Solver, you are drawn to careers that emphasize analytical thinking, creativity, and problem-solving. You thrive in environments that allow for innovative approaches to challenges and provide opportunities for collaboration and exploration. Here are the types of jobs and work environments that align with your strengths</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Data Analysis and Research</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-7-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2. Software Development and IT</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-7-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Engineering and Design</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-7-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Creative Arts and Design</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-7-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Marketing and Advertising</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-7-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Project Management</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-7-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Consulting</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-7-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Education and Training</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-7-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">9. Entrepreneurship</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-7-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">10. Environmental and Sustainability Roles</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-7-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">11. Healthcare and Health Sciences</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-7-11">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">12. Creative Writing and Content Development</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-7-12">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">13. Cultural Studies and Anthropology</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-7-13">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">14. Innovation and Creative Consultancy</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-7-14">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">15. Technology and Multimedia Arts</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-7-15">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Work Environment Preferences</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-7-16">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Conclusion</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-7-17">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    <?php elseif($brain_profile_id == 8):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">Careers suitable</h3>
+                <p class="p1 ">As a Practical Empath or Grounded Relational Thinker, you are drawn to careers that emphasize empathy, practicality, and collaboration. You thrive in environments where you can connect with others, apply your knowledge to real-world situations, and make a positive impact. Here are the types of jobs and work environments that align with your strengths</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Healthcare and Human Services</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-8-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2. Education and Training</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-8-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Community Development and Nonprofit Sector</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-8-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Psychology and Counseling</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-8-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Human Resources and Organizational Development</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-8-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Environmental and Sustainability Roles</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-8-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Marketing and Public Relations</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-8-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Coaching and Consulting</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-8-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">9. Technology and User Experience</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-8-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">10. Culinary Arts and Nutrition</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-8-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">11. Public Policy and Administration</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-8-11">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">12. Cultural Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-8-12">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">13. Technology and Media Studies</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-8-13">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Work Environment Preferences</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-8-14">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Conclusion</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-8-15">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    <?php elseif($brain_profile_id == 9):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">Careers suitable</h3>
+                <p class="p1 ">As an Analytical Connector or Relational Analyst, you are drawn to careers that emphasize analytical thinking, problem-solving, and relational engagement. You thrive in environments where you can connect with others, apply your knowledge to real-world situations, and make a positive impact. Here are the types of jobs and work environments that align with your strengths</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Data Analysis and Research</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-9-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2. Healthcare and Human Services</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-9-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Education and Training</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-9-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Community Development and Nonprofit Sector</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-9-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Human Resources and Organizational Development</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-9-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Environmental and Sustainability Roles</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-9-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Marketing and Public Relations</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-9-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Coaching and Consulting</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-9-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">9. Technology and User Experience</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-9-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Work Environment Preferences</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-9-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Conclusion</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-9-11">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    <?php elseif($brain_profile_id == 10):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">Careers suitable</h3>
+                <p class="p1 ">As a Practical Innovator or Grounded Creative, you are drawn to careers that emphasize practical application, creativity, and innovative thinking. You thrive in environments where you can connect with others, apply your knowledge to real-world situations, and make a positive impact. Here are some suitable career paths that align with your strengths</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Technology and User Experience</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-10-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2. Marketing and Advertising</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-10-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Education and Training</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-10-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Entrepreneurship and Business Development</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-10-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Environmental and Sustainability Roles</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-10-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Research and Development</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-10-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Work Environment Preferences</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-10-16">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Conclusion</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-10-17">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    <?php elseif($brain_profile_id == 11):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">Careers suitable</h3>
+                <p class="p1 ">As a Grounded Thinker or Structured Planner, you are drawn to careers that emphasize organization, clarity, and practical application. You thrive in environments where logical reasoning and structured processes are valued, allowing you to effectively manage tasks and achieve goals. Here are some suitable career paths that align with your strengths</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Project Management</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-11-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2. Data Analysis</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-11-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Engineering</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-11-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Finance and Accounting</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-11-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Administrative Roles</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-11-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Education and Training</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-11-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Legal Professions</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-11-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Healthcare Administration</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-11-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">9. Logistics and Supply Chain Management</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-11-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">10. Human Resources</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-11-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Work Environment Preferences</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-11-11">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Conclusion</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-11-12">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    <?php elseif($brain_profile_id == 12):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">Careers suitable</h3>
+                <p class="p1 ">As a Grounded Thinker or Structured Planner, you are drawn to careers that emphasize organization, clarity, and practical application. You thrive in environments where logical reasoning and structured processes are valued, allowing you to effectively manage tasks and achieve goals. Here are some suitable career paths that align with your strengths</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Creative Industries</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-12-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2. Education and Training</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-12-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Psychology and Counseling</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-12-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Social and Community Services</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-12-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Arts and Entertainment</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-12-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Research and Development</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-12-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Human Resources and Organizational Development</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-12-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Marketing and Communications</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-12-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">9. Environmental and Sustainability Roles</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-12-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">10. International Relations</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-12-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Work Environment Preferences</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-12-11">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Conclusion</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-12-12">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    <?php elseif($brain_profile_id == 13):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">Careers suitable</h3>
+                <p class="p1 ">As a Visionary Dreamer or Conceptual Creative, your career preferences are likely to focus on roles that emphasize creativity, innovation, and meaningful connections. You thrive in environments that allow you to think outside the box and collaborate with others toward shared goals. Here are some suitable career paths and work environments that align with your strengths</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Creative Industries</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-13-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2. Education and Training</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-13-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Psychology and Counseling</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-13-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Social and Community Services</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-13-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Arts and Entertainment</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-13-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Research and Development</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-13-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Human Resources and Organizational Development</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-13-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Marketing and Communications</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-13-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">9. Environmental and Sustainability Roles</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-13-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">10. International Relations</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-13-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Work Environment Preferences</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-13-11">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Conclusion</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-13-12">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    <?php elseif($brain_profile_id == 14):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">Careers suitable</h3>
+                <p class="p1 ">As a Independent Problem-Solver or Analytical Innovator, your career preferences are likely to focus on roles that emphasize analytical thinking, problem-solving, and independence. You thrive in environments that allow you to engage deeply with concepts and apply logical reasoning to various challenges. Here are some suitable career paths that align with your strengths</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Data Analysis and Statistics</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-14-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2. Engineering</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-14-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Research and Development</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-14-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Information Technology</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-14-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Consulting</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-14-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Finance and Economics</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-14-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Healthcare and Clinical Research</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-14-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Education and Training</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-14-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">9. Project Management</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-14-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">10. Technical Writing</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-14-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Work Environment Preferences</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-14-11">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Conclusion</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-14-12">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    <?php elseif($brain_profile_id == 15):?>
+        <section class="py-5">
+            <div class="container text-center pt-5 pb-1">
+                <h3 class="heading1 text-purple">Careers suitable</h3>
+                <p class="p1 ">​​As a Quadruple Pie individual (Harmonized Thinker or Balanced Integrator), your career preferences are likely to focus on roles that emphasize collaboration, creativity, and analytical thinking. You thrive in environments that allow you to synthesize diverse perspectives and ideas into cohesive solutions. Here are some suitable career paths that align with your strengths</p>
+            </div>
+            <div class="container mt-4">
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/1stpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">1. Consulting</h4>
+                            {{-- <p class="qp1">Learn what makes your brain unique by doing our basic brain assessment.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                            <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-15-1">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/2ndpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">2. Research and Development</h4>
+                            {{-- <p class="qp1">Take actionable steps to achieve your goals—whether in academics, career, business, profession or relationships.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-15-2">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/3rdpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">3. Creative Industries</h4>
+                            {{-- <p class="qp1">Use science-backed strategies to build new skills and improve how your brain functions.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-15-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">4. Nonprofit and Community Work</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-15-4">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">5. Healthcare and Wellness</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-15-5">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">6. Human Resources</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-15-6">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">7. Environmental and Sustainability Roles</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-15-7">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">8. Public Relations and Communication</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-15-8">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Work Environment Preferences</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-15-9">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="tab-section mx-auto col-md-8 col-lg-8 mb-4">
+                    <div class="row align-items-center text-md-start text-center">
+                        <div class="col-md-2 mb-3 mb-md-0">
+                            <img src="{{ asset('assets/images/4thpic.PNG') }}" alt="Example Image" class="img-fluid img-content-page">
+                        </div>
+                        <div class="col-md-5 col-lg-7 col-xl-8">
+                            <h4 class="q1">Conclusion</h4>
+                            {{-- <p class="qp1">Leverage ongoing tracking and monitoring tools tailored to your unique brain growth.</p> --}}
+                        </div>
+                        <div class="col-md-5 col-lg-3 col-xl-2 d-flex align-items-center justify-content-md-start justify-content-center">
+                        <button class="home-slider-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#careers-suitable-15-10">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    <?php else:?>
+    <?php endif;?>
+
 
 <?php else: ?>
     <h5>invalid report type</h5>
@@ -19778,7 +27456,7 @@ $report_type = $type;
 <!-- Button trigger modal -->
 
 
-<button onclick="vvvv()">touch</button>
+{{-- <button onclick="vvvv()">touch</button> --}}
 
 
 
