@@ -251,7 +251,7 @@ class BrainResultsController extends Controller
                 'r2_score' => $r2_percentage,
                 'cerebral_score' => $l1_score + $r1_score,
                 'limbic_score' => $l2_score + $r2_score,
-                'result_code' => "{$l1_code}-{$l2_code}-{$r2_code}-{$r1_code}"
+                'result_code' => "{$l1_code}-{$l2_code}-{$r1_code}-{$r2_code}"
             ]
         );
     
@@ -1075,7 +1075,7 @@ public function add_skill_brain_results($skill_test_answer_main_id)
             $brain_score->l2_score = $l2_percentage;
             $brain_score->r1_score = $r1_percentage;
             $brain_score->r2_score = $r2_percentage;
-            $brain_score->result_code = $l1_code."-".$l2_code."-".$r2_code."-".$r1_code;
+            $brain_score->result_code = $l1_code."-".$l2_code."-".$r1_code."-".$r2_code;
             $brain_score->save();
 
             $user = WPUsers::where('user_id', session('user_id'))->first();

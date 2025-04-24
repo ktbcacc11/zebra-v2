@@ -88,7 +88,7 @@ class IntrovertExtrovertQuestionController extends Controller
             }
            
         } else {
-            return redirect('dashboard')->with('fail', 'Can not take this test agin');
+            return redirect('dashboard')->with('fail', 'Can not take this test again');
         }
     
 }

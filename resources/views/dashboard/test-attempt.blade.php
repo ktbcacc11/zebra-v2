@@ -9197,7 +9197,7 @@ if ($age > 18){
                             </div>
                         </div>
                     </div>
-                    <div class="row mt-3">
+                    <div class="row mt-3"> 
                         <div class="col-6">
                             <div class="box-data p-4">
                                 <p class="mb-0">21st-Century Agility Index Style 3</p>

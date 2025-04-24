@@ -160,6 +160,9 @@ Route::get('/skill-report', function () {
     return view('new_pages.skill_report');
 });
 
+Route::get('/content', function () {
+    return view('new_pages.content');
+});
 
 
 Route::match(['get', 'post'],'/skill-test/{question}', [SkillTestController::class, 'skill_test'])->middleware('authCustomer')->middleware('AuthQuestionAnswered');
@@ -180,3 +183,14 @@ Route::match(['get', 'post'],'/billing', [MainController::class, 'billing'])->mi
 Route::match(['get', 'post'], '/reset-questions', [QuestionsController::class, 'reset_questions']);
 Route::match(['get', 'post'], '/introvert-or-extrovert', [MainController::class, 'introvert_or_extrovert']);
 Route::match(['get', 'post'], '/skill-assestment', [MainController::class, 'skill_assestment']);
+
+Route::match(['get', 'post'], '/report/{type}', [MainController::class, 'report']);
+
+
+// Route::get('/report', function () {
+//     return view('report.report');
+// });
+
+Route::get('/report-error/{type}', function () {
+    return view('report.report-error');
+});

@@ -1166,9 +1166,23 @@ a {
 .dashbaord-new-page .data-box-row .box-data{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 }
-.lock-icon{
+
+.dashbaord-new-page .data-box-row .box-data {
+    border: 2px solid #6c6859;
+    border-radius: 15%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 140px;
+    width: 140px;
+    
+}
+
+.dashbaord-new-page .data-box-row p {
+    text-align: center;
+}
+.header-tab-card .lock-icon{
     top: 5px;
     right: 5px;
 }
@@ -1372,7 +1386,56 @@ a {
     font-weight: 400;
 }
 
+.report_modal .modal-header{
+    border:none;
+}
+.report_modal .modal-body {
+    padding: 0rem;
+}
+.report_modal .modal-content {
+    border: 2px solid #000;
+    border-radius: 15px;
+}
+.report_modal .modal-body {
+    padding: 25px 25px 25px 25px;
+}
+.report_modal .box-data{
+    background-color: #fff;
+    border: 1px solid #000;
+    text-align: center;
+}
 
+.report_modal .box-data h3 , .report_modal .box-data p {
+    color: #000;
+}
+.fc-prev-button, .fc-next-button, .fc-today-button{
+    display: flex !important;
+    align-items: center !important;
+    padding-bottom:0 !important;
+    padding-top: 0 !important;
+}
+
+.fc-media-screen .fc-header-toolbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.report_modal .box-data p {
+    text-align: center !important;
+}
+
+
+.modal-for-card p,.modal-for-card h1, .modal-for-card h2,.modal-for-card h3,.modal-for-card h4 {
+    font-family: "Inter", sans-serif;
+}
+
+.modal-for-card .modal-title{
+    text-align: center;
+}
+
+.modal-for-card .modal-body p {
+    text-align: justify;
+}
 
 
 /* media queries of dashaboard new */
