@@ -482,5 +482,6 @@ public function report($type,  Request $request){
     // dd($request->all());
 
     return view('report.report',['type' => $type]);
+    // return 123;
 }
 }
