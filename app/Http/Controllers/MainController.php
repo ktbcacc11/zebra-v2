@@ -482,6 +482,7 @@ public function report($type,  Request $request){
     // dd($request->all());
 
     return view('report.report',['type' => $type]);
+    // return 123;
 }
 public function download_report(){
     $pdf_name ='brain_report.pdf';

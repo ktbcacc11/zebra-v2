@@ -187,6 +187,10 @@ Route::match(['get', 'post'], '/skill-assestment', [MainController::class, 'skil
 Route::match(['get', 'post'], '/report/{type}', [MainController::class, 'report']);
 
 
+// Route::get('/report', function () {
+//     return view('report.report');
+// });
+
 Route::get('/report-error/{type}', function () {
     return view('report.report-error');
 });
