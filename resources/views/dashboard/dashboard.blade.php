@@ -265,6 +265,7 @@ $d_score = UserDimensionalScore::where('user_id',session('user_id'))->first();
         <div>
             <h2 class="page-title">Dashboard</h2>
             <p class="page-description">Overview of all limitless activities.</p>
+
         </div>
 
 
@@ -275,7 +276,7 @@ $d_score = UserDimensionalScore::where('user_id',session('user_id'))->first();
                 <!-- Card 1 -->
                 <div class="col-12 col-md-4 d-flex justify-content-center mb-3">
                     <div class="card position-relative header-tab-card" style="background-color: #9AE4E3">
-                        <a href="{{ url('/comparison-page') }}">
+                        <a href="{{ url('/comparison-request') }}">
                             <div class="card-body">
                                 <div class="d-flex justify-content-between align-items-center header-tab pe-5 me-4 gap-4">
                                     <div class="header-tab-image">
@@ -9452,7 +9453,7 @@ if ($age > 18){
                 <?php if ($age >= 12 && $age <= 14): ?>
                 <div class="row mb-4">
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Advanced-Brain-Report')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -9506,7 +9507,7 @@ if ($age > 18){
                     </div>
 
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -9533,7 +9534,7 @@ if ($age > 18){
                     </div>
                     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -9561,7 +9562,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -9588,7 +9589,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Inclination-for-subjects-naturally')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -9615,7 +9616,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -9642,7 +9643,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -9670,7 +9671,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -9729,7 +9730,7 @@ if ($age > 18){
                 <?php if ($age >= 15 && $age <= 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -9783,7 +9784,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -9810,7 +9811,7 @@ if ($age > 18){
                         </div>
 
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -9838,7 +9839,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -9865,7 +9866,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/careers-suitable')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -9892,7 +9893,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -9919,7 +9920,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -9944,10 +9945,10 @@ if ($age > 18){
                         </a>
                         
                     </div>
-    
+                    
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/relationship-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -9974,7 +9975,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Flow-and-grow-basics')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -10006,7 +10007,7 @@ if ($age > 18){
                 <?php if ($age > 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -10060,7 +10061,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -10114,7 +10115,7 @@ if ($age > 18){
         
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/communication-and-behaviour')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -10141,7 +10142,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/diet-and-nutrition')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -10168,7 +10169,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/job-and-work')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -10195,7 +10196,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/relationship-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -10287,7 +10288,7 @@ if ($age > 18){
                 <?php if ($age >= 12 && $age <= 14): ?>
                 <div class="row mb-4">
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Advanced-Brain-Report')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -10341,7 +10342,7 @@ if ($age > 18){
                     </div>
 
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -10367,7 +10368,7 @@ if ($age > 18){
                         
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -10395,7 +10396,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -10449,7 +10450,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -10504,7 +10505,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -10563,7 +10564,7 @@ if ($age > 18){
                 <?php if ($age >= 15 && $age <= 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -10617,7 +10618,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -10643,7 +10644,7 @@ if ($age > 18){
                             
                         </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -10671,7 +10672,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -10698,7 +10699,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/careers-suitable')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -10725,7 +10726,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -10752,7 +10753,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -10780,7 +10781,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/relationship-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -10807,7 +10808,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Flow-and-grow-basics')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -10839,7 +10840,7 @@ if ($age > 18){
                 <?php if ($age > 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -10893,7 +10894,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -10947,7 +10948,7 @@ if ($age > 18){
         
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/communication-and-behaviour')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -10974,7 +10975,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/diet-and-nutrition')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -11001,7 +11002,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/job-and-work')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -11028,7 +11029,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/relationship-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -11120,7 +11121,7 @@ if ($age > 18){
                 <?php if ($age >= 12 && $age <= 14): ?>
                 <div class="row mb-4">
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Advanced-Brain-Report')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -11174,7 +11175,7 @@ if ($age > 18){
                     </div>
 
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -11200,7 +11201,7 @@ if ($age > 18){
                         
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -11228,7 +11229,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -11282,7 +11283,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -11337,7 +11338,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -11396,7 +11397,7 @@ if ($age > 18){
                 <?php if ($age >= 15 && $age <= 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -11450,7 +11451,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -11476,7 +11477,7 @@ if ($age > 18){
                             
                         </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -11504,7 +11505,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -11531,7 +11532,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/careers-suitable')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -11558,7 +11559,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -11585,7 +11586,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -11613,7 +11614,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/relationship-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -11640,7 +11641,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Flow-and-grow-basics')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -11672,7 +11673,7 @@ if ($age > 18){
                 <?php if ($age > 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -11726,7 +11727,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -11780,7 +11781,7 @@ if ($age > 18){
         
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/communication-and-behaviour')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -11807,7 +11808,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/diet-and-nutrition')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -11834,7 +11835,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/job-and-work')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -11861,7 +11862,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/relationship-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -11952,7 +11953,7 @@ if ($age > 18){
                 <?php if ($age >= 12 && $age <= 14): ?>
                 <div class="row mb-4">
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Advanced-Brain-Report')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -12006,7 +12007,7 @@ if ($age > 18){
                     </div>
 
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -12032,7 +12033,7 @@ if ($age > 18){
                         
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -12060,7 +12061,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -12114,7 +12115,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -12169,7 +12170,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -12228,7 +12229,7 @@ if ($age > 18){
                 <?php if ($age >= 15 && $age <= 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -12282,7 +12283,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -12308,7 +12309,7 @@ if ($age > 18){
                             
                         </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -12336,7 +12337,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -12363,7 +12364,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/careers-suitable')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -12390,7 +12391,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -12417,7 +12418,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -12445,7 +12446,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/relationship-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -12472,7 +12473,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Flow-and-grow-basics')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -12504,7 +12505,7 @@ if ($age > 18){
                 <?php if ($age > 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -12558,7 +12559,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -12612,7 +12613,7 @@ if ($age > 18){
         
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/communication-and-behaviour')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -12639,7 +12640,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/diet-and-nutrition')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -12666,7 +12667,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/job-and-work')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -12693,7 +12694,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/relationship-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -12784,7 +12785,7 @@ if ($age > 18){
                 <?php if ($age >= 12 && $age <= 14): ?>
                 <div class="row mb-4">
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Advanced-Brain-Report')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -12838,7 +12839,7 @@ if ($age > 18){
                     </div>
 
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -12864,7 +12865,7 @@ if ($age > 18){
                         
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -12892,7 +12893,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -12946,7 +12947,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -13001,7 +13002,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -13060,7 +13061,7 @@ if ($age > 18){
                 <?php if ($age >= 15 && $age <= 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -13114,7 +13115,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -13140,7 +13141,7 @@ if ($age > 18){
                             
                         </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -13168,7 +13169,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -13195,7 +13196,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/careers-suitable')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -13222,7 +13223,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -13249,7 +13250,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -13277,7 +13278,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/relationship-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -13304,7 +13305,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Flow-and-grow-basics')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -13365,7 +13366,7 @@ if ($age > 18){
         
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/communication-and-behaviour')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -13392,7 +13393,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/diet-and-nutrition')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -13419,7 +13420,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/job-and-work')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -13446,7 +13447,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/relationship-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -13538,7 +13539,7 @@ if ($age > 18){
                 <?php if ($age >= 12 && $age <= 14): ?>
                 <div class="row mb-4">
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Advanced-Brain-Report')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -13592,7 +13593,7 @@ if ($age > 18){
                     </div>
 
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -13618,7 +13619,7 @@ if ($age > 18){
                         
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -13646,7 +13647,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -13700,7 +13701,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -13755,7 +13756,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -13814,7 +13815,7 @@ if ($age > 18){
                 <?php if ($age >= 15 && $age <= 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -13868,7 +13869,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -13894,7 +13895,7 @@ if ($age > 18){
                             
                         </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -13922,7 +13923,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -13949,7 +13950,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/careers-suitable')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -13976,7 +13977,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -14003,7 +14004,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -14031,7 +14032,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/relationship-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -14058,7 +14059,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Flow-and-grow-basics')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -14090,7 +14091,7 @@ if ($age > 18){
                 <?php if ($age > 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -14144,7 +14145,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -14198,7 +14199,7 @@ if ($age > 18){
         
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/communication-and-behaviour')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -14225,7 +14226,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/diet-and-nutrition')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -14252,7 +14253,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/job-and-work')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -14279,7 +14280,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/relationship-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -14370,7 +14371,7 @@ if ($age > 18){
                 <?php if ($age >= 12 && $age <= 14): ?>
                 <div class="row mb-4">
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Advanced-Brain-Report')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -14424,7 +14425,7 @@ if ($age > 18){
                     </div>
 
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -14450,7 +14451,7 @@ if ($age > 18){
                         
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -14478,7 +14479,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -14532,7 +14533,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -14587,7 +14588,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -14646,7 +14647,7 @@ if ($age > 18){
                 <?php if ($age >= 15 && $age <= 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -14700,7 +14701,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -14726,7 +14727,7 @@ if ($age > 18){
                             
                         </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -14754,7 +14755,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -14781,7 +14782,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/careers-suitable')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -14808,7 +14809,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -14835,7 +14836,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -14863,7 +14864,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/relationship-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -14890,7 +14891,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Flow-and-grow-basics')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -14922,7 +14923,7 @@ if ($age > 18){
                 <?php if ($age > 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -14976,7 +14977,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -15030,7 +15031,7 @@ if ($age > 18){
         
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/communication-and-behaviour')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -15057,7 +15058,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/diet-and-nutrition')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -15084,7 +15085,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/job-and-work')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -15111,7 +15112,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/relationship-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -15202,7 +15203,7 @@ if ($age > 18){
                 <?php if ($age >= 12 && $age <= 14): ?>
                 <div class="row mb-4">
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Advanced-Brain-Report')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -15256,7 +15257,7 @@ if ($age > 18){
                     </div>
 
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -15282,7 +15283,7 @@ if ($age > 18){
                         
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -15310,7 +15311,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -15364,7 +15365,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -15419,7 +15420,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -15478,7 +15479,7 @@ if ($age > 18){
                 <?php if ($age >= 15 && $age <= 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -15532,7 +15533,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -15558,7 +15559,7 @@ if ($age > 18){
                             
                         </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -15586,7 +15587,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -15613,7 +15614,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/careers-suitable')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -15640,7 +15641,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -15667,7 +15668,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -15695,7 +15696,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/relationship-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -15722,7 +15723,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Flow-and-grow-basics')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -15754,7 +15755,7 @@ if ($age > 18){
                 <?php if ($age > 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -15808,7 +15809,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -15862,7 +15863,7 @@ if ($age > 18){
         
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/communication-and-behaviour')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -15889,7 +15890,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/diet-and-nutrition')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -15916,7 +15917,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/job-and-work')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -15943,7 +15944,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/relationship-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -16034,7 +16035,7 @@ if ($age > 18){
                 <?php if ($age >= 12 && $age <= 14): ?>
                 <div class="row mb-4">
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Advanced-Brain-Report')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -16088,7 +16089,7 @@ if ($age > 18){
                     </div>
 
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -16114,7 +16115,7 @@ if ($age > 18){
                         
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -16142,7 +16143,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -16196,7 +16197,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -16251,7 +16252,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -16310,7 +16311,7 @@ if ($age > 18){
                 <?php if ($age >= 15 && $age <= 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -16364,7 +16365,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -16390,7 +16391,7 @@ if ($age > 18){
                             
                         </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -16418,7 +16419,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -16445,7 +16446,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/careers-suitable')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -16472,7 +16473,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -16499,7 +16500,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -16527,7 +16528,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/relationship-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -16554,7 +16555,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Flow-and-grow-basics')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -16586,7 +16587,7 @@ if ($age > 18){
                 <?php if ($age > 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -16640,7 +16641,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -16694,7 +16695,7 @@ if ($age > 18){
         
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/communication-and-behaviour')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -16721,7 +16722,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/diet-and-nutrition')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -16748,7 +16749,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/job-and-work')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -16775,7 +16776,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/relationship-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -16867,7 +16868,7 @@ if ($age > 18){
                 <?php if ($age >= 12 && $age <= 14): ?>
                 <div class="row mb-4">
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Advanced-Brain-Report')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -16921,7 +16922,7 @@ if ($age > 18){
                     </div>
 
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -16947,7 +16948,7 @@ if ($age > 18){
                         
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -16975,7 +16976,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -17029,7 +17030,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -17084,7 +17085,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -17143,7 +17144,7 @@ if ($age > 18){
                 <?php if ($age >= 15 && $age <= 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -17197,7 +17198,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -17223,7 +17224,7 @@ if ($age > 18){
                             
                         </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -17251,7 +17252,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -17278,7 +17279,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/careers-suitable')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -17305,7 +17306,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -17332,7 +17333,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -17360,7 +17361,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/relationship-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -17387,7 +17388,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Flow-and-grow-basics')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -17473,7 +17474,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -17527,7 +17528,7 @@ if ($age > 18){
         
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/communication-and-behaviour')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -17554,7 +17555,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/diet-and-nutrition')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -17581,7 +17582,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/job-and-work')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -17608,7 +17609,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/relationship-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -17700,7 +17701,7 @@ if ($age > 18){
                 <?php if ($age >= 12 && $age <= 14): ?>
                 <div class="row mb-4">
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Advanced-Brain-Report')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -17754,7 +17755,7 @@ if ($age > 18){
                     </div>
 
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -17780,7 +17781,7 @@ if ($age > 18){
                         
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -17808,7 +17809,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -17862,7 +17863,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -17917,7 +17918,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -17976,7 +17977,7 @@ if ($age > 18){
                 <?php if ($age >= 15 && $age <= 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -18030,7 +18031,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -18056,7 +18057,7 @@ if ($age > 18){
                             
                         </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -18084,7 +18085,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -18111,7 +18112,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/careers-suitable')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -18138,7 +18139,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -18165,7 +18166,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -18193,7 +18194,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/relationship-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -18220,7 +18221,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Flow-and-grow-basics')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -18252,7 +18253,7 @@ if ($age > 18){
                 <?php if ($age > 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -18306,7 +18307,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -18360,7 +18361,7 @@ if ($age > 18){
         
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/communication-and-behaviour')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -18387,7 +18388,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/diet-and-nutrition')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -18414,7 +18415,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/job-and-work')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -18441,7 +18442,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/relationship-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -18532,7 +18533,7 @@ if ($age > 18){
                 <?php if ($age >= 12 && $age <= 14): ?>
                 <div class="row mb-4">
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Advanced-Brain-Report')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -18586,7 +18587,7 @@ if ($age > 18){
                     </div>
 
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -18612,7 +18613,7 @@ if ($age > 18){
                         
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -18640,7 +18641,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -18694,7 +18695,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -18749,7 +18750,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -18808,7 +18809,7 @@ if ($age > 18){
                 <?php if ($age >= 15 && $age <= 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -18862,7 +18863,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -18888,7 +18889,7 @@ if ($age > 18){
                             
                         </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -18916,7 +18917,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -18943,7 +18944,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/careers-suitable')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -18970,7 +18971,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -18997,7 +18998,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -19025,7 +19026,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/relationship-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -19052,7 +19053,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Flow-and-grow-basics')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -19084,7 +19085,7 @@ if ($age > 18){
                 <?php if ($age > 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -19138,7 +19139,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -19192,7 +19193,7 @@ if ($age > 18){
         
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/communication-and-behaviour')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -19219,7 +19220,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/diet-and-nutrition')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -19246,7 +19247,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/job-and-work')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -19273,7 +19274,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/relationship-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -19365,7 +19366,7 @@ if ($age > 18){
                 <?php if ($age >= 12 && $age <= 14): ?>
                 <div class="row mb-4">
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Advanced-Brain-Report')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -19419,7 +19420,7 @@ if ($age > 18){
                     </div>
 
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -19445,7 +19446,7 @@ if ($age > 18){
                         
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -19473,7 +19474,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -19527,7 +19528,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -19582,7 +19583,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -19641,7 +19642,7 @@ if ($age > 18){
                 <?php if ($age >= 15 && $age <= 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -19695,7 +19696,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -19721,7 +19722,7 @@ if ($age > 18){
                             
                         </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -19749,7 +19750,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -19776,7 +19777,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/careers-suitable')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -19803,7 +19804,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -19830,7 +19831,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -19858,7 +19859,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/relationship-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -19885,7 +19886,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Flow-and-grow-basics')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -19917,7 +19918,7 @@ if ($age > 18){
                 <?php if ($age > 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -19971,7 +19972,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -20025,7 +20026,7 @@ if ($age > 18){
         
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/communication-and-behaviour')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -20052,7 +20053,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/diet-and-nutrition')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -20079,7 +20080,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/job-and-work')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -20106,7 +20107,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/relationship-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -20200,7 +20201,7 @@ if ($age > 18){
                 <?php if ($age >= 12 && $age <= 14): ?>
                 <div class="row mb-4">
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Advanced-Brain-Report')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -20254,7 +20255,7 @@ if ($age > 18){
                     </div>
 
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -20280,7 +20281,7 @@ if ($age > 18){
                         
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -20308,7 +20309,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -20362,7 +20363,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -20417,7 +20418,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -20476,7 +20477,7 @@ if ($age > 18){
                 <?php if ($age >= 15 && $age <= 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -20530,7 +20531,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -20556,7 +20557,7 @@ if ($age > 18){
                             
                         </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -20584,7 +20585,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -20611,7 +20612,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/careers-suitable')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -20638,7 +20639,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -20665,7 +20666,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -20693,7 +20694,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/relationship-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -20720,7 +20721,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Flow-and-grow-basics')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -20752,7 +20753,7 @@ if ($age > 18){
                 <?php if ($age > 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -20806,7 +20807,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -20860,7 +20861,7 @@ if ($age > 18){
         
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/communication-and-behaviour')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -20887,7 +20888,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/diet-and-nutrition')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -20914,7 +20915,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/job-and-work')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -20941,7 +20942,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/relationship-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -21034,7 +21035,7 @@ if ($age > 18){
                 <?php if ($age >= 12 && $age <= 14): ?>
                 <div class="row mb-4">
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Advanced-Brain-Report')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -21088,7 +21089,7 @@ if ($age > 18){
                     </div>
 
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -21114,7 +21115,7 @@ if ($age > 18){
                         
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -21142,7 +21143,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -21196,7 +21197,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -21251,7 +21252,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -21310,7 +21311,7 @@ if ($age > 18){
                 <?php if ($age >= 15 && $age <= 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -21364,7 +21365,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -21390,7 +21391,7 @@ if ($age > 18){
                             
                         </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/communication-and-behaviour')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -21418,7 +21419,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/diet-and-nutrition')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -21445,7 +21446,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/careers-suitable')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -21472,7 +21473,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/subjects-preferred-for-matching-career-options')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -21499,7 +21500,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/extracurricular-activities')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -21527,7 +21528,7 @@ if ($age > 18){
     
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/relationship-styles')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -21554,7 +21555,7 @@ if ($age > 18){
                     </div>
     
                     <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                        <a href="">
+                        <a href="{{url('report/Flow-and-grow-basics')}}">
                             <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                 <div class=" d-flex flex-column justify-content-center">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
@@ -21586,7 +21587,7 @@ if ($age > 18){
                 <?php if ($age > 18): ?>
                     <div class="row mb-4">
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/Advanced-Brain-Report')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -21640,7 +21641,7 @@ if ($age > 18){
                         </div>
     
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/preferred-studying-and-learning-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -21694,7 +21695,7 @@ if ($age > 18){
         
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/communication-and-behaviour')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #85D6A5">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -21719,9 +21720,9 @@ if ($age > 18){
                             </a>
                             
                         </div>
-        
+                        
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/diet-and-nutrition')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #9AE4E3">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -21748,7 +21749,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/job-and-work')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F1935D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">
@@ -21775,7 +21776,7 @@ if ($age > 18){
                         </div>
         
                         <div class="col-sm-6 col-md-4 col-lg-4 mb-3">
-                            <a href="">
+                            <a href="{{url('report/relationship-styles')}}">
                                 <div class="learn-more-item-box position-relative" style="background-color: #F6C94D">
                                     <div class=" d-flex flex-column justify-content-center">
                                         <div class="d-flex flex-column justify-content-center align-items-center">

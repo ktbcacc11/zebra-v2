@@ -7234,7 +7234,7 @@ $report_type = $type;
 
 
     </div>
-
+ 
 </section>
 <?php else: ?>
 <div>
